@@ -51,16 +51,47 @@
     "license_source": "https://github.com/Comfy-Org/ComfyUI/blob/master/LICENSE",
     "concrete_problem": "Воспроизводимая подготовка визуалов и видео VITTORA.",
     "application_example": "Сохранённый граф обработки одной иллюстрации и короткого видео.",
-    "first_pilot": "Выбрать конкретную модель и проверить её лицензию, требования и доступное оборудование.",
-    "requirements_and_costs": "README различает локальный запуск, платное облако и платные API-узлы. Стоимость конкретного процесса не определена.",
+    "first_pilot": "После выбора модели и проверки её прав/ресурсов — один разрешённый кадр «Воли», сохранить и повторно открыть схему, до двух запусков; до 60 минут работы; без покупок и платных API. Вычислительный лимит пока не определён. Откат: отдельное тестовое окружение, исходник и HyperFrames не менять.",
+    "requirements_and_costs": "Windows/Linux/macOS; PyTorch и совместимые драйверы, модель и диск. README рекомендует Python 3.13; требования каждой модели отдельны. Полная стоимость: оборудование/аренда GPU + электричество + хранение/трафик + опциональные API + сопровождение; числовой итог неизвестен. Платных операций и установки не было.",
     "license_review": "Прочитан LICENSE GPL v3; лицензии моделей и дополнительных узлов требуют отдельной проверки.",
-    "limitations": "До выбора модели нельзя обещать бесплатное видео, качество или требования к VRAM.",
+    "limitations": "Модель, лицензия её весов, RAM/VRAM и стоимость сцены не определены. JSON не гарантирует идентичное видео на разных платформах; сторонние блоки требуют проверки. Общую заявленную поддержку малой памяти нельзя переносить на наш видеопроцесс.",
     "gaps": [
-      "Выбрать модель и официальный workflow",
-      "Проверить доступное GPU и условия весов",
-      "Сравнить с текущим процессом"
+      "Выбрать модель и официальную схему; сверить с закреплённой версией",
+      "Проверить условия весов и дополнений",
+      "Подтвердить оборудование, RAM/VRAM/диск и лимит стоимости",
+      "Выполнить пилот с измерениями"
     ],
-    "archived": false
+    "archived": false,
+    "comparison": "Проверены ComfyUI, InvokeAI и SwarmUI по первоисточникам. ComfyUI сохраняет схемы, имеет очередь и локальный API; InvokeAI — альтернатива для холста/галереи (в двух последних релизах alpha; README отмечает Wan API Only), SwarmUI упрощает интерфейс поверх ComfyUI и добавляет .NET/backend. Текущий монтаж HyperFrames не заменён. Сравнительного запуска нет.",
+    "success_metric": "После повторного открытия схемы восстановлены модель, seed, размер, шаги и текст; два запуска без ошибки. Записать время, пик памяти и размер. Целевой критерий, не результат.",
+    "card_path": "cards/comfy-org--comfyui.md",
+    "post_path": "posts/2026-10-25_comfy-org--comfyui.md",
+    "requirements_source": "https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt",
+    "release_source": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.1",
+    "issues_sources": [
+      "https://github.com/Comfy-Org/ComfyUI/issues/17341",
+      "https://github.com/Comfy-Org/ComfyUI/issues/17339"
+    ],
+    "alternatives": [
+      "https://github.com/invoke-ai/InvokeAI",
+      "https://github.com/mcmonkeyprojects/SwarmUI"
+    ],
+    "publication": {
+      "status": "blocked",
+      "blocker": "storageQuotaExceeded Google Drive, известно с 2026-10-25; признаков восстановления нет. Без архивирования PNG отправка запрещена.",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "delivery_history_checked_at": "2026-10-25",
+      "delivery_history_note": "GET: только WhisperX message_id=3; ComfyUI не отправлялся. can_publish=true, сайт owner-private. POST не выполнялся."
+    },
+    "illustration": {
+      "generation_method": null,
+      "visually_reviewed": false,
+      "drive_file_id": null,
+      "drive_url": null,
+      "status": "not_generated_until_archive_recovery"
+    }
   },
   {
     "url": "https://github.com/ggml-org/llama.cpp",
