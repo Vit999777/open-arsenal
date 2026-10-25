@@ -80,6 +80,21 @@
     "verify_drive_metadata": true,
     "preserve_original": true,
     "if_unavailable": "keep_draft_do_not_publish",
-    "filename_pattern": "YYYY-MM-DD_owner--repository_poster-vN.png"
+    "filename_pattern": "YYYY-MM-DD_owner--repository_poster-vN.png",
+    "known_blocker": {
+      "code": "storageQuotaExceeded",
+      "observed_date": "2026-10-25",
+      "effect": "Исследование и планирование продолжаются; новые публикации ждут подтверждённого архивирования изображений."
+    }
+  },
+  "content_plan": {
+    "path": "content-plan/current.json",
+    "readable_calendar": "content-plan/README.md",
+    "horizon_days": 30,
+    "slots_per_day": 2,
+    "timezone": "Europe/Moscow",
+    "maintain_rolling_horizon": true,
+    "validate_with": "scripts/validate_plan.py",
+    "unreviewed_slots_are_not_approved": true
   }
 }
