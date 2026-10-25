@@ -25,9 +25,10 @@
     "score_note": "Редакционная оценка по документации, не результат бенчмарка.",
     "archived": false,
     "publication": {
-      "status": "draft",
-      "message_id": null,
-      "url": null
+      "status": "published",
+      "message_id": 3,
+      "url": "https://t.me/open_arsenal/3",
+      "published_at": "2026-10-25T11:49:28.913Z"
     }
   },
   {
