@@ -1,7 +1,7 @@
 name: Validate research catalog
 on:
   push:
-    paths: ['data/**', 'config/research.json', 'scripts/**', '.github/workflows/validate.yml']
+    paths: ['data/**', 'content-plan/**', 'config/research.json', 'scripts/**', '.github/workflows/validate.yml']
   pull_request:
     paths: ['data/**', 'config/research.json', 'scripts/**', '.github/workflows/validate.yml']
   workflow_dispatch:
@@ -16,4 +16,5 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/validate_catalog.py
+      - run: python scripts/validate_plan.py
       - run: python -m unittest discover -s scripts -p 'test_*.py'
