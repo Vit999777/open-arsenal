@@ -1,0 +1,39 @@
+name: Предложить полезный репозиторий
+description: Инструмент для конкретной задачи VITTORA
+title: "[Находка] "
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Ссылка на исходный GitHub-проект
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Какую задачу VITTORA решает?
+      description: Приведите один конкретный пример применения.
+    validations:
+      required: true
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Польза и преимущества
+      description: С чем сравниваете? Что уже проверено, а что предполагается?
+    validations:
+      required: true
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Требования, расходы и ограничения
+      description: Оборудование, платные API, хостинг, условия кода и моделей. Неизвестное можно указать прямо.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Источники и уровень проверки
+      description: README, LICENSE, документация; изучено, установлено или пройден пилот.
+    validations:
+      required: true
