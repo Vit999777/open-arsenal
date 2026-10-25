@@ -8,9 +8,11 @@
       "10:00",
       "18:00"
     ],
-    "enabled": false
+    "enabled": true,
+    "timing_mode": "flexible_schedule",
+    "automation_id": "6addda5c5e9c8191a47d56cf021f88fa"
   },
-  "publishing_enabled": false,
+  "publishing_enabled": true,
   "review_required": true,
   "illustration_required": true,
   "checks": [
@@ -21,7 +23,7 @@
     "limitations",
     "canonical_url_deduplication"
   ],
-  "status": "awaiting_channel_verification",
+  "status": "channel_verified_first_post_published_scheduled_run_pending",
   "mission": "Находить и публиковать репозитории, которые решают конкретные задачи и развивают экосистему VITTORA.",
   "directions": [
     "Книга и аудиокнига: подготовка, вёрстка, озвучка, контроль качества",
@@ -51,5 +53,20 @@
     "prefer_low_total_cost": true,
     "stars_are_not_quality_proof": true,
     "no_paid_signup_or_installation_without_separate_authorization": true
+  },
+  "channel_verification": {
+    "channel_id": -1003914856434,
+    "bot_username": "Vittora_book_bot",
+    "can_post_messages": true,
+    "verified_date": "2026-10-25",
+    "first_post_url": "https://t.me/open_arsenal/3"
+  },
+  "dispatch": {
+    "site_project_id": "appgprj_6abe0a58a6a48191a65ebdc104e74c0b",
+    "client": "scripts/publish_telegram.py",
+    "max_posts_per_run": 1,
+    "reviewer": "agent",
+    "requires_reviewed_png": true,
+    "no_repeat_after_uncertain_response": true
   }
 }
