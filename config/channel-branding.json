@@ -1,0 +1,21 @@
+{
+  "channel": "@open_arsenal",
+  "verified_date": "2026-10-25",
+  "title": "Открытый арсенал | GitHub и ИИ",
+  "description": "GitHub и ИИ для развития VITTORA: видео, музыка, книги, сайты и автоматизация. Объясняем пользу, плюсы, условия запуска и ограничения. Обзоры с иллюстрациями и планом проверки. Каталог: github.com/Vit999777/open-arsenal",
+  "avatar": {
+    "status": "applied_and_verified",
+    "provider": "chat_builtin_image_gen",
+    "paid_api_used": false,
+    "source_site_project_id": "appgprj_6abe0a58a6a48191a65ebdc104e74c0b",
+    "source_path": "public/arsenal/channel-avatar-v1.png",
+    "telegram_photo_unique_id": "AQADbiNrG1CA8EoB",
+    "google_drive_archive_status": "blocked_storageQuotaExceeded"
+  },
+  "navigation": {
+    "pinned_message_id": 3,
+    "pinned_url": "https://t.me/open_arsenal/3",
+    "welcome_draft": "posts/channel-welcome-draft.md",
+    "welcome_status": "draft_pending_drive_archive"
+  }
+}
