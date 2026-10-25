@@ -1,0 +1,25 @@
+{
+  "project": "Открытый арсенал",
+  "channel": "@open_arsenal",
+  "bot": "@Vittora_book_bot",
+  "schedule": {
+    "timezone": "Europe/Moscow",
+    "times": [
+      "10:00",
+      "18:00"
+    ],
+    "enabled": false
+  },
+  "publishing_enabled": false,
+  "review_required": true,
+  "illustration_required": true,
+  "checks": [
+    "README",
+    "license",
+    "launch_requirements",
+    "costs",
+    "limitations",
+    "canonical_url_deduplication"
+  ],
+  "status": "awaiting_channel_verification"
+}
