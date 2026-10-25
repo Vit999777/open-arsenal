@@ -1,1 +1,75 @@
-[]
+[
+  {
+    "url": "https://github.com/m-bain/whisperX",
+    "status": "ready",
+    "direction": "book_audio",
+    "verification_level": "documentation",
+    "verification_date": "2026-10-25",
+    "concrete_problem": "Подготовка субтитров для коротких роликов с озвучкой VITTORA требует синхронизации слов.",
+    "application_example": "Получить текст и временные метки из 60 секунд авторизованной русской озвучки; подготовить субтитры к ролику.",
+    "first_pilot": "60 секунд чистой речи, сначала без разделения говорящих. Выбрать CPU int8 либо доступный GPU, зафиксировать версии, время и ошибки; не загружать платные API.",
+    "success_metric": "Редакционный критерий пилота: вручную сверить 20 слов, не менее 18 с отклонением старта <=0,25 сек.; сравнить время коррекции с ручной разметкой. Это целевой порог, не обещание инструмента.",
+    "requirements_and_costs": "README: pip install whisperx, возможны ffmpeg/rust; CPU int8 поддерживается. Для GPU указан CUDA 12.8. Нужны загрузка моделей, диск, RAM и вычисления; фактическое время и расходы не измерены. Облачные демо могут быть платными. Никакие облачные аккаунты не создавались.",
+    "limitations": "Для выравнивания нужна модель соответствующего языка; цифры и наложение голосов могут давать ошибки. Разделение говорящих требует отдельного доступа и условий моделей. Качество русской озвучки пока не проверено.",
+    "license_review": "LICENSE: BSD-2-Clause, при распространении сохраняются уведомления и отказ от гарантий; условия моделей и зависимостей проверяются отдельно. Код не гарантирует лицензию на любые веса.",
+    "comparison": "README сравнивает с openai/whisper: WhisperX добавляет выравнивание слов. Альтернатива — временные метки Whisper плюс ручная коррекция. Текущая скорость ручной работы VITTORA не измерена.",
+    "readme_source": "https://github.com/m-bain/whisperX/blob/main/README.md",
+    "license_source": "https://github.com/m-bain/whisperX/blob/main/LICENSE",
+    "scores": {
+      "vittora_impact": 5,
+      "feasibility": 4,
+      "total_cost": 4,
+      "maintenance": 4,
+      "integration": 4
+    },
+    "score_note": "Редакционная оценка по документации, не результат бенчмарка.",
+    "archived": false,
+    "publication": {
+      "status": "draft",
+      "message_id": null,
+      "url": null
+    }
+  },
+  {
+    "url": "https://github.com/Comfy-Org/ComfyUI",
+    "status": "reviewing",
+    "direction": "video",
+    "verification_level": "documentation",
+    "verification_date": "2026-10-25",
+    "readme_source": "https://github.com/Comfy-Org/ComfyUI/blob/master/README.md",
+    "license_source": "https://github.com/Comfy-Org/ComfyUI/blob/master/LICENSE",
+    "concrete_problem": "Воспроизводимая подготовка визуалов и видео VITTORA.",
+    "application_example": "Сохранённый граф обработки одной иллюстрации и короткого видео.",
+    "first_pilot": "Выбрать конкретную модель и проверить её лицензию, требования и доступное оборудование.",
+    "requirements_and_costs": "README различает локальный запуск, платное облако и платные API-узлы. Стоимость конкретного процесса не определена.",
+    "license_review": "Прочитан LICENSE GPL v3; лицензии моделей и дополнительных узлов требуют отдельной проверки.",
+    "limitations": "До выбора модели нельзя обещать бесплатное видео, качество или требования к VRAM.",
+    "gaps": [
+      "Выбрать модель и официальный workflow",
+      "Проверить доступное GPU и условия весов",
+      "Сравнить с текущим процессом"
+    ],
+    "archived": false
+  },
+  {
+    "url": "https://github.com/ggml-org/llama.cpp",
+    "status": "reviewing",
+    "direction": "agents_rag",
+    "verification_level": "documentation",
+    "verification_date": "2026-10-25",
+    "readme_source": "https://github.com/ggml-org/llama.cpp/blob/master/README.md",
+    "license_source": "https://github.com/ggml-org/llama.cpp/blob/master/LICENSE",
+    "concrete_problem": "Локальный запуск языковой модели для задач VITTORA.",
+    "application_example": "Сервис вывода для извлечения тегов из небольшого корпуса. Сам по себе движок не является готовым RAG.",
+    "first_pilot": "Выбрать модель с подходящей лицензией и измерить точность тегов на 10 материалах.",
+    "requirements_and_costs": "README описывает CPU/GPU, квантование и совместимый сервер API; память и скорость зависят от модели. Затраты оборудования пока неизвестны.",
+    "license_review": "Код MIT; уведомление сохраняется. Права на веса моделей проверяются отдельно.",
+    "limitations": "Нет подтверждённого оборудования и выбранной модели. Не внедрён.",
+    "gaps": [
+      "Выбрать модель",
+      "Оценить RAM/VRAM",
+      "Сравнить качество и стоимость с текущим решением"
+    ],
+    "archived": false
+  }
+]
