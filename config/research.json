@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "max_evidence_age_days": 14,
+  "ready_score": 75,
+  "dimensions": {"vittora_impact": 30, "feasibility": 25, "total_cost": 20, "maintenance": 15, "integration": 10},
+  "rating_scale": "Каждая оценка 0..5; итог = сумма вес * оценка / 5. Неизвестное требует проверки.",
+  "directions": ["book_audio", "music", "video", "kids", "website_journal", "agents_rag", "publishing", "growth_revenue", "reliability"],
+  "statuses": ["discovered", "reviewing", "ready", "pilot", "adopted", "deferred", "rejected"],
+  "search_queries": [
+    {"direction": "video", "query": "video generation in:description,readme archived:false"},
+    {"direction": "book_audio", "query": "forced alignment subtitles in:description,readme archived:false"},
+    {"direction": "music", "query": "audio mastering in:description,readme archived:false"},
+    {"direction": "kids", "query": "character consistency animation in:description,readme archived:false"},
+    {"direction": "website_journal", "query": "accessibility audit in:description,readme archived:false"},
+    {"direction": "agents_rag", "query": "retrieval evaluation in:description,readme archived:false"},
+    {"direction": "publishing", "query": "content publishing scheduler in:description,readme archived:false"},
+    {"direction": "growth_revenue", "query": "self hosted analytics in:description,readme archived:false"},
+    {"direction": "reliability", "query": "backup verification in:description,readme archived:false"}
+  ]
+}
