@@ -68,5 +68,18 @@
     "reviewer": "agent",
     "requires_reviewed_png": true,
     "no_repeat_after_uncertain_response": true
+  },
+  "illustrations": {
+    "required": true,
+    "provider": "chat_builtin_image_gen",
+    "use_paid_openai_api": false,
+    "api_cli_fallback_allowed": false,
+    "archive_before_publication": true,
+    "google_drive_folder_id": "1NiG9-wSZvx1wdpah7lRDYGUKQnBCrRXv",
+    "google_drive_folder_url": "https://drive.google.com/drive/folders/1NiG9-wSZvx1wdpah7lRDYGUKQnBCrRXv",
+    "verify_drive_metadata": true,
+    "preserve_original": true,
+    "if_unavailable": "keep_draft_do_not_publish",
+    "filename_pattern": "YYYY-MM-DD_owner--repository_poster-vN.png"
   }
 }
