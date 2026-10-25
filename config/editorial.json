@@ -21,5 +21,35 @@
     "limitations",
     "canonical_url_deduplication"
   ],
-  "status": "awaiting_channel_verification"
+  "status": "awaiting_channel_verification",
+  "mission": "Находить и публиковать репозитории, которые решают конкретные задачи и развивают экосистему VITTORA.",
+  "directions": [
+    "Книга и аудиокнига: подготовка, вёрстка, озвучка, контроль качества",
+    "Музыка: обработка, мастеринг, визуализация, аналитика",
+    "Видео: генерация, монтаж, субтитры, Shorts и Reels",
+    "VITTORA Kids: согласованность персонажей, сказки, анимация",
+    "Сайт и журнал: доступность, скорость, поиск, SEO",
+    "Агенты, RAG, память и база знаний",
+    "Публикации, интеграции и центр управления",
+    "Аудитория, аналитика, монетизация и расходы",
+    "Надёжность, безопасность, резервные копии"
+  ],
+  "required_editorial_fields": [
+    "vittora_direction",
+    "concrete_problem",
+    "application_example",
+    "first_pilot",
+    "success_metric",
+    "requirements_and_costs",
+    "license_source",
+    "verification_date",
+    "verification_level"
+  ],
+  "selection_policy": {
+    "reject_without_concrete_vittora_use": true,
+    "prefer_local_or_self_hosted": true,
+    "prefer_low_total_cost": true,
+    "stars_are_not_quality_proof": true,
+    "no_paid_signup_or_installation_without_separate_authorization": true
+  }
 }
