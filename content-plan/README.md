@@ -6,7 +6,7 @@
 
 | Дата | Утро · 10:00 | Вечер · 18:00 |
 |---|---|---|
-| 2026-10-26 | **Повторяемые визуальные процессы** · Видео · blocked: архив PNG<br>[Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | **Подготовка роликов под площадки** · Видео<br>[FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg) |
+| 2026-10-26 | **Повторяемые визуальные процессы** · Видео · blocked: архив PNG<br>[Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | **Подготовка роликов под площадки** · Видео · blocked: архив PNG<br>[FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg) |
 | 2026-10-27 | **Чистый звук перед публикацией** · Музыка<br>[audacity/audacity](https://github.com/audacity/audacity) | **Анализ музыкального материала** · Музыка<br>[librosa/librosa](https://github.com/librosa/librosa) |
 | 2026-10-28 | **Один текст — несколько книжных форматов** · Книга и аудио<br>[jgm/pandoc](https://github.com/jgm/pandoc) | **Проверка электронного издания** · Книга и аудио<br>[kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) |
 | 2026-10-29 | **Поиск по знаниям VITTORA** · Агенты и RAG<br>[qdrant/qdrant](https://github.com/qdrant/qdrant) | **Локальная языковая модель** · Агенты и RAG<br>[ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) |
@@ -50,3 +50,7 @@
 ## Исследование ближайшего выпуска — 25.10.2026
 
 ComfyUI (26.10, 10:00): [разбор](../cards/comfy-org--comfyui.md) и [черновик](../posts/2026-10-25_comfy-org--comfyui.md) сохранены. Сравнены InvokeAI и SwarmUI; уровень — документация, каталог — reviewing. Модель и оборудование не выбраны. Выпуск blocked: известное переполнение Google Drive не позволяет подтвердить архив PNG. Изображение не создавалось; Telegram не отправлялся. Остальные 59 кандидатов остаются планом исследований. Горизонт 26.10–24.11 не сдвигался: он уже покрывает следующие 30 календарных дней.
+
+## Исследование следующего выпуска — 26.10.2026
+
+FFmpeg (26.10, 18:00): [разбор](../cards/ffmpeg--ffmpeg.md) и [черновик](../posts/2026-10-26_ffmpeg--ffmpeg.md) сохранены. Выбран следующий ещё не исследованный слот, поскольку утренний ComfyUI уже разобран и blocked; его запись и время сохранены. Сравнены HandBrake и Shutter Encoder; проверка — документация, каталог reviewing. Проверка метаданных inspect_repo выполнена; медиа-пилота нет. Публикация blocked: прежний storageQuotaExceeded, восстановление не подтверждено; PNG не генерировался, POST не выполнялся. В доступном журнале только WhisperX /3 от 25.10. Центр owner-private, can_publish=true. Горизонт 26.10–24.11 уже покрывает текущие 30 календарных дней: перенос в history не требуется. 58 остальных слотов остаются planned_research; два исследованных слота не считаются опубликованными.
