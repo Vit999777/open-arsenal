@@ -7,7 +7,7 @@
 | Дата | Утро · 10:00 | Вечер · 18:00 |
 |---|---|---|
 | 2026-10-26 | **Повторяемые визуальные процессы** · Видео · blocked: архив PNG<br>[Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | **Подготовка роликов под площадки** · Видео · blocked: архив PNG<br>[FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg) |
-| 2026-10-27 | **Чистый звук перед публикацией** · Музыка<br>[audacity/audacity](https://github.com/audacity/audacity) | **Анализ музыкального материала** · Музыка<br>[librosa/librosa](https://github.com/librosa/librosa) |
+| 2026-10-27 | **Чистый звук перед публикацией** · Музыка · blocked: архив PNG<br>[audacity/audacity](https://github.com/audacity/audacity) | **Анализ музыкального материала** · Музыка<br>[librosa/librosa](https://github.com/librosa/librosa) |
 | 2026-10-28 | **Один текст — несколько книжных форматов** · Книга и аудио<br>[jgm/pandoc](https://github.com/jgm/pandoc) | **Проверка электронного издания** · Книга и аудио<br>[kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) |
 | 2026-10-29 | **Поиск по знаниям VITTORA** · Агенты и RAG<br>[qdrant/qdrant](https://github.com/qdrant/qdrant) | **Локальная языковая модель** · Агенты и RAG<br>[ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) |
 | 2026-10-30 | **Скорость и качество страниц** · Сайт и журнал<br>[GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) | **Доступность сайта** · Сайт и журнал<br>[dequelabs/axe-core](https://github.com/dequelabs/axe-core) |
@@ -54,3 +54,7 @@ ComfyUI (26.10, 10:00): [разбор](../cards/comfy-org--comfyui.md) и [че�
 ## Исследование следующего выпуска — 26.10.2026
 
 FFmpeg (26.10, 18:00): [разбор](../cards/ffmpeg--ffmpeg.md) и [черновик](../posts/2026-10-26_ffmpeg--ffmpeg.md) сохранены. Выбран следующий ещё не исследованный слот, поскольку утренний ComfyUI уже разобран и blocked; его запись и время сохранены. Сравнены HandBrake и Shutter Encoder; проверка — документация, каталог reviewing. Проверка метаданных inspect_repo выполнена; медиа-пилота нет. Публикация blocked: прежний storageQuotaExceeded, восстановление не подтверждено; PNG не генерировался, POST не выполнялся. В доступном журнале только WhisperX /3 от 25.10. Центр owner-private, can_publish=true. Горизонт 26.10–24.11 уже покрывает текущие 30 календарных дней: перенос в history не требуется. 58 остальных слотов остаются planned_research; два исследованных слота не считаются опубликованными.
+
+## Подготовка музыкального выпуска — 26.10.2026, вечер
+
+Ближайший ещё не исследованный слот — Audacity (27.10, 10:00): [разбор](../cards/audacity--audacity.md), [черновик](../posts/2026-10-26_audacity--audacity.md). Сравнены Tenacity и Ardour; документация, reviewing, без установки/медиа-пилота. Сценарий уточнён до ручной подготовки трёх фрагментов «Воли»: автоматическое управление в 4.0.1 не подтверждено. Внешние трекеры/релизы альтернатив частично недоступны — пробелы сохранены. Текущие ComfyUI/FFmpeg не заменены и не отправлены повторно. PNG не генерировался, прежний storageQuotaExceeded не снят; без архивирования выпуск blocked. GET доставки: только WhisperX /3 от 25.10, can_publish=true, owner-private; POST не выполнялся. Три слота исследованы, остальные 57 — planned_research. Горизонт 26.10–24.11 покрывает текущие 30 календарных дней; исторические записи не переносились и не удалялись.
