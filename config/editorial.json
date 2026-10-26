@@ -84,8 +84,21 @@
     "known_blocker": {
       "code": "storageQuotaExceeded",
       "observed_date": "2026-10-25",
-      "effect": "Исследование и планирование продолжаются; новые публикации ждут подтверждённого архивирования изображений."
-    }
+      "effect": "Google Drive ограничен; разрешён проверенный архив на Яндекс Диске. Каждый PNG ещё требует создания, просмотра и загрузки."
+    },
+    "archive_providers": [
+      "google_drive",
+      "yandex_disk"
+    ],
+    "fallback": {
+      "provider": "yandex_disk",
+      "folder_url": "https://disk.yandex.ru/client/disk/VITTORA",
+      "project_subdirectory": "open-arsenal",
+      "authorized_date": "2026-10-26",
+      "verification": "interactive_upload_confirmed",
+      "background_access_verified": false
+    },
+    "verify_archive_evidence": true
   },
   "content_plan": {
     "path": "content-plan/current.json",

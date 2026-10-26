@@ -78,12 +78,19 @@
     ],
     "publication": {
       "status": "blocked",
-      "blocker": "storageQuotaExceeded Google Drive, известно с 2026-10-25; признаков восстановления нет. Без архивирования PNG отправка запрещена.",
+      "blocker": "Нужен отдельный PNG из встроенного image_gen, визуальная проверка и подтверждённое архивирование в Google Drive или Яндекс Диске. Маршрут Яндекс Диска разрешён 26.10.2026; PNG пока не создан.",
       "message_id": null,
       "url": null,
       "published_at": null,
       "delivery_history_checked_at": "2026-10-25",
-      "delivery_history_note": "GET: только WhisperX message_id=3; ComfyUI не отправлялся. can_publish=true, сайт owner-private. POST не выполнялся."
+      "delivery_history_note": "GET: только WhisperX message_id=3; ComfyUI не отправлялся. can_publish=true, сайт owner-private. POST не выполнялся.",
+      "blocker_history": [
+        {
+          "date": "2026-10-26",
+          "reason": "storageQuotaExceeded Google Drive, известно с 2026-10-25; признаков восстановления нет. Без архивирования PNG отправка запрещена."
+        }
+      ],
+      "archive_policy_updated_at": "2026-10-26"
     },
     "illustration": {
       "generation_method": null,
@@ -152,12 +159,19 @@
     "post_path": "posts/2026-10-26_ffmpeg--ffmpeg.md",
     "publication": {
       "status": "blocked",
-      "blocker": "storageQuotaExceeded Google Drive известно с 2026-10-25; признаков восстановления нет. PNG не создан/не архивирован, отправка запрещена.",
+      "blocker": "Нужен отдельный PNG из встроенного image_gen, визуальная проверка и подтверждённое архивирование в Google Drive или Яндекс Диске. Маршрут Яндекс Диска разрешён 26.10.2026; PNG пока не создан.",
       "message_id": null,
       "url": null,
       "published_at": null,
       "delivery_history_checked_at": "2026-10-26",
-      "delivery_history_note": "owner-private; can_publish=true. GET журнала: только WhisperX /3 от 25.10, FFmpeg нет. POST не выполнялся."
+      "delivery_history_note": "owner-private; can_publish=true. GET журнала: только WhisperX /3 от 25.10, FFmpeg нет. POST не выполнялся.",
+      "blocker_history": [
+        {
+          "date": "2026-10-26",
+          "reason": "storageQuotaExceeded Google Drive известно с 2026-10-25; признаков восстановления нет. PNG не создан/не архивирован, отправка запрещена."
+        }
+      ],
+      "archive_policy_updated_at": "2026-10-26"
     },
     "illustration": {
       "generation_method": null,
@@ -206,12 +220,19 @@
     "post_path": "posts/2026-10-26_audacity--audacity.md",
     "publication": {
       "status": "blocked",
-      "blocker": "storageQuotaExceeded Google Drive от 2026-10-25; восстановление архивирования не подтверждено. PNG не создан/не архивирован, публикация запрещена.",
+      "blocker": "Нужен отдельный PNG из встроенного image_gen, визуальная проверка и подтверждённое архивирование в Google Drive или Яндекс Диске. Маршрут Яндекс Диска разрешён 26.10.2026; PNG пока не создан.",
       "message_id": null,
       "url": null,
       "published_at": null,
       "delivery_history_checked_at": "2026-10-26",
-      "delivery_history_note": "Вечерняя сверка GET: owner-private, can_publish=true, только WhisperX /3 от 25.10. Audacity нет. POST не выполнялся."
+      "delivery_history_note": "Вечерняя сверка GET: owner-private, can_publish=true, только WhisperX /3 от 25.10. Audacity нет. POST не выполнялся.",
+      "blocker_history": [
+        {
+          "date": "2026-10-26",
+          "reason": "storageQuotaExceeded Google Drive от 2026-10-25; восстановление архивирования не подтверждено. PNG не создан/не архивирован, публикация запрещена."
+        }
+      ],
+      "archive_policy_updated_at": "2026-10-26"
     },
     "illustration": {
       "generation_method": null,

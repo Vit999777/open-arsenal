@@ -5,12 +5,12 @@
 | Проект | Для чего рассматриваем | Проверка | Публикация / следующий шаг |
 |---|---|---|---|
 | [WhisperX](https://github.com/m-bain/whisperX) | Субтитры для озвучки | Документация и лицензия; запуск не проверен | [Пост](https://t.me/open_arsenal/3) · [Разбор и пилот](cards/m-bain--whisperx.md) |
-| [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | Сохранять схемы подготовки визуалов для рилсов | Документация, лицензия, требования, релизы и выборка issues; reviewing, пилота нет | [Разбор и пилот](cards/comfy-org--comfyui.md) · [Черновик](posts/2026-10-25_comfy-org--comfyui.md) · blocked: архив PNG на Google Drive; поста нет |
+| [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | Сохранять схемы подготовки визуалов для рилсов | Документация, лицензия, требования, релизы и выборка issues; reviewing, пилота нет | [Разбор и пилот](cards/comfy-org--comfyui.md) · [Черновик](posts/2026-10-25_comfy-org--comfyui.md) · blocked: подготовка и архив PNG; поста нет |
 | [llama.cpp](https://github.com/ggml-org/llama.cpp) | Локальный ИИ для задач проекта | Исследование | Выбрать модель, оценить ресурсы и сравнить результат |
 
-| [FFmpeg](https://github.com/FFmpeg/FFmpeg) | Проверка параметров и экспорт тизеров после монтажа | Документация, лицензия, платформы; сравнение с HandBrake/Shutter Encoder; reviewing, медиа-пилота нет | [Разбор и пилот](cards/ffmpeg--ffmpeg.md) · [Черновик](posts/2026-10-26_ffmpeg--ffmpeg.md) · blocked: архив PNG; поста нет |
+| [FFmpeg](https://github.com/FFmpeg/FFmpeg) | Проверка параметров и экспорт тизеров после монтажа | Документация, лицензия, платформы; сравнение с HandBrake/Shutter Encoder; reviewing, медиа-пилота нет | [Разбор и пилот](cards/ffmpeg--ffmpeg.md) · [Черновик](posts/2026-10-26_ffmpeg--ffmpeg.md) · blocked: подготовка и архив PNG; поста нет |
 
-| [Audacity](https://github.com/audacity/audacity) | Ручной отбор фрагментов музыки для тизеров | Документация, GPLv3, релизы 4.0/4.0.1; сравнение с Tenacity/Ardour; reviewing, без пилота | [Разбор и пилот](cards/audacity--audacity.md) · [Черновик](posts/2026-10-26_audacity--audacity.md) · blocked: архив PNG; поста нет |
+| [Audacity](https://github.com/audacity/audacity) | Ручной отбор фрагментов музыки для тизеров | Документация, GPLv3, релизы 4.0/4.0.1; сравнение с Tenacity/Ardour; reviewing, без пилота | [Разбор и пилот](cards/audacity--audacity.md) · [Черновик](posts/2026-10-26_audacity--audacity.md) · blocked: подготовка и архив PNG; поста нет |
 
 Дата редакционного среза: 26.10.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. Остальные 57 ещё не исследованных слотов находятся в [плане исследований](content-plan/README.md).
 
@@ -30,3 +30,5 @@
 [Аналитика 100 open-source репозиториев для VITTORA](research/2026-10-25-top100/README.md) · [Данные и источники](data/research-top100-2026-10-25.json).
 
 Срез: 25 октября 2026 года. Исследование по документации не присваивает статус редакционной готовности и не подтверждает внедрение. В отчёте есть сравнение альтернатив и ограниченные пилоты.
+
+26.10.2026 владелец разрешил Яндекс Диск при переполнении Google Drive; интерактивная пробная загрузка в папку VITTORA подтверждена. Google Drive не объявлен восстановленным. Каждый PNG требует отдельного создания, просмотра и подтверждённого архива. [Порядок хранения](docs/STORAGE.md).
