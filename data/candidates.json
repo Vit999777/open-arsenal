@@ -166,5 +166,59 @@
       "drive_url": null,
       "status": "not_generated_until_archive_recovery"
     }
+  },
+  {
+    "url": "https://github.com/audacity/audacity",
+    "status": "reviewing",
+    "direction": "music",
+    "verification_level": "documentation",
+    "verification_date": "2026-10-26",
+    "archived": false,
+    "concrete_problem": "Ручная подготовка нескольких коротких аудиофрагментов для музыкальных тизеров.",
+    "application_example": "Сценарий: три начала «Воли» по 18 секунд в одном проекте, экспорт размеченных областей в WAV и сравнение на слух.",
+    "first_pilot": "Музыкальный редактор (не назначен): копия утверждённой «Воли», три области по 18 секунд, экспорт/повторное открытие. Плановый лимит 30 минут, без платных плагинов/API. Откат: удалить тестовые копии, исходник сохранить.",
+    "success_metric": "Цель: три читаемых WAV по 18 ±0,05 с, исходные sample rate/каналы, нет новых цифровых перегрузок/слышимых щелчков. Измерить время, число правок, пик сигнала, размер и RAM. Процедуру измерения уточнить до пилота; результата нет.",
+    "requirements_and_costs": "Готовый Audacity 4.0.1 для Windows/macOS/Linux; рабочая ОС и ресурсы ещё не проверены. BUILDING тега: Qt6.10/CMake/Ninja/C++, это требования сборки, не готового установщика. Модели/API для пилота не нужны. Полная стоимость: компьютер/электричество + диск/копии + время оператора/сопровождение; итог, память и скорость неизвестны. Облачное сохранение и сторонние платные плагины исключены. Код не устанавливался.",
+    "limitations": "Не исправляет композицию/аранжировку и не гарантирует мастеринг. В 4.0 отсутствуют Macro Manager и scripting pipe; возврат в 4.0.1 не подтверждён. .aup4 не сохраняется обратно в .aup3. Готовая сборка, импорт/экспорт и слышимое качество на материале VITTORA не проверены.",
+    "license_review": "Прочитан LICENSE тега Audacity-4.0.1: приложение GPLv3, исходные файлы могут иметь другие условия (часто GPLv2+), документация CC-BY3.0. Зависимости, плагины и права на треки отдельно.",
+    "comparison": "Audacity для ручных областей/экспорта (4.0.1); Tenacity — классический многодорожечный редактор со сценариями по README, но текущие Codeberg releases/issues недоступны; Ardour — более широкая сессия сведения/MIDI/OSC, сложнее и готовые сборки могут требовать оплату. Сравнение документации трёх кандидатов, без теста. Дополняет Suno/ElevenLabs → HyperFrames, не заменяет их.",
+    "readme_source": "https://github.com/audacity/audacity/blob/master/README.md",
+    "license_source": "https://github.com/audacity/audacity/blob/Audacity-4.0.1/LICENSE.txt",
+    "requirements_source": "https://github.com/audacity/audacity/blob/Audacity-4.0.1/BUILDING.md",
+    "release_source": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.1",
+    "issues_sources": [
+      "https://github.com/audacity/audacity/issues/12591",
+      "https://github.com/audacity/audacity/issues/11424"
+    ],
+    "alternatives": [
+      "https://github.com/tenacityteam/tenacity",
+      "https://github.com/Ardour/ardour"
+    ],
+    "gaps": [
+      "Совместимость готовой версии с рабочей ОС и аппаратурой",
+      "Фактические RAM/диск/время/стоимость",
+      "Медиа-пилот и измерительная процедура",
+      "Управление сценариями в 4.0.1 не подтверждено",
+      "Внешние releases/issues альтернатив частично недоступны"
+    ],
+    "score_note": "По config/research: конкретная польза ручной подготовки обоснована; интеграция агентов ограничена, осуществимость и полная стоимость неизвестны. Итог ready не присвоен.",
+    "card_path": "cards/audacity--audacity.md",
+    "post_path": "posts/2026-10-26_audacity--audacity.md",
+    "publication": {
+      "status": "blocked",
+      "blocker": "storageQuotaExceeded Google Drive от 2026-10-25; восстановление архивирования не подтверждено. PNG не создан/не архивирован, публикация запрещена.",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "delivery_history_checked_at": "2026-10-26",
+      "delivery_history_note": "Вечерняя сверка GET: owner-private, can_publish=true, только WhisperX /3 от 25.10. Audacity нет. POST не выполнялся."
+    },
+    "illustration": {
+      "generation_method": null,
+      "visually_reviewed": false,
+      "drive_file_id": null,
+      "drive_url": null,
+      "status": "not_generated_until_archive_recovery"
+    }
   }
 ]
