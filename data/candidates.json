@@ -113,5 +113,58 @@
       "Сравнить качество и стоимость с текущим решением"
     ],
     "archived": false
+  },
+  {
+    "url": "https://github.com/FFmpeg/FFmpeg",
+    "status": "reviewing",
+    "direction": "video",
+    "verification_level": "documentation",
+    "verification_date": "2026-10-26",
+    "archived": false,
+    "concrete_problem": "Повторяемая техническая проверка и экспорт тизеров после монтажа HyperFrames.",
+    "application_example": "Отчёт ffprobe о параметрах 18-секундного тизера «Воля», полное декодирование и отдельная копия для доставки; пока сценарий.",
+    "first_pilot": "Одна копия тизера «Воля»: зафиксировать сборку, отчёт JSON, полное декодирование, один экспорт. Плановый лимит 30 минут настройки; без покупок/API. Откат: удалить тестовые копии, оригинал не менять.",
+    "success_metric": "Редакционный критерий: 1080×1920, сохранена заданная частота кадров, звук присутствует, длительность ±0,1 с, нет ошибок декодирования; ручная проверка трёх фрагментов и синхронизации. Измерить время, размер, пик RAM. Не результат.",
+    "requirements_and_costs": "Windows/macOS/Linux/Unix; CPU для программного экспорта, совместимая сборка с выбранными кодеками. При сборке GNU Make >=3.81 и toolchain. Модели/API не требуются. Полная стоимость: вычисления/электричество или аренда + диск/трафик + настройка/сопровождение; итог, RAM и время не измерены. Путь /usr/bin/ffmpeg обнаружен, но запуск на материале не проверен. Установки и покупок не было.",
+    "limitations": "Не исправляет творческий монтаж. Перекодирование с потерями, crop/цвет/дорожки требуют контроля; наличие аудио не доказывает слышимость. Актуальный стабильный релиз и внешний трекер ошибок не подтверждены; зеркало releases/issues пусто, официальный сайт вернул timeout.",
+    "license_review": "Прочитан LICENSE.md: LGPL v2.1+ основа, --enable-gpl и зависимости libx264/libx265 меняют условия; --enable-nonfree может запрещать распространение бинарной сборки. Конкретная рабочая сборка ещё не проверена; права на контент и кодеки проверяются отдельно.",
+    "comparison": "Три кандидата: FFmpeg для команд/JSON ffprobe; HandBrake GPLv2 (1.11.2, .NET 10 на Windows) для конвертации; Shutter Encoder GPLv3 (20.4, Java 25 при сборке) для GUI/очереди поверх FFmpeg. Сравнение по документации, без бенчмарка. Дополняет текущий HyperFrames; отдельного нового внедрения не подтверждает.",
+    "readme_source": "https://github.com/FFmpeg/FFmpeg/blob/master/README.md",
+    "license_source": "https://github.com/FFmpeg/FFmpeg/blob/master/LICENSE.md",
+    "requirements_source": "https://github.com/FFmpeg/FFmpeg/blob/master/INSTALL.md",
+    "release_source": "https://github.com/FFmpeg/FFmpeg/releases",
+    "issues_sources": [
+      "https://github.com/FFmpeg/FFmpeg/issues",
+      "https://github.com/HandBrake/HandBrake/issues/8122",
+      "https://github.com/paulpacifico/shutter-encoder/issues/469"
+    ],
+    "alternatives": [
+      "https://github.com/HandBrake/HandBrake",
+      "https://github.com/paulpacifico/shutter-encoder"
+    ],
+    "gaps": [
+      "Выбрать и проверить рабочую сборку и её кодеки/лицензию",
+      "Подтвердить актуальный стабильный релиз и внешний трекер FFmpeg",
+      "Подтвердить CPU/RAM/диск и измерить стоимость обработки",
+      "Провести медиа-пилот; документация не доказывает работоспособность"
+    ],
+    "card_path": "cards/ffmpeg--ffmpeg.md",
+    "post_path": "posts/2026-10-26_ffmpeg--ffmpeg.md",
+    "publication": {
+      "status": "blocked",
+      "blocker": "storageQuotaExceeded Google Drive известно с 2026-10-25; признаков восстановления нет. PNG не создан/не архивирован, отправка запрещена.",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "delivery_history_checked_at": "2026-10-26",
+      "delivery_history_note": "owner-private; can_publish=true. GET журнала: только WhisperX /3 от 25.10, FFmpeg нет. POST не выполнялся."
+    },
+    "illustration": {
+      "generation_method": null,
+      "visually_reviewed": false,
+      "drive_file_id": null,
+      "drive_url": null,
+      "status": "not_generated_until_archive_recovery"
+    }
   }
 ]
