@@ -74,9 +74,9 @@
       "url": "https://github.com/librosa/librosa",
       "vittora_benefit": "Изучить ритм и структуру треков для монтажа",
       "post_angle": "Простыми словами: изучить ритм и структуру треков для монтажа. Объяснить преимущества, требования и когда инструмент не подходит.",
-      "pilot": "На 30–60 секундах разрешённой записи сравнить исходник и результат на слух, время и уровень сигнала; не менять мастер.",
+      "pilot": "На локальном WAV вручную отметить 20 ударов, сравнить beat_track units=time; сохранить входной SHA-256, версии, параметры и CSV. Исполнитель/машина ещё не назначены. Редакционный порог: >=18/20 взаимно однозначных совпадений в пределах ±100 мс; отдельно ложные точки, пропуски, время и RAM. Результатов нет.",
       "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Анализ музыкального материала. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "planned_research",
+      "status": "draft",
       "metadata_check": {
         "date": "2026-10-25",
         "exists": true,
@@ -97,8 +97,45 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
+        "status": "draft",
         "message_id": null,
-        "url": null
+        "url": null,
+        "published_at": null,
+        "delivery_history_checked_at": "2026-10-27",
+        "delivery_history_note": "GET status can_publish=true; owner-private. GET журнала: WhisperX /3 и Audacity /6; за московский день один успешный пост; librosa нет."
+      },
+      "card_path": "cards/librosa--librosa.md",
+      "post_path": "posts/2026-10-27_librosa--librosa.md",
+      "reviewed_at": "2026-10-27",
+      "verification_level": "documentation",
+      "illustration": {
+        "generation_method": "chat_builtin_image_gen",
+        "visually_reviewed": true,
+        "status": "archived",
+        "archive_provider": "yandex_disk",
+        "folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+        "verified_at": "2026-10-27",
+        "verification": "UI: Все файлы загружены; обе миниатюры видны; 5.39 МБ из 5 ГБ; аккаунт владельца подтверждён. SHA-256 вычислен локально; удалённый хеш и восстановление резерва не проверялись.",
+        "original": {
+          "name": "2026-10-27_librosa--librosa_poster-v1.png",
+          "path": "VITTORA/open-arsenal/2026-10-27_librosa--librosa_poster-v1.png",
+          "size_bytes": 2019703,
+          "sha256": "600b01de9ca93ebba562801cfe20e9113e37c72a1fc464217aebaaa22de31712",
+          "dimensions": [
+            1254,
+            1254
+          ]
+        },
+        "delivery": {
+          "name": "2026-10-27_librosa--librosa_poster-v1-delivery.png",
+          "path": "VITTORA/open-arsenal/2026-10-27_librosa--librosa_poster-v1-delivery.png",
+          "size_bytes": 794245,
+          "sha256": "ef6e338e8765d807aeb741b75e57a40d09ac43c8642d65d1525dd9db8bce0aeb",
+          "dimensions": [
+            800,
+            800
+          ]
+        }
       }
     },
     {
