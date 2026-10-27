@@ -133,3 +133,7 @@ Google Drive: известный storageQuotaExceeded от 25.10.2026; приз�
 
 ## Подтверждённая отправка
 27.10.2026: один POST через scripts/publish_telegram.py с визуально проверенным PNG; state=published, message_id=6, URL https://t.me/open_arsenal/6, published_at=2026-10-27T07:01:15.000Z. Это обзор документации, не внедрение и не успешный медиа-пилот.
+
+
+## Проверка реестров после публикации
+27.10.2026: scripts/validate_catalog.py — Catalog valid; scripts/validate_plan.py — Plan valid: 30 days, 60 unique repository slots. inspect_repo.py дополнительно выполнен для Tenacity и Ardour: archived=false, latest_release недоступен через GitHub (ожидаемый внешний маршрут); это не запуск приложений. Пилот по-прежнему не выполнен.
