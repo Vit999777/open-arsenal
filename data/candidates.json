@@ -306,12 +306,12 @@
     "card_path": "cards/librosa--librosa.md",
     "post_path": "posts/2026-10-27_librosa--librosa.md",
     "publication": {
-      "status": "draft",
-      "message_id": null,
-      "url": null,
-      "published_at": null,
+      "status": "published",
+      "message_id": 7,
+      "url": "https://t.me/open_arsenal/7",
+      "published_at": "2026-10-27T15:11:05.210Z",
       "delivery_history_checked_at": "2026-10-27",
-      "delivery_history_note": "GET status can_publish=true; owner-private. GET журнала: WhisperX /3 и Audacity /6; за московский день один успешный пост; librosa нет."
+      "delivery_history_note": "POST один раз через свежий scripts/publish_telegram.py с просмотренным и архивированным PNG 794245 байт; защищённый коннектор вернул published /7. Установка/пилот не выполнялись."
     },
     "illustration": {
       "generation_method": "chat_builtin_image_gen",
