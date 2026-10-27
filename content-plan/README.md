@@ -6,7 +6,7 @@
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-10-27 | **Чистый звук перед публикацией** · Музыка<br>[audacity/audacity](https://github.com/audacity/audacity) · published · [Пост](https://t.me/open_arsenal/6) | **Анализ музыкального материала** · Музыка<br>[librosa/librosa](https://github.com/librosa/librosa) · draft · [Разбор](../cards/librosa--librosa.md) |
+| 2026-10-27 | **Чистый звук перед публикацией** · Музыка<br>[audacity/audacity](https://github.com/audacity/audacity) · published · [Пост](https://t.me/open_arsenal/6) | **Анализ музыкального материала** · Музыка<br>[librosa/librosa](https://github.com/librosa/librosa) · published · [Пост](https://t.me/open_arsenal/7) · [Разбор](../cards/librosa--librosa.md) |
 | 2026-10-28 | **Один текст — несколько книжных форматов** · Книга и аудио<br>[jgm/pandoc](https://github.com/jgm/pandoc) · planned_research | **Проверка электронного издания** · Книга и аудио<br>[kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) · planned_research |
 | 2026-10-29 | **Поиск по знаниям VITTORA** · Агенты/RAG<br>[qdrant/qdrant](https://github.com/qdrant/qdrant) · planned_research | **Локальная языковая модель** · Агенты/RAG<br>[ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) · planned_research |
 | 2026-10-30 | **Скорость и качество страниц** · Сайт и журнал<br>[GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) · planned_research | **Доступность сайта** · Сайт и журнал<br>[dequelabs/axe-core](https://github.com/dequelabs/axe-core) · planned_research |
