@@ -186,7 +186,7 @@
     "status": "reviewing",
     "direction": "music",
     "verification_level": "documentation",
-    "verification_date": "2026-10-26",
+    "verification_date": "2026-10-27",
     "archived": false,
     "concrete_problem": "Ручная подготовка нескольких коротких аудиофрагментов для музыкальных тизеров.",
     "application_example": "Сценарий: три начала «Воли» по 18 секунд в одном проекте, экспорт размеченных областей в WAV и сравнение на слух.",
@@ -202,7 +202,8 @@
     "release_source": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.1",
     "issues_sources": [
       "https://github.com/audacity/audacity/issues/12591",
-      "https://github.com/audacity/audacity/issues/11424"
+      "https://github.com/audacity/audacity/issues/11424",
+      "https://github.com/audacity/audacity/issues/12596"
     ],
     "alternatives": [
       "https://github.com/tenacityteam/tenacity",
@@ -219,13 +220,13 @@
     "card_path": "cards/audacity--audacity.md",
     "post_path": "posts/2026-10-26_audacity--audacity.md",
     "publication": {
-      "status": "blocked",
-      "blocker": "Нужен отдельный PNG из встроенного image_gen, визуальная проверка и подтверждённое архивирование в Google Drive или Яндекс Диске. Маршрут Яндекс Диска разрешён 26.10.2026; PNG пока не создан.",
+      "status": "draft",
+      "blocker": null,
       "message_id": null,
       "url": null,
       "published_at": null,
-      "delivery_history_checked_at": "2026-10-26",
-      "delivery_history_note": "Вечерняя сверка GET: owner-private, can_publish=true, только WhisperX /3 от 25.10. Audacity нет. POST не выполнялся.",
+      "delivery_history_checked_at": "2026-10-27",
+      "delivery_history_note": "GET: owner-private, can_publish=true, only WhisperX /3; no posts today; POST not yet performed.",
       "blocker_history": [
         {
           "date": "2026-10-26",
@@ -235,11 +236,34 @@
       "archive_policy_updated_at": "2026-10-26"
     },
     "illustration": {
-      "generation_method": null,
-      "visually_reviewed": false,
-      "drive_file_id": null,
-      "drive_url": null,
-      "status": "not_generated_until_archive_recovery"
-    }
+      "generation_method": "chat_builtin_image_gen",
+      "visually_reviewed": true,
+      "status": "archived",
+      "archive_provider": "yandex_disk",
+      "folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+      "verified_at": "2026-10-27",
+      "verification": "UI: Все файлы загружены; два PNG видны в папке; 2.71 МБ из 5 ГБ; правильный аккаунт подтверждён. SHA-256 вычислен локально, удалённый hash не запрашивался.",
+      "original": {
+        "name": "2026-10-27_audacity--audacity_poster-v1.png",
+        "path": "VITTORA/open-arsenal/2026-10-27_audacity--audacity_poster-v1.png",
+        "size_bytes": 1839116,
+        "sha256": "643443661596043d2e233786472c7fde46f154f1f81c9d57eb5e0816c3a31949",
+        "dimensions": [
+          1254,
+          1254
+        ]
+      },
+      "delivery": {
+        "name": "2026-10-27_audacity--audacity_poster-v1-delivery.png",
+        "path": "VITTORA/open-arsenal/2026-10-27_audacity--audacity_poster-v1-delivery.png",
+        "size_bytes": 725607,
+        "sha256": "15e55ab775e3b49f332def8b4ac7950798c7815215ba37f0c336199718a09280",
+        "dimensions": [
+          800,
+          800
+        ]
+      }
+    },
+    "review_update": "27.10: rechecked README/LICENSE/BUILDING and release 4.0.1; 3 candidates compared; no installation or media pilot. PNG archived in verified owner account."
   }
 ]
