@@ -76,7 +76,7 @@
       "post_angle": "Простыми словами: изучить ритм и структуру треков для монтажа. Объяснить преимущества, требования и когда инструмент не подходит.",
       "pilot": "На локальном WAV вручную отметить 20 ударов, сравнить beat_track units=time; сохранить входной SHA-256, версии, параметры и CSV. Исполнитель/машина ещё не назначены. Редакционный порог: >=18/20 взаимно однозначных совпадений в пределах ±100 мс; отдельно ложные точки, пропуски, время и RAM. Результатов нет.",
       "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Анализ музыкального материала. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "draft",
+      "status": "published",
       "metadata_check": {
         "date": "2026-10-25",
         "exists": true,
@@ -97,12 +97,12 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
-        "status": "draft",
-        "message_id": null,
-        "url": null,
-        "published_at": null,
+        "status": "published",
+        "message_id": 7,
+        "url": "https://t.me/open_arsenal/7",
+        "published_at": "2026-10-27T15:11:05.210Z",
         "delivery_history_checked_at": "2026-10-27",
-        "delivery_history_note": "GET status can_publish=true; owner-private. GET журнала: WhisperX /3 и Audacity /6; за московский день один успешный пост; librosa нет."
+        "delivery_history_note": "POST один раз через свежий scripts/publish_telegram.py с просмотренным и архивированным PNG 794245 байт; защищённый коннектор вернул published /7. Установка/пилот не выполнялись."
       },
       "card_path": "cards/librosa--librosa.md",
       "post_path": "posts/2026-10-27_librosa--librosa.md",
