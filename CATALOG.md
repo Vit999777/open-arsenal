@@ -7,10 +7,9 @@
 | [WhisperX](https://github.com/m-bain/whisperX) | Субтитры для озвучки | Документация и лицензия; запуск не проверен | [Пост](https://t.me/open_arsenal/3) · [Разбор и пилот](cards/m-bain--whisperx.md) |
 | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | Сохранять схемы подготовки визуалов для рилсов | Документация, лицензия, требования, релизы и выборка issues; reviewing, пилота нет | [Разбор и пилот](cards/comfy-org--comfyui.md) · [Черновик](posts/2026-10-25_comfy-org--comfyui.md) · blocked: подготовка и архив PNG; поста нет |
 | [llama.cpp](https://github.com/ggml-org/llama.cpp) | Локальный ИИ для задач проекта | Исследование | Выбрать модель, оценить ресурсы и сравнить результат |
-
 | [FFmpeg](https://github.com/FFmpeg/FFmpeg) | Проверка параметров и экспорт тизеров после монтажа | Документация, лицензия, платформы; сравнение с HandBrake/Shutter Encoder; reviewing, медиа-пилота нет | [Разбор и пилот](cards/ffmpeg--ffmpeg.md) · [Черновик](posts/2026-10-26_ffmpeg--ffmpeg.md) · blocked: подготовка и архив PNG; поста нет |
-
 | [Audacity](https://github.com/audacity/audacity) | Три фрагмента «Воли» для тизера | Документация перепроверена 27.10; сравнение Tenacity/Ardour; reviewing, без медиа-пилота | [Разбор и пилот](cards/audacity--audacity.md) · [Пост](https://t.me/open_arsenal/6) · [Текст и подтверждение](posts/2026-10-26_audacity--audacity.md) |
+| [librosa](https://github.com/librosa/librosa) | Отметки ритма «Воли» для монтажа | Документация 27.10, ISC, релиз/requirements/issues; сравнение aubio/Essentia; reviewing, без пилота | [Разбор](cards/librosa--librosa.md) · [Пост](https://t.me/open_arsenal/7) · [Текст и подтверждение](posts/2026-10-27_librosa--librosa.md) |
 
 Дата редакционного среза: 27.10.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. 58 ещё не исследованных активных слотов находятся в [плане исследований](content-plan/README.md).
 
@@ -36,4 +35,3 @@
 
 27.10: PNG Audacity (исходник и копия) сохранены и проверены в Яндекс Диске правильного аккаунта, путь VITTORA/open-arsenal. Обзор /6 подтверждён. План сдвинут на 27.10–25.11, прошлые слоты сохранены в [истории](content-plan/history/2026-10.json). Готовность пилота не повышена.
 
-| [librosa](https://github.com/librosa/librosa) | Отметки ритма «Воли» для монтажа | Документация 27.10, ISC, релиз/requirements/issues; сравнение aubio/Essentia; reviewing, без пилота | [Разбор](cards/librosa--librosa.md) · [Черновик](posts/2026-10-27_librosa--librosa.md) |
