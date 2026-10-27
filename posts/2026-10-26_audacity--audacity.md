@@ -1,6 +1,6 @@
 # Audacity — выпуск 27.10.2026
 
-Статус: подготовлен к одной отправке, подтверждения Telegram пока нет. Проверка документации; каталог reviewing, медиа-пилота нет. [Разбор и план](../cards/audacity--audacity.md).
+Статус: published. message_id=6; URL https://t.me/open_arsenal/6; published_at=2026-10-27T07:01:15.000Z. Один POST с PNG подтверждён закрытым коннектором. Проверка документации; каталог reviewing, медиа-пилота нет. [Разбор и план](../cards/audacity--audacity.md).
 
 ## Подпись (868 знаков)
 
