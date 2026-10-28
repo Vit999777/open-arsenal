@@ -342,5 +342,81 @@
         ]
       }
     }
+  },
+  {
+    "id": "jgm-pandoc",
+    "url": "https://github.com/jgm/pandoc",
+    "title": "Pandoc — один текст для книги и сайта",
+    "direction": "book_audio",
+    "status": "reviewing",
+    "concrete_problem": "Подготовка EPUB и HTML из общего редактируемого текста книги VITTORA.",
+    "application_example": "Копия одной главы «Архитектуры человека» → EPUB и HTML; готовый PDF и сайт не заменять.",
+    "first_pilot": "Одна глава 1000–2000 слов, зафиксировать SHA-256 и версию; EPUB+HTML открыть в читалке/мобильном браузере; 45 минут, 0 ₽ новых услуг; работать с копиями. Исполнитель/машина и исходник пока не выбраны.",
+    "success_metric": "10/10 заранее выбранных элементов структуры в обоих форматах, 0 пропусков фрагментов; отдельно минуты правок, RAM и размеры. Это цель, результатов нет.",
+    "requirements_and_costs": "Официальная сборка Windows/macOS/Linux, настройка исходника/метаданных. Код без лицензионной платы; модели/GPU/API/хостинг не нужны для EPUB/HTML; оборудование, электричество, диск, труд и фактический ресурсный бюджет неизвестны. Для PDF отдельный движок/шрифты. Новые покупки запрещены.",
+    "limitations": "Не OCR/озвучка/перевод/восстановление PDF. Сложная вёрстка и таблицы могут теряться. Проверка на материале VITTORA не выполнена; исходник не подтверждён. Зависимости/шрифты требуют отдельной проверки.",
+    "license_review": "README: GPL-2.0-or-later, COPYING.md — GPLv2; metadata API GPL-2.0 не отражает + из README. Лицензия конвертера не даёт прав на книгу/изображения/шрифты. Полного аудита зависимостей нет.",
+    "comparison": "3 кандидата: Pandoc — общий конвертер DOCX/Markdown→EPUB/HTML; Calibre GPLv3 v9.17.0 — библиотека/просмотр/редактор электронных книг; Asciidoctor MIT v2.0.26 — AsciiDoc, Ruby, EPUB/PDF отдельные gems. По сравнению с отдельной ручной подготовкой двух версий преимущество общего исходника, но время/качество не измерены.",
+    "verification_level": "documentation",
+    "verification_date": "2026-10-28",
+    "readme_source": "https://github.com/jgm/pandoc/blob/main/README.md",
+    "license_source": "https://github.com/jgm/pandoc/blob/main/COPYING.md",
+    "requirements_source": "https://github.com/jgm/pandoc/blob/main/INSTALL.md",
+    "release_source": "https://github.com/jgm/pandoc/releases/tag/3.13",
+    "issues_sources": [
+      "https://github.com/jgm/pandoc/issues/11969",
+      "https://github.com/jgm/pandoc/issues/11700",
+      "https://github.com/jgm/pandoc/issues/7922"
+    ],
+    "alternatives": [
+      "https://github.com/kovidgoyal/calibre",
+      "https://github.com/asciidoctor/asciidoctor"
+    ],
+    "gaps": [
+      "Не выбран/получен исходник главы",
+      "Не назначены машина/исполнитель",
+      "Нет установки/пилота/ресурсных измерений",
+      "Нет полного аудита зависимостей"
+    ],
+    "score_note": "Числовой ready не назначен: осуществимость/ресурсы/интеграция не измерены.",
+    "card_path": "cards/jgm--pandoc.md",
+    "post_path": "posts/2026-10-28_jgm--pandoc.md",
+    "publication": {
+      "status": "draft",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "delivery_history_checked_at": "2026-10-28",
+      "delivery_history_note": "owner-private; can_publish=true; журнал до выпуска только /3, /6, /7; постов за 28.10 нет. Pandoc отсутствует."
+    },
+    "illustration": {
+      "generation_method": "chat_builtin_image_gen",
+      "visually_reviewed": true,
+      "status": "archived",
+      "archive_provider": "yandex_disk",
+      "folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+      "verified_at": "2026-10-28",
+      "verification": "UI: Все файлы загружены; обе миниатюры Pandoc видны, 8.47 МБ из 5 ГБ. Хеши вычислены локально. Обратное скачивание/восстановление не проводились, это архив PNG, не проверенный резерв.",
+      "original": {
+        "name": "2026-10-28_jgm--pandoc_poster-v1.png",
+        "path": "VITTORA/open-arsenal/2026-10-28_jgm--pandoc_poster-v1.png",
+        "size_bytes": 2088418,
+        "sha256": "34ae29a8ac22e898921ab65b0f337a5c1e43d034e0a1225110fe4a00d10f96e2",
+        "dimensions": [
+          1254,
+          1254
+        ]
+      },
+      "delivery": {
+        "name": "2026-10-28_jgm--pandoc_poster-v1-delivery.png",
+        "path": "VITTORA/open-arsenal/2026-10-28_jgm--pandoc_poster-v1-delivery.png",
+        "size_bytes": 883343,
+        "sha256": "98799f82a34cf89a3f7e4e7b1ab4184ef1e99a65ede8a6163563f142e17905e4",
+        "dimensions": [
+          800,
+          800
+        ]
+      }
+    }
   }
 ]
