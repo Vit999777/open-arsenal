@@ -462,12 +462,12 @@
     "card_path": "cards/kovidgoyal--calibre.md",
     "post_path": "posts/2026-10-28_kovidgoyal--calibre.md",
     "publication": {
-      "status": "draft",
-      "message_id": null,
-      "url": null,
-      "published_at": null,
+      "status": "published",
+      "message_id": 9,
+      "url": "https://t.me/open_arsenal/9",
+      "published_at": "2026-10-28T15:11:53.462Z",
       "delivery_history_checked_at": "2026-10-28",
-      "delivery_history_note": "owner-private; can_publish=true. GET: один пост за московский день (Pandoc /8), Calibre нет; до POST."
+      "delivery_history_note": "Один POST свежим publish_telegram.py с PNG 769055 байт, оба review-флага после редакционной и визуальной проверки. Перед POST GET: can_publish=true, только один пост за день Pandoc /8; Calibre отсутствовал. Коннектор вернул published /9. Архив исходника и delivery подтверждён до отправки."
     },
     "illustration": {
       "generation_method": "chat_builtin_image_gen",
