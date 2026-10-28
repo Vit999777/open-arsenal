@@ -1,4 +1,4 @@
-# Контент-план: 27 октября — 25 ноября 2026
+# Контент-план: 28 октября — 26 ноября 2026
 
 30 дней · 60 материалов · Europe/Moscow. Ориентиры — 10:00 и 18:00; режим расписания гибкий.
 
@@ -6,8 +6,7 @@
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-10-27 | **Чистый звук перед публикацией** · Музыка<br>[audacity/audacity](https://github.com/audacity/audacity) · published · [Пост](https://t.me/open_arsenal/6) | **Анализ музыкального материала** · Музыка<br>[librosa/librosa](https://github.com/librosa/librosa) · published · [Пост](https://t.me/open_arsenal/7) · [Разбор](../cards/librosa--librosa.md) |
-| 2026-10-28 | **Один текст — несколько книжных форматов** · Книга и аудио<br>[jgm/pandoc](https://github.com/jgm/pandoc) · planned_research | **Проверка электронного издания** · Книга и аудио<br>[kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) · planned_research |
+| 2026-10-28 | **Один текст — несколько книжных форматов** · Книга и аудио<br>[jgm/pandoc](https://github.com/jgm/pandoc) · published · [Пост](https://t.me/open_arsenal/8) · [Разбор](../cards/jgm--pandoc.md) | **Проверка электронного издания** · Книга и аудио<br>[kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) · planned_research |
 | 2026-10-29 | **Поиск по знаниям VITTORA** · Агенты/RAG<br>[qdrant/qdrant](https://github.com/qdrant/qdrant) · planned_research | **Локальная языковая модель** · Агенты/RAG<br>[ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) · planned_research |
 | 2026-10-30 | **Скорость и качество страниц** · Сайт и журнал<br>[GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) · planned_research | **Доступность сайта** · Сайт и журнал<br>[dequelabs/axe-core](https://github.com/dequelabs/axe-core) · planned_research |
 | 2026-10-31 | **Резервные копии с проверкой восстановления** · Надёжность<br>[restic/restic](https://github.com/restic/restic) · planned_research | **Контроль доступности** · Надёжность<br>[louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) · planned_research |
@@ -36,6 +35,7 @@
 | 2026-11-23 | **Секреты вне публичного кода** · Надёжность<br>[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) · planned_research | **Ошибки сайта и центра** · Надёжность<br>[getsentry/sentry](https://github.com/getsentry/sentry) · planned_research |
 | 2026-11-24 | **Метрики сервисов** · Надёжность<br>[prometheus/prometheus](https://github.com/prometheus/prometheus) · planned_research | **Наглядный контроль состояния** · Надёжность<br>[grafana/grafana](https://github.com/grafana/grafana) · planned_research |
 | 2026-11-25 | **Проверяемый перенос архивов** · Надёжность<br>[rclone/rclone](https://github.com/rclone/rclone) · planned_research | **Документация центра** · Агенты/RAG<br>[sphinx-doc/sphinx](https://github.com/sphinx-doc/sphinx) · planned_research |
+| 2026-11-26 | **Журнал из структурированных текстов** · Сайт и журнал<br>[getpelican/pelican](https://github.com/getpelican/pelican) · planned_research | **Навигация по знаниям проекта** · Агенты/RAG<br>[mkdocs/mkdocs](https://github.com/mkdocs/mkdocs) · planned_research |
 
 ## Подготовка и выпуск
 
@@ -68,3 +68,9 @@ FFmpeg (26.10, 18:00): [разбор](../cards/ffmpeg--ffmpeg.md) и [черно
 Audacity: [обзор с изображением](https://t.me/open_arsenal/6), message_id=6, published_at=2026-10-27T07:01:15.000Z. Документация трёх кандидатов перепроверена, reviewing; медиа-пилота нет. Исходник и PNG-копия просмотрены и архивированы на Яндекс Диске в правильном аккаунте, VITTORA/open-arsenal. Доставка подтверждена одним POST. [Разбор](../cards/audacity--audacity.md).
 
 Горизонт: 27.10–25.11, 30 дней/60 слотов. Два прошедших слота сохранены без потери фактов в [истории октября](history/2026-10.json); не отправлялись пачкой. На 25.11 добавлены rclone/rclone и sphinx-doc/sphinx: проверены только имя/доступность/неархивность, содержательная проверка впереди. В активном плане 1 опубликованный и 59 planned_research. Старые записи о блокировках — история, не текущий статус Audacity.
+
+
+## Текущий результат — 28.10.2026
+Pandoc: [обзор с PNG](https://t.me/open_arsenal/8), message_id=8, published_at=2026-10-28T07:09:51.142Z. [Разбор](../cards/jgm--pandoc.md), [текст и подтверждение](../posts/2026-10-28_jgm--pandoc.md). Сравнены Calibre и Asciidoctor; документация, reviewing, без установки и пилота. PNG создан встроенным генератором, исходник и delivery 883343 байт просмотрены и загружены в Яндекс Диск до отправки. Один POST, подтверждён published.
+
+Горизонт 28.10–26.11: 60 слотов, 1 published и 59 planned_research. Слоты 27.10 с фактическими /6 и /7 перенесены в историю без потери данных. На 26.11 добавлены getpelican/pelican и mkdocs/mkdocs: пока проверены только имя/доступность/неархивность, не рекомендации. Старые записи выше являются историей.
