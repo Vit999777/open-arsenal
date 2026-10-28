@@ -11,4 +11,10 @@ https://github.com/kovidgoyal/calibre
 28.10.2026: документация, релиз 9.17.0.
 
 ---
-Статус: черновик перед отправкой; documentation, без установки и пилота.
+## Подтверждение доставки
+
+- Статус: published; message_id: 9.
+- URL: https://t.me/open_arsenal/9
+- published_at: 2026-10-28T15:11:53.462Z
+- Один POST свежим scripts/publish_telegram.py; PNG 769055 байт, 800×800, визуально проверен. Исходник 1807193 байт и delivery архивированы до отправки в Яндекс Диск, VITTORA/open-arsenal. Хеши/имена/размеры — в data/candidates.json.
+- [Разбор и пилот](../cards/kovidgoyal--calibre.md). Documentation; reviewing, без установки и пилота.
