@@ -418,5 +418,85 @@
         ]
       }
     }
+  },
+  {
+    "id": "kovidgoyal-calibre",
+    "url": "https://github.com/kovidgoyal/calibre",
+    "title": "Calibre — проверить книгу перед выпуском",
+    "direction": "book_audio",
+    "status": "reviewing",
+    "concrete_problem": "Приёмка EPUB главы VITTORA до загрузки на площадку: ссылки, структура и видимость правок.",
+    "application_example": "Копия EPUB главы «Архитектуры человека» → Check book → разбор ошибок → одна ручная правка → отдельная читалка. Наличие рабочего EPUB пока не подтверждено.",
+    "first_pilot": "Одна глава, SHA-256/версия; Check book и исходный отчёт, checkpoint, исправление одной подтверждённой проблемы, повторный отчёт и читалка. 45 минут, 0 ₽ новых услуг, нетронутая копия для отката; исполнитель/машина не назначены.",
+    "success_metric": "Редакционный порог: 10/10 контрольных элементов структуры/ссылок сохранены; 0 новых битых внутренних ссылок; все предупреждения разобраны. Отдельно минуты правок, RAM, размеры. Результатов нет.",
+    "requirements_and_costs": "Calibre 9.17: Windows 10 1809+ x64, macOS 14+, Linux x64/ARM GLIBC>=2.34/libstdc++.so.6.0.30+, системные Qt/X11/OpenGL зависимости возможны. Для локальной проверки EPUB модели/GPU/API/хостинг не нужны; код без лицензионной платы. Компьютер/диск/электричество/труд — расходы, фактическая сумма/RAM/время неизвестны. Интернетные функции не входят; лимит новых покупок 0 ₽.",
+    "limitations": "Автоисправление HTML может неожиданно изменить содержимое. Предпросмотр не заменяет читалку и не гарантирует приём площадкой. Не OCR и не гарантированное восстановление PDF. Не выполнены установка, тест исходника, аудит зависимостей.",
+    "license_review": "LICENSE: GPLv3 для кода; зависимости отдельно. Лицензия редактора не даёт прав на книгу/картинки/шрифты; распространение программы/модификаций требует соблюдения GPL. Полного аудита зависимостей нет.",
+    "comparison": "Три кандидата: Calibre v9.17.0 (редактор/Check book/preview/checkpoints/библиотека), Sigil 2.8.1 (EPUB2/3 редактор GPLv3), EPUBCheck 5.4.0 (проверка спецификации BSD-3-Clause, Java). Calibre выбран для интерфейса приёмки, не как замена формальному валидатору. Текущий VITTORA PDF/сайт плюс предложенный Pandoc; этап приёмки EPUB не подтверждён. Скорость/качество не измерены.",
+    "verification_level": "documentation",
+    "verification_date": "2026-10-28",
+    "readme_source": "https://github.com/kovidgoyal/calibre/blob/master/README.md",
+    "license_source": "https://github.com/kovidgoyal/calibre/blob/master/LICENSE",
+    "requirements_source": "https://calibre-ebook.com/download_linux",
+    "release_source": "https://github.com/kovidgoyal/calibre/releases/tag/v9.17.0",
+    "documentation_sources": [
+      "https://manual.calibre-ebook.com/edit.html",
+      "https://calibre-ebook.com/whats-new",
+      "https://calibre-ebook.com/download_windows",
+      "https://calibre-ebook.com/download_osx"
+    ],
+    "issues_sources": [
+      "https://bugs.launchpad.net/calibre"
+    ],
+    "alternatives": [
+      "https://github.com/Sigil-Ebook/Sigil",
+      "https://github.com/w3c/epubcheck"
+    ],
+    "gaps": [
+      "EPUB/исходник не выбран",
+      "Не назначены рабочий компьютер/исполнитель",
+      "Нет установки, пилота и измерений ресурсов/труда",
+      "Полный аудит зависимостей не выполнен"
+    ],
+    "score_note": "Веса research.json прочитаны; ready не присвоен: осуществимость/полная стоимость/интеграция не измерены, reviewing.",
+    "card_path": "cards/kovidgoyal--calibre.md",
+    "post_path": "posts/2026-10-28_kovidgoyal--calibre.md",
+    "publication": {
+      "status": "draft",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "delivery_history_checked_at": "2026-10-28",
+      "delivery_history_note": "owner-private; can_publish=true. GET: один пост за московский день (Pandoc /8), Calibre нет; до POST."
+    },
+    "illustration": {
+      "generation_method": "chat_builtin_image_gen",
+      "visually_reviewed": true,
+      "status": "archived",
+      "archive_provider": "yandex_disk",
+      "folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+      "verified_at": "2026-10-28",
+      "verification": "UI: Все файлы загружены; оба файла Calibre видны; 10.9 МБ из 5 ГБ. SHA-256 вычислен локально. Не проверенный резерв: обратное скачивание/восстановление не выполнялись.",
+      "original": {
+        "name": "2026-10-28_kovidgoyal--calibre_poster-v1.png",
+        "path": "VITTORA/open-arsenal/2026-10-28_kovidgoyal--calibre_poster-v1.png",
+        "size_bytes": 1807193,
+        "sha256": "1463a25c6c5bbefad329831859ec4451c95cb72bacc47d0b11f71ba8bde762a2",
+        "dimensions": [
+          1254,
+          1254
+        ]
+      },
+      "delivery": {
+        "name": "2026-10-28_kovidgoyal--calibre_poster-v1-delivery.png",
+        "path": "VITTORA/open-arsenal/2026-10-28_kovidgoyal--calibre_poster-v1-delivery.png",
+        "size_bytes": 769055,
+        "sha256": "2235f6fbe8702ebb7b8be33599a60df9c11025662b7f215b918b9d8b84ceaf38",
+        "dimensions": [
+          800,
+          800
+        ]
+      }
+    }
   }
 ]
