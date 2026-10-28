@@ -8,7 +8,7 @@
   "timing_mode": "flexible_schedule",
   "horizon_days": 30,
   "policy": "План исследований, а не список одобренных рекомендаций. Кандидата можно заменить с записью причины; не отправлять неподтверждённый материал ради календаря. Опубликованные URL не повторять.",
-  "known_blocker": "Google Drive quota не снята; разрешён проверенный архив Яндекс Диска. PNG Audacity подтверждён 27.10; остальные требуют своих изображений.",
+  "known_blocker": "Google Drive quota не объявлена восстановленной; Яндекс Диск принимает проверенные PNG. Pandoc: исходник и delivery архивированы 28.10; у каждого будущего обзора нужен свой PNG.",
   "slots": [
     {
       "id": "2026-10-28-am",
@@ -23,7 +23,7 @@
       "post_angle": "Простыми словами: сократить повторную подготовку исходного текста для разных изданий. Объяснить преимущества, требования и когда инструмент не подходит.",
       "pilot": "На одном фрагменте или тестовой копии издания проверить читаемость, структуру и время ручных исправлений.",
       "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Один текст — несколько книжных форматов. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "draft",
+      "status": "published",
       "metadata_check": {
         "date": "2026-10-25",
         "exists": true,
@@ -44,15 +44,19 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
-        "message_id": null,
-        "url": null
+        "status": "published",
+        "message_id": 8,
+        "url": "https://t.me/open_arsenal/8",
+        "published_at": "2026-10-28T07:09:51.142Z",
+        "delivery_history_checked_at": "2026-10-28",
+        "delivery_history_note": "Один POST свежим publish_telegram.py: reviewed PNG 883343 bytes, возвращён published /8. Исходник и delivery PNG архивированы до отправки; can_publish=true, owner-private, до POST успешных постов за 28.10 не было."
       },
       "research_date": "2026-10-28",
       "verification_level": "documentation",
       "catalog_status": "reviewing",
       "card_path": "cards/jgm--pandoc.md",
       "post_path": "posts/2026-10-28_jgm--pandoc.md",
-      "research_note": "Pandoc сравнен с Calibre и Asciidoctor. Установки/пилота нет. PNG просмотрен и архивирован на Яндекс Диске; перед отправкой сохранён черновик."
+      "research_note": "Pandoc сравнен с Calibre и Asciidoctor. Установки/пилота нет. PNG просмотрен и архивирован на Яндекс Диске; перед отправкой сохранён черновик. Один POST подтверждён message_id=8; публикация обзора не означает внедрения."
     },
     {
       "id": "2026-10-28-pm",
