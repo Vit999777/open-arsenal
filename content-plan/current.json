@@ -71,7 +71,7 @@
       "post_angle": "Простыми словами: проверить конвертацию и читаемость электронной книги. Объяснить преимущества, требования и когда инструмент не подходит.",
       "pilot": "На одном фрагменте или тестовой копии издания проверить читаемость, структуру и время ручных исправлений.",
       "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Проверка электронного издания. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "planned_research",
+      "status": "draft",
       "metadata_check": {
         "date": "2026-10-25",
         "exists": true,
@@ -94,7 +94,13 @@
       "publication": {
         "message_id": null,
         "url": null
-      }
+      },
+      "research_date": "2026-10-28",
+      "verification_level": "documentation",
+      "catalog_status": "reviewing",
+      "card_path": "cards/kovidgoyal--calibre.md",
+      "post_path": "posts/2026-10-28_kovidgoyal--calibre.md",
+      "research_note": "Calibre сравнен с Sigil и EPUBCheck; documentation, без установки/пилота. Новый PNG просмотрен, обе версии архивированы на Яндекс Диске до отправки."
     },
     {
       "id": "2026-10-29-am",
