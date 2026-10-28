@@ -102,8 +102,136 @@
           "reason": "storageQuotaExceeded Google Drive известно с 2026-10-25; признаков восстановления нет. PNG не создан/не архивирован, отправка запрещена."
         }
       ]
+    },
+    {
+      "id": "2026-10-27-am",
+      "date": "2026-10-27",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "music",
+      "topic": "Чистый звук перед публикацией",
+      "repository": "audacity/audacity",
+      "url": "https://github.com/audacity/audacity",
+      "vittora_benefit": "Подготовка и контроль речевых и музыкальных файлов",
+      "post_angle": "Простыми словами: подготовка и контроль речевых и музыкальных файлов. Объяснить преимущества, требования и когда инструмент не подходит.",
+      "pilot": "На 30–60 секундах разрешённой записи сравнить исходник и результат на слух, время и уровень сигнала; не менять мастер.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Чистый звук перед публикацией. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "published",
+      "metadata_check": {
+        "date": "2026-10-25",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "audacity/audacity",
+        "renamed_from": null,
+        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "published",
+        "message_id": 6,
+        "url": "https://t.me/open_arsenal/6",
+        "published_at": "2026-10-27T07:01:15.000Z"
+      },
+      "research_date": "2026-10-27",
+      "verification_level": "documentation",
+      "catalog_status": "reviewing",
+      "card_path": "cards/audacity--audacity.md",
+      "post_path": "posts/2026-10-26_audacity--audacity.md",
+      "blocker": null,
+      "research_note": "Повторно проверены три кандидата; отдельный PNG создан встроенным генератором, обе версии просмотрены и архивированы на Яндекс Диске правильного аккаунта. Один POST подтверждён; внедрения нет.",
+      "blocker_history": [
+        {
+          "date": "2026-10-26",
+          "reason": "storageQuotaExceeded Google Drive от 2026-10-25; восстановление архивирования не подтверждено. PNG не создан/не архивирован, публикация запрещена."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-27-pm",
+      "date": "2026-10-27",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "music",
+      "topic": "Анализ музыкального материала",
+      "repository": "librosa/librosa",
+      "url": "https://github.com/librosa/librosa",
+      "vittora_benefit": "Изучить ритм и структуру треков для монтажа",
+      "post_angle": "Простыми словами: изучить ритм и структуру треков для монтажа. Объяснить преимущества, требования и когда инструмент не подходит.",
+      "pilot": "На локальном WAV вручную отметить 20 ударов, сравнить beat_track units=time; сохранить входной SHA-256, версии, параметры и CSV. Исполнитель/машина ещё не назначены. Редакционный порог: >=18/20 взаимно однозначных совпадений в пределах ±100 мс; отдельно ложные точки, пропуски, время и RAM. Результатов нет.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Анализ музыкального материала. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "published",
+      "metadata_check": {
+        "date": "2026-10-25",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "librosa/librosa",
+        "renamed_from": null,
+        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "published",
+        "message_id": 7,
+        "url": "https://t.me/open_arsenal/7",
+        "published_at": "2026-10-27T15:11:05.210Z",
+        "delivery_history_checked_at": "2026-10-27",
+        "delivery_history_note": "POST один раз через свежий scripts/publish_telegram.py с просмотренным и архивированным PNG 794245 байт; защищённый коннектор вернул published /7. Установка/пилот не выполнялись."
+      },
+      "card_path": "cards/librosa--librosa.md",
+      "post_path": "posts/2026-10-27_librosa--librosa.md",
+      "reviewed_at": "2026-10-27",
+      "verification_level": "documentation",
+      "illustration": {
+        "generation_method": "chat_builtin_image_gen",
+        "visually_reviewed": true,
+        "status": "archived",
+        "archive_provider": "yandex_disk",
+        "folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+        "verified_at": "2026-10-27",
+        "verification": "UI: Все файлы загружены; обе миниатюры видны; 5.39 МБ из 5 ГБ; аккаунт владельца подтверждён. SHA-256 вычислен локально; удалённый хеш и восстановление резерва не проверялись.",
+        "original": {
+          "name": "2026-10-27_librosa--librosa_poster-v1.png",
+          "path": "VITTORA/open-arsenal/2026-10-27_librosa--librosa_poster-v1.png",
+          "size_bytes": 2019703,
+          "sha256": "600b01de9ca93ebba562801cfe20e9113e37c72a1fc464217aebaaa22de31712",
+          "dimensions": [
+            1254,
+            1254
+          ]
+        },
+        "delivery": {
+          "name": "2026-10-27_librosa--librosa_poster-v1-delivery.png",
+          "path": "VITTORA/open-arsenal/2026-10-27_librosa--librosa_poster-v1-delivery.png",
+          "size_bytes": 794245,
+          "sha256": "ef6e338e8765d807aeb741b75e57a40d09ac43c8642d65d1525dd9db8bce0aeb",
+          "dimensions": [
+            800,
+            800
+          ]
+        }
+      }
     }
   ],
-  "archived_at": "2026-10-27",
+  "archived_at": "2026-10-28",
   "note": "Слоты вышли из активного горизонта. Блокировки и факты сохранены; не переносить пачкой."
 }
