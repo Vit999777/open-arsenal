@@ -382,12 +382,12 @@
     "card_path": "cards/jgm--pandoc.md",
     "post_path": "posts/2026-10-28_jgm--pandoc.md",
     "publication": {
-      "status": "draft",
-      "message_id": null,
-      "url": null,
-      "published_at": null,
+      "status": "published",
+      "message_id": 8,
+      "url": "https://t.me/open_arsenal/8",
+      "published_at": "2026-10-28T07:09:51.142Z",
       "delivery_history_checked_at": "2026-10-28",
-      "delivery_history_note": "owner-private; can_publish=true; журнал до выпуска только /3, /6, /7; постов за 28.10 нет. Pandoc отсутствует."
+      "delivery_history_note": "Один POST свежим publish_telegram.py: reviewed PNG 883343 bytes, возвращён published /8. Исходник и delivery PNG архивированы до отправки; can_publish=true, owner-private, до POST успешных постов за 28.10 не было."
     },
     "illustration": {
       "generation_method": "chat_builtin_image_gen",
