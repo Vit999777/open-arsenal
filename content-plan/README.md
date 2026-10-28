@@ -6,7 +6,7 @@
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-10-28 | **Один текст — несколько книжных форматов** · Книга и аудио<br>[jgm/pandoc](https://github.com/jgm/pandoc) · published · [Пост](https://t.me/open_arsenal/8) · [Разбор](../cards/jgm--pandoc.md) | **Проверка электронного издания** · Книга и аудио<br>[kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) · planned_research |
+| 2026-10-28 | **Один текст — несколько книжных форматов** · Книга и аудио<br>[jgm/pandoc](https://github.com/jgm/pandoc) · published · [Пост](https://t.me/open_arsenal/8) · [Разбор](../cards/jgm--pandoc.md) | **Проверка электронного издания** · Книга и аудио<br>[kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) · published · [Пост](https://t.me/open_arsenal/9) · [Разбор](../cards/kovidgoyal--calibre.md) |
 | 2026-10-29 | **Поиск по знаниям VITTORA** · Агенты/RAG<br>[qdrant/qdrant](https://github.com/qdrant/qdrant) · planned_research | **Локальная языковая модель** · Агенты/RAG<br>[ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) · planned_research |
 | 2026-10-30 | **Скорость и качество страниц** · Сайт и журнал<br>[GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) · planned_research | **Доступность сайта** · Сайт и журнал<br>[dequelabs/axe-core](https://github.com/dequelabs/axe-core) · planned_research |
 | 2026-10-31 | **Резервные копии с проверкой восстановления** · Надёжность<br>[restic/restic](https://github.com/restic/restic) · planned_research | **Контроль доступности** · Надёжность<br>[louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) · planned_research |
@@ -74,3 +74,9 @@ Audacity: [обзор с изображением](https://t.me/open_arsenal/6),
 Pandoc: [обзор с PNG](https://t.me/open_arsenal/8), message_id=8, published_at=2026-10-28T07:09:51.142Z. [Разбор](../cards/jgm--pandoc.md), [текст и подтверждение](../posts/2026-10-28_jgm--pandoc.md). Сравнены Calibre и Asciidoctor; документация, reviewing, без установки и пилота. PNG создан встроенным генератором, исходник и delivery 883343 байт просмотрены и загружены в Яндекс Диск до отправки. Один POST, подтверждён published.
 
 Горизонт 28.10–26.11: 60 слотов, 1 published и 59 planned_research. Слоты 27.10 с фактическими /6 и /7 перенесены в историю без потери данных. На 26.11 добавлены getpelican/pelican и mkdocs/mkdocs: пока проверены только имя/доступность/неархивность, не рекомендации. Старые записи выше являются историей.
+
+
+## Вечерний результат — 28.10.2026
+Calibre: [обзор с PNG](https://t.me/open_arsenal/9), message_id=9, published_at=2026-10-28T15:11:53.462Z. [Разбор](../cards/kovidgoyal--calibre.md), [текст и подтверждение](../posts/2026-10-28_kovidgoyal--calibre.md). Сравнены Sigil и EPUBCheck; документация, reviewing, без установки и пилота. Исходник и копия PNG 769055 байт просмотрены, загружены в Яндекс Диск до отправки; интерфейс подтвердил завершение. Один POST; коннектор вернул published. За 28.10 два подтверждённых поста (/8 и /9), дневной лимит достигнут.
+
+Горизонт остаётся 28.10–26.11: 30 дней, 60 уникальных слотов; 2 published и 58 planned_research. Перенос в историю не требуется в ту же дату. Новые автоматизации не создавались, прежние слоты/расписание не менялись. Утренний результат выше — история состояния на тот момент.
