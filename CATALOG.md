@@ -10,8 +10,9 @@
 | [FFmpeg](https://github.com/FFmpeg/FFmpeg) | Проверка параметров и экспорт тизеров после монтажа | Документация, лицензия, платформы; сравнение с HandBrake/Shutter Encoder; reviewing, медиа-пилота нет | [Разбор и пилот](cards/ffmpeg--ffmpeg.md) · [Черновик](posts/2026-10-26_ffmpeg--ffmpeg.md) · blocked: подготовка и архив PNG; поста нет |
 | [Audacity](https://github.com/audacity/audacity) | Три фрагмента «Воли» для тизера | Документация перепроверена 27.10; сравнение Tenacity/Ardour; reviewing, без медиа-пилота | [Разбор и пилот](cards/audacity--audacity.md) · [Пост](https://t.me/open_arsenal/6) · [Текст и подтверждение](posts/2026-10-26_audacity--audacity.md) |
 | [librosa](https://github.com/librosa/librosa) | Отметки ритма «Воли» для монтажа | Документация 27.10, ISC, релиз/requirements/issues; сравнение aubio/Essentia; reviewing, без пилота | [Разбор](cards/librosa--librosa.md) · [Пост](https://t.me/open_arsenal/7) · [Текст и подтверждение](posts/2026-10-27_librosa--librosa.md) |
+| [Pandoc](https://github.com/jgm/pandoc) | EPUB и HTML из общего исходника главы | Документация 28.10, GPL-2.0-or-later, релиз 3.13/INSTALL/issues; сравнение Calibre/Asciidoctor; reviewing, без пилота | [Разбор](cards/jgm--pandoc.md) · [Пост](https://t.me/open_arsenal/8) · [Текст и подтверждение](posts/2026-10-28_jgm--pandoc.md) |
 
-Дата редакционного среза: 27.10.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. 58 ещё не исследованных активных слотов находятся в [плане исследований](content-plan/README.md).
+Дата редакционного среза: 28.10.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. 59 ещё не исследованных активных слотов находятся в [плане исследований](content-plan/README.md).
 
 ## Как читать статусы
 
@@ -35,3 +36,5 @@
 
 27.10: PNG Audacity (исходник и копия) сохранены и проверены в Яндекс Диске правильного аккаунта, путь VITTORA/open-arsenal. Обзор /6 подтверждён. План сдвинут на 27.10–25.11, прошлые слоты сохранены в [истории](content-plan/history/2026-10.json). Готовность пилота не повышена.
 
+
+28.10: Pandoc опубликован /8 с новым проверенным PNG; исходник и delivery архивированы на Яндекс Диске. Горизонт 28.10–26.11, два прошедших слота сохранены в истории. Установка и пилот Pandoc не выполнены.
