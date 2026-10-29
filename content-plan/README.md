@@ -6,7 +6,7 @@
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-10-29 | **Поиск по знаниям VITTORA** · Агенты/RAG<br>[qdrant/qdrant](https://github.com/qdrant/qdrant) · published · [Пост](https://t.me/open_arsenal/10) · [Разбор](../cards/qdrant--qdrant.md) | **Локальная языковая модель** · Агенты/RAG<br>[ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) · planned_research |
+| 2026-10-29 | **Поиск по знаниям VITTORA** · Агенты/RAG<br>[qdrant/qdrant](https://github.com/qdrant/qdrant) · published · [Пост](https://t.me/open_arsenal/10) · [Разбор](../cards/qdrant--qdrant.md) | **Локальная языковая модель** · Агенты/RAG<br>[ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) · draft · [Разбор](../cards/ggml-org--llama.cpp.md) · [Текст](../posts/2026-10-29_ggml-org--llama.cpp.md) |
 | 2026-10-30 | **Скорость и качество страниц** · Сайт и журнал<br>[GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) · planned_research | **Доступность сайта** · Сайт и журнал<br>[dequelabs/axe-core](https://github.com/dequelabs/axe-core) · planned_research |
 | 2026-10-31 | **Резервные копии с проверкой восстановления** · Надёжность<br>[restic/restic](https://github.com/restic/restic) · planned_research | **Контроль доступности** · Надёжность<br>[louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) · planned_research |
 | 2026-11-01 | **Удобная правка субтитров** · Видео<br>[SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit) · planned_research | **Расшифровка озвучки** · Книга и аудио<br>[SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) · planned_research |
