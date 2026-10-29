@@ -23,7 +23,7 @@
       "post_angle": "Простыми словами: оценить векторный поиск по материалам проекта. Объяснить преимущества, требования и когда инструмент не подходит.",
       "pilot": "На 10 вопросах/материалах проверить правильность и источники; зафиксировать время и ресурсы.",
       "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Поиск по знаниям VITTORA. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "draft",
+      "status": "published",
       "metadata_check": {
         "date": "2026-10-25",
         "exists": true,
@@ -44,15 +44,19 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
-        "message_id": null,
-        "url": null
+        "status": "published",
+        "message_id": 10,
+        "url": "https://t.me/open_arsenal/10",
+        "published_at": "2026-10-29T07:04:30.637Z",
+        "delivery_history_checked_at": "2026-10-29",
+        "delivery_history_note": "Один POST через свежий publish_telegram.py с просмотренным PNG 893322 байта. Перед POST GET: can_publish=true, Qdrant/постов29.10 не было; owner-private. Коннектор вернул published /10. Оба PNG архивированы до отправки."
       },
       "research_date": "2026-10-29",
       "verification_level": "documentation",
       "catalog_status": "reviewing",
       "card_path": "cards/qdrant--qdrant.md",
       "post_path": "posts/2026-10-29_qdrant--qdrant.md",
-      "research_note": "Qdrant сравнен с Chroma и pgvector; documentation, без установки и пилота. Модель/ресурсы не выбраны. PNG создан и просмотрен; архивирование проверяется до отправки. Архивирование обоих PNG подтверждено UI до отправки."
+      "research_note": "Qdrant сравнен с Chroma и pgvector; documentation, без установки и пилота. Модель/ресурсы не выбраны. PNG создан и просмотрен; архивирование проверяется до отправки. Архивирование обоих PNG подтверждено UI до отправки. Подтверждён один POST, /10; внедрение не подтверждено."
     },
     {
       "id": "2026-10-29-pm",
