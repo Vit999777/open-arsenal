@@ -498,5 +498,81 @@
         ]
       }
     }
+  },
+  {
+    "id": "qdrant-qdrant",
+    "url": "https://github.com/qdrant/qdrant",
+    "title": "Qdrant — найти нужный фрагмент",
+    "direction": "agents_rag",
+    "status": "reviewing",
+    "concrete_problem": "Поиск источников среди книги, журнала и инструкций VITTORA при другом выражении вопроса.",
+    "application_example": "30 разрешённых фрагментов с типом/версией/ссылкой → top-3 для ручной сверки. Источники нужно подготовить, работающий RAG не подтверждён.",
+    "first_pilot": "После выбора/проверки локальной русскоязычной модели: 30 фрагментов, 10 размеченных вопросов и 2 вне корпуса; сравнить с поиском по словам, сохранить версии/SHA-256/параметры. 60 минут, 0 ₽ новых услуг, отдельный локальный индекс, оригиналы не менять. Исполнитель/машина не назначены.",
+    "success_metric": "Редакционный порог: правильный источник в top-3 минимум 8/10; корректные ссылки/версии 10/10. Записать ложные совпадения, baseline, время/RAM/размер. Не достигнут, результатов нет.",
+    "requirements_and_costs": "Qdrant 1.20.0: 64-bit amd64/arm64, контейнер/сервис, POSIX block storage (не NFS/S3), CPU/RAM зависят от корпуса. Код Apache-2.0 без лицензионной платы; embedding-модель/веса и её лицензия/ресурсы не выбраны. API/хостинг не обязательны в локальном сценарии. Компьютер/электричество/диск/труд и полная сумма неизвестны; новые покупки 0 ₽.",
+    "limitations": "Не готовый чат/OCR/папочный индексатор; не гарантирует истину/актуальность. Модель/разбиение/ссылки готовятся отдельно. По умолчанию все интерфейсы без пароля; локально только loopback, production требует доступа/TLS. Предупреждения Docker/WSL filesystem на Windows. Нет установки, модели, пилота и полного аудита.",
+    "license_review": "Apache-2.0 для Qdrant, сохранить notices/лицензию и отметить изменения при распространении; не распространяется автоматически на модели/документы/зависимости. Chroma Apache-2.0, pgvector PostgreSQL License. Полного аудита нет.",
+    "comparison": "Qdrant отдельный фильтруемый сервис; Chroma Apache-2.0, Python>=3.9, embedded/in-memory и server, GitHub latest1.5.9 не подтверждает PyPI latest; pgvector Postgres13+, PostgreSQL License, тег0.8.7 (GitHub release/latest404). Если Postgres уже используется, pgvector может уменьшить число служб. Против ручного поиска преимущество структуры/смыслового запроса, скорость/точность не измерены.",
+    "verification_level": "documentation",
+    "verification_date": "2026-10-29",
+    "readme_source": "https://github.com/qdrant/qdrant/blob/master/README.md",
+    "license_source": "https://github.com/qdrant/qdrant/blob/master/LICENSE",
+    "requirements_source": "https://qdrant.tech/documentation/installation/",
+    "release_source": "https://github.com/qdrant/qdrant/releases/tag/v1.20.0",
+    "issues_sources": [
+      "https://github.com/qdrant/qdrant/issues/11326",
+      "https://github.com/qdrant/qdrant/issues/11330",
+      "https://github.com/qdrant/qdrant/pull/11332"
+    ],
+    "alternatives": [
+      "https://github.com/chroma-core/chroma",
+      "https://github.com/pgvector/pgvector"
+    ],
+    "gaps": [
+      "Модель/веса/русский язык/лицензия не выбраны",
+      "Нет утверждённого корпуса/машины/исполнителя",
+      "Нет установки/пилота/измерений",
+      "Нет полного аудита зависимостей"
+    ],
+    "score_note": "По research.json ready не присвоен: осуществимость/полная стоимость/интеграция неизвестны, без числового итога.",
+    "card_path": "cards/qdrant--qdrant.md",
+    "post_path": "posts/2026-10-29_qdrant--qdrant.md",
+    "publication": {
+      "status": "draft",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "delivery_history_checked_at": "2026-10-29",
+      "delivery_history_note": "owner-private; can_publish=true; GET журнала: последний Calibre /9 от28.10, Qdrant и постов29.10 нет."
+    },
+    "illustration": {
+      "generation_method": "chat_builtin_image_gen",
+      "visually_reviewed": true,
+      "status": "archived",
+      "archive_provider": "yandex_disk",
+      "folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+      "verified_at": "2026-10-29",
+      "verification": "UI: Все файлы загружены, обе миниатюры Qdrant видны;13.8МБ из5ГБ. SHA-256 локальный. Обратное скачивание/восстановление не выполнялись; это архив PNG, не проверенный резерв.",
+      "original": {
+        "name": "2026-10-29_qdrant--qdrant_poster-v1.png",
+        "path": "VITTORA/open-arsenal/2026-10-29_qdrant--qdrant_poster-v1.png",
+        "size_bytes": 2113567,
+        "sha256": "d7c4bee7f50b5662298aad859356772e64d0538ca9f2fe09546360021648cad1",
+        "dimensions": [
+          1254,
+          1254
+        ]
+      },
+      "delivery": {
+        "name": "2026-10-29_qdrant--qdrant_poster-v1-delivery.png",
+        "path": "VITTORA/open-arsenal/2026-10-29_qdrant--qdrant_poster-v1-delivery.png",
+        "size_bytes": 893322,
+        "sha256": "804cc1c770dc9bac34196de3c1dffaae909491a6d40892724407c532e032e401",
+        "dimensions": [
+          800,
+          800
+        ]
+      }
+    }
   }
 ]
