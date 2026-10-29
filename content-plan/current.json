@@ -71,7 +71,7 @@
       "post_angle": "Простыми словами: изучить локальную обработку тегов и коротких текстовых задач. Объяснить преимущества, требования и когда инструмент не подходит.",
       "pilot": "На 10 вопросах/материалах проверить правильность и источники; зафиксировать время и ресурсы.",
       "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Локальная языковая модель. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "draft",
+      "status": "published",
       "metadata_check": {
         "date": "2026-10-25",
         "exists": true,
@@ -92,16 +92,19 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
-        "status": "draft",
-        "message_id": null,
-        "url": null
+        "status": "published",
+        "message_id": 11,
+        "url": "https://t.me/open_arsenal/11",
+        "published_at": "2026-10-29T15:02:25.448Z",
+        "delivery_history_checked_at": "2026-10-29",
+        "delivery_history_note": "Owner-private Site; оба GET перед POST: can_publish=true, 1 пост сегодня, llama.cpp отсутствовал. Один POST свежим publish_telegram.py с просмотренным PNG 857128 байт, обе версии архивированы до отправки; connector returned published /11. Повторного POST нет."
       },
       "research_date": "2026-10-29",
       "verification_level": "documentation",
       "catalog_status": "reviewing",
       "card_path": "cards/ggml-org--llama.cpp.md",
       "post_path": "posts/2026-10-29_ggml-org--llama.cpp.md",
-      "research_note": "Сравнение llama.cpp/Ollama/LocalAI; documentation, без модели/машины/пилота. Новый PNG из встроенного генератора, оригинал и delivery просмотрены и архивированы на Яндекс Диске. Ожидается один POST, не внедрение."
+      "research_note": "Сравнение llama.cpp/Ollama/LocalAI; documentation, без модели/машины/пилота. Новый PNG из встроенного генератора, оригинал и delivery просмотрены и архивированы на Яндекс Диске. Ожидается один POST, не внедрение. Один POST подтверждён /11, message_id=11; 2 успешных поста 29.10. Пилота нет."
     },
     {
       "id": "2026-10-30-am",
