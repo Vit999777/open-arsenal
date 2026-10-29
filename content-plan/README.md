@@ -1,4 +1,4 @@
-# Контент-план: 28 октября — 26 ноября 2026
+# Контент-план: 29 октября — 27 ноября 2026
 
 30 дней · 60 материалов · Europe/Moscow. Ориентиры — 10:00 и 18:00; режим расписания гибкий.
 
@@ -6,8 +6,7 @@
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-10-28 | **Один текст — несколько книжных форматов** · Книга и аудио<br>[jgm/pandoc](https://github.com/jgm/pandoc) · published · [Пост](https://t.me/open_arsenal/8) · [Разбор](../cards/jgm--pandoc.md) | **Проверка электронного издания** · Книга и аудио<br>[kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) · published · [Пост](https://t.me/open_arsenal/9) · [Разбор](../cards/kovidgoyal--calibre.md) |
-| 2026-10-29 | **Поиск по знаниям VITTORA** · Агенты/RAG<br>[qdrant/qdrant](https://github.com/qdrant/qdrant) · planned_research | **Локальная языковая модель** · Агенты/RAG<br>[ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) · planned_research |
+| 2026-10-29 | **Поиск по знаниям VITTORA** · Агенты/RAG<br>[qdrant/qdrant](https://github.com/qdrant/qdrant) · published · [Пост](https://t.me/open_arsenal/10) · [Разбор](../cards/qdrant--qdrant.md) | **Локальная языковая модель** · Агенты/RAG<br>[ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) · planned_research |
 | 2026-10-30 | **Скорость и качество страниц** · Сайт и журнал<br>[GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) · planned_research | **Доступность сайта** · Сайт и журнал<br>[dequelabs/axe-core](https://github.com/dequelabs/axe-core) · planned_research |
 | 2026-10-31 | **Резервные копии с проверкой восстановления** · Надёжность<br>[restic/restic](https://github.com/restic/restic) · planned_research | **Контроль доступности** · Надёжность<br>[louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) · planned_research |
 | 2026-11-01 | **Удобная правка субтитров** · Видео<br>[SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit) · planned_research | **Расшифровка озвучки** · Книга и аудио<br>[SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) · planned_research |
@@ -36,6 +35,7 @@
 | 2026-11-24 | **Метрики сервисов** · Надёжность<br>[prometheus/prometheus](https://github.com/prometheus/prometheus) · planned_research | **Наглядный контроль состояния** · Надёжность<br>[grafana/grafana](https://github.com/grafana/grafana) · planned_research |
 | 2026-11-25 | **Проверяемый перенос архивов** · Надёжность<br>[rclone/rclone](https://github.com/rclone/rclone) · planned_research | **Документация центра** · Агенты/RAG<br>[sphinx-doc/sphinx](https://github.com/sphinx-doc/sphinx) · planned_research |
 | 2026-11-26 | **Журнал из структурированных текстов** · Сайт и журнал<br>[getpelican/pelican](https://github.com/getpelican/pelican) · planned_research | **Навигация по знаниям проекта** · Агенты/RAG<br>[mkdocs/mkdocs](https://github.com/mkdocs/mkdocs) · planned_research |
+| 2026-11-27 | **Локальный анализ выгрузок** · Аудитория<br>[duckdb/duckdb](https://github.com/duckdb/duckdb) · planned_research | **Локальный журнал операций** · Надёжность<br>[sqlite/sqlite](https://github.com/sqlite/sqlite) · planned_research |
 
 ## Подготовка и выпуск
 
@@ -80,3 +80,9 @@ Pandoc: [обзор с PNG](https://t.me/open_arsenal/8), message_id=8, publishe
 Calibre: [обзор с PNG](https://t.me/open_arsenal/9), message_id=9, published_at=2026-10-28T15:11:53.462Z. [Разбор](../cards/kovidgoyal--calibre.md), [текст и подтверждение](../posts/2026-10-28_kovidgoyal--calibre.md). Сравнены Sigil и EPUBCheck; документация, reviewing, без установки и пилота. Исходник и копия PNG 769055 байт просмотрены, загружены в Яндекс Диск до отправки; интерфейс подтвердил завершение. Один POST; коннектор вернул published. За 28.10 два подтверждённых поста (/8 и /9), дневной лимит достигнут.
 
 Горизонт остаётся 28.10–26.11: 30 дней, 60 уникальных слотов; 2 published и 58 planned_research. Перенос в историю не требуется в ту же дату. Новые автоматизации не создавались, прежние слоты/расписание не менялись. Утренний результат выше — история состояния на тот момент.
+
+
+## Текущий результат — 29.10.2026
+Qdrant: [обзор с новым PNG](https://t.me/open_arsenal/10), message_id=10, published_at=2026-10-29T07:04:30.637Z. [Разбор](../cards/qdrant--qdrant.md), [текст и подтверждение](../posts/2026-10-29_qdrant--qdrant.md). Сравнены Chroma и pgvector; проверка documentation, reviewing. Модель, ресурсы и корпус требуют выбора; установки/пилота нет. Исходник и копия PNG 893322 байта просмотрены и архивированы на Яндекс Диске до отправки. Один POST подтверждён.
+
+Горизонт 29.10–27.11: 30 дней/60 уникальных слотов; 1 published и 59 planned_research. Оба слота 28.10 с реальными /8 и /9 сохранены в истории октября. На 27.11 добавлены duckdb/duckdb и sqlite/sqlite: проверены только доступность/имя/неархивность, содержательное исследование впереди. Прошлые слоты пачкой не отправлялись. Записи результатов выше являются историей состояния на соответствующую дату.
