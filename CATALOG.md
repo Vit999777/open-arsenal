@@ -12,8 +12,9 @@
 | [librosa](https://github.com/librosa/librosa) | Отметки ритма «Воли» для монтажа | Документация 27.10, ISC, релиз/requirements/issues; сравнение aubio/Essentia; reviewing, без пилота | [Разбор](cards/librosa--librosa.md) · [Пост](https://t.me/open_arsenal/7) · [Текст и подтверждение](posts/2026-10-27_librosa--librosa.md) |
 | [Pandoc](https://github.com/jgm/pandoc) | EPUB и HTML из общего исходника главы | Документация 28.10, GPL-2.0-or-later, релиз 3.13/INSTALL/issues; сравнение Calibre/Asciidoctor; reviewing, без пилота | [Разбор](cards/jgm--pandoc.md) · [Пост](https://t.me/open_arsenal/8) · [Текст и подтверждение](posts/2026-10-28_jgm--pandoc.md) |
 | [Calibre](https://github.com/kovidgoyal/calibre) | Приёмка EPUB главы: ссылки, структура, предпросмотр и откат | Документация 28.10, GPLv3, релиз 9.17/требования ОС/Launchpad; сравнение Sigil/EPUBCheck; reviewing, без пилота | [Разбор](cards/kovidgoyal--calibre.md) · [Пост](https://t.me/open_arsenal/9) · [Текст и подтверждение](posts/2026-10-28_kovidgoyal--calibre.md) |
+| [Qdrant](https://github.com/qdrant/qdrant) | Поиск фрагментов книги/инструкций с полями источника и версии | Документация 29.10, Apache-2.0, v1.20.0/требования/безопасность/issues; сравнение Chroma/pgvector; reviewing, модель не выбрана, пилота нет | [Разбор](cards/qdrant--qdrant.md) · [Пост](https://t.me/open_arsenal/10) · [Текст и подтверждение](posts/2026-10-29_qdrant--qdrant.md) |
 
-Дата редакционного среза: 28.10.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. 58 ещё не исследованных активных слотов находятся в [плане исследований](content-plan/README.md).
+Дата редакционного среза: 29.10.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. 59 ещё не исследованных активных слотов находятся в [плане исследований](content-plan/README.md).
 
 ## Как читать статусы
 
@@ -41,3 +42,5 @@
 28.10: Pandoc опубликован /8 с новым проверенным PNG; исходник и delivery архивированы на Яндекс Диске. Горизонт 28.10–26.11, два прошедших слота сохранены в истории. Установка и пилот Pandoc не выполнены.
 
 28.10, вечер: Calibre опубликован /9 с новым PNG; исходник и delivery архивированы на Яндекс Диске. Проверка documentation, reviewing, без установки/пилота. План 28.10–26.11: 2 published и 58 planned_research, валидаторы пройдены до отправки. Дневной лимит двух постов достигнут.
+
+29.10: Qdrant опубликован /10 с новым PNG; исходник и delivery подтверждены в Яндекс Диске. Горизонт 29.10–27.11, слоты 28.10 сохранены в истории с фактическими подтверждениями. Publication не повышает reviewing до внедрения; локальная embedding-модель и ресурсы ещё не выбраны.
