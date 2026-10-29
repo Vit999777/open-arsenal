@@ -138,9 +138,12 @@
     "card_path": "cards/ggml-org--llama.cpp.md",
     "post_path": "posts/2026-10-29_ggml-org--llama.cpp.md",
     "publication": {
-      "status": "draft",
-      "message_id": null,
-      "url": null
+      "status": "published",
+      "message_id": 11,
+      "url": "https://t.me/open_arsenal/11",
+      "published_at": "2026-10-29T15:02:25.448Z",
+      "delivery_history_checked_at": "2026-10-29",
+      "delivery_history_note": "Owner-private Site; оба GET перед POST: can_publish=true, 1 пост сегодня, llama.cpp отсутствовал. Один POST свежим publish_telegram.py с просмотренным PNG 857128 байт, обе версии архивированы до отправки; connector returned published /11. Повторного POST нет."
     },
     "illustration": {
       "generation_method": "chat_builtin_image_gen",
