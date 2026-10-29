@@ -105,21 +105,74 @@
     "status": "reviewing",
     "direction": "agents_rag",
     "verification_level": "documentation",
-    "verification_date": "2026-10-25",
+    "verification_date": "2026-10-29",
     "readme_source": "https://github.com/ggml-org/llama.cpp/blob/master/README.md",
     "license_source": "https://github.com/ggml-org/llama.cpp/blob/master/LICENSE",
-    "concrete_problem": "Локальный запуск языковой модели для задач VITTORA.",
-    "application_example": "Сервис вывода для извлечения тегов из небольшого корпуса. Сам по себе движок не является готовым RAG.",
-    "first_pilot": "Выбрать модель с подходящей лицензией и измерить точность тегов на 10 материалах.",
-    "requirements_and_costs": "README описывает CPU/GPU, квантование и совместимый сервер API; память и скорость зависят от модели. Затраты оборудования пока неизвестны.",
-    "license_review": "Код MIT; уведомление сохраняется. Права на веса моделей проверяются отдельно.",
-    "limitations": "Нет подтверждённого оборудования и выбранной модели. Не внедрён.",
+    "concrete_problem": "Предлагать теги/рубрики для разрешённых текстов VITTORA локально, с ручной приёмкой.",
+    "application_example": "10 статей/фрагментов → до 3 тегов из словаря и рубрика → ручная проверка → тестовый каталог. Сценарий, не результат.",
+    "first_pilot": "После выбора лицензированной модели/компьютера: 10 текстов с ручной разметкой, закреплённый релиз/хеш весов/параметры/схема. 60 минут, 0 ₽ новых услуг, loopback, оригиналы не менять; исполнитель/машина не назначены.",
+    "requirements_and_costs": "CPU или поддерживаемый GPU; Windows/macOS/Linux. Готовые бинарники либо C/C++ и CMake>=3.14 (особые backend требуют отдельно). GGUF-модель/права/размер и RAM/VRAM пока не выбраны. MIT-код 0 лицензионной платы; платный API/хостинг локально не обязательны. Компьютер, электричество, диск, трафик, настройка/редактура — ресурсы, полная сумма неизвестна.",
+    "license_review": "MIT для llama.cpp, Ollama, LocalAI; сохранить copyright/permission при распространении. Веса/данные/зависимости отдельно; полного аудита нет.",
+    "limitations": "Не готовый RAG/озвучка/публикация; схема ограничивает формат, не правильность. Открытый issue31328 сообщает ошибку response_format на LFM3; нами не воспроизведено, PR31374 не гарантия исправления релиза. Нет модели/оборудования/запуска/пилота.",
     "gaps": [
-      "Выбрать модель",
-      "Оценить RAM/VRAM",
-      "Сравнить качество и стоимость с текущим решением"
+      "Модель/веса/лицензия/размер не выбраны",
+      "Машина/исполнитель не назначены",
+      "Нет запуска и измерений",
+      "Полная стоимость и аудит зависимостей неизвестны"
     ],
-    "archived": false
+    "archived": false,
+    "title": "llama.cpp — теги для текстов на своём компьютере",
+    "success_metric": "Формат 10/10; допустимые теги 10/10; смысловое совпадение >=8/10; записать исправления, baseline ручного процесса, время/RAM/VRAM/диск. Результатов нет.",
+    "comparison": "llama.cpp — прямой локальный движок с параметрами и схемой. Ollama — управление моделями и локальный/облачный режим. LocalAI — контейнеры/отдельные backends/широкие API и роли, избыточен для узкого пилота (редакционная оценка). Сравнивать с ручными тегами/облачным помощником; работающий автоматический теггер не подтверждён. Скорость/качество не измерены.",
+    "requirements_source": "https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md",
+    "release_source": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.8.0",
+    "issues_sources": [
+      "https://github.com/ggml-org/llama.cpp/issues/31328",
+      "https://github.com/ggml-org/llama.cpp/pull/31374"
+    ],
+    "alternatives": [
+      "https://github.com/ollama/ollama",
+      "https://github.com/mudler/LocalAI"
+    ],
+    "score_note": "По config/research.json ready не присвоен: осуществимость/стоимость/интеграция неизвестны, числовой итог не выдуман.",
+    "card_path": "cards/ggml-org--llama.cpp.md",
+    "post_path": "posts/2026-10-29_ggml-org--llama.cpp.md",
+    "publication": {
+      "status": "draft",
+      "message_id": null,
+      "url": null
+    },
+    "illustration": {
+      "generation_method": "chat_builtin_image_gen",
+      "visually_reviewed": true,
+      "status": "archived",
+      "archive_provider": "yandex_disk",
+      "folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+      "verified_at": "2026-10-29",
+      "verification": "UI: Все файлы загружены; обе миниатюры llama.cpp видны, 16.6МБ из5ГБ. SHA-256 и точные размеры локальные; обратное скачивание/восстановление не проводилось: архив PNG, не проверенный резерв.",
+      "original": {
+        "name": "2026-10-29_ggml-org--llama.cpp_poster-v1.png",
+        "size_bytes": 2075715,
+        "sha256": "8e6e44d226819f36265455093adb5ba6381af0afffa57a4d73f74930dffcd01e",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "path": "VITTORA/open-arsenal/2026-10-29_ggml-org--llama.cpp_poster-v1.png",
+        "url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal"
+      },
+      "delivery": {
+        "name": "2026-10-29_ggml-org--llama.cpp_poster-v1-delivery.png",
+        "size_bytes": 857128,
+        "sha256": "9b2a53e616c9e19157d3b6c70c9de41cfeafaa2813aa8d6d8be1533a45f299c4",
+        "dimensions": [
+          800,
+          800
+        ],
+        "path": "VITTORA/open-arsenal/2026-10-29_ggml-org--llama.cpp_poster-v1-delivery.png",
+        "url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal"
+      }
+    }
   },
   {
     "url": "https://github.com/FFmpeg/FFmpeg",
