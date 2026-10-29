@@ -11,4 +11,10 @@ https://github.com/qdrant/qdrant
 29.10.2026: документация, v1.20.0.
 
 ---
-Статус: черновик до отправки; documentation, reviewing, без установки/пилота.
+## Подтверждение доставки
+
+- published; message_id: 10.
+- URL: https://t.me/open_arsenal/10
+- published_at: 2026-10-29T07:04:30.637Z
+- Один POST свежим scripts/publish_telegram.py с прикреплённым просмотренным PNG 893322 байта (800×800). Исходник и копия архивированы до отправки: Яндекс Диск, VITTORA/open-arsenal. Имена/SHA-256/размеры — data/candidates.json.
+- [Разбор и пилот](../cards/qdrant--qdrant.md). Documentation, reviewing; модель не выбрана, установки/пилота нет.
