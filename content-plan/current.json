@@ -71,7 +71,7 @@
       "post_angle": "Простыми словами: изучить локальную обработку тегов и коротких текстовых задач. Объяснить преимущества, требования и когда инструмент не подходит.",
       "pilot": "На 10 вопросах/материалах проверить правильность и источники; зафиксировать время и ресурсы.",
       "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Локальная языковая модель. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "planned_research",
+      "status": "draft",
       "metadata_check": {
         "date": "2026-10-25",
         "exists": true,
@@ -92,9 +92,16 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
+        "status": "draft",
         "message_id": null,
         "url": null
-      }
+      },
+      "research_date": "2026-10-29",
+      "verification_level": "documentation",
+      "catalog_status": "reviewing",
+      "card_path": "cards/ggml-org--llama.cpp.md",
+      "post_path": "posts/2026-10-29_ggml-org--llama.cpp.md",
+      "research_note": "Сравнение llama.cpp/Ollama/LocalAI; documentation, без модели/машины/пилота. Новый PNG из встроенного генератора, оригинал и delivery просмотрены и архивированы на Яндекс Диске. Ожидается один POST, не внедрение."
     },
     {
       "id": "2026-10-30-am",
