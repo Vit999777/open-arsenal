@@ -6,7 +6,7 @@
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-10-30 | **Скорость и качество страниц** · Сайт и журнал<br>[GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) · draft · [Разбор](../cards/googlechrome--lighthouse.md) · [Текст](../posts/2026-10-30_googlechrome--lighthouse.md) | **Доступность сайта** · Сайт и журнал<br>[dequelabs/axe-core](https://github.com/dequelabs/axe-core) · planned_research |
+| 2026-10-30 | **Скорость и качество страниц** · Сайт и журнал<br>[GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) · published · [Пост](https://t.me/open_arsenal/12) · [Разбор](../cards/googlechrome--lighthouse.md) · [Текст](../posts/2026-10-30_googlechrome--lighthouse.md) | **Доступность сайта** · Сайт и журнал<br>[dequelabs/axe-core](https://github.com/dequelabs/axe-core) · planned_research |
 | 2026-10-31 | **Резервные копии с проверкой восстановления** · Надёжность<br>[restic/restic](https://github.com/restic/restic) · planned_research | **Контроль доступности** · Надёжность<br>[louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) · planned_research |
 | 2026-11-01 | **Удобная правка субтитров** · Видео<br>[SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit) · planned_research | **Расшифровка озвучки** · Книга и аудио<br>[SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) · planned_research |
 | 2026-11-02 | **Снижение фонового шума** · Музыка<br>[Rikorose/DeepFilterNet](https://github.com/Rikorose/DeepFilterNet) · planned_research | **Сборка аудиофрагментов** · Музыка<br>[jiaaro/pydub](https://github.com/jiaaro/pydub) · planned_research |
