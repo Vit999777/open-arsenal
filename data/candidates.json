@@ -705,5 +705,81 @@
         "path": "VITTORA/open-arsenal/2026-10-30_googlechrome--lighthouse_poster-v1-delivery.png"
       }
     }
+  },
+  {
+    "id": "dequelabs-axe-core",
+    "url": "https://github.com/dequelabs/axe-core",
+    "title": "axe-core — проверка доступности страниц VITTORA",
+    "direction": "website_journal",
+    "status": "reviewing",
+    "concrete_problem": "Найти проблемы контраста, подписей плеера/формы и структуры страницы музыки.",
+    "application_example": "Тестовая страница музыки в 3 состояниях: начальный вид, открытое меню, форма с ошибкой; искусственные данные, реальная отправка выключена.",
+    "first_pilot": "Закрепить axe-core/Chrome/commit; сохранить JSON+скриншоты 3 состояний, вручную разобрать violations/incomplete, исправить 1 подтверждённую ошибку и повторить. Разработчик не назначен. 60 минут, 0 ₽ новых услуг, только тестовая копия; откат к исходному commit.",
+    "success_metric": "3/3 состояния с отчётами; одна подтверждённая ошибка исчезает после правки при одинаковых настройках, новых serious/critical нет. Дополнительно 5 ручных действий клавиатурой, записать результаты. Если ошибок нет — не объявлять полную доступность. Результатов нет.",
+    "requirements_and_costs": "Современный браузер и интеграция JavaScript в тесты/страницу. package.json engines Node>=4 не равен требованию актуальной сборочной среды; нужна поддерживаемая ветка, контур не выбран. GPU/модели/платный API/сервер не обязательны. MPL-2.0 без лицензионной платы, MIT/ISC зависимости отдельно. Компьютер/электричество/сеть/хранение/труд; полная сумма/RAM/CPU неизвестны.",
+    "limitations": "Автоматическая проверка неполная; только показанные состояния, ограниченный JSDOM без проверки контраста. Не заменяет клавиатуру/экранный диктор/смысловую оценку. Возможны ошибки; v4.14 меняет правила и счётчики. Нет установки/пилота и полного аудита зависимостей.",
+    "license_review": "MPL-2.0; условия распространения покрытых изменённых файлов и исходников, notices. LICENSE-3RD-PARTY.txt: MIT/ISC зависимости. Pa11y LGPL-3.0-only; HTML_CodeSniffer BSD-3-Clause. Полного аудита нет.",
+    "comparison": "Проверены 3 кандидата по README/LICENSE/package.json/releases/issues. axe-core — ядро проверки видимых состояний/JSON; Pa11y10 — запускатель URL с HTMLCS/axe и Node22.13+ чётной ветки, Puppeteer; main использует axe~4.13, не гарантирует 4.14. HTML_CodeSniffer2.5.1/2021, push2024, JS/DOM/Grunt, README с PhantomJS; совместимость дополнительно проверять. Сравнение функций, не качества. Визуальные проверки и Lighthouse дополняются, не заменяются.",
+    "verification_level": "documentation",
+    "verification_date": "2026-10-30",
+    "readme_source": "https://github.com/dequelabs/axe-core/blob/develop/README.md",
+    "license_source": "https://github.com/dequelabs/axe-core/blob/develop/LICENSE",
+    "requirements_source": "https://github.com/dequelabs/axe-core/blob/develop/doc/API.md",
+    "release_source": "https://github.com/dequelabs/axe-core/releases/tag/v4.14.0",
+    "issues_sources": [
+      "https://github.com/dequelabs/axe-core/issues/5507",
+      "https://github.com/dequelabs/axe-core/pull/5508",
+      "https://github.com/dequelabs/axe-core/pull/5509"
+    ],
+    "alternatives": [
+      "https://github.com/pa11y/pa11y",
+      "https://github.com/squizlabs/HTML_CodeSniffer"
+    ],
+    "gaps": [
+      "Нет установки/пилота",
+      "Машина и разработчик не назначены",
+      "Полная стоимость/ресурсы не измерены",
+      "Нет аудита всех зависимостей"
+    ],
+    "score_note": "reviewing; неизвестное не заменено числовым рейтингом.",
+    "card_path": "cards/dequelabs--axe-core.md",
+    "post_path": "posts/2026-10-30_dequelabs--axe-core.md",
+    "publication": {
+      "status": "blocked",
+      "message_id": null,
+      "url": null,
+      "blocker": "PNG создан и визуально проверен. При вызове выбора файлов/загрузки Яндекс Диска cua_repl завершился таймаутом 300s; последующая read-only сверка также timeout300s. Завершение загрузки/наличие двух PNG не подтверждено. POST не выполнялся. Доступ к папке/19,2МБ из5ГБ до попытки был; это не отказ квоты. Google Drive quota не объявлена восстановленной, загрузку не повторяли.",
+      "delivery_history_checked_at": "2026-10-30",
+      "delivery_history_note": "Оба GET через owner-private Site: can_publish=true, 1 успешный пост за московский день (Lighthouse /12), axe-core отсутствует. Это разрешение, не подтверждение отправки."
+    },
+    "illustration": {
+      "generation_method": "chat_builtin_image_gen",
+      "visually_reviewed": true,
+      "status": "archive_unconfirmed",
+      "archive_provider": "yandex_disk",
+      "intended_folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+      "archive_verified_at": null,
+      "archive_note": "Сохранение этих файлов не подтверждено; пути ниже целевые, размеры/хеши локальные. Нет verified backup.",
+      "original": {
+        "name": "2026-10-30_dequelabs--axe-core_poster-v1.png",
+        "path": "VITTORA/open-arsenal/2026-10-30_dequelabs--axe-core_poster-v1.png",
+        "size_bytes": 2108715,
+        "sha256": "e0295d108e10f57bc2c500fba6595b49b151f9fdcd6677141d3f886b4aab1c7c",
+        "dimensions": [
+          1254,
+          1254
+        ]
+      },
+      "delivery": {
+        "name": "2026-10-30_dequelabs--axe-core_poster-v1-delivery.png",
+        "path": "VITTORA/open-arsenal/2026-10-30_dequelabs--axe-core_poster-v1-delivery.png",
+        "size_bytes": 890974,
+        "sha256": "f70793495c922c193cff89b0280771b3cb14ae60678187016a4d26b8f76f1621",
+        "dimensions": [
+          800,
+          800
+        ]
+      }
+    }
   }
 ]
