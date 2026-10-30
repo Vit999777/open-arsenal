@@ -12,4 +12,44 @@ https://github.com/dequelabs/axe-core
 30.10.2026 · изучена документация, пилота нет.
 
 ---
-Статус: draft. Подпись 880 знаков, изучена документация 3 кандидатов; пилота нет. Новый PNG создан встроенным image_gen; обе версии просмотрены, архивирование проверяется. POST не выполнялся. Источники и пилот — в cards/dequelabs--axe-core.md.
+## Статус
+
+blocked — PNG создан и визуально проверен. При вызове выбора файлов/загрузки Яндекс Диска cua_repl завершился таймаутом 300s; последующая read-only сверка также timeout300s. Завершение загрузки/наличие двух PNG не подтверждено. POST не выполнялся. Доступ к папке/19,2МБ из5ГБ до попытки был; это не отказ квоты. Google Drive quota не объявлена восстановленной, загрузку не повторяли.
+
+## Иллюстрация
+
+Новый PNG создан встроенным image_gen. Оригинал и копия просмотрены: название/подзаголовок читаемы, поля сохранены, показана проверка плеера; Tab — метафора дополнительного ручного контроля, не результат axe-core. Архив не подтверждён.
+
+{
+  "generation_method": "chat_builtin_image_gen",
+  "visually_reviewed": true,
+  "status": "archive_unconfirmed",
+  "archive_provider": "yandex_disk",
+  "intended_folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+  "archive_verified_at": null,
+  "archive_note": "Сохранение этих файлов не подтверждено; пути ниже целевые, размеры/хеши локальные. Нет verified backup.",
+  "original": {
+    "name": "2026-10-30_dequelabs--axe-core_poster-v1.png",
+    "path": "VITTORA/open-arsenal/2026-10-30_dequelabs--axe-core_poster-v1.png",
+    "size_bytes": 2108715,
+    "sha256": "e0295d108e10f57bc2c500fba6595b49b151f9fdcd6677141d3f886b4aab1c7c",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  "delivery": {
+    "name": "2026-10-30_dequelabs--axe-core_poster-v1-delivery.png",
+    "path": "VITTORA/open-arsenal/2026-10-30_dequelabs--axe-core_poster-v1-delivery.png",
+    "size_bytes": 890974,
+    "sha256": "f70793495c922c193cff89b0280771b3cb14ae60678187016a4d26b8f76f1621",
+    "dimensions": [
+      800,
+      800
+    ]
+  }
+}
+
+## Проверка и первый пилот
+
+Документация 3 кандидатов, лицензии, требования, релизы и выборка issues/PR; inspect_repo.py успешно выполнил metadata_only, не запуск axe-core. Разбор прочитан из main. Пилота нет: 3 состояния тестовой страницы, одна подтверждённая правка, повтор и 5 ручных действий клавиатурой. Результатов/экономии не обещаем. Новых расходов/автоматизаций/чужих публикаций нет.
