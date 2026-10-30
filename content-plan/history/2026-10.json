@@ -326,8 +326,104 @@
       "card_path": "cards/kovidgoyal--calibre.md",
       "post_path": "posts/2026-10-28_kovidgoyal--calibre.md",
       "research_note": "Calibre сравнен с Sigil и EPUBCheck; documentation, без установки/пилота. Новый PNG просмотрен, обе версии архивированы на Яндекс Диске до отправки. Один POST подтверждён /9; публикация обзора не означает внедрения."
+    },
+    {
+      "id": "2026-10-29-am",
+      "date": "2026-10-29",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "agents_rag",
+      "topic": "Поиск по знаниям VITTORA",
+      "repository": "qdrant/qdrant",
+      "url": "https://github.com/qdrant/qdrant",
+      "vittora_benefit": "Оценить векторный поиск по материалам проекта",
+      "post_angle": "Простыми словами: оценить векторный поиск по материалам проекта. Объяснить преимущества, требования и когда инструмент не подходит.",
+      "pilot": "На 10 вопросах/материалах проверить правильность и источники; зафиксировать время и ресурсы.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Поиск по знаниям VITTORA. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "published",
+      "metadata_check": {
+        "date": "2026-10-25",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "qdrant/qdrant",
+        "renamed_from": null,
+        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "published",
+        "message_id": 10,
+        "url": "https://t.me/open_arsenal/10",
+        "published_at": "2026-10-29T07:04:30.637Z",
+        "delivery_history_checked_at": "2026-10-29",
+        "delivery_history_note": "Один POST через свежий publish_telegram.py с просмотренным PNG 893322 байта. Перед POST GET: can_publish=true, Qdrant/постов29.10 не было; owner-private. Коннектор вернул published /10. Оба PNG архивированы до отправки."
+      },
+      "research_date": "2026-10-29",
+      "verification_level": "documentation",
+      "catalog_status": "reviewing",
+      "card_path": "cards/qdrant--qdrant.md",
+      "post_path": "posts/2026-10-29_qdrant--qdrant.md",
+      "research_note": "Qdrant сравнен с Chroma и pgvector; documentation, без установки и пилота. Модель/ресурсы не выбраны. PNG создан и просмотрен; архивирование проверяется до отправки. Архивирование обоих PNG подтверждено UI до отправки. Подтверждён один POST, /10; внедрение не подтверждено."
+    },
+    {
+      "id": "2026-10-29-pm",
+      "date": "2026-10-29",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "agents_rag",
+      "topic": "Локальная языковая модель",
+      "repository": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "vittora_benefit": "Изучить локальную обработку тегов и коротких текстовых задач",
+      "post_angle": "Простыми словами: изучить локальную обработку тегов и коротких текстовых задач. Объяснить преимущества, требования и когда инструмент не подходит.",
+      "pilot": "На 10 вопросах/материалах проверить правильность и источники; зафиксировать время и ресурсы.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Локальная языковая модель. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "published",
+      "metadata_check": {
+        "date": "2026-10-25",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "ggml-org/llama.cpp",
+        "renamed_from": null,
+        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "published",
+        "message_id": 11,
+        "url": "https://t.me/open_arsenal/11",
+        "published_at": "2026-10-29T15:02:25.448Z",
+        "delivery_history_checked_at": "2026-10-29",
+        "delivery_history_note": "Owner-private Site; оба GET перед POST: can_publish=true, 1 пост сегодня, llama.cpp отсутствовал. Один POST свежим publish_telegram.py с просмотренным PNG 857128 байт, обе версии архивированы до отправки; connector returned published /11. Повторного POST нет."
+      },
+      "research_date": "2026-10-29",
+      "verification_level": "documentation",
+      "catalog_status": "reviewing",
+      "card_path": "cards/ggml-org--llama.cpp.md",
+      "post_path": "posts/2026-10-29_ggml-org--llama.cpp.md",
+      "research_note": "Сравнение llama.cpp/Ollama/LocalAI; documentation, без модели/машины/пилота. Новый PNG из встроенного генератора, оригинал и delivery просмотрены и архивированы на Яндекс Диске. Ожидается один POST, не внедрение. Один POST подтверждён /11, message_id=11; 2 успешных поста 29.10. Пилота нет."
     }
   ],
-  "archived_at": "2026-10-29",
+  "archived_at": "2026-10-30",
   "note": "Слоты вышли из активного горизонта. Блокировки и факты сохранены; не переносить пачкой."
 }
