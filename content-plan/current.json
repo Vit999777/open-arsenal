@@ -100,7 +100,7 @@
       "post_angle": "Простыми словами: проверить формы, контраст и семантику интерфейса. Объяснить преимущества, требования и когда инструмент не подходит.",
       "pilot": "На одной странице тестовой копии измерить ошибки до/после; не менять production без проверки.",
       "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Доступность сайта. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "planned_research",
+      "status": "blocked",
       "metadata_check": {
         "date": "2026-10-25",
         "exists": true,
@@ -121,9 +121,48 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
+        "status": "blocked",
         "message_id": null,
-        "url": null
-      }
+        "url": null,
+        "blocker": "PNG создан и визуально проверен. При вызове выбора файлов/загрузки Яндекс Диска cua_repl завершился таймаутом 300s; последующая read-only сверка также timeout300s. Завершение загрузки/наличие двух PNG не подтверждено. POST не выполнялся. Доступ к папке/19,2МБ из5ГБ до попытки был; это не отказ квоты. Google Drive quota не объявлена восстановленной, загрузку не повторяли.",
+        "delivery_history_checked_at": "2026-10-30",
+        "delivery_history_note": "Оба GET через owner-private Site: can_publish=true, 1 успешный пост за московский день (Lighthouse /12), axe-core отсутствует. Это разрешение, не подтверждение отправки."
+      },
+      "research_date": "2026-10-30",
+      "verification_level": "documentation",
+      "catalog_status": "reviewing",
+      "card_path": "cards/dequelabs--axe-core.md",
+      "post_path": "posts/2026-10-30_dequelabs--axe-core.md",
+      "illustration": {
+        "generation_method": "chat_builtin_image_gen",
+        "visually_reviewed": true,
+        "status": "archive_unconfirmed",
+        "archive_provider": "yandex_disk",
+        "intended_folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+        "archive_verified_at": null,
+        "archive_note": "Сохранение этих файлов не подтверждено; пути ниже целевые, размеры/хеши локальные. Нет verified backup.",
+        "original": {
+          "name": "2026-10-30_dequelabs--axe-core_poster-v1.png",
+          "path": "VITTORA/open-arsenal/2026-10-30_dequelabs--axe-core_poster-v1.png",
+          "size_bytes": 2108715,
+          "sha256": "e0295d108e10f57bc2c500fba6595b49b151f9fdcd6677141d3f886b4aab1c7c",
+          "dimensions": [
+            1254,
+            1254
+          ]
+        },
+        "delivery": {
+          "name": "2026-10-30_dequelabs--axe-core_poster-v1-delivery.png",
+          "path": "VITTORA/open-arsenal/2026-10-30_dequelabs--axe-core_poster-v1-delivery.png",
+          "size_bytes": 890974,
+          "sha256": "f70793495c922c193cff89b0280771b3cb14ae60678187016a4d26b8f76f1621",
+          "dimensions": [
+            800,
+            800
+          ]
+        }
+      },
+      "research_note": "axe-core сравнен с Pa11y/HTML_CodeSniffer. Документация, без установки/пилота. Новый PNG просмотрен; архивирование не подтверждено из-за timeout браузера. POST не выполнялся. План 30.10–28.11 не сдвигался."
     },
     {
       "id": "2026-10-31-am",
