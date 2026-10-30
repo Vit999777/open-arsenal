@@ -669,9 +669,12 @@
     "card_path": "cards/googlechrome--lighthouse.md",
     "post_path": "posts/2026-10-30_googlechrome--lighthouse.md",
     "publication": {
-      "status": "draft",
-      "message_id": null,
-      "url": null
+      "status": "published",
+      "message_id": 12,
+      "url": "https://t.me/open_arsenal/12",
+      "published_at": "2026-10-30T07:06:43.133Z",
+      "delivery_history_checked_at": "2026-10-30",
+      "delivery_history_note": "Owner-private Site; перед POST оба GET: can_publish=true, Lighthouse отсутствует, сегодня 0 публикаций. Один POST свежим scripts/publish_telegram.py с reviewed PNG 793070 байт; обе версии архивированы на Яндекс Диске до отправки. Коннектор вернул published /12; повторного POST нет."
     },
     "illustration": {
       "generation_method": "chat_builtin_image_gen",
