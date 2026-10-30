@@ -630,5 +630,77 @@
         ]
       }
     }
+  },
+  {
+    "id": "googlechrome-lighthouse",
+    "url": "https://github.com/GoogleChrome/lighthouse",
+    "title": "Lighthouse — понять, что тормозит сайт",
+    "direction": "website_journal",
+    "status": "reviewing",
+    "concrete_problem": "Выбрать измеримую проблему загрузки страницы музыки с трейлерами VITTORA.",
+    "application_example": "Тестовая копия страницы музыки: исходный отчёт → одна правка → одинаковые серии замеров. Польза пока сценарная.",
+    "first_pilot": "5 прогонов до/после одной правки в тестовой копии; фиксировать версии/машину/сеть/кэш. Ответственный по сайту не назначен. 60 минут, 0 ₽ новых услуг; production не менять; откат к исходному commit.",
+    "success_metric": "Редакционный критерий: медиана LCP ниже >=10%, CLS не выше исходного, все видимые плееры проходят ручную проверку. Сохранить диапазон LCP/CLS/TBT и отчёты. Результатов нет.",
+    "requirements_and_costs": "DevTools Chrome для первого отчёта; CLI Node>=22.19 и Chrome. Apache-2.0, платные API/хостинг/модель не обязательны. Оборудование, сеть, электричество, диск и труд; полная сумма/RAM/CPU/время неизвестны.",
+    "limitations": "Лабораторные баллы зависят от окружения; не заменяет пользовательскую статистику, полный аудит доступности/SEO, просмотр и проверку плееров. Не исправляет сайт. Нет пилота и аудита зависимостей.",
+    "license_review": "Код Apache-2.0: notices/лицензия/отметки изменений при распространении. Зависимости отдельно; AI-моделей нет. axe-core MPL-2.0, Sitespeed.io MIT.",
+    "comparison": "Сравнены README/LICENSE/package.json/releases/issues Lighthouse, axe-core и Sitespeed.io. Lighthouse: общий разовый отчёт прямо в Chrome; axe-core: специализация на доступности, интеграция JS в тесты; Sitespeed.io: расширенные браузерные серии/видео/мониторинг, больше настройки. Текущий визуальный/структурный просмотр дополняется числами; преимущество точности/экономии не измерено.",
+    "verification_level": "documentation",
+    "verification_date": "2026-10-30",
+    "readme_source": "https://github.com/GoogleChrome/lighthouse/blob/main/readme.md",
+    "license_source": "https://github.com/GoogleChrome/lighthouse/blob/main/LICENSE",
+    "requirements_source": "https://github.com/GoogleChrome/lighthouse/blob/main/package.json",
+    "release_source": "https://github.com/GoogleChrome/lighthouse/releases/tag/v13.6.0",
+    "issues_sources": [
+      "https://github.com/GoogleChrome/lighthouse/issues/17435",
+      "https://github.com/GoogleChrome/lighthouse/issues/17438"
+    ],
+    "alternatives": [
+      "https://github.com/dequelabs/axe-core",
+      "https://github.com/sitespeedio/sitespeed.io"
+    ],
+    "gaps": [
+      "Нет установки/пилота",
+      "Не выбрана машина/исполнитель",
+      "Полные затраты и ресурсы не измерены",
+      "Нет полного аудита зависимостей"
+    ],
+    "score_note": "reviewing; неизвестные осуществимость/полная стоимость не заменены выдуманным баллом.",
+    "card_path": "cards/googlechrome--lighthouse.md",
+    "post_path": "posts/2026-10-30_googlechrome--lighthouse.md",
+    "publication": {
+      "status": "draft",
+      "message_id": null,
+      "url": null
+    },
+    "illustration": {
+      "generation_method": "chat_builtin_image_gen",
+      "visually_reviewed": true,
+      "status": "archived",
+      "archive_provider": "yandex_disk",
+      "folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+      "verified_at": "2026-10-30",
+      "verification": "UI: Все файлы загружены, обе версии видны; SHA-256 локальный. Это архив PNG, не проверенный резерв; обратного скачивания/восстановления не было.",
+      "original": {
+        "name": "2026-10-30_googlechrome--lighthouse_poster-v1.png",
+        "size_bytes": 1948070,
+        "sha256": "1c54d83092a6b104764044bc994c7bf65ee00f45178cabe044c3e827d6bf8ab6",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "path": "VITTORA/open-arsenal/2026-10-30_googlechrome--lighthouse_poster-v1.png"
+      },
+      "delivery": {
+        "name": "2026-10-30_googlechrome--lighthouse_poster-v1-delivery.png",
+        "size_bytes": 793070,
+        "sha256": "4fa4f23004ca4a90a4be423dd35eecd249c6f0f99ac174b1994328f78b709094",
+        "dimensions": [
+          800,
+          800
+        ],
+        "path": "VITTORA/open-arsenal/2026-10-30_googlechrome--lighthouse_poster-v1-delivery.png"
+      }
+    }
   }
 ]
