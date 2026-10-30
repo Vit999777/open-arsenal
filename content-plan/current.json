@@ -23,7 +23,7 @@
       "post_angle": "Простыми словами: найти измеримые проблемы одной страницы сайта. Объяснить преимущества, требования и когда инструмент не подходит.",
       "pilot": "На одной странице тестовой копии измерить ошибки до/после; не менять production без проверки.",
       "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Скорость и качество страниц. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "draft",
+      "status": "published",
       "metadata_check": {
         "date": "2026-10-25",
         "exists": true,
@@ -44,9 +44,12 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
-        "status": "draft",
-        "message_id": null,
-        "url": null
+        "status": "published",
+        "message_id": 12,
+        "url": "https://t.me/open_arsenal/12",
+        "published_at": "2026-10-30T07:06:43.133Z",
+        "delivery_history_checked_at": "2026-10-30",
+        "delivery_history_note": "Owner-private Site; перед POST оба GET: can_publish=true, Lighthouse отсутствует, сегодня 0 публикаций. Один POST свежим scripts/publish_telegram.py с reviewed PNG 793070 байт; обе версии архивированы на Яндекс Диске до отправки. Коннектор вернул published /12; повторного POST нет."
       },
       "research_date": "2026-10-30",
       "verification_level": "documentation",
@@ -82,7 +85,7 @@
           "path": "VITTORA/open-arsenal/2026-10-30_googlechrome--lighthouse_poster-v1-delivery.png"
         }
       },
-      "research_note": "Сравнены Lighthouse/axe-core/Sitespeed.io. Только документация; новый PNG просмотрен и архивирован, ожидается одна отправка."
+      "research_note": "Сравнены Lighthouse/axe-core/Sitespeed.io; documentation, без установки/пилота. Новый PNG из встроенного генератора; обе версии просмотрены и архивированы до отправки. Один POST подтверждён /12, message_id=12; обзор не означает внедрения."
     },
     {
       "id": "2026-10-30-pm",
