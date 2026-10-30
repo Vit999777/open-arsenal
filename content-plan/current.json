@@ -1,8 +1,8 @@
 {
-  "title": "Контент-план: 29 октября — 27 ноября 2026",
+  "title": "Контент-план: 30 октября — 28 ноября 2026",
   "created_at": "2026-10-25",
-  "start_date": "2026-10-29",
-  "end_date": "2026-11-27",
+  "start_date": "2026-10-30",
+  "end_date": "2026-11-28",
   "timezone": "Europe/Moscow",
   "slots_per_day": 2,
   "timing_mode": "flexible_schedule",
@@ -10,102 +10,6 @@
   "policy": "План исследований, а не список одобренных рекомендаций. Кандидата можно заменить с записью причины; не отправлять неподтверждённый материал ради календаря. Опубликованные URL не повторять.",
   "known_blocker": "Google Drive quota не объявлена восстановленной; Яндекс Диск принимает проверенные PNG. Pandoc: исходник и delivery архивированы 28.10; у каждого будущего обзора нужен свой PNG.",
   "slots": [
-    {
-      "id": "2026-10-29-am",
-      "date": "2026-10-29",
-      "time": "10:00",
-      "timezone": "Europe/Moscow",
-      "direction": "agents_rag",
-      "topic": "Поиск по знаниям VITTORA",
-      "repository": "qdrant/qdrant",
-      "url": "https://github.com/qdrant/qdrant",
-      "vittora_benefit": "Оценить векторный поиск по материалам проекта",
-      "post_angle": "Простыми словами: оценить векторный поиск по материалам проекта. Объяснить преимущества, требования и когда инструмент не подходит.",
-      "pilot": "На 10 вопросах/материалах проверить правильность и источники; зафиксировать время и ресурсы.",
-      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Поиск по знаниям VITTORA. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "published",
-      "metadata_check": {
-        "date": "2026-10-25",
-        "exists": true,
-        "archived": false,
-        "canonical_repository": "qdrant/qdrant",
-        "renamed_from": null,
-        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
-      },
-      "required_before_publication": [
-        "README",
-        "LICENSE и условия моделей/зависимостей",
-        "требования и расходы",
-        "сравнение с альтернативой",
-        "индивидуальный разбор",
-        "изображение из встроенного генератора чата",
-        "архивирование изображения в Google Drive или Яндекс Диске",
-        "визуальная проверка",
-        "дедупликация каталога и Telegram"
-      ],
-      "publication": {
-        "status": "published",
-        "message_id": 10,
-        "url": "https://t.me/open_arsenal/10",
-        "published_at": "2026-10-29T07:04:30.637Z",
-        "delivery_history_checked_at": "2026-10-29",
-        "delivery_history_note": "Один POST через свежий publish_telegram.py с просмотренным PNG 893322 байта. Перед POST GET: can_publish=true, Qdrant/постов29.10 не было; owner-private. Коннектор вернул published /10. Оба PNG архивированы до отправки."
-      },
-      "research_date": "2026-10-29",
-      "verification_level": "documentation",
-      "catalog_status": "reviewing",
-      "card_path": "cards/qdrant--qdrant.md",
-      "post_path": "posts/2026-10-29_qdrant--qdrant.md",
-      "research_note": "Qdrant сравнен с Chroma и pgvector; documentation, без установки и пилота. Модель/ресурсы не выбраны. PNG создан и просмотрен; архивирование проверяется до отправки. Архивирование обоих PNG подтверждено UI до отправки. Подтверждён один POST, /10; внедрение не подтверждено."
-    },
-    {
-      "id": "2026-10-29-pm",
-      "date": "2026-10-29",
-      "time": "18:00",
-      "timezone": "Europe/Moscow",
-      "direction": "agents_rag",
-      "topic": "Локальная языковая модель",
-      "repository": "ggml-org/llama.cpp",
-      "url": "https://github.com/ggml-org/llama.cpp",
-      "vittora_benefit": "Изучить локальную обработку тегов и коротких текстовых задач",
-      "post_angle": "Простыми словами: изучить локальную обработку тегов и коротких текстовых задач. Объяснить преимущества, требования и когда инструмент не подходит.",
-      "pilot": "На 10 вопросах/материалах проверить правильность и источники; зафиксировать время и ресурсы.",
-      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Локальная языковая модель. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "published",
-      "metadata_check": {
-        "date": "2026-10-25",
-        "exists": true,
-        "archived": false,
-        "canonical_repository": "ggml-org/llama.cpp",
-        "renamed_from": null,
-        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
-      },
-      "required_before_publication": [
-        "README",
-        "LICENSE и условия моделей/зависимостей",
-        "требования и расходы",
-        "сравнение с альтернативой",
-        "индивидуальный разбор",
-        "изображение из встроенного генератора чата",
-        "архивирование изображения в Google Drive или Яндекс Диске",
-        "визуальная проверка",
-        "дедупликация каталога и Telegram"
-      ],
-      "publication": {
-        "status": "published",
-        "message_id": 11,
-        "url": "https://t.me/open_arsenal/11",
-        "published_at": "2026-10-29T15:02:25.448Z",
-        "delivery_history_checked_at": "2026-10-29",
-        "delivery_history_note": "Owner-private Site; оба GET перед POST: can_publish=true, 1 пост сегодня, llama.cpp отсутствовал. Один POST свежим publish_telegram.py с просмотренным PNG 857128 байт, обе версии архивированы до отправки; connector returned published /11. Повторного POST нет."
-      },
-      "research_date": "2026-10-29",
-      "verification_level": "documentation",
-      "catalog_status": "reviewing",
-      "card_path": "cards/ggml-org--llama.cpp.md",
-      "post_path": "posts/2026-10-29_ggml-org--llama.cpp.md",
-      "research_note": "Сравнение llama.cpp/Ollama/LocalAI; documentation, без модели/машины/пилота. Новый PNG из встроенного генератора, оригинал и delivery просмотрены и архивированы на Яндекс Диске. Ожидается один POST, не внедрение. Один POST подтверждён /11, message_id=11; 2 успешных поста 29.10. Пилота нет."
-    },
     {
       "id": "2026-10-30-am",
       "date": "2026-10-30",
@@ -119,7 +23,7 @@
       "post_angle": "Простыми словами: найти измеримые проблемы одной страницы сайта. Объяснить преимущества, требования и когда инструмент не подходит.",
       "pilot": "На одной странице тестовой копии измерить ошибки до/после; не менять production без проверки.",
       "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Скорость и качество страниц. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "planned_research",
+      "status": "draft",
       "metadata_check": {
         "date": "2026-10-25",
         "exists": true,
@@ -140,9 +44,45 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
+        "status": "draft",
         "message_id": null,
         "url": null
-      }
+      },
+      "research_date": "2026-10-30",
+      "verification_level": "documentation",
+      "catalog_status": "reviewing",
+      "card_path": "cards/googlechrome--lighthouse.md",
+      "post_path": "posts/2026-10-30_googlechrome--lighthouse.md",
+      "illustration": {
+        "generation_method": "chat_builtin_image_gen",
+        "visually_reviewed": true,
+        "status": "archived",
+        "archive_provider": "yandex_disk",
+        "folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+        "verified_at": "2026-10-30",
+        "verification": "UI: Все файлы загружены, обе версии видны; SHA-256 локальный. Это архив PNG, не проверенный резерв; обратного скачивания/восстановления не было.",
+        "original": {
+          "name": "2026-10-30_googlechrome--lighthouse_poster-v1.png",
+          "size_bytes": 1948070,
+          "sha256": "1c54d83092a6b104764044bc994c7bf65ee00f45178cabe044c3e827d6bf8ab6",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "path": "VITTORA/open-arsenal/2026-10-30_googlechrome--lighthouse_poster-v1.png"
+        },
+        "delivery": {
+          "name": "2026-10-30_googlechrome--lighthouse_poster-v1-delivery.png",
+          "size_bytes": 793070,
+          "sha256": "4fa4f23004ca4a90a4be423dd35eecd249c6f0f99ac174b1994328f78b709094",
+          "dimensions": [
+            800,
+            800
+          ],
+          "path": "VITTORA/open-arsenal/2026-10-30_googlechrome--lighthouse_poster-v1-delivery.png"
+        }
+      },
+      "research_note": "Сравнены Lighthouse/axe-core/Sitespeed.io. Только документация; новый PNG просмотрен и архивирован, ожидается одна отправка."
     },
     {
       "id": "2026-10-30-pm",
@@ -2299,6 +2239,58 @@
         "визуальная проверка",
         "дедупликация каталога и Telegram"
       ],
+      "publication": {
+        "message_id": null,
+        "url": null
+      }
+    },
+    {
+      "id": "2026-11-28-am",
+      "date": "2026-11-28",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "reliability",
+      "topic": "HTTP-запросы к сервисам",
+      "repository": "psf/requests",
+      "url": "https://github.com/psf/requests",
+      "vittora_benefit": "Оценить понятные запросы и обработку ошибок в редакционных скриптах",
+      "post_angle": "Объяснить задачу, требования и ограничения простыми словами; не выдавать план за рекомендацию.",
+      "pilot": "На локальном тестовом endpoint проверить 5 ответов/ошибок без секретов; зафиксировать timeout и отсутствие повторов записи.",
+      "illustration_brief": "Уникальная иллюстрация для psf/requests в графите, бронзе и слоновой кости. Без выдуманных результатов.",
+      "status": "planned_research",
+      "metadata_check": {
+        "date": "2026-10-30",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "psf/requests",
+        "scope": "Только существование и отсутствие архива через GitHub; содержания/лицензии/запуска не проверяли."
+      },
+      "publication": {
+        "message_id": null,
+        "url": null
+      }
+    },
+    {
+      "id": "2026-11-28-pm",
+      "date": "2026-11-28",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "reliability",
+      "topic": "Проверка скриптов редакции",
+      "repository": "pytest-dev/pytest",
+      "url": "https://github.com/pytest-dev/pytest",
+      "vittora_benefit": "Оценить тестирование дедупликации и валидации",
+      "post_angle": "Объяснить задачу, требования и ограничения простыми словами; не выдавать план за рекомендацию.",
+      "pilot": "Проверить валидатор на 5 искусственных карточках и ожидаемых ошибках; не запускать внешние отправки.",
+      "illustration_brief": "Уникальная иллюстрация для pytest-dev/pytest в графите, бронзе и слоновой кости. Без выдуманных результатов.",
+      "status": "planned_research",
+      "metadata_check": {
+        "date": "2026-10-30",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "pytest-dev/pytest",
+        "scope": "Только существование и отсутствие архива через GitHub; содержания/лицензии/запуска не проверяли."
+      },
       "publication": {
         "message_id": null,
         "url": null
