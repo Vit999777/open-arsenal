@@ -49,3 +49,5 @@
 
 29.10, вечер: llama.cpp опубликован /11 с новым PNG; оригинал и delivery подтверждены в Яндекс Диске. Documentation/reviewing, модель и машина не выбраны, пилота нет. Горизонт 29.10–27.11 сохранён, 60 уникальных слотов. Два успешных поста за московский день; накопленные черновики не отправлялись.
 
+
+| [restic](https://github.com/restic/restic) | Восстановление исходников сериала из версии архива | Документация 31.10, BSD-2-Clause, v0.19.1/requirements/issues; сравнение Borg/Kopia; reviewing, пилота нет | [Разбор](cards/restic--restic.md) · [Черновик](posts/2026-10-31_restic--restic.md) · blocked: архив PNG не подтверждён, filechooser timeout; поста нет |
