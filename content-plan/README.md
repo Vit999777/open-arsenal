@@ -6,7 +6,7 @@
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-10-31 | **Резервные копии с проверкой восстановления** · reliability<br>[restic/restic](https://github.com/restic/restic) · blocked · [Разбор](../cards/restic--restic.md) · [Текст](../posts/2026-10-31_restic--restic.md) · архив PNG не подтверждён | **Контроль доступности** · reliability<br>[louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) · planned_research |
+| 2026-10-31 | **Резервные копии с проверкой восстановления** · reliability<br>[restic/restic](https://github.com/restic/restic) · blocked · [Разбор](../cards/restic--restic.md) · [Текст](../posts/2026-10-31_restic--restic.md) · архив PNG не подтверждён | **Контроль доступности** · reliability<br>[louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) · blocked · [Разбор](../cards/louislam--uptime-kuma.md) · [Текст](../posts/2026-10-31_louislam--uptime-kuma.md) · архив PNG не подтверждён |
 | 2026-11-01 | **Удобная правка субтитров** · video<br>[SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit) · planned_research | **Расшифровка озвучки** · book_audio<br>[SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) · planned_research |
 | 2026-11-02 | **Снижение фонового шума** · music<br>[Rikorose/DeepFilterNet](https://github.com/Rikorose/DeepFilterNet) · planned_research | **Сборка аудиофрагментов** · music<br>[jiaaro/pydub](https://github.com/jiaaro/pydub) · planned_research |
 | 2026-11-03 | **Редактура EPUB** · book_audio<br>[Sigil-Ebook/Sigil](https://github.com/Sigil-Ebook/Sigil) · planned_research | **Документы из HTML** · book_audio<br>[Kozea/WeasyPrint](https://github.com/Kozea/WeasyPrint) · planned_research |
@@ -38,3 +38,5 @@
 | 2026-11-29 | **Проверка Python-скриптов** · reliability<br>[astral-sh/ruff](https://github.com/astral-sh/ruff) · planned_research | **Повторяемая среда Python** · reliability<br>[astral-sh/uv](https://github.com/astral-sh/uv) · planned_research |
 
 restic: PNG создан и просмотрен; выбор файла Яндекс Диска недоступен, загрузка не подтверждена, POST не выполнялся. Это не отказ квоты. Google Drive не объявлен восстановленным. Новые кандидаты 29.11 проверены только по GitHub metadata 31.10; прочее требует исследования. Полные факты слотов сохраняются в JSON и истории.
+
+31.10, вечер: Uptime Kuma проверен по документации, сопоставлен с Gatus и Healthchecks. PNG создан встроенным image_gen и просмотрен (исходник + delivery); filechooser Яндекс Диска timeout 10000 мс, загрузка не началась. POST не выполнялся. 60 слотов 31.10–29.11 сохранены; квота Google Drive не перепроверялась без признаков восстановления.
