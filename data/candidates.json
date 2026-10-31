@@ -858,5 +858,76 @@
         ]
       }
     }
+  },
+  {
+    "url": "https://github.com/louislam/uptime-kuma",
+    "status": "reviewing",
+    "direction": "reliability",
+    "verification_level": "documentation",
+    "verification_date": "2026-10-31",
+    "concrete_problem": "Нет подтверждённой постоянной истории доступности главной, музыки и журнала VITTORA.",
+    "application_example": "На отдельной машине проверять HTTP и нужное слово в ответах трёх публичных страниц; не считать это проверкой плеера/формы.",
+    "first_pilot": "На тестовом endpoint 3 цикла 200→503→200 и один 200 без слова, интервал 60 секунд; 24 часа на выбранной отдельной машине, бюджет/исполнитель пока не определены. Production не отключать; откат остановкой монитора.",
+    "success_metric": "Редакционный критерий: 3/3 отказов и восстановлений + пропавшее слово отражены в журнале, задержка <=120 сек при 60-секундном интервале; измерить RAM/CPU/диск и ложные тревоги. Это цель, не результат.",
+    "requirements_and_costs": "Docker с локальным volume либо Linux/Windows + Git/pm2/Node >=20.4 для 2.5.8. Master 3.0.0-beta.0 уже требует Node >=26.2.0. NFS не поддержан. Код без лицензионной платы MIT; оборудование, электричество, сеть, хостинг, резерв данных, время администратора и уведомления — отдельные расходы, точная сумма/RAM неизвестны. GPU/моделей/платных API для HTTP-пилота не требуется.",
+    "limitations": "HTTP/Keyword не проверяют плеер/форму; отдельная наблюдающая машина нужна. Issue #8078 сообщает о пустой status page 2.5.8, не воспроизведено. Release содержит security fix и убирает TLS из TCP monitor; MariaDB #8084/Push #8087 требуют внимания. Нагрузки/доставки не проверены.",
+    "license_review": "MIT LICENSE прочитан: сохранять copyright и permission notice, гарантий нет. Зависимости отдельно, полный аудит не выполнен.",
+    "comparison": "Kuma: экран настройки; Gatus: условия в YAML, Apache-2.0, Go1.26.3 для текущей сборки/Docker; Healthchecks: сигналы выполнения расписаний, BSD-3-Clause, Python3.12+/Django/БД. Текущие ручные проверки не дают постоянной истории; сравнительный пилот не выполнен.",
+    "readme_source": "https://github.com/louislam/uptime-kuma/blob/master/README.md",
+    "license_source": "https://github.com/louislam/uptime-kuma/blob/master/LICENSE",
+    "sources": [
+      "https://github.com/louislam/uptime-kuma/blob/master/README.md",
+      "https://github.com/louislam/uptime-kuma/blob/master/LICENSE",
+      "https://github.com/louislam/uptime-kuma/blob/2.5.8/package.json",
+      "https://github.com/louislam/uptime-kuma/releases/tag/2.5.8",
+      "https://github.com/louislam/uptime-kuma/issues/8078",
+      "https://github.com/louislam/uptime-kuma/issues/8084",
+      "https://github.com/louislam/uptime-kuma/issues/8087"
+    ],
+    "alternatives": [
+      "TwiN/gatus",
+      "healthchecks/healthchecks"
+    ],
+    "score_note": "Не присвоены оценки готовности: машина, бюджет и пилот не определены; reviewing.",
+    "card_path": "cards/louislam--uptime-kuma.md",
+    "post_path": "posts/2026-10-31_louislam--uptime-kuma.md",
+    "illustration": {
+      "provider": "chat_builtin_image_gen",
+      "created_at": "2026-10-31",
+      "reviewed": true,
+      "reviewed_at": "2026-10-31",
+      "review_note": "Исходник в выводе imagegen и delivery через view_image: заголовок/подзаголовок/подвал читаемы, текст не обрезан; концептуальный ноутбук/медведь/индикатор соответствуют задаче, без измерений или обещаний.",
+      "archive_status": "blocked",
+      "archive_provider": null,
+      "intended_archive_provider": "yandex_disk",
+      "intended_archive_path": "VITTORA/open-arsenal",
+      "archive_url": null,
+      "blocker": "PNG создан встроенным image_gen и обе версии просмотрены. Яндекс Диск доступен: VITTORA/open-arsenal, 27,6 МБ из 5 ГБ, дублей Uptime Kuma нет. Кнопка «Загрузить» не открыла поддерживаемый filechooser за 10000 мс; setFiles не вызывался, загрузка не началась, архив не подтверждён. Это таймаут выбора файла, не квота. Google Drive не объявлен восстановленным. POST не выполнялся.",
+      "files": [
+        {
+          "name": "2026-10-31_louislam--uptime-kuma_poster-v1.png",
+          "size_bytes": 1733827,
+          "sha256": "f9d38cd05419d6dcadaa5eff0e561b741809062425ce6f07f08829bffd793109",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "name": "2026-10-31_louislam--uptime-kuma_poster-v1-delivery.png",
+          "size_bytes": 434768,
+          "sha256": "b405b41988e92ada81414bf6feb98fc044a842fc8c90217f3710f171657762be",
+          "width": 960,
+          "height": 960
+        }
+      ]
+    },
+    "publication": {
+      "status": "blocked",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "blocker": "PNG создан встроенным image_gen и обе версии просмотрены. Яндекс Диск доступен: VITTORA/open-arsenal, 27,6 МБ из 5 ГБ, дублей Uptime Kuma нет. Кнопка «Загрузить» не открыла поддерживаемый filechooser за 10000 мс; setFiles не вызывался, загрузка не началась, архив не подтверждён. Это таймаут выбора файла, не квота. Google Drive не объявлен восстановленным. POST не выполнялся.",
+      "delivery_history_checked_at": "2026-10-31",
+      "delivery_history_note": "get_site owner-private: custom, только owner, внешних посетителей 0. GET status can_publish=true, channel open_arsenal. GET publish: последний Lighthouse /12 от 30.10; 0 успешных постов 31.10, Uptime Kuma нет. POST не выполнялся."
+    }
   }
 ]
