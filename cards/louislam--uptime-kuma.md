@@ -69,3 +69,9 @@
 - [Healthchecks README](https://github.com/healthchecks/healthchecks/blob/master/README.md), LICENSE BSD-3-Clause, requirements.txt, [v5.0.3](https://github.com/healthchecks/healthchecks/releases/tag/v5.0.3), [issue 1360](https://github.com/healthchecks/healthchecks/issues/1360): запрос обязательной 2FA для участников, не подтверждение отсутствия иной защиты.
 - scripts/inspect_repo.py применён только для метаданных. Звёзды не использованы как доказательство качества.
 Пробелы: машина и бюджет не выбраны, уведомления и нагрузка не проверены; нет результатов доступности VITTORA, экономии или дохода.
+
+## Состояние выпуска и PNG
+
+PNG создан встроенным image_gen и обе версии просмотрены. Яндекс Диск доступен: VITTORA/open-arsenal, 27,6 МБ из 5 ГБ, дублей Uptime Kuma нет. Кнопка «Загрузить» не открыла поддерживаемый filechooser за 10000 мс; setFiles не вызывался, загрузка не началась, архив не подтверждён. Это таймаут выбора файла, не квота. Google Drive не объявлен восстановленным. POST не выполнялся.
+
+Подпись и размеры/SHA-256 обоих PNG сохранены в [черновике](../posts/2026-10-31_louislam--uptime-kuma.md). Архивного URL нет; публикация blocked, message_id/URL/published_at отсутствуют. Оба GET выполнены: can_publish=true, за 31.10 успешных постов нет, кандидат отсутствует в журнале. Таймаут выбора файлов временный; другие публикации/расписания не менялись.
