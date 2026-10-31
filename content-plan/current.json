@@ -71,14 +71,14 @@
       "post_angle": "Простыми словами: получать свидетельства доступности сайта и важных страниц. Объяснить преимущества, требования и когда инструмент не подходит.",
       "pilot": "На тестовой копии проверить один отказ/восстановление; записать время и доказательство, production не останавливать.",
       "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Контроль доступности. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "planned_research",
+      "status": "blocked",
       "metadata_check": {
-        "date": "2026-10-25",
+        "date": "2026-10-31",
         "exists": true,
         "archived": false,
         "canonical_repository": "louislam/uptime-kuma",
         "renamed_from": null,
-        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+        "scope": "README/LICENSE/package.json stable+master/release/issues; documentation, запуск не выполнен."
       },
       "required_before_publication": [
         "README",
@@ -92,9 +92,19 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
+        "status": "blocked",
         "message_id": null,
-        "url": null
-      }
+        "url": null,
+        "published_at": null,
+        "blocker": "PNG создан встроенным image_gen и обе версии просмотрены. Яндекс Диск доступен: VITTORA/open-arsenal, 27,6 МБ из 5 ГБ, дублей Uptime Kuma нет. Кнопка «Загрузить» не открыла поддерживаемый filechooser за 10000 мс; setFiles не вызывался, загрузка не началась, архив не подтверждён. Это таймаут выбора файла, не квота. Google Drive не объявлен восстановленным. POST не выполнялся.",
+        "delivery_history_checked_at": "2026-10-31",
+        "delivery_history_note": "get_site owner-private: custom, только owner, внешних посетителей 0. GET status can_publish=true, channel open_arsenal. GET publish: последний Lighthouse /12 от 30.10; 0 успешных постов 31.10, Uptime Kuma нет. POST не выполнялся."
+      },
+      "card_path": "cards/louislam--uptime-kuma.md",
+      "post_path": "posts/2026-10-31_louislam--uptime-kuma.md",
+      "verification_date": "2026-10-31",
+      "verification_level": "documentation",
+      "blocker": "PNG создан встроенным image_gen и обе версии просмотрены. Яндекс Диск доступен: VITTORA/open-arsenal, 27,6 МБ из 5 ГБ, дублей Uptime Kuma нет. Кнопка «Загрузить» не открыла поддерживаемый filechooser за 10000 мс; setFiles не вызывался, загрузка не началась, архив не подтверждён. Это таймаут выбора файла, не квота. Google Drive не объявлен восстановленным. POST не выполнялся."
     },
     {
       "id": "2026-11-01-am",
