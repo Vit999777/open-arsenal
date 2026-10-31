@@ -422,6 +422,160 @@
       "card_path": "cards/ggml-org--llama.cpp.md",
       "post_path": "posts/2026-10-29_ggml-org--llama.cpp.md",
       "research_note": "Сравнение llama.cpp/Ollama/LocalAI; documentation, без модели/машины/пилота. Новый PNG из встроенного генератора, оригинал и delivery просмотрены и архивированы на Яндекс Диске. Ожидается один POST, не внедрение. Один POST подтверждён /11, message_id=11; 2 успешных поста 29.10. Пилота нет."
+    },
+    {
+      "id": "2026-10-30-am",
+      "date": "2026-10-30",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "website_journal",
+      "topic": "Скорость и качество страниц",
+      "repository": "GoogleChrome/lighthouse",
+      "url": "https://github.com/GoogleChrome/lighthouse",
+      "vittora_benefit": "Найти измеримые проблемы одной страницы сайта",
+      "post_angle": "Простыми словами: найти измеримые проблемы одной страницы сайта. Объяснить преимущества, требования и когда инструмент не подходит.",
+      "pilot": "На одной странице тестовой копии измерить ошибки до/после; не менять production без проверки.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Скорость и качество страниц. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "published",
+      "metadata_check": {
+        "date": "2026-10-25",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "GoogleChrome/lighthouse",
+        "renamed_from": null,
+        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "published",
+        "message_id": 12,
+        "url": "https://t.me/open_arsenal/12",
+        "published_at": "2026-10-30T07:06:43.133Z",
+        "delivery_history_checked_at": "2026-10-30",
+        "delivery_history_note": "Owner-private Site; перед POST оба GET: can_publish=true, Lighthouse отсутствует, сегодня 0 публикаций. Один POST свежим scripts/publish_telegram.py с reviewed PNG 793070 байт; обе версии архивированы на Яндекс Диске до отправки. Коннектор вернул published /12; повторного POST нет."
+      },
+      "research_date": "2026-10-30",
+      "verification_level": "documentation",
+      "catalog_status": "reviewing",
+      "card_path": "cards/googlechrome--lighthouse.md",
+      "post_path": "posts/2026-10-30_googlechrome--lighthouse.md",
+      "illustration": {
+        "generation_method": "chat_builtin_image_gen",
+        "visually_reviewed": true,
+        "status": "archived",
+        "archive_provider": "yandex_disk",
+        "folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+        "verified_at": "2026-10-30",
+        "verification": "UI: Все файлы загружены, обе версии видны; SHA-256 локальный. Это архив PNG, не проверенный резерв; обратного скачивания/восстановления не было.",
+        "original": {
+          "name": "2026-10-30_googlechrome--lighthouse_poster-v1.png",
+          "size_bytes": 1948070,
+          "sha256": "1c54d83092a6b104764044bc994c7bf65ee00f45178cabe044c3e827d6bf8ab6",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "path": "VITTORA/open-arsenal/2026-10-30_googlechrome--lighthouse_poster-v1.png"
+        },
+        "delivery": {
+          "name": "2026-10-30_googlechrome--lighthouse_poster-v1-delivery.png",
+          "size_bytes": 793070,
+          "sha256": "4fa4f23004ca4a90a4be423dd35eecd249c6f0f99ac174b1994328f78b709094",
+          "dimensions": [
+            800,
+            800
+          ],
+          "path": "VITTORA/open-arsenal/2026-10-30_googlechrome--lighthouse_poster-v1-delivery.png"
+        }
+      },
+      "research_note": "Сравнены Lighthouse/axe-core/Sitespeed.io; documentation, без установки/пилота. Новый PNG из встроенного генератора; обе версии просмотрены и архивированы до отправки. Один POST подтверждён /12, message_id=12; обзор не означает внедрения."
+    },
+    {
+      "id": "2026-10-30-pm",
+      "date": "2026-10-30",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "website_journal",
+      "topic": "Доступность сайта",
+      "repository": "dequelabs/axe-core",
+      "url": "https://github.com/dequelabs/axe-core",
+      "vittora_benefit": "Проверить формы, контраст и семантику интерфейса",
+      "post_angle": "Простыми словами: проверить формы, контраст и семантику интерфейса. Объяснить преимущества, требования и когда инструмент не подходит.",
+      "pilot": "На одной странице тестовой копии измерить ошибки до/после; не менять production без проверки.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Доступность сайта. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-10-25",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "dequelabs/axe-core",
+        "renamed_from": null,
+        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "blocker": "PNG создан и визуально проверен. При вызове выбора файлов/загрузки Яндекс Диска cua_repl завершился таймаутом 300s; последующая read-only сверка также timeout300s. Завершение загрузки/наличие двух PNG не подтверждено. POST не выполнялся. Доступ к папке/19,2МБ из5ГБ до попытки был; это не отказ квоты. Google Drive quota не объявлена восстановленной, загрузку не повторяли.",
+        "delivery_history_checked_at": "2026-10-30",
+        "delivery_history_note": "Оба GET через owner-private Site: can_publish=true, 1 успешный пост за московский день (Lighthouse /12), axe-core отсутствует. Это разрешение, не подтверждение отправки."
+      },
+      "research_date": "2026-10-30",
+      "verification_level": "documentation",
+      "catalog_status": "reviewing",
+      "card_path": "cards/dequelabs--axe-core.md",
+      "post_path": "posts/2026-10-30_dequelabs--axe-core.md",
+      "illustration": {
+        "generation_method": "chat_builtin_image_gen",
+        "visually_reviewed": true,
+        "status": "archive_unconfirmed",
+        "archive_provider": "yandex_disk",
+        "intended_folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+        "archive_verified_at": null,
+        "archive_note": "Сохранение этих файлов не подтверждено; пути ниже целевые, размеры/хеши локальные. Нет verified backup.",
+        "original": {
+          "name": "2026-10-30_dequelabs--axe-core_poster-v1.png",
+          "path": "VITTORA/open-arsenal/2026-10-30_dequelabs--axe-core_poster-v1.png",
+          "size_bytes": 2108715,
+          "sha256": "e0295d108e10f57bc2c500fba6595b49b151f9fdcd6677141d3f886b4aab1c7c",
+          "dimensions": [
+            1254,
+            1254
+          ]
+        },
+        "delivery": {
+          "name": "2026-10-30_dequelabs--axe-core_poster-v1-delivery.png",
+          "path": "VITTORA/open-arsenal/2026-10-30_dequelabs--axe-core_poster-v1-delivery.png",
+          "size_bytes": 890974,
+          "sha256": "f70793495c922c193cff89b0280771b3cb14ae60678187016a4d26b8f76f1621",
+          "dimensions": [
+            800,
+            800
+          ]
+        }
+      },
+      "research_note": "axe-core сравнен с Pa11y/HTML_CodeSniffer. Документация, без установки/пилота. Новый PNG просмотрен; архивирование не подтверждено из-за timeout браузера. POST не выполнялся. План 30.10–28.11 не сдвигался."
     }
   ],
   "archived_at": "2026-10-30",
