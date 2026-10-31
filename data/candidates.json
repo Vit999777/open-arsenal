@@ -781,5 +781,82 @@
         ]
       }
     }
+  },
+  {
+    "id": "restic-restic",
+    "url": "https://github.com/restic/restic",
+    "title": "restic — восстановление исходников VITTORA",
+    "direction": "reliability",
+    "status": "reviewing",
+    "concrete_problem": "Сохранить версии исходников сериала и подтвердить восстановление вместо одного факта загрузки.",
+    "application_example": "Сценарий, WAV, кадры и монтажный проект эпизода; backup → check --read-data → restore в пустую папку → сверка.",
+    "first_pilot": "10 разрешённых файлов до 100 МиБ, отдельный репозиторий и пустая папка; SHA-256/размеры до/после, открытие/декодирование, CRC архивов. 60 минут, 0 новых услуг, 1 ГиБ места; оператор и машина не назначены. Не устанавливался; источники/копии не удалять.",
+    "success_metric": "10/10 имён/размеров/SHA-256 совпадают; check без ошибок; открытие/декодирование и CRC при применимости проходят. Записать время, место и RAM. Результатов нет.",
+    "requirements_and_costs": "Windows/macOS/Linux, готовый бинарник с проверкой подписи/сумм. Для сборки master Go>=1.26/toolchain1.26.9. GPU/моделей/обязательного платного API нет. BSD-2-Clause без лицензионной платы; диск, кеш, восстановление, электричество, трафик, оператор, отдельное хранение пароля. Облачные объём/операции/скачивание по провайдеру. Полная сумма/RAM/CPU неизвестны.",
+    "limitations": "Потеря пароля лишает доступа. Обычный check не читает все данные; --read-data не заменяет restore. На том же диске нет защиты от отказа диска. Нативные облачные документы требуют экспорта, БД согласованного снимка. #22148 сообщает ошибку restore --delete --dry-run, не воспроизводили; пилот без удаления. Нет установки/пилота/аудита зависимостей.",
+    "license_review": "BSD-2-Clause по LICENSE; сохранять copyright/условия/disclaimer при распространении. Зависимости отдельно, полного аудита нет. Borg BSD-3-Clause; Kopia Apache-2.0.",
+    "comparison": "3 кандидата: restic CLI, проверка всех данных и версии; Borg1.4.5 и master разных поколений не смешивать; Kopia GUI удобнее новичку, rclone экспериментальный, v0.23.1 исправляет гонку потери данных. Сравнение с ручными загрузками: единый снимок и штатная проверка; скорости/экономии не измеряли. README/LICENSE/requirements/releases/3 issues-PR изучены, inspect_repo.py выполнен для всех.",
+    "verification_level": "documentation",
+    "verification_date": "2026-10-31",
+    "readme_source": "https://github.com/restic/restic/blob/master/README.md",
+    "license_source": "https://github.com/restic/restic/blob/master/LICENSE",
+    "requirements_source": "https://github.com/restic/restic/blob/master/doc/020_installation.rst",
+    "release_source": "https://github.com/restic/restic/releases/tag/v0.19.1",
+    "issues_sources": [
+      "https://github.com/restic/restic/issues/22148",
+      "https://github.com/restic/restic/pull/22149",
+      "https://github.com/restic/restic/issues/22147"
+    ],
+    "alternatives": [
+      "https://github.com/borgbackup/borg",
+      "https://github.com/kopia/kopia"
+    ],
+    "gaps": [
+      "Нет установки/пилота",
+      "Машина/оператор не назначены",
+      "Полная стоимость/ресурсы неизвестны",
+      "Аудит зависимостей не выполнен"
+    ],
+    "score_note": "reviewing, неизвестное не заменено числовым рейтингом",
+    "card_path": "cards/restic--restic.md",
+    "post_path": "posts/2026-10-31_restic--restic.md",
+    "publication": {
+      "status": "blocked",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "blocker": "PNG создан и просмотрен; загрузка в Яндекс Диск не началась: filechooser timeout10s через кнопку, затем через hidden file input. Подтверждения архива нет. Не квота: доступ к папке, дубли и 27,6МБ/5ГБ проверены. POST не выполнялся.",
+      "delivery_history_checked_at": "2026-10-31",
+      "delivery_history_note": "Owner-private get_site; GET status can_publish=true; GET publish без restic, 0 успешных отправок за текущую московскую дату."
+    },
+    "illustration": {
+      "generation_method": "chat_builtin_image_gen",
+      "visually_reviewed": true,
+      "status": "archive_unconfirmed",
+      "archive_provider": "yandex_disk",
+      "intended_folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+      "archive_verified_at": null,
+      "archive_note": "Целевые пути, локальные размеры/хеши; загрузка не подтверждена. Не verified backup.",
+      "original": {
+        "name": "2026-10-31_restic--restic_poster-v1.png",
+        "path": "VITTORA/open-arsenal/2026-10-31_restic--restic_poster-v1.png",
+        "size_bytes": 2233787,
+        "sha256": "fd6d2181a7f17c9f9332e51c7d406beb2e91c989c03bf5c9985c266d5d33873c",
+        "dimensions": [
+          1254,
+          1254
+        ]
+      },
+      "delivery": {
+        "name": "2026-10-31_restic--restic_poster-v1-delivery.png",
+        "path": "VITTORA/open-arsenal/2026-10-31_restic--restic_poster-v1-delivery.png",
+        "size_bytes": 902268,
+        "sha256": "f25726e2431ae28ef610e48c7081c9031e9a07ba266d7b4f4931835162b617b2",
+        "dimensions": [
+          800,
+          800
+        ]
+      }
+    }
   }
 ]
