@@ -16,7 +16,9 @@
 | [Lighthouse](https://github.com/GoogleChrome/lighthouse) | Найти причины задержек страницы музыки | Документация 30.10, Apache-2.0, v13.6.0/Node>=22.19/issues; сравнение axe-core/Sitespeed.io; reviewing, пилота нет | [Разбор](cards/googlechrome--lighthouse.md) · [Пост](https://t.me/open_arsenal/12) · [Текст и подтверждение](posts/2026-10-30_googlechrome--lighthouse.md) |
 | [axe-core](https://github.com/dequelabs/axe-core) | Контраст, подписи плеера/формы и структура в 3 состояниях | Документация 30.10, MPL-2.0, v4.14.0/API/issues; сравнение Pa11y/HTML_CodeSniffer; reviewing, пилота нет | [Разбор](cards/dequelabs--axe-core.md) · [Черновик](posts/2026-10-30_dequelabs--axe-core.md) · blocked: архив PNG не подтверждён, POST не выполнялся |
 
-Дата редакционного среза: 30.10.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. 58 ещё не исследованных активных слотов находятся в [плане исследований](content-plan/README.md).
+| [Uptime Kuma](https://github.com/louislam/uptime-kuma) | История доступности страниц сайта и проверки нужного слова | Документация 31.10, MIT, 2.5.8/требования/issues; сравнение Gatus/Healthchecks; reviewing, без пилота; #8078 — открытый отчёт о status page | [Разбор](cards/louislam--uptime-kuma.md) · [Черновик](posts/2026-10-31_louislam--uptime-kuma.md) · blocked: архив PNG не подтверждён (filechooser timeout), поста нет |
+
+Дата редакционного среза: 31.10.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. 58 ещё не исследованных активных слотов находятся в [плане исследований](content-plan/README.md).
 
 ## Как читать статусы
 
