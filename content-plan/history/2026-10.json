@@ -576,8 +576,104 @@
         }
       },
       "research_note": "axe-core сравнен с Pa11y/HTML_CodeSniffer. Документация, без установки/пилота. Новый PNG просмотрен; архивирование не подтверждено из-за timeout браузера. POST не выполнялся. План 30.10–28.11 не сдвигался."
+    },
+    {
+      "id": "2026-10-31-am",
+      "date": "2026-10-31",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "reliability",
+      "topic": "Резервные копии с проверкой восстановления",
+      "repository": "restic/restic",
+      "url": "https://github.com/restic/restic",
+      "vittora_benefit": "Оценить сохранность исходников и возможность восстановления",
+      "post_angle": "Простыми словами: оценить сохранность исходников и возможность восстановления. Объяснить преимущества, требования и когда инструмент не подходит.",
+      "pilot": "На тестовой копии проверить один отказ/восстановление; записать время и доказательство, production не останавливать.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Резервные копии с проверкой восстановления. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-10-25",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "restic/restic",
+        "renamed_from": null,
+        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "PNG создан и просмотрен; загрузка в Яндекс Диск не началась: filechooser timeout10s через кнопку, затем через hidden file input. Подтверждения архива нет. Не квота: доступ к папке, дубли и 27,6МБ/5ГБ проверены. POST не выполнялся.",
+        "delivery_history_checked_at": "2026-10-31",
+        "delivery_history_note": "Owner-private get_site; GET status can_publish=true; GET publish без restic, 0 успешных отправок за текущую московскую дату."
+      },
+      "card_path": "cards/restic--restic.md",
+      "post_path": "posts/2026-10-31_restic--restic.md",
+      "verification_date": "2026-10-31",
+      "verification_level": "documentation",
+      "blocker": "PNG создан и просмотрен; загрузка в Яндекс Диск не началась: filechooser timeout10s через кнопку, затем через hidden file input. Подтверждения архива нет. Не квота: доступ к папке, дубли и 27,6МБ/5ГБ проверены. POST не выполнялся."
+    },
+    {
+      "id": "2026-10-31-pm",
+      "date": "2026-10-31",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "reliability",
+      "topic": "Контроль доступности",
+      "repository": "louislam/uptime-kuma",
+      "url": "https://github.com/louislam/uptime-kuma",
+      "vittora_benefit": "Получать свидетельства доступности сайта и важных страниц",
+      "post_angle": "Простыми словами: получать свидетельства доступности сайта и важных страниц. Объяснить преимущества, требования и когда инструмент не подходит.",
+      "pilot": "На тестовой копии проверить один отказ/восстановление; записать время и доказательство, production не останавливать.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Контроль доступности. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-10-31",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "louislam/uptime-kuma",
+        "renamed_from": null,
+        "scope": "README/LICENSE/package.json stable+master/release/issues; documentation, запуск не выполнен."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "PNG создан встроенным image_gen и обе версии просмотрены. Яндекс Диск доступен: VITTORA/open-arsenal, 27,6 МБ из 5 ГБ, дублей Uptime Kuma нет. Кнопка «Загрузить» не открыла поддерживаемый filechooser за 10000 мс; setFiles не вызывался, загрузка не началась, архив не подтверждён. Это таймаут выбора файла, не квота. Google Drive не объявлен восстановленным. POST не выполнялся.",
+        "delivery_history_checked_at": "2026-10-31",
+        "delivery_history_note": "get_site owner-private: custom, только owner, внешних посетителей 0. GET status can_publish=true, channel open_arsenal. GET publish: последний Lighthouse /12 от 30.10; 0 успешных постов 31.10, Uptime Kuma нет. POST не выполнялся."
+      },
+      "card_path": "cards/louislam--uptime-kuma.md",
+      "post_path": "posts/2026-10-31_louislam--uptime-kuma.md",
+      "verification_date": "2026-10-31",
+      "verification_level": "documentation",
+      "blocker": "PNG создан встроенным image_gen и обе версии просмотрены. Яндекс Диск доступен: VITTORA/open-arsenal, 27,6 МБ из 5 ГБ, дублей Uptime Kuma нет. Кнопка «Загрузить» не открыла поддерживаемый filechooser за 10000 мс; setFiles не вызывался, загрузка не началась, архив не подтверждён. Это таймаут выбора файла, не квота. Google Drive не объявлен восстановленным. POST не выполнялся."
     }
   ],
-  "archived_at": "2026-10-30",
+  "archived_at": "2026-11-01",
   "note": "Слоты вышли из активного горизонта. Блокировки и факты сохранены; не переносить пачкой."
 }
