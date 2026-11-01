@@ -53,3 +53,6 @@
 
 
 | [restic](https://github.com/restic/restic) | Восстановление исходников сериала из версии архива | Документация 31.10, BSD-2-Clause, v0.19.1/requirements/issues; сравнение Borg/Kopia; reviewing, пилота нет | [Разбор](cards/restic--restic.md) · [Черновик](posts/2026-10-31_restic--restic.md) · blocked: архив PNG не подтверждён, filechooser timeout; поста нет |
+
+
+| [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit) | Проверить текст и время титров Shorts | Документация 01.11; три кандидата, MIT, релизы/issues; reviewing, пилота нет | [Разбор](cards/subtitleedit--subtitleedit.md) · [Черновик](posts/2026-11-01_subtitleedit--subtitleedit.md) · blocked: архив нового PNG не подтверждён (filechooser timeout); поста нет |
