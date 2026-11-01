@@ -4,7 +4,7 @@
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-11-01 | **Удобная правка субтитров** · video<br>[SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit) · blocked · [Разбор](../cards/subtitleedit--subtitleedit.md) · [Текст](../posts/2026-11-01_subtitleedit--subtitleedit.md) | **Расшифровка озвучки** · book_audio<br>[SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) · planned_research |
+| 2026-11-01 | **Удобная правка субтитров** · video<br>[SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit) · blocked · [Разбор](../cards/subtitleedit--subtitleedit.md) · [Текст](../posts/2026-11-01_subtitleedit--subtitleedit.md) | **Расшифровка озвучки** · book_audio<br>[SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) · blocked · [Разбор](../cards/systran--faster-whisper.md) · [Текст](../posts/2026-11-01_systran--faster-whisper.md) |
 | 2026-11-02 | **Снижение фонового шума** · music<br>[Rikorose/DeepFilterNet](https://github.com/Rikorose/DeepFilterNet) · planned_research | **Сборка аудиофрагментов** · music<br>[jiaaro/pydub](https://github.com/jiaaro/pydub) · planned_research |
 | 2026-11-03 | **Редактура EPUB** · book_audio<br>[Sigil-Ebook/Sigil](https://github.com/Sigil-Ebook/Sigil) · planned_research | **Документы из HTML** · book_audio<br>[Kozea/WeasyPrint](https://github.com/Kozea/WeasyPrint) · planned_research |
 | 2026-11-04 | **Индексация корпуса проекта** · agents_rag<br>[run-llama/llama_index](https://github.com/run-llama/llama_index) · planned_research | **Проверяемая цепочка поиска** · agents_rag<br>[deepset-ai/haystack](https://github.com/deepset-ai/haystack) · planned_research |
@@ -38,3 +38,6 @@
 PNG создан встроенным image_gen и просмотрен (исходник и delivery). Папка Яндекс Диска доступна, 27,6 МБ из 5 ГБ, дубля нет; filechooser timeout 10000ms. Загрузка не началась, архив не подтверждён. POST не выполнялся. Это не отказ квоты; Google Drive не объявлен восстановленным.
 
 Кандидаты 30.11 проверены только по metadata GitHub 01.11. Пилоты/установка не выполнены.
+
+
+01.11, вечер: faster-whisper — documentation/reviewing; новый постер создан и просмотрен, архив не подтверждён из-за filechooser timeout10000ms. POST не выполнялся. Горизонт 01–30.11 сохранён, 60 уникальных кандидатов.
