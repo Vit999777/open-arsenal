@@ -16,6 +16,7 @@
 | [Lighthouse](https://github.com/GoogleChrome/lighthouse) | Найти причины задержек страницы музыки | Документация 30.10, Apache-2.0, v13.6.0/Node>=22.19/issues; сравнение axe-core/Sitespeed.io; reviewing, пилота нет | [Разбор](cards/googlechrome--lighthouse.md) · [Пост](https://t.me/open_arsenal/12) · [Текст и подтверждение](posts/2026-10-30_googlechrome--lighthouse.md) |
 | [axe-core](https://github.com/dequelabs/axe-core) | Контраст, подписи плеера/формы и структура в 3 состояниях | Документация 30.10, MPL-2.0, v4.14.0/API/issues; сравнение Pa11y/HTML_CodeSniffer; reviewing, пилота нет | [Разбор](cards/dequelabs--axe-core.md) · [Черновик](posts/2026-10-30_dequelabs--axe-core.md) · blocked: архив PNG не подтверждён, POST не выполнялся |
 | [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit) | Проверить текст и время титров Shorts | Документация 01.11; три кандидата, MIT, релизы/issues; reviewing, пилота нет | [Разбор](cards/subtitleedit--subtitleedit.md) · [Черновик](posts/2026-11-01_subtitleedit--subtitleedit.md) · blocked: архив нового PNG не подтверждён (filechooser timeout); поста нет |
+| [faster-whisper](https://github.com/SYSTRAN/faster-whisper) | Черновая расшифровка озвучки для сверки со сценарием | Документация 01.11, MIT кода/small, requirements/releases/issues, три кандидата; reviewing, пилота нет | [Разбор](cards/systran--faster-whisper.md) · [Черновик](posts/2026-11-01_systran--faster-whisper.md) · blocked: архив PNG не подтверждён (filechooser timeout); поста нет |
 
 | [Uptime Kuma](https://github.com/louislam/uptime-kuma) | История доступности страниц сайта и проверки нужного слова | Документация 31.10, MIT, 2.5.8/требования/issues; сравнение Gatus/Healthchecks; reviewing, без пилота; #8078 — открытый отчёт о status page | [Разбор](cards/louislam--uptime-kuma.md) · [Черновик](posts/2026-10-31_louislam--uptime-kuma.md) · blocked: архив PNG не подтверждён (filechooser timeout), поста нет |
 
@@ -54,3 +55,4 @@
 
 
 | [restic](https://github.com/restic/restic) | Восстановление исходников сериала из версии архива | Документация 31.10, BSD-2-Clause, v0.19.1/requirements/issues; сравнение Borg/Kopia; reviewing, пилота нет | [Разбор](cards/restic--restic.md) · [Черновик](posts/2026-10-31_restic--restic.md) · blocked: архив PNG не подтверждён, filechooser timeout; поста нет |
+
