@@ -929,5 +929,75 @@
       "delivery_history_checked_at": "2026-10-31",
       "delivery_history_note": "get_site owner-private: custom, только owner, внешних посетителей 0. GET status can_publish=true, channel open_arsenal. GET publish: последний Lighthouse /12 от 30.10; 0 успешных постов 31.10, Uptime Kuma нет. POST не выполнялся."
     }
+  },
+  {
+    "url": "https://github.com/SubtitleEdit/subtitleedit",
+    "status": "reviewing",
+    "direction": "video",
+    "verification_level": "documentation",
+    "verification_date": "2026-11-01",
+    "concrete_problem": "Ручная приёмка текста и времени субтитров Shorts перед выпуском.",
+    "application_example": "Сверить копию 60-секундного ролика VITTORA с озвучкой и SRT. Не исправляет lip-sync видео.",
+    "first_pilot": "Один ролик, 20 реплик, стабильная сборка v5.3.0, экспорт отдельного SRT; без API и установки в этом запуске.",
+    "success_metric": "Цель: >=18/20 стартов в пределах 0,25 секунды ручного эталона, 0 некорректных интервалов/обрезанных строк. Измерить время против текущего процесса; результатов нет.",
+    "requirements_and_costs": "Windows10 22H2+/macOS12+ (14+ recommended)/Linux. Готовые сборки self-contained; native Linux mpv/ffmpeg, Flatpak включает. Код MIT, ручной пилот без обязательного API/моделей/хостинга. Компьютер, память, диск, электричество, время редактора; точные ресурсы и стоимость неизвестны. Онлайн-сервисы исключены.",
+    "limitations": "Требования README main могут отличаться от стабильного релиза. Русский материал/интерфейс не проверен, лицензии моделей и всех компонентов не аудитировались. Для сложных стилей сравнить Aegisub.",
+    "license_review": "LICENSE main MIT, сохранять copyright/permission notice при распространении. Сторонние зависимости и медиа отдельно.",
+    "comparison": "Сравнены Subtitle Edit, актуальный TypesettingTools/Aegisub (перенос подтверждён релизом старого репозитория) и Gaupol. Выбор — общий визуальный контроль титров, а не доказанное ускорение; текущая программная сборка и ручная сверка остаются baseline. Gaupol актуальный Windows installer не поддерживает, Aegisub подходит сложным стилям.",
+    "readme_source": "https://github.com/SubtitleEdit/subtitleedit/blob/main/README.md",
+    "license_source": "https://github.com/SubtitleEdit/subtitleedit/blob/main/LICENSE",
+    "release_source": "https://github.com/SubtitleEdit/subtitleedit/releases/tag/v5.3.0",
+    "issues_source": "https://github.com/SubtitleEdit/subtitleedit/issues/16522",
+    "archived": false,
+    "scores": {
+      "vittora_impact": 4,
+      "feasibility": 4,
+      "total_cost": 4,
+      "maintenance": 4,
+      "integration": 3
+    },
+    "score_note": "Редакционные оценки по документации; reviewing из-за отсутствия ресурсного/медиа-пилота и полного обзора компонентов, не ready.",
+    "card_path": "cards/subtitleedit--subtitleedit.md",
+    "post_path": "posts/2026-11-01_subtitleedit--subtitleedit.md",
+    "publication": {
+      "status": "blocked",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "blocker": "PNG создан встроенным image_gen и просмотрен (исходник и delivery). Папка Яндекс Диска доступна, 27,6 МБ из 5 ГБ, дубля нет; filechooser timeout 10000ms. Загрузка не началась, архив не подтверждён. POST не выполнялся. Это не отказ квоты; Google Drive не объявлен восстановленным.",
+      "delivery_history_checked_at": "2026-11-01",
+      "delivery_history_note": "Оба GET через owner-private Site; can_publish=true, Subtitle Edit отсутствует, сегодня 0 успешных постов. POST не выполнялся."
+    },
+    "illustration": {
+      "generation_method": "chat_builtin_image_gen",
+      "visually_reviewed": true,
+      "status": "archive_unconfirmed",
+      "archive_provider": "yandex_disk",
+      "intended_folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+      "verified_at": null,
+      "archive_note": "PNG создан встроенным image_gen и просмотрен (исходник и delivery). Папка Яндекс Диска доступна, 27,6 МБ из 5 ГБ, дубля нет; filechooser timeout 10000ms. Загрузка не началась, архив не подтверждён. POST не выполнялся. Это не отказ квоты; Google Drive не объявлен восстановленным.",
+      "original": {
+        "name": "2026-11-01_subtitleedit--subtitleedit_poster-v1.png",
+        "path": "VITTORA/open-arsenal/2026-11-01_subtitleedit--subtitleedit_poster-v1.png",
+        "size_bytes": 1792578,
+        "sha256": "c555390066a7500e05d7936eadb89344891d065a4a0968c99a0639fb7e567b63",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "location_status": "intended_archive_path_not_confirmed"
+      },
+      "delivery": {
+        "name": "2026-11-01_subtitleedit--subtitleedit_poster-v1-delivery.png",
+        "path": "VITTORA/open-arsenal/2026-11-01_subtitleedit--subtitleedit_poster-v1-delivery.png",
+        "size_bytes": 748253,
+        "sha256": "b947ebd5c7af7e4bbc19262eed7ee4cebd1d6f11e09a6bba45388aecfeb04bf6",
+        "dimensions": [
+          800,
+          800
+        ],
+        "location_status": "intended_archive_path_not_confirmed"
+      }
+    }
   }
 ]
