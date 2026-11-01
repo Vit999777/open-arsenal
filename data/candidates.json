@@ -999,5 +999,74 @@
         "location_status": "intended_archive_path_not_confirmed"
       }
     }
+  },
+  {
+    "url": "https://github.com/SYSTRAN/faster-whisper",
+    "status": "reviewing",
+    "direction": "book_audio",
+    "verification_level": "documentation",
+    "verification_date": "2026-11-01",
+    "concrete_problem": "Сверить фактическую русскую озвучку аудиокниги со сценарием.",
+    "application_example": "Черновая расшифровка разрешённой копии 60 секунд VITTORA с временем фраз для ручной проверки.",
+    "first_pilot": "Одна минута, multilingual small CPU int8, language ru, task transcribe; 100 слов эталона, все segments перебрать, отдельный TXT. Ответственный специалист/редактор VITTORA; не выполнен.",
+    "success_metric": "Редакционная цель: WER<=10% на 100 словах; >=18/20 границ в пределах0,3с. Измерить peakRAM, wall-clock полного перебора и время коррекции против ручной сверки. Результатов нет.",
+    "requirements_and_costs": "Python>=3.9, CTranslate2>=4<5, PyAV>=11, tokenizer/huggingface_hub/onnxruntime и веса. CPU int8 поддерживается; NVIDIA требует совместимых CUDA12/cuDNN9. Код и выбранная small MIT; локальный пилот без платного API/хостинга. RAM/диск/трафик/электричество/время специалиста неизвестны до замеров; сумма в рублях не определена.",
+    "limitations": "Возможны галлюцинации, ошибки времени/языка. Не исправляет голос/lip-sync. Issue1476 и PR1680 не воспроизведены, предложенный fix не считается принятым. Полный аудит зависимостей/совместимость машины не проверены.",
+    "license_review": "LICENSE MIT; уведомления при распространении. OpenAI README: код/веса Whisper MIT; Systran/faster-whisper-small model card MIT. Другие веса/зависимости отдельно.",
+    "comparison": "Сравнены faster-whisper/openai-whisper/whisper.cpp: Python CPU int8 и PyAV против PyTorch+systemFFmpeg и C++/CMake/Metal. Выбор для Python пилота, не доказанное ускорение. Текущий сценарий+ручная сверка остаётся baseline. WhisperX уже опубликован /3, не повторяем.",
+    "readme_source": "https://github.com/SYSTRAN/faster-whisper/blob/master/README.md",
+    "license_source": "https://github.com/SYSTRAN/faster-whisper/blob/master/LICENSE",
+    "model_license_source": "https://huggingface.co/Systran/faster-whisper-small/blob/main/README.md",
+    "release_source": "https://github.com/SYSTRAN/faster-whisper/releases/tag/v1.2.1",
+    "issues_source": "https://github.com/SYSTRAN/faster-whisper/issues/1476",
+    "scores": {
+      "vittora_impact": 4,
+      "feasibility": 3,
+      "total_cost": 3,
+      "maintenance": 3,
+      "integration": 4
+    },
+    "score_note": "Редакционная оценка по документации; reviewing: машина/полные ресурсы/пилот неизвестны.",
+    "archived": false,
+    "card_path": "cards/systran--faster-whisper.md",
+    "post_path": "posts/2026-11-01_systran--faster-whisper.md",
+    "publication": {
+      "status": "blocked",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "blocker": "Новый PNG создан встроенным image_gen, исходник и delivery просмотрены. Яндекс Диск: папка доступна, 27,6МБ из 5ГБ, дубля нет; filechooser timeout10000ms, загрузка не началась. Архив не подтверждён. POST не выполнялся. Это не отказ квоты; Google Drive не объявлен восстановленным.",
+      "delivery_history_checked_at": "2026-11-01",
+      "delivery_history_note": "Оба GET через owner-private Site; can_publish=true, faster-whisper отсутствует, 0 успешных постов сегодня. POST не выполнялся."
+    },
+    "illustration": {
+      "generation_method": "chat_builtin_image_gen",
+      "visually_reviewed": true,
+      "status": "archive_unconfirmed",
+      "archive_provider": "yandex_disk",
+      "intended_folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+      "verified_at": null,
+      "archive_note": "Исходник и delivery созданы/просмотрены; пути целевые, загрузка не началась (filechooser timeout10000ms), архив не подтверждён. Не проверенный резерв.",
+      "original": {
+        "name": "2026-11-01_systran--faster-whisper_poster-v1.png",
+        "path": "VITTORA/open-arsenal/2026-11-01_systran--faster-whisper_poster-v1.png",
+        "size_bytes": 1956106,
+        "sha256": "0718765799da874decbf1c056c131abef8872b5b5390419f8a4c6a9417030309",
+        "dimensions": [
+          1254,
+          1254
+        ]
+      },
+      "delivery": {
+        "name": "2026-11-01_systran--faster-whisper_poster-v1-delivery.png",
+        "path": "VITTORA/open-arsenal/2026-11-01_systran--faster-whisper_poster-v1-delivery.png",
+        "size_bytes": 831027,
+        "sha256": "3e2d050e19f00999a9f8eee9d53d6d823cf636fe649a9e5515e9a79602f14e5b",
+        "dimensions": [
+          800,
+          800
+        ]
+      }
+    }
   }
 ]
