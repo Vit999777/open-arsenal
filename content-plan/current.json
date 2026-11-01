@@ -8,7 +8,7 @@
   "timing_mode": "flexible_schedule",
   "horizon_days": 30,
   "policy": "План исследований, а не список одобренных рекомендаций. Кандидата можно заменить с записью причины; не отправлять неподтверждённый материал ради календаря. Опубликованные URL не повторять.",
-  "known_blocker": "PNG создан встроенным image_gen и просмотрен (исходник и delivery). Папка Яндекс Диска доступна, 27,6 МБ из 5 ГБ, дубля нет; filechooser timeout 10000ms. Загрузка не началась, архив не подтверждён. POST не выполнялся. Это не отказ квоты; Google Drive не объявлен восстановленным.",
+  "known_blocker": "Новый PNG создан встроенным image_gen, исходник и delivery просмотрены. Яндекс Диск: папка доступна, 27,6МБ из 5ГБ, дубля нет; filechooser timeout10000ms, загрузка не началась. Архив не подтверждён. POST не выполнялся. Это не отказ квоты; Google Drive не объявлен восстановленным.",
   "slots": [
     {
       "id": "2026-11-01-am",
@@ -103,7 +103,7 @@
       "post_angle": "Простыми словами: сравнить получение текста с текущим процессом. Объяснить преимущества, требования и когда инструмент не подходит.",
       "pilot": "На одном фрагменте или тестовой копии издания проверить читаемость, структуру и время ручных исправлений.",
       "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Расшифровка озвучки. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "planned_research",
+      "status": "blocked",
       "metadata_check": {
         "date": "2026-10-25",
         "exists": true,
@@ -124,9 +124,49 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
+        "status": "blocked",
         "message_id": null,
-        "url": null
-      }
+        "url": null,
+        "published_at": null,
+        "blocker": "Новый PNG создан встроенным image_gen, исходник и delivery просмотрены. Яндекс Диск: папка доступна, 27,6МБ из 5ГБ, дубля нет; filechooser timeout10000ms, загрузка не началась. Архив не подтверждён. POST не выполнялся. Это не отказ квоты; Google Drive не объявлен восстановленным.",
+        "delivery_history_checked_at": "2026-11-01",
+        "delivery_history_note": "Оба GET через owner-private Site; can_publish=true, faster-whisper отсутствует, 0 успешных постов сегодня. POST не выполнялся."
+      },
+      "verification_level": "documentation",
+      "research_date": "2026-11-01",
+      "catalog_status": "reviewing",
+      "card_path": "cards/systran--faster-whisper.md",
+      "post_path": "posts/2026-11-01_systran--faster-whisper.md",
+      "illustration": {
+        "generation_method": "chat_builtin_image_gen",
+        "visually_reviewed": true,
+        "status": "archive_unconfirmed",
+        "archive_provider": "yandex_disk",
+        "intended_folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+        "verified_at": null,
+        "archive_note": "Исходник и delivery созданы/просмотрены; пути целевые, загрузка не началась (filechooser timeout10000ms), архив не подтверждён. Не проверенный резерв.",
+        "original": {
+          "name": "2026-11-01_systran--faster-whisper_poster-v1.png",
+          "path": "VITTORA/open-arsenal/2026-11-01_systran--faster-whisper_poster-v1.png",
+          "size_bytes": 1956106,
+          "sha256": "0718765799da874decbf1c056c131abef8872b5b5390419f8a4c6a9417030309",
+          "dimensions": [
+            1254,
+            1254
+          ]
+        },
+        "delivery": {
+          "name": "2026-11-01_systran--faster-whisper_poster-v1-delivery.png",
+          "path": "VITTORA/open-arsenal/2026-11-01_systran--faster-whisper_poster-v1-delivery.png",
+          "size_bytes": 831027,
+          "sha256": "3e2d050e19f00999a9f8eee9d53d6d823cf636fe649a9e5515e9a79602f14e5b",
+          "dimensions": [
+            800,
+            800
+          ]
+        }
+      },
+      "research_note": "Сравнены три кандидата, документация/лицензии/requirements/releases/issues. Новый PNG создан и просмотрен; архивирование не подтверждено. Установки и пилота нет."
     },
     {
       "id": "2026-11-02-am",
