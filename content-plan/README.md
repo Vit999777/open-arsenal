@@ -1,13 +1,10 @@
-# Контент-план: 31 октября — 29 ноября 2026
+# Контент-план: 1–30 ноября 2026
 
-30 дней · 60 материалов · Europe/Moscow. Ориентиры — 10:00 и 18:00; режим расписания гибкий.
-
-Очередь исследований, не рекомендации: planned_research означает, что содержание, лицензия и запуск ещё не проверены. История сохранена в [history/2026-10.json](history/2026-10.json); пропущенные выпуски пачкой не отправляем. Наличие темы в плане не разрешает отправку без приёмки и архива PNG.
+30 дней · 60 кандидатов · Europe/Moscow, 10:00 и 18:00. planned_research — очередь проверки, не рекомендации. История: [октябрь](history/2026-10.json). Пропуски пачкой не выпускаем.
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-10-31 | **Резервные копии с проверкой восстановления** · reliability<br>[restic/restic](https://github.com/restic/restic) · blocked · [Разбор](../cards/restic--restic.md) · [Текст](../posts/2026-10-31_restic--restic.md) · архив PNG не подтверждён | **Контроль доступности** · reliability<br>[louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) · blocked · [Разбор](../cards/louislam--uptime-kuma.md) · [Текст](../posts/2026-10-31_louislam--uptime-kuma.md) · архив PNG не подтверждён |
-| 2026-11-01 | **Удобная правка субтитров** · video<br>[SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit) · planned_research | **Расшифровка озвучки** · book_audio<br>[SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) · planned_research |
+| 2026-11-01 | **Удобная правка субтитров** · video<br>[SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit) · blocked · [Разбор](../cards/subtitleedit--subtitleedit.md) · [Текст](../posts/2026-11-01_subtitleedit--subtitleedit.md) | **Расшифровка озвучки** · book_audio<br>[SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) · planned_research |
 | 2026-11-02 | **Снижение фонового шума** · music<br>[Rikorose/DeepFilterNet](https://github.com/Rikorose/DeepFilterNet) · planned_research | **Сборка аудиофрагментов** · music<br>[jiaaro/pydub](https://github.com/jiaaro/pydub) · planned_research |
 | 2026-11-03 | **Редактура EPUB** · book_audio<br>[Sigil-Ebook/Sigil](https://github.com/Sigil-Ebook/Sigil) · planned_research | **Документы из HTML** · book_audio<br>[Kozea/WeasyPrint](https://github.com/Kozea/WeasyPrint) · planned_research |
 | 2026-11-04 | **Индексация корпуса проекта** · agents_rag<br>[run-llama/llama_index](https://github.com/run-llama/llama_index) · planned_research | **Проверяемая цепочка поиска** · agents_rag<br>[deepset-ai/haystack](https://github.com/deepset-ai/haystack) · planned_research |
@@ -36,7 +33,8 @@
 | 2026-11-27 | **Локальный анализ выгрузок** · growth_revenue<br>[duckdb/duckdb](https://github.com/duckdb/duckdb) · planned_research | **Локальный журнал операций** · reliability<br>[sqlite/sqlite](https://github.com/sqlite/sqlite) · planned_research |
 | 2026-11-28 | **HTTP-запросы к сервисам** · reliability<br>[psf/requests](https://github.com/psf/requests) · planned_research | **Проверка скриптов редакции** · reliability<br>[pytest-dev/pytest](https://github.com/pytest-dev/pytest) · planned_research |
 | 2026-11-29 | **Проверка Python-скриптов** · reliability<br>[astral-sh/ruff](https://github.com/astral-sh/ruff) · planned_research | **Повторяемая среда Python** · reliability<br>[astral-sh/uv](https://github.com/astral-sh/uv) · planned_research |
+| 2026-11-30 | **Разделение реплик по говорящим** · book_audio<br>[pyannote/pyannote-audio](https://github.com/pyannote/pyannote-audio) · planned_research | **Повторяемая сборка медиакоманд** · video<br>[kkroening/ffmpeg-python](https://github.com/kkroening/ffmpeg-python) · planned_research |
 
-restic: PNG создан и просмотрен; выбор файла Яндекс Диска недоступен, загрузка не подтверждена, POST не выполнялся. Это не отказ квоты. Google Drive не объявлен восстановленным. Новые кандидаты 29.11 проверены только по GitHub metadata 31.10; прочее требует исследования. Полные факты слотов сохраняются в JSON и истории.
+PNG создан встроенным image_gen и просмотрен (исходник и delivery). Папка Яндекс Диска доступна, 27,6 МБ из 5 ГБ, дубля нет; filechooser timeout 10000ms. Загрузка не началась, архив не подтверждён. POST не выполнялся. Это не отказ квоты; Google Drive не объявлен восстановленным.
 
-31.10, вечер: Uptime Kuma проверен по документации, сопоставлен с Gatus и Healthchecks. PNG создан встроенным image_gen и просмотрен (исходник + delivery); filechooser Яндекс Диска timeout 10000 мс, загрузка не началась. POST не выполнялся. 60 слотов 31.10–29.11 сохранены; квота Google Drive не перепроверялась без признаков восстановления.
+Кандидаты 30.11 проверены только по metadata GitHub 01.11. Пилоты/установка не выполнены.
