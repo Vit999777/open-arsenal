@@ -17,10 +17,11 @@
 | [axe-core](https://github.com/dequelabs/axe-core) | Контраст, подписи плеера/формы и структура в 3 состояниях | Документация 30.10, MPL-2.0, v4.14.0/API/issues; сравнение Pa11y/HTML_CodeSniffer; reviewing, пилота нет | [Разбор](cards/dequelabs--axe-core.md) · [Черновик](posts/2026-10-30_dequelabs--axe-core.md) · blocked: архив PNG не подтверждён, POST не выполнялся |
 | [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit) | Проверить текст и время титров Shorts | Документация 01.11; три кандидата, MIT, релизы/issues; reviewing, пилота нет | [Разбор](cards/subtitleedit--subtitleedit.md) · [Черновик](posts/2026-11-01_subtitleedit--subtitleedit.md) · blocked: архив нового PNG не подтверждён (filechooser timeout); поста нет |
 | [faster-whisper](https://github.com/SYSTRAN/faster-whisper) | Черновая расшифровка озвучки для сверки со сценарием | Документация 01.11, MIT кода/small, requirements/releases/issues, три кандидата; reviewing, пилота нет | [Разбор](cards/systran--faster-whisper.md) · [Черновик](posts/2026-11-01_systran--faster-whisper.md) · blocked: архив PNG не подтверждён (filechooser timeout); поста нет |
-
 | [Uptime Kuma](https://github.com/louislam/uptime-kuma) | История доступности страниц сайта и проверки нужного слова | Документация 31.10, MIT, 2.5.8/требования/issues; сравнение Gatus/Healthchecks; reviewing, без пилота; #8078 — открытый отчёт о status page | [Разбор](cards/louislam--uptime-kuma.md) · [Черновик](posts/2026-10-31_louislam--uptime-kuma.md) · blocked: архив PNG не подтверждён (filechooser timeout), поста нет |
-
 | [noisereduce](https://github.com/timsainb/noisereduce) | Проверка очистки речевого вступления перед музыкой | Документация 02.11, MIT/зависимости/релизы/issues, сравнение DeepFilterNet/RNNoise; reviewing, запуска и пилота нет | [Разбор](cards/timsainb--noisereduce.md) · [Черновик](posts/2026-11-02_timsainb--noisereduce.md) · blocked: PNG просмотрен, архив не подтверждён — восстановление Яндекс Диска, загрузка disabled; POST не выполнялся |
+| [restic](https://github.com/restic/restic) | Восстановление исходников сериала из версии архива | Документация 31.10, BSD-2-Clause, v0.19.1/requirements/issues; сравнение Borg/Kopia; reviewing, пилота нет | [Разбор](cards/restic--restic.md) · [Черновик](posts/2026-10-31_restic--restic.md) · blocked: архив PNG не подтверждён, filechooser timeout; поста нет |
+
+
 
 Дата редакционного среза: 02.11.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. 59 ещё не исследованных активных слотов находятся в [плане исследований](content-plan/README.md).
 
@@ -56,7 +57,6 @@
 29.10, вечер: llama.cpp опубликован /11 с новым PNG; оригинал и delivery подтверждены в Яндекс Диске. Documentation/reviewing, модель и машина не выбраны, пилота нет. Горизонт 29.10–27.11 сохранён, 60 уникальных слотов. Два успешных поста за московский день; накопленные черновики не отправлялись.
 
 
-| [restic](https://github.com/restic/restic) | Восстановление исходников сериала из версии архива | Документация 31.10, BSD-2-Clause, v0.19.1/requirements/issues; сравнение Borg/Kopia; reviewing, пилота нет | [Разбор](cards/restic--restic.md) · [Черновик](posts/2026-10-31_restic--restic.md) · blocked: архив PNG не подтверждён, filechooser timeout; поста нет |
 
 
 02.11: горизонт 02.11–01.12, 60 уникальных слотов; 01.11 сохранено в [ноябрьской истории](content-plan/history/2026-11.json). noisereduce — только документация и план пилота, не внедрение. Архив нового PNG заблокирован восстановлением Яндекс Диска, публикации нет.
