@@ -1,0 +1,166 @@
+{
+  "title": "История контент-плана — ноябрь 2026",
+  "timezone": "Europe/Moscow",
+  "slots": [
+    {
+      "id": "2026-11-01-am",
+      "date": "2026-11-01",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "video",
+      "topic": "Удобная правка субтитров",
+      "repository": "SubtitleEdit/subtitleedit",
+      "url": "https://github.com/SubtitleEdit/subtitleedit",
+      "vittora_benefit": "Рассмотреть редактор для финальной коррекции субтитров",
+      "post_angle": "Простыми словами: рассмотреть редактор для финальной коррекции субтитров. Объяснить преимущества, требования и когда инструмент не подходит.",
+      "pilot": "На одном фрагменте до 30 секунд сравнить время подготовки, размер файла и заметные артефакты.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Удобная правка субтитров. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-10-25",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "SubtitleEdit/subtitleedit",
+        "renamed_from": null,
+        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "PNG создан встроенным image_gen и просмотрен (исходник и delivery). Папка Яндекс Диска доступна, 27,6 МБ из 5 ГБ, дубля нет; filechooser timeout 10000ms. Загрузка не началась, архив не подтверждён. POST не выполнялся. Это не отказ квоты; Google Drive не объявлен восстановленным.",
+        "delivery_history_checked_at": "2026-11-01",
+        "delivery_history_note": "Оба GET через owner-private Site; can_publish=true, Subtitle Edit отсутствует, сегодня 0 успешных постов. POST не выполнялся."
+      },
+      "research_date": "2026-11-01",
+      "verification_level": "documentation",
+      "catalog_status": "reviewing",
+      "card_path": "cards/subtitleedit--subtitleedit.md",
+      "post_path": "posts/2026-11-01_subtitleedit--subtitleedit.md",
+      "illustration": {
+        "generation_method": "chat_builtin_image_gen",
+        "visually_reviewed": true,
+        "status": "archive_unconfirmed",
+        "archive_provider": "yandex_disk",
+        "intended_folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+        "verified_at": null,
+        "archive_note": "PNG создан встроенным image_gen и просмотрен (исходник и delivery). Папка Яндекс Диска доступна, 27,6 МБ из 5 ГБ, дубля нет; filechooser timeout 10000ms. Загрузка не началась, архив не подтверждён. POST не выполнялся. Это не отказ квоты; Google Drive не объявлен восстановленным.",
+        "original": {
+          "name": "2026-11-01_subtitleedit--subtitleedit_poster-v1.png",
+          "path": "VITTORA/open-arsenal/2026-11-01_subtitleedit--subtitleedit_poster-v1.png",
+          "size_bytes": 1792578,
+          "sha256": "c555390066a7500e05d7936eadb89344891d065a4a0968c99a0639fb7e567b63",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "location_status": "intended_archive_path_not_confirmed"
+        },
+        "delivery": {
+          "name": "2026-11-01_subtitleedit--subtitleedit_poster-v1-delivery.png",
+          "path": "VITTORA/open-arsenal/2026-11-01_subtitleedit--subtitleedit_poster-v1-delivery.png",
+          "size_bytes": 748253,
+          "sha256": "b947ebd5c7af7e4bbc19262eed7ee4cebd1d6f11e09a6bba45388aecfeb04bf6",
+          "dimensions": [
+            800,
+            800
+          ],
+          "location_status": "intended_archive_path_not_confirmed"
+        }
+      },
+      "research_note": "Три кандидата проверены документально; выбран Subtitle Edit. Новый PNG создан и просмотрен, архив не подтверждён. Без установки/пилота/POST."
+    },
+    {
+      "id": "2026-11-01-pm",
+      "date": "2026-11-01",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "book_audio",
+      "topic": "Расшифровка озвучки",
+      "repository": "SYSTRAN/faster-whisper",
+      "url": "https://github.com/SYSTRAN/faster-whisper",
+      "vittora_benefit": "Сравнить получение текста с текущим процессом",
+      "post_angle": "Простыми словами: сравнить получение текста с текущим процессом. Объяснить преимущества, требования и когда инструмент не подходит.",
+      "pilot": "На одном фрагменте или тестовой копии издания проверить читаемость, структуру и время ручных исправлений.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Расшифровка озвучки. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-10-25",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "SYSTRAN/faster-whisper",
+        "renamed_from": null,
+        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "Новый PNG создан встроенным image_gen, исходник и delivery просмотрены. Яндекс Диск: папка доступна, 27,6МБ из 5ГБ, дубля нет; filechooser timeout10000ms, загрузка не началась. Архив не подтверждён. POST не выполнялся. Это не отказ квоты; Google Drive не объявлен восстановленным.",
+        "delivery_history_checked_at": "2026-11-01",
+        "delivery_history_note": "Оба GET через owner-private Site; can_publish=true, faster-whisper отсутствует, 0 успешных постов сегодня. POST не выполнялся."
+      },
+      "verification_level": "documentation",
+      "research_date": "2026-11-01",
+      "catalog_status": "reviewing",
+      "card_path": "cards/systran--faster-whisper.md",
+      "post_path": "posts/2026-11-01_systran--faster-whisper.md",
+      "illustration": {
+        "generation_method": "chat_builtin_image_gen",
+        "visually_reviewed": true,
+        "status": "archive_unconfirmed",
+        "archive_provider": "yandex_disk",
+        "intended_folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+        "verified_at": null,
+        "archive_note": "Исходник и delivery созданы/просмотрены; пути целевые, загрузка не началась (filechooser timeout10000ms), архив не подтверждён. Не проверенный резерв.",
+        "original": {
+          "name": "2026-11-01_systran--faster-whisper_poster-v1.png",
+          "path": "VITTORA/open-arsenal/2026-11-01_systran--faster-whisper_poster-v1.png",
+          "size_bytes": 1956106,
+          "sha256": "0718765799da874decbf1c056c131abef8872b5b5390419f8a4c6a9417030309",
+          "dimensions": [
+            1254,
+            1254
+          ]
+        },
+        "delivery": {
+          "name": "2026-11-01_systran--faster-whisper_poster-v1-delivery.png",
+          "path": "VITTORA/open-arsenal/2026-11-01_systran--faster-whisper_poster-v1-delivery.png",
+          "size_bytes": 831027,
+          "sha256": "3e2d050e19f00999a9f8eee9d53d6d823cf636fe649a9e5515e9a79602f14e5b",
+          "dimensions": [
+            800,
+            800
+          ]
+        }
+      },
+      "research_note": "Сравнены три кандидата, документация/лицензии/requirements/releases/issues. Новый PNG создан и просмотрен; архивирование не подтверждено. Установки и пилота нет."
+    }
+  ],
+  "updated_at": "2026-11-02",
+  "note": "Слоты перенесены без изменения фактов; blocked не означает опубликовано."
+}
