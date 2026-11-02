@@ -4,7 +4,7 @@
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-11-02 | **Проверка очистки речевой вставки** · music<br>[timsainb/noisereduce](https://github.com/timsainb/noisereduce) · blocked · [Разбор](../cards/timsainb--noisereduce.md) · [Текст](../posts/2026-11-02_timsainb--noisereduce.md) | **Сборка аудиофрагментов** · music<br>[jiaaro/pydub](https://github.com/jiaaro/pydub) · planned_research |
+| 2026-11-02 | **Проверка очистки речевой вставки** · music<br>[timsainb/noisereduce](https://github.com/timsainb/noisereduce) · blocked · [Разбор](../cards/timsainb--noisereduce.md) · [Текст](../posts/2026-11-02_timsainb--noisereduce.md) | **Сборка аудиофрагментов** · music<br>[jiaaro/pydub](https://github.com/jiaaro/pydub) · blocked · [Разбор](../cards/jiaaro--pydub.md) · [Текст](../posts/2026-11-02_jiaaro--pydub.md) |
 | 2026-11-03 | **Редактура EPUB** · book_audio<br>[Sigil-Ebook/Sigil](https://github.com/Sigil-Ebook/Sigil) · planned_research | **Документы из HTML** · book_audio<br>[Kozea/WeasyPrint](https://github.com/Kozea/WeasyPrint) · planned_research |
 | 2026-11-04 | **Индексация корпуса проекта** · agents_rag<br>[run-llama/llama_index](https://github.com/run-llama/llama_index) · planned_research | **Проверяемая цепочка поиска** · agents_rag<br>[deepset-ai/haystack](https://github.com/deepset-ai/haystack) · planned_research |
 | 2026-11-05 | **Понятная аналитика сайта** · growth_revenue<br>[umami-software/umami](https://github.com/umami-software/umami) · planned_research | **Альтернатива веб-аналитики** · growth_revenue<br>[plausible/analytics](https://github.com/plausible/analytics) · planned_research |
@@ -48,3 +48,5 @@ PNG создан встроенным image_gen и просмотрен (исх�
 
 
 01.11, вечер: faster-whisper — documentation/reviewing; новый постер создан и просмотрен, архив не подтверждён из-за filechooser timeout10000ms. POST не выполнялся. Горизонт 01–30.11 сохранён, 60 уникальных кандидатов.
+
+02.11, вечер: Pydub — документация/reviewing, сравнены MoviePy и ffmpeg-python. PNG создан встроенным image_gen и обе версии просмотрены. Яндекс Диск продолжает восстановление, загрузка Disabled; архив не подтверждён, POST не выполнялся. План 02.11–01.12 сохранён: 2 blocked, 58 planned_research, 60 уникальных кандидатов. Пилота нет.
