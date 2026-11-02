@@ -20,10 +20,11 @@
 | [Uptime Kuma](https://github.com/louislam/uptime-kuma) | История доступности страниц сайта и проверки нужного слова | Документация 31.10, MIT, 2.5.8/требования/issues; сравнение Gatus/Healthchecks; reviewing, без пилота; #8078 — открытый отчёт о status page | [Разбор](cards/louislam--uptime-kuma.md) · [Черновик](posts/2026-10-31_louislam--uptime-kuma.md) · blocked: архив PNG не подтверждён (filechooser timeout), поста нет |
 | [noisereduce](https://github.com/timsainb/noisereduce) | Проверка очистки речевого вступления перед музыкой | Документация 02.11, MIT/зависимости/релизы/issues, сравнение DeepFilterNet/RNNoise; reviewing, запуска и пилота нет | [Разбор](cards/timsainb--noisereduce.md) · [Черновик](posts/2026-11-02_timsainb--noisereduce.md) · blocked: PNG просмотрен, архив не подтверждён — восстановление Яндекс Диска, загрузка disabled; POST не выполнялся |
 | [restic](https://github.com/restic/restic) | Восстановление исходников сериала из версии архива | Документация 31.10, BSD-2-Clause, v0.19.1/requirements/issues; сравнение Borg/Kopia; reviewing, пилота нет | [Разбор](cards/restic--restic.md) · [Черновик](posts/2026-10-31_restic--restic.md) · blocked: архив PNG не подтверждён, filechooser timeout; поста нет |
+| [Pydub](https://github.com/jiaaro/pydub) | Повторяемая сборка трёх частей «Воли» с двумя переходами | Документация 02.11, MIT/setup/API/releases/issues; сравнение MoviePy/ffmpeg-python; reviewing, без запуска/пилота | [Разбор](cards/jiaaro--pydub.md) · [Черновик](posts/2026-11-02_jiaaro--pydub.md) · blocked: PNG просмотрен, архив не подтверждён — восстановление Яндекс Диска, загрузка Disabled; POST не выполнялся |
 
 
 
-Дата редакционного среза: 02.11.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. 59 ещё не исследованных активных слотов находятся в [плане исследований](content-plan/README.md).
+Дата редакционного среза: 02.11.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. 58 ещё не исследованных активных слотов находятся в [плане исследований](content-plan/README.md).
 
 ## Как читать статусы
 
@@ -60,3 +61,5 @@
 
 
 02.11: горизонт 02.11–01.12, 60 уникальных слотов; 01.11 сохранено в [ноябрьской истории](content-plan/history/2026-11.json). noisereduce — только документация и план пилота, не внедрение. Архив нового PNG заблокирован восстановлением Яндекс Диска, публикации нет.
+
+02.11, вечер: Pydub исследован по документации, не установлен. Открытые сообщения об audioop/Python3.13 и внешнем конвертере сохранены, пилот ограничен доверенным WAV и отдельной средой. Архив PNG не подтверждён: загрузка Яндекс Диска недоступна. Telegram не отправлялся.
