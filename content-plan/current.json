@@ -8,7 +8,7 @@
   "timing_mode": "flexible_schedule",
   "horizon_days": 30,
   "policy": "План исследований, а не список одобренных рекомендаций. Кандидата можно заменить с записью причины; не отправлять неподтверждённый материал ради календаря. Опубликованные URL не повторять.",
-  "known_blocker": "PNG создан встроенным image_gen; исходник и delivery визуально проверены. Яндекс Диск: папка VITTORA/open-arsenal доступна, дубля noisereduce нет, занято 27,6 МБ из 5 ГБ; баннер «Продолжаем восстанавливать Диск», кнопка «Загрузить» disabled. Загрузка не начата, архивирование PNG не подтверждено. Известный storageQuotaExceeded Google Drive без признака восстановления не повторяли. POST не выполнялся.",
+  "known_blocker": "02.11.2026: новый PNG создан встроенным image_gen; исходник и delivery визуально просмотрены. Яндекс Диск: папка VITTORA/open-arsenal доступна, дубля Pydub нет, занято 27,6 МБ из 5 ГБ; кнопка «Загрузить» сопровождается Disabled, уведомление «Продолжаем восстанавливать Диск». Загрузка не начата, архив PNG не подтверждён. Google Drive: известный storageQuotaExceeded без новых признаков восстановления не повторяли. POST не выполнялся.",
   "slots": [
     {
       "id": "2026-11-02-am",
@@ -96,18 +96,17 @@
       "topic": "Сборка аудиофрагментов",
       "repository": "jiaaro/pydub",
       "url": "https://github.com/jiaaro/pydub",
-      "vittora_benefit": "Подготовить повторяемую нарезку и объединение аудио",
-      "post_angle": "Простыми словами: подготовить повторяемую нарезку и объединение аудио. Объяснить преимущества, требования и когда инструмент не подходит.",
-      "pilot": "На 30–60 секундах разрешённой записи сравнить исходник и результат на слух, время и уровень сигнала; не менять мастер.",
+      "vittora_benefit": "Повторяемая сборка трёх музыкальных фрагментов для тизера «Воли».",
+      "post_angle": "Три отрезка музыки и два плавных перехода по сохранённым настройкам. Ограничения Python3.13/памяти, эффекта пилота нет.",
+      "pilot": "Специалист+редактор, отдельная среда Python3.12, Pydub0.25.1; доверенные локальные PCM WAV, одинаковый формат, один выход и повтор. Не выполнен.",
       "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Сборка аудиофрагментов. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "planned_research",
+      "status": "blocked",
       "metadata_check": {
-        "date": "2026-10-25",
+        "date": "2026-11-02",
         "exists": true,
         "archived": false,
         "canonical_repository": "jiaaro/pydub",
-        "renamed_from": null,
-        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+        "scope": "GitHub metadata, README/LICENSE/setup.py/API/releases/issues; запуск не проверен."
       },
       "required_before_publication": [
         "README",
@@ -121,9 +120,52 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
+        "status": "blocked",
         "message_id": null,
-        "url": null
-      }
+        "url": null,
+        "published_at": null,
+        "blocker": "02.11.2026: новый PNG создан встроенным image_gen; исходник и delivery визуально просмотрены. Яндекс Диск: папка VITTORA/open-arsenal доступна, дубля Pydub нет, занято 27,6 МБ из 5 ГБ; кнопка «Загрузить» сопровождается Disabled, уведомление «Продолжаем восстанавливать Диск». Загрузка не начата, архив PNG не подтверждён. Google Drive: известный storageQuotaExceeded без новых признаков восстановления не повторяли. POST не выполнялся.",
+        "delivery_history_checked_at": "2026-11-02",
+        "delivery_history_note": "Свежий get_site: только владелец. GET status can_publish=true; GET журнала: Pydub отсутствует, 0 успешных отправок сегодня. POST не выполнялся."
+      },
+      "verification_level": "documentation",
+      "verification_date": "2026-11-02",
+      "card_path": "cards/jiaaro--pydub.md",
+      "post_path": "posts/2026-11-02_jiaaro--pydub.md",
+      "illustration": {
+        "generation_method": "chat_builtin_image_gen",
+        "visually_reviewed": true,
+        "visually_reviewed_at": "2026-11-02",
+        "status": "archive_unconfirmed",
+        "archive_provider": "yandex_disk",
+        "intended_folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+        "verified_at": null,
+        "url": null,
+        "archive_note": "02.11.2026: новый PNG создан встроенным image_gen; исходник и delivery визуально просмотрены. Яндекс Диск: папка VITTORA/open-arsenal доступна, дубля Pydub нет, занято 27,6 МБ из 5 ГБ; кнопка «Загрузить» сопровождается Disabled, уведомление «Продолжаем восстанавливать Диск». Загрузка не начата, архив PNG не подтверждён. Google Drive: известный storageQuotaExceeded без новых признаков восстановления не повторяли. POST не выполнялся.",
+        "original": {
+          "name": "2026-11-02_jiaaro--pydub_poster-v1.png",
+          "path": "VITTORA/open-arsenal/2026-11-02_jiaaro--pydub_poster-v1.png",
+          "size_bytes": 2136213,
+          "sha256": "76b7c5e1694b5ebcf44660b6e81972b6ec0fa0f420c18e4b9587894f965c072f",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "mime_type": "image/png"
+        },
+        "delivery": {
+          "name": "2026-11-02_jiaaro--pydub_poster-v1-delivery.png",
+          "path": "VITTORA/open-arsenal/2026-11-02_jiaaro--pydub_poster-v1-delivery.png",
+          "size_bytes": 772597,
+          "sha256": "319340afac02905279e0266e6d167d9b283cda7ad78e69a372cba236668b32bf",
+          "dimensions": [
+            800,
+            800
+          ],
+          "mime_type": "image/png"
+        }
+      },
+      "research_note": "Сравнены Pydub/MoviePy/ffmpeg-python, кандидат оставлен reviewing для отдельного WAV-пилота; ни установки, ни внедрения."
     },
     {
       "id": "2026-11-03-am",
