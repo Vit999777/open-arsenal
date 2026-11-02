@@ -1,194 +1,35 @@
 {
-  "title": "Контент-план: 1–30 ноября 2026",
+  "title": "Контент-план Открытого арсенала: 2 ноября — 1 декабря 2026",
   "created_at": "2026-10-25",
-  "start_date": "2026-11-01",
-  "end_date": "2026-11-30",
+  "start_date": "2026-11-02",
+  "end_date": "2026-12-01",
   "timezone": "Europe/Moscow",
   "slots_per_day": 2,
   "timing_mode": "flexible_schedule",
   "horizon_days": 30,
   "policy": "План исследований, а не список одобренных рекомендаций. Кандидата можно заменить с записью причины; не отправлять неподтверждённый материал ради календаря. Опубликованные URL не повторять.",
-  "known_blocker": "Новый PNG создан встроенным image_gen, исходник и delivery просмотрены. Яндекс Диск: папка доступна, 27,6МБ из 5ГБ, дубля нет; filechooser timeout10000ms, загрузка не началась. Архив не подтверждён. POST не выполнялся. Это не отказ квоты; Google Drive не объявлен восстановленным.",
+  "known_blocker": "PNG создан встроенным image_gen; исходник и delivery визуально проверены. Яндекс Диск: папка VITTORA/open-arsenal доступна, дубля noisereduce нет, занято 27,6 МБ из 5 ГБ; баннер «Продолжаем восстанавливать Диск», кнопка «Загрузить» disabled. Загрузка не начата, архивирование PNG не подтверждено. Известный storageQuotaExceeded Google Drive без признака восстановления не повторяли. POST не выполнялся.",
   "slots": [
-    {
-      "id": "2026-11-01-am",
-      "date": "2026-11-01",
-      "time": "10:00",
-      "timezone": "Europe/Moscow",
-      "direction": "video",
-      "topic": "Удобная правка субтитров",
-      "repository": "SubtitleEdit/subtitleedit",
-      "url": "https://github.com/SubtitleEdit/subtitleedit",
-      "vittora_benefit": "Рассмотреть редактор для финальной коррекции субтитров",
-      "post_angle": "Простыми словами: рассмотреть редактор для финальной коррекции субтитров. Объяснить преимущества, требования и когда инструмент не подходит.",
-      "pilot": "На одном фрагменте до 30 секунд сравнить время подготовки, размер файла и заметные артефакты.",
-      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Удобная правка субтитров. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "blocked",
-      "metadata_check": {
-        "date": "2026-10-25",
-        "exists": true,
-        "archived": false,
-        "canonical_repository": "SubtitleEdit/subtitleedit",
-        "renamed_from": null,
-        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
-      },
-      "required_before_publication": [
-        "README",
-        "LICENSE и условия моделей/зависимостей",
-        "требования и расходы",
-        "сравнение с альтернативой",
-        "индивидуальный разбор",
-        "изображение из встроенного генератора чата",
-        "архивирование изображения в Google Drive или Яндекс Диске",
-        "визуальная проверка",
-        "дедупликация каталога и Telegram"
-      ],
-      "publication": {
-        "status": "blocked",
-        "message_id": null,
-        "url": null,
-        "published_at": null,
-        "blocker": "PNG создан встроенным image_gen и просмотрен (исходник и delivery). Папка Яндекс Диска доступна, 27,6 МБ из 5 ГБ, дубля нет; filechooser timeout 10000ms. Загрузка не началась, архив не подтверждён. POST не выполнялся. Это не отказ квоты; Google Drive не объявлен восстановленным.",
-        "delivery_history_checked_at": "2026-11-01",
-        "delivery_history_note": "Оба GET через owner-private Site; can_publish=true, Subtitle Edit отсутствует, сегодня 0 успешных постов. POST не выполнялся."
-      },
-      "research_date": "2026-11-01",
-      "verification_level": "documentation",
-      "catalog_status": "reviewing",
-      "card_path": "cards/subtitleedit--subtitleedit.md",
-      "post_path": "posts/2026-11-01_subtitleedit--subtitleedit.md",
-      "illustration": {
-        "generation_method": "chat_builtin_image_gen",
-        "visually_reviewed": true,
-        "status": "archive_unconfirmed",
-        "archive_provider": "yandex_disk",
-        "intended_folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
-        "verified_at": null,
-        "archive_note": "PNG создан встроенным image_gen и просмотрен (исходник и delivery). Папка Яндекс Диска доступна, 27,6 МБ из 5 ГБ, дубля нет; filechooser timeout 10000ms. Загрузка не началась, архив не подтверждён. POST не выполнялся. Это не отказ квоты; Google Drive не объявлен восстановленным.",
-        "original": {
-          "name": "2026-11-01_subtitleedit--subtitleedit_poster-v1.png",
-          "path": "VITTORA/open-arsenal/2026-11-01_subtitleedit--subtitleedit_poster-v1.png",
-          "size_bytes": 1792578,
-          "sha256": "c555390066a7500e05d7936eadb89344891d065a4a0968c99a0639fb7e567b63",
-          "dimensions": [
-            1254,
-            1254
-          ],
-          "location_status": "intended_archive_path_not_confirmed"
-        },
-        "delivery": {
-          "name": "2026-11-01_subtitleedit--subtitleedit_poster-v1-delivery.png",
-          "path": "VITTORA/open-arsenal/2026-11-01_subtitleedit--subtitleedit_poster-v1-delivery.png",
-          "size_bytes": 748253,
-          "sha256": "b947ebd5c7af7e4bbc19262eed7ee4cebd1d6f11e09a6bba45388aecfeb04bf6",
-          "dimensions": [
-            800,
-            800
-          ],
-          "location_status": "intended_archive_path_not_confirmed"
-        }
-      },
-      "research_note": "Три кандидата проверены документально; выбран Subtitle Edit. Новый PNG создан и просмотрен, архив не подтверждён. Без установки/пилота/POST."
-    },
-    {
-      "id": "2026-11-01-pm",
-      "date": "2026-11-01",
-      "time": "18:00",
-      "timezone": "Europe/Moscow",
-      "direction": "book_audio",
-      "topic": "Расшифровка озвучки",
-      "repository": "SYSTRAN/faster-whisper",
-      "url": "https://github.com/SYSTRAN/faster-whisper",
-      "vittora_benefit": "Сравнить получение текста с текущим процессом",
-      "post_angle": "Простыми словами: сравнить получение текста с текущим процессом. Объяснить преимущества, требования и когда инструмент не подходит.",
-      "pilot": "На одном фрагменте или тестовой копии издания проверить читаемость, структуру и время ручных исправлений.",
-      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Расшифровка озвучки. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "blocked",
-      "metadata_check": {
-        "date": "2026-10-25",
-        "exists": true,
-        "archived": false,
-        "canonical_repository": "SYSTRAN/faster-whisper",
-        "renamed_from": null,
-        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
-      },
-      "required_before_publication": [
-        "README",
-        "LICENSE и условия моделей/зависимостей",
-        "требования и расходы",
-        "сравнение с альтернативой",
-        "индивидуальный разбор",
-        "изображение из встроенного генератора чата",
-        "архивирование изображения в Google Drive или Яндекс Диске",
-        "визуальная проверка",
-        "дедупликация каталога и Telegram"
-      ],
-      "publication": {
-        "status": "blocked",
-        "message_id": null,
-        "url": null,
-        "published_at": null,
-        "blocker": "Новый PNG создан встроенным image_gen, исходник и delivery просмотрены. Яндекс Диск: папка доступна, 27,6МБ из 5ГБ, дубля нет; filechooser timeout10000ms, загрузка не началась. Архив не подтверждён. POST не выполнялся. Это не отказ квоты; Google Drive не объявлен восстановленным.",
-        "delivery_history_checked_at": "2026-11-01",
-        "delivery_history_note": "Оба GET через owner-private Site; can_publish=true, faster-whisper отсутствует, 0 успешных постов сегодня. POST не выполнялся."
-      },
-      "verification_level": "documentation",
-      "research_date": "2026-11-01",
-      "catalog_status": "reviewing",
-      "card_path": "cards/systran--faster-whisper.md",
-      "post_path": "posts/2026-11-01_systran--faster-whisper.md",
-      "illustration": {
-        "generation_method": "chat_builtin_image_gen",
-        "visually_reviewed": true,
-        "status": "archive_unconfirmed",
-        "archive_provider": "yandex_disk",
-        "intended_folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
-        "verified_at": null,
-        "archive_note": "Исходник и delivery созданы/просмотрены; пути целевые, загрузка не началась (filechooser timeout10000ms), архив не подтверждён. Не проверенный резерв.",
-        "original": {
-          "name": "2026-11-01_systran--faster-whisper_poster-v1.png",
-          "path": "VITTORA/open-arsenal/2026-11-01_systran--faster-whisper_poster-v1.png",
-          "size_bytes": 1956106,
-          "sha256": "0718765799da874decbf1c056c131abef8872b5b5390419f8a4c6a9417030309",
-          "dimensions": [
-            1254,
-            1254
-          ]
-        },
-        "delivery": {
-          "name": "2026-11-01_systran--faster-whisper_poster-v1-delivery.png",
-          "path": "VITTORA/open-arsenal/2026-11-01_systran--faster-whisper_poster-v1-delivery.png",
-          "size_bytes": 831027,
-          "sha256": "3e2d050e19f00999a9f8eee9d53d6d823cf636fe649a9e5515e9a79602f14e5b",
-          "dimensions": [
-            800,
-            800
-          ]
-        }
-      },
-      "research_note": "Сравнены три кандидата, документация/лицензии/requirements/releases/issues. Новый PNG создан и просмотрен; архивирование не подтверждено. Установки и пилота нет."
-    },
     {
       "id": "2026-11-02-am",
       "date": "2026-11-02",
       "time": "10:00",
       "timezone": "Europe/Moscow",
       "direction": "music",
-      "topic": "Снижение фонового шума",
-      "repository": "Rikorose/DeepFilterNet",
-      "url": "https://github.com/Rikorose/DeepFilterNet",
-      "vittora_benefit": "Проверить очистку записи без потери разборчивости и тембра",
-      "post_angle": "Простыми словами: проверить очистку записи без потери разборчивости и тембра. Объяснить преимущества, требования и когда инструмент не подходит.",
-      "pilot": "На 30–60 секундах разрешённой записи сравнить исходник и результат на слух, время и уровень сигнала; не менять мастер.",
-      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Снижение фонового шума. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "planned_research",
+      "topic": "Проверка очистки речевой вставки",
+      "repository": "timsainb/noisereduce",
+      "url": "https://github.com/timsainb/noisereduce",
+      "vittora_benefit": "Фоновый шум в записанной речевой вставке перед сведением с музыкой.",
+      "post_angle": "Локальный фильтр для шумной речи: два режима, без готовых моделей; эффект не измерен.",
+      "pilot": "Специалист и редактор: отдельный 60-секундный WAV целиком, NumPy use_torch=False, stationary=True/False; сохранить исходник/параметры и сравнить 10 фраз вслепую. Не выполнен.",
+      "illustration_brief": "Уникальный встроенный image_gen: noisereduce, «Проверяем очистку голоса», микрофон и частотный фильтр; исходник и delivery просмотрены.",
+      "status": "blocked",
       "metadata_check": {
-        "date": "2026-10-25",
+        "date": "2026-11-02",
         "exists": true,
         "archived": false,
-        "canonical_repository": "Rikorose/DeepFilterNet",
-        "renamed_from": null,
-        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+        "canonical_repository": "timsainb/noisereduce",
+        "scope": "Метаданные и документация; не запуск."
       },
       "required_before_publication": [
         "README",
@@ -202,8 +43,48 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
+        "status": "blocked",
         "message_id": null,
-        "url": null
+        "url": null,
+        "published_at": null,
+        "blocker": "PNG создан встроенным image_gen; исходник и delivery визуально проверены. Яндекс Диск: папка VITTORA/open-arsenal доступна, дубля noisereduce нет, занято 27,6 МБ из 5 ГБ; баннер «Продолжаем восстанавливать Диск», кнопка «Загрузить» disabled. Загрузка не начата, архивирование PNG не подтверждено. Известный storageQuotaExceeded Google Drive без признака восстановления не повторяли. POST не выполнялся.",
+        "delivery_history_checked_at": "2026-11-02",
+        "delivery_history_note": "Owner-private подтверждён; GET status и журнал прочитаны сервисным доступом, can_publish=true, 0 успешных постов сегодня, noisereduce отсутствует. POST не выполнялся."
+      },
+      "selection_note": "Плановый Rikorose/DeepFilterNet заменён после сравнения с noisereduce и RNNoise: область условий готовых весов не уточнена в issue712/комментариях, issue713 содержит невоспроизведённый отчёт о NaN; выбран малый NumPy-пилот без весов. Превосходство звучания не утверждаем.",
+      "original_repository": "Rikorose/DeepFilterNet",
+      "card_path": "cards/timsainb--noisereduce.md",
+      "post_path": "posts/2026-11-02_timsainb--noisereduce.md",
+      "verification_level": "documentation",
+      "verification_date": "2026-11-02",
+      "illustration": {
+        "generation_method": "chat_builtin_image_gen",
+        "visually_reviewed": true,
+        "status": "archive_unconfirmed",
+        "archive_provider": "yandex_disk",
+        "intended_folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+        "verified_at": null,
+        "archive_note": "PNG создан встроенным image_gen; исходник и delivery визуально проверены. Яндекс Диск: папка VITTORA/open-arsenal доступна, дубля noisereduce нет, занято 27,6 МБ из 5 ГБ; баннер «Продолжаем восстанавливать Диск», кнопка «Загрузить» disabled. Загрузка не начата, архивирование PNG не подтверждено. Известный storageQuotaExceeded Google Drive без признака восстановления не повторяли. POST не выполнялся.",
+        "original": {
+          "name": "2026-11-02_timsainb--noisereduce_poster-v1.png",
+          "path": "VITTORA/open-arsenal/2026-11-02_timsainb--noisereduce_poster-v1.png",
+          "size_bytes": 2116348,
+          "sha256": "3fe9bf88da00bb7935bd532fb1aa4eeb9d075f764ba83b574aa52726ded5985c",
+          "dimensions": [
+            1254,
+            1254
+          ]
+        },
+        "delivery": {
+          "name": "2026-11-02_timsainb--noisereduce_poster-v1-delivery.png",
+          "path": "VITTORA/open-arsenal/2026-11-02_timsainb--noisereduce_poster-v1-delivery.png",
+          "size_bytes": 800825,
+          "sha256": "217c4eb0a571e709ad255d71c595d9bf78858757a3873e690a3b1bbd7ed46ac9",
+          "dimensions": [
+            800,
+            800
+          ]
+        }
       }
     },
     {
@@ -2294,7 +2175,59 @@
         "message_id": null,
         "url": null
       }
+    },
+    {
+      "id": "2026-12-01-am",
+      "date": "2026-12-01",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "music",
+      "topic": "Контроль громкости речевой вставки",
+      "repository": "jiixyj/libebur128",
+      "url": "https://github.com/jiixyj/libebur128",
+      "vittora_benefit": "Проверить измерение громкости до смешивания с музыкой",
+      "post_angle": "Простыми словами объяснить пользу; проверить лицензии, требования и альтернативы. Пока не рекомендация.",
+      "pilot": "На копии 60 секунд разрешённой записи проверить выходные параметры и сравнить с текущим FFmpeg; чужой код без отдельного решения не запускать.",
+      "illustration_brief": "Создать отдельный постер конкретного инструмента встроенным image_gen перед готовым выпуском; без обещаний результатов.",
+      "status": "planned_research",
+      "metadata_check": {
+        "date": "2026-11-02",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "jiixyj/libebur128",
+        "scope": "Только доступность/имя/неархивность; содержание, условия, запуск и ресурсы не проверены."
+      },
+      "publication": {
+        "message_id": null,
+        "url": null
+      }
+    },
+    {
+      "id": "2026-12-01-pm",
+      "date": "2026-12-01",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "music",
+      "topic": "Преобразование частоты аудио",
+      "repository": "libsndfile/libsamplerate",
+      "url": "https://github.com/libsndfile/libsamplerate",
+      "vittora_benefit": "Проверить подготовку копии аудио к параметрам монтажного проекта",
+      "post_angle": "Простыми словами объяснить пользу; проверить лицензии, требования и альтернативы. Пока не рекомендация.",
+      "pilot": "На копии 60 секунд разрешённой записи проверить выходные параметры и сравнить с текущим FFmpeg; чужой код без отдельного решения не запускать.",
+      "illustration_brief": "Создать отдельный постер конкретного инструмента встроенным image_gen перед готовым выпуском; без обещаний результатов.",
+      "status": "planned_research",
+      "metadata_check": {
+        "date": "2026-11-02",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "libsndfile/libsamplerate",
+        "scope": "Только доступность/имя/неархивность; содержание, условия, запуск и ресурсы не проверены."
+      },
+      "publication": {
+        "message_id": null,
+        "url": null
+      }
     }
   ],
-  "updated_at": "2026-11-01"
+  "updated_at": "2026-11-02"
 }
