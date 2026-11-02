@@ -1068,5 +1068,75 @@
         ]
       }
     }
+  },
+  {
+    "url": "https://github.com/timsainb/noisereduce",
+    "status": "reviewing",
+    "direction": "music",
+    "verification_level": "documentation",
+    "verification_date": "2026-11-02",
+    "concrete_problem": "Фоновый шум в записанной речевой вставке перед сведением с музыкой.",
+    "application_example": "Разрешённая копия 60 секунд вступления VITTORA; сравнить два режима и текущую ручную обработку.",
+    "first_pilot": "Специалист и редактор: отдельный 60-секундный WAV целиком, NumPy use_torch=False, stationary=True/False; сохранить исходник/параметры и сравнить 10 фраз вслепую. Не выполнен.",
+    "success_metric": "Цель, не результат: 10/10 фраз без ухудшения/артефактов, точная длина в отсчётах, без NaN/нового клиппинга. RMS паузы -3дБ только при сохранности речи. Измерить peakRAM, время обработки и ручной коррекции против текущего процесса.",
+    "requirements_and_costs": "Локальный Python, scipy/numpy/matplotlib/tqdm/joblib; точный Python/ОС/машина не проверены. NumPy-путь без обязательных моделей/GPU/API/хостинга. MIT кода без лицензионной платы; техника, установка, электричество, время специалиста/редактора и поддержка — расходы. RAM/диск/время/рубли неизвестны до пилота.",
+    "limitations": "Возможно изменение тембра/гармоник; не для чистой озвучки и готовой песни. Issue132/PR131/PR130 не воспроизведены; предложенные fixes не объявляются принятыми. Внешняя нарезка и проверка числа отсчётов обязательны в пилоте. Установки/аудита зависимостей нет.",
+    "license_review": "LICENSE MIT; сохранить уведомления при распространении. setup.py license MIT, classifier BSD — расхождение метаданных требует сверки перед распространением. Для NumPy готовые веса не нужны, зависимости проверяются отдельно.",
+    "comparison": "Три кандидата: noisereduce — NumPy без моделей; DeepFilterNet — готовые модели, неясная область условий весов (issue712), отчёт NaN713; RNNoise — C/autotools, raw16mono48k и скачиваемая модель. Выбран по прозрачности малого Python-пилота, качество не сравнивалось. Baseline — прослушка, ручная нарезка/уровни/фейды/FFmpeg; фактическое время неизвестно.",
+    "readme_source": "https://github.com/timsainb/noisereduce/blob/master/README.md",
+    "license_source": "https://github.com/timsainb/noisereduce/blob/master/LICENSE",
+    "requirements_source": "https://github.com/timsainb/noisereduce/blob/master/setup.py",
+    "release_source": "https://github.com/timsainb/noisereduce/releases/tag/v3.0.3",
+    "issues_source": "https://github.com/timsainb/noisereduce/issues/132",
+    "metadata_discrepancy": "inspect_repo.py latest_release_url v3.0.0 против списка releases коннектора v3.0.3; тег нужно перепроверить до установки.",
+    "scores": {
+      "vittora_impact": 4,
+      "feasibility": 3,
+      "total_cost": 3,
+      "maintenance": 2,
+      "integration": 4
+    },
+    "score_note": "Редакционная оценка по документации; не ready: машина/ресурсы/пилот/полный аудит неизвестны.",
+    "archived": false,
+    "card_path": "cards/timsainb--noisereduce.md",
+    "post_path": "posts/2026-11-02_timsainb--noisereduce.md",
+    "publication": {
+      "status": "blocked",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "blocker": "PNG создан встроенным image_gen; исходник и delivery визуально проверены. Яндекс Диск: папка VITTORA/open-arsenal доступна, дубля noisereduce нет, занято 27,6 МБ из 5 ГБ; баннер «Продолжаем восстанавливать Диск», кнопка «Загрузить» disabled. Загрузка не начата, архивирование PNG не подтверждено. Известный storageQuotaExceeded Google Drive без признака восстановления не повторяли. POST не выполнялся.",
+      "delivery_history_checked_at": "2026-11-02",
+      "delivery_history_note": "Owner-private подтверждён; GET status и журнал прочитаны сервисным доступом, can_publish=true, 0 успешных постов сегодня, noisereduce отсутствует. POST не выполнялся."
+    },
+    "illustration": {
+      "generation_method": "chat_builtin_image_gen",
+      "visually_reviewed": true,
+      "status": "archive_unconfirmed",
+      "archive_provider": "yandex_disk",
+      "intended_folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
+      "verified_at": null,
+      "archive_note": "PNG создан встроенным image_gen; исходник и delivery визуально проверены. Яндекс Диск: папка VITTORA/open-arsenal доступна, дубля noisereduce нет, занято 27,6 МБ из 5 ГБ; баннер «Продолжаем восстанавливать Диск», кнопка «Загрузить» disabled. Загрузка не начата, архивирование PNG не подтверждено. Известный storageQuotaExceeded Google Drive без признака восстановления не повторяли. POST не выполнялся.",
+      "original": {
+        "name": "2026-11-02_timsainb--noisereduce_poster-v1.png",
+        "path": "VITTORA/open-arsenal/2026-11-02_timsainb--noisereduce_poster-v1.png",
+        "size_bytes": 2116348,
+        "sha256": "3fe9bf88da00bb7935bd532fb1aa4eeb9d075f764ba83b574aa52726ded5985c",
+        "dimensions": [
+          1254,
+          1254
+        ]
+      },
+      "delivery": {
+        "name": "2026-11-02_timsainb--noisereduce_poster-v1-delivery.png",
+        "path": "VITTORA/open-arsenal/2026-11-02_timsainb--noisereduce_poster-v1-delivery.png",
+        "size_bytes": 800825,
+        "sha256": "217c4eb0a571e709ad255d71c595d9bf78858757a3873e690a3b1bbd7ed46ac9",
+        "dimensions": [
+          800,
+          800
+        ]
+      }
+    }
   }
 ]
