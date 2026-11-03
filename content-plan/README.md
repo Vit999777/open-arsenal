@@ -4,7 +4,7 @@
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-11-03 | **Редактура EPUB** · book_audio<br>[Sigil-Ebook/Sigil](https://github.com/Sigil-Ebook/Sigil) · blocked · [Разбор](../cards/sigil-ebook--sigil.md) · [Текст](../posts/2026-11-03_sigil-ebook--sigil.md) | **Документы из HTML** · book_audio<br>[Kozea/WeasyPrint](https://github.com/Kozea/WeasyPrint) · planned_research |
+| 2026-11-03 | **Редактура EPUB** · book_audio<br>[Sigil-Ebook/Sigil](https://github.com/Sigil-Ebook/Sigil) · blocked · [Разбор](../cards/sigil-ebook--sigil.md) · [Текст](../posts/2026-11-03_sigil-ebook--sigil.md) | **Документы из HTML** · book_audio<br>[Kozea/WeasyPrint](https://github.com/Kozea/WeasyPrint) · blocked · [Разбор](../cards/kozea--weasyprint.md) · [Текст](../posts/2026-11-03_kozea--weasyprint.md) |
 | 2026-11-04 | **Индексация корпуса проекта** · agents_rag<br>[run-llama/llama_index](https://github.com/run-llama/llama_index) · planned_research | **Проверяемая цепочка поиска** · agents_rag<br>[deepset-ai/haystack](https://github.com/deepset-ai/haystack) · planned_research |
 | 2026-11-05 | **Понятная аналитика сайта** · growth_revenue<br>[umami-software/umami](https://github.com/umami-software/umami) · planned_research | **Альтернатива веб-аналитики** · growth_revenue<br>[plausible/analytics](https://github.com/plausible/analytics) · planned_research |
 | 2026-11-06 | **Связка рабочих сервисов** · publishing<br>[activepieces/activepieces](https://github.com/activepieces/activepieces) · planned_research | **Автоматизация редакционного процесса** · publishing<br>[n8n-io/n8n](https://github.com/n8n-io/n8n) · planned_research |
