@@ -22,10 +22,11 @@
 | [restic](https://github.com/restic/restic) | Восстановление исходников сериала из версии архива | Документация 31.10, BSD-2-Clause, v0.19.1/requirements/issues; сравнение Borg/Kopia; reviewing, пилота нет | [Разбор](cards/restic--restic.md) · [Черновик](posts/2026-10-31_restic--restic.md) · blocked: архив PNG не подтверждён, filechooser timeout; поста нет |
 | [Pydub](https://github.com/jiaaro/pydub) | Повторяемая сборка трёх частей «Воли» с двумя переходами | Документация 02.11, MIT/setup/API/releases/issues; сравнение MoviePy/ffmpeg-python; reviewing, без запуска/пилота | [Разбор](cards/jiaaro--pydub.md) · [Черновик](posts/2026-11-02_jiaaro--pydub.md) · blocked: PNG просмотрен, архив не подтверждён — восстановление Яндекс Диска, загрузка Disabled; POST не выполнялся |
 | [Sigil](https://github.com/Sigil-Ebook/Sigil) | Редактура оглавления и ссылок EPUB VITTORA | Документация 03.11, сравнение Calibre и EPUBCheck, reviewing | [Разбор](cards/sigil-ebook--sigil.md) · [Черновик](posts/2026-11-03_sigil-ebook--sigil.md) · blocked: подготовка и архив PNG |
+| [WeasyPrint](https://github.com/Kozea/WeasyPrint) | PDF главы из HTML и печатных стилей | Документация 03.11, сравнение Pandoc и wkhtmltopdf, reviewing | [Разбор](cards/kozea--weasyprint.md) · [Черновик](posts/2026-11-03_kozea--weasyprint.md) · blocked: подготовка и архив PNG |
 
 
 
-Дата редакционного среза: 03.11.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. 59 ещё не исследованных активных слотов находятся в [плане исследований](content-plan/README.md).
+Дата редакционного среза: 03.11.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. 58 ещё не исследованных активных слотов находятся в [плане исследований](content-plan/README.md).
 
 ## Как читать статусы
 
