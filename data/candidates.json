@@ -1246,5 +1246,40 @@
       "intended_archive_provider": "yandex_disk",
       "visually_reviewed": false
     }
+  },
+  {
+    "url": "https://github.com/Kozea/WeasyPrint",
+    "status": "reviewing",
+    "direction": "book_audio",
+    "verification_level": "documentation",
+    "verification_date": "2026-11-03",
+    "concrete_problem": "Повторяемая сборка PDF главы VITTORA из HTML и печатных стилей.",
+    "application_example": "Сверить пробную главу с существующим PDF книги.",
+    "first_pilot": "Взять разрешённую копию одной главы с заголовками, иллюстрацией и ссылками. Собрать PDF из локального HTML и печатных стилей, сверить с текущим PDF.",
+    "success_metric": "Цель: 10/10 проверок (три перехода, две закладки, две страницы без обрезки, кириллица, изображение и извлечение текста). Записать время подготовки, рендера и правок, пиковую RAM и размер файла. Пилот не выполнен.",
+    "requirements_and_costs": "Локальный CPU, Python ≥3.11, Pango ≥1.44, зависимости из pyproject.toml и лицензированные шрифты с кириллицей. BSD-3-Clause без лицензионного платежа. Модели, обязательный платный API и хостинг для пилота не требуются. Расходы: рабочее время, вычисления, диск, установка и сопровождение, при необходимости лицензии шрифтов. Суммы и ресурсы неизвестны до замера.",
+    "limitations": "Не воспроизводит JavaScript-приложение как браузер. Проверять разрывы, подстановку шрифтов и ссылки. Использовать доверенный HTML с локальными ресурсами, изолировать рендер с запретом сети и лимитами времени/памяти. Условия встраивания шрифтов проверяются отдельно.",
+    "license_review": "BSD-3-Clause, при распространении сохранить уведомления и условия. Лицензии зависимостей и шрифтов отдельно.",
+    "comparison": "WeasyPrint непосредственно применяет печатные стили HTML/CSS. Pandoc полезен на предыдущем этапе преобразования авторского текста и использует отдельный PDF-движок. wkhtmltopdf также делает PDF из HTML, но его репозиторий архивирован. Текущая база VITTORA — готовый PDF и сайт, точная цепочка их сборки неизвестна.",
+    "readme_source": "https://github.com/Kozea/WeasyPrint/blob/main/README.rst",
+    "license_source": "https://github.com/Kozea/WeasyPrint/blob/main/LICENSE",
+    "requirements_source": "https://github.com/Kozea/WeasyPrint/blob/main/pyproject.toml",
+    "release_source": "https://github.com/Kozea/WeasyPrint/releases/tag/v70.0",
+    "issues_source": "https://github.com/Kozea/WeasyPrint/issues/3005",
+    "archived": false,
+    "card_path": "cards/kozea--weasyprint.md",
+    "post_path": "posts/2026-11-03_kozea--weasyprint.md",
+    "publication": {
+      "status": "blocked",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "blocker": "03.11.2026 после обновления папки VITTORA/open-arsenal Яндекс Диск показывает восстановление сервиса. Доступная загрузка не подтверждена, занято 27,6 МБ из 5 ГБ. Для Google Drive сохраняется известный storageQuotaExceeded без подтверждения восстановления. PNG пока не подготовлен и не архивирован."
+    },
+    "illustration": {
+      "status": "pending_generation",
+      "intended_archive_provider": "yandex_disk",
+      "visually_reviewed": false
+    }
   }
 ]
