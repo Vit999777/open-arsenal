@@ -1,172 +1,15 @@
 {
-  "title": "Контент-план Открытого арсенала: 2 ноября — 1 декабря 2026",
+  "title": "Контент-план Открытого арсенала: 3 ноября — 2 декабря 2026",
   "created_at": "2026-10-25",
-  "start_date": "2026-11-02",
-  "end_date": "2026-12-01",
+  "start_date": "2026-11-03",
+  "end_date": "2026-12-02",
   "timezone": "Europe/Moscow",
   "slots_per_day": 2,
   "timing_mode": "flexible_schedule",
   "horizon_days": 30,
   "policy": "План исследований, а не список одобренных рекомендаций. Кандидата можно заменить с записью причины; не отправлять неподтверждённый материал ради календаря. Опубликованные URL не повторять.",
-  "known_blocker": "02.11.2026: новый PNG создан встроенным image_gen; исходник и delivery визуально просмотрены. Яндекс Диск: папка VITTORA/open-arsenal доступна, дубля Pydub нет, занято 27,6 МБ из 5 ГБ; кнопка «Загрузить» сопровождается Disabled, уведомление «Продолжаем восстанавливать Диск». Загрузка не начата, архив PNG не подтверждён. Google Drive: известный storageQuotaExceeded без новых признаков восстановления не повторяли. POST не выполнялся.",
+  "known_blocker": "03.11.2026 в приватной папке VITTORA/open-arsenal Яндекс Диск показывает «Продолжаем восстанавливать Диск», загрузка Disabled, занято 27,6 МБ из 5 ГБ. Google Drive ранее вернул storageQuotaExceeded, признаков восстановления нет. Подготовка нового PNG отложена до доступного архива. Публикация заблокирована.",
   "slots": [
-    {
-      "id": "2026-11-02-am",
-      "date": "2026-11-02",
-      "time": "10:00",
-      "timezone": "Europe/Moscow",
-      "direction": "music",
-      "topic": "Проверка очистки речевой вставки",
-      "repository": "timsainb/noisereduce",
-      "url": "https://github.com/timsainb/noisereduce",
-      "vittora_benefit": "Фоновый шум в записанной речевой вставке перед сведением с музыкой.",
-      "post_angle": "Локальный фильтр для шумной речи: два режима, без готовых моделей; эффект не измерен.",
-      "pilot": "Специалист и редактор: отдельный 60-секундный WAV целиком, NumPy use_torch=False, stationary=True/False; сохранить исходник/параметры и сравнить 10 фраз вслепую. Не выполнен.",
-      "illustration_brief": "Уникальный встроенный image_gen: noisereduce, «Проверяем очистку голоса», микрофон и частотный фильтр; исходник и delivery просмотрены.",
-      "status": "blocked",
-      "metadata_check": {
-        "date": "2026-11-02",
-        "exists": true,
-        "archived": false,
-        "canonical_repository": "timsainb/noisereduce",
-        "scope": "Метаданные и документация; не запуск."
-      },
-      "required_before_publication": [
-        "README",
-        "LICENSE и условия моделей/зависимостей",
-        "требования и расходы",
-        "сравнение с альтернативой",
-        "индивидуальный разбор",
-        "изображение из встроенного генератора чата",
-        "архивирование изображения в Google Drive или Яндекс Диске",
-        "визуальная проверка",
-        "дедупликация каталога и Telegram"
-      ],
-      "publication": {
-        "status": "blocked",
-        "message_id": null,
-        "url": null,
-        "published_at": null,
-        "blocker": "PNG создан встроенным image_gen; исходник и delivery визуально проверены. Яндекс Диск: папка VITTORA/open-arsenal доступна, дубля noisereduce нет, занято 27,6 МБ из 5 ГБ; баннер «Продолжаем восстанавливать Диск», кнопка «Загрузить» disabled. Загрузка не начата, архивирование PNG не подтверждено. Известный storageQuotaExceeded Google Drive без признака восстановления не повторяли. POST не выполнялся.",
-        "delivery_history_checked_at": "2026-11-02",
-        "delivery_history_note": "Owner-private подтверждён; GET status и журнал прочитаны сервисным доступом, can_publish=true, 0 успешных постов сегодня, noisereduce отсутствует. POST не выполнялся."
-      },
-      "selection_note": "Плановый Rikorose/DeepFilterNet заменён после сравнения с noisereduce и RNNoise: область условий готовых весов не уточнена в issue712/комментариях, issue713 содержит невоспроизведённый отчёт о NaN; выбран малый NumPy-пилот без весов. Превосходство звучания не утверждаем.",
-      "original_repository": "Rikorose/DeepFilterNet",
-      "card_path": "cards/timsainb--noisereduce.md",
-      "post_path": "posts/2026-11-02_timsainb--noisereduce.md",
-      "verification_level": "documentation",
-      "verification_date": "2026-11-02",
-      "illustration": {
-        "generation_method": "chat_builtin_image_gen",
-        "visually_reviewed": true,
-        "status": "archive_unconfirmed",
-        "archive_provider": "yandex_disk",
-        "intended_folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
-        "verified_at": null,
-        "archive_note": "PNG создан встроенным image_gen; исходник и delivery визуально проверены. Яндекс Диск: папка VITTORA/open-arsenal доступна, дубля noisereduce нет, занято 27,6 МБ из 5 ГБ; баннер «Продолжаем восстанавливать Диск», кнопка «Загрузить» disabled. Загрузка не начата, архивирование PNG не подтверждено. Известный storageQuotaExceeded Google Drive без признака восстановления не повторяли. POST не выполнялся.",
-        "original": {
-          "name": "2026-11-02_timsainb--noisereduce_poster-v1.png",
-          "path": "VITTORA/open-arsenal/2026-11-02_timsainb--noisereduce_poster-v1.png",
-          "size_bytes": 2116348,
-          "sha256": "3fe9bf88da00bb7935bd532fb1aa4eeb9d075f764ba83b574aa52726ded5985c",
-          "dimensions": [
-            1254,
-            1254
-          ]
-        },
-        "delivery": {
-          "name": "2026-11-02_timsainb--noisereduce_poster-v1-delivery.png",
-          "path": "VITTORA/open-arsenal/2026-11-02_timsainb--noisereduce_poster-v1-delivery.png",
-          "size_bytes": 800825,
-          "sha256": "217c4eb0a571e709ad255d71c595d9bf78858757a3873e690a3b1bbd7ed46ac9",
-          "dimensions": [
-            800,
-            800
-          ]
-        }
-      }
-    },
-    {
-      "id": "2026-11-02-pm",
-      "date": "2026-11-02",
-      "time": "18:00",
-      "timezone": "Europe/Moscow",
-      "direction": "music",
-      "topic": "Сборка аудиофрагментов",
-      "repository": "jiaaro/pydub",
-      "url": "https://github.com/jiaaro/pydub",
-      "vittora_benefit": "Повторяемая сборка трёх музыкальных фрагментов для тизера «Воли».",
-      "post_angle": "Три отрезка музыки и два плавных перехода по сохранённым настройкам. Ограничения Python3.13/памяти, эффекта пилота нет.",
-      "pilot": "Специалист+редактор, отдельная среда Python3.12, Pydub0.25.1; доверенные локальные PCM WAV, одинаковый формат, один выход и повтор. Не выполнен.",
-      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Сборка аудиофрагментов. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "blocked",
-      "metadata_check": {
-        "date": "2026-11-02",
-        "exists": true,
-        "archived": false,
-        "canonical_repository": "jiaaro/pydub",
-        "scope": "GitHub metadata, README/LICENSE/setup.py/API/releases/issues; запуск не проверен."
-      },
-      "required_before_publication": [
-        "README",
-        "LICENSE и условия моделей/зависимостей",
-        "требования и расходы",
-        "сравнение с альтернативой",
-        "индивидуальный разбор",
-        "изображение из встроенного генератора чата",
-        "архивирование изображения в Google Drive или Яндекс Диске",
-        "визуальная проверка",
-        "дедупликация каталога и Telegram"
-      ],
-      "publication": {
-        "status": "blocked",
-        "message_id": null,
-        "url": null,
-        "published_at": null,
-        "blocker": "02.11.2026: новый PNG создан встроенным image_gen; исходник и delivery визуально просмотрены. Яндекс Диск: папка VITTORA/open-arsenal доступна, дубля Pydub нет, занято 27,6 МБ из 5 ГБ; кнопка «Загрузить» сопровождается Disabled, уведомление «Продолжаем восстанавливать Диск». Загрузка не начата, архив PNG не подтверждён. Google Drive: известный storageQuotaExceeded без новых признаков восстановления не повторяли. POST не выполнялся.",
-        "delivery_history_checked_at": "2026-11-02",
-        "delivery_history_note": "Свежий get_site: только владелец. GET status can_publish=true; GET журнала: Pydub отсутствует, 0 успешных отправок сегодня. POST не выполнялся."
-      },
-      "verification_level": "documentation",
-      "verification_date": "2026-11-02",
-      "card_path": "cards/jiaaro--pydub.md",
-      "post_path": "posts/2026-11-02_jiaaro--pydub.md",
-      "illustration": {
-        "generation_method": "chat_builtin_image_gen",
-        "visually_reviewed": true,
-        "visually_reviewed_at": "2026-11-02",
-        "status": "archive_unconfirmed",
-        "archive_provider": "yandex_disk",
-        "intended_folder_url": "https://disk.yandex.ru/client/disk/VITTORA/open-arsenal",
-        "verified_at": null,
-        "url": null,
-        "archive_note": "02.11.2026: новый PNG создан встроенным image_gen; исходник и delivery визуально просмотрены. Яндекс Диск: папка VITTORA/open-arsenal доступна, дубля Pydub нет, занято 27,6 МБ из 5 ГБ; кнопка «Загрузить» сопровождается Disabled, уведомление «Продолжаем восстанавливать Диск». Загрузка не начата, архив PNG не подтверждён. Google Drive: известный storageQuotaExceeded без новых признаков восстановления не повторяли. POST не выполнялся.",
-        "original": {
-          "name": "2026-11-02_jiaaro--pydub_poster-v1.png",
-          "path": "VITTORA/open-arsenal/2026-11-02_jiaaro--pydub_poster-v1.png",
-          "size_bytes": 2136213,
-          "sha256": "76b7c5e1694b5ebcf44660b6e81972b6ec0fa0f420c18e4b9587894f965c072f",
-          "dimensions": [
-            1254,
-            1254
-          ],
-          "mime_type": "image/png"
-        },
-        "delivery": {
-          "name": "2026-11-02_jiaaro--pydub_poster-v1-delivery.png",
-          "path": "VITTORA/open-arsenal/2026-11-02_jiaaro--pydub_poster-v1-delivery.png",
-          "size_bytes": 772597,
-          "sha256": "319340afac02905279e0266e6d167d9b283cda7ad78e69a372cba236668b32bf",
-          "dimensions": [
-            800,
-            800
-          ],
-          "mime_type": "image/png"
-        }
-      },
-      "research_note": "Сравнены Pydub/MoviePy/ffmpeg-python, кандидат оставлен reviewing для отдельного WAV-пилота; ни установки, ни внедрения."
-    },
     {
       "id": "2026-11-03-am",
       "date": "2026-11-03",
@@ -178,9 +21,9 @@
       "url": "https://github.com/Sigil-Ebook/Sigil",
       "vittora_benefit": "Проверить навигацию и структуру электронной книги",
       "post_angle": "Простыми словами: проверить навигацию и структуру электронной книги. Объяснить преимущества, требования и когда инструмент не подходит.",
-      "pilot": "На одном фрагменте или тестовой копии издания проверить читаемость, структуру и время ручных исправлений.",
+      "pilot": "На копии одной главы VITTORA исправить одну ссылку в оглавлении и описание одной иллюстрации. Сравнить с той же правкой в Calibre на другой копии.",
       "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Редактура EPUB. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "planned_research",
+      "status": "blocked",
       "metadata_check": {
         "date": "2026-10-25",
         "exists": true,
@@ -201,9 +44,21 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
+        "status": "blocked",
         "message_id": null,
-        "url": null
-      }
+        "url": null,
+        "published_at": null,
+        "blocker": "03.11.2026 в приватной папке VITTORA/open-arsenal Яндекс Диск показывает «Продолжаем восстанавливать Диск», загрузка Disabled, занято 27,6 МБ из 5 ГБ. Google Drive ранее вернул storageQuotaExceeded, признаков восстановления нет. Подготовка нового PNG отложена до доступного архива. Публикация заблокирована."
+      },
+      "card_path": "cards/sigil-ebook--sigil.md",
+      "post_path": "posts/2026-11-03_sigil-ebook--sigil.md",
+      "illustration": {
+        "status": "pending_generation",
+        "intended_archive_provider": "yandex_disk",
+        "visually_reviewed": false
+      },
+      "verification_level": "documentation",
+      "verification_date": "2026-11-03"
     },
     {
       "id": "2026-11-03-pm",
@@ -2269,7 +2124,59 @@
         "message_id": null,
         "url": null
       }
+    },
+    {
+      "id": "2026-12-02-am",
+      "date": "2026-12-02",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "book_audio",
+      "topic": "Визуальная правка главы",
+      "repository": "Sigil-Ebook/PageEdit",
+      "url": "https://github.com/Sigil-Ebook/PageEdit",
+      "vittora_benefit": "Визуальная правка главы для книги VITTORA",
+      "post_angle": "Проверить применимость на копии главы",
+      "pilot": "Одна глава, контроль десяти элементов и замер времени",
+      "illustration_brief": "Уникальный постер после проверки кандидата и доступности архива",
+      "status": "planned_research",
+      "metadata_check": {
+        "date": "2026-11-03",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "Sigil-Ebook/PageEdit",
+        "scope": "Проверены имя и доступность GitHub"
+      },
+      "publication": {
+        "message_id": null,
+        "url": null
+      }
+    },
+    {
+      "id": "2026-12-02-pm",
+      "date": "2026-12-02",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "book_audio",
+      "topic": "Проверка соответствия EPUB",
+      "repository": "w3c/epubcheck",
+      "url": "https://github.com/w3c/epubcheck",
+      "vittora_benefit": "Проверка соответствия EPUB для книги VITTORA",
+      "post_angle": "Проверить применимость на копии главы",
+      "pilot": "Одна глава, контроль десяти элементов и замер времени",
+      "illustration_brief": "Уникальный постер после проверки кандидата и доступности архива",
+      "status": "planned_research",
+      "metadata_check": {
+        "date": "2026-11-03",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "w3c/epubcheck",
+        "scope": "Проверены имя и доступность GitHub"
+      },
+      "publication": {
+        "message_id": null,
+        "url": null
+      }
     }
   ],
-  "updated_at": "2026-11-02"
+  "updated_at": "2026-11-03"
 }
