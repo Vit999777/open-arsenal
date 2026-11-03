@@ -1211,5 +1211,40 @@
         "mime_type": "image/png"
       }
     }
+  },
+  {
+    "url": "https://github.com/Sigil-Ebook/Sigil",
+    "status": "reviewing",
+    "direction": "book_audio",
+    "verification_level": "documentation",
+    "verification_date": "2026-11-03",
+    "concrete_problem": "Точечная редактура ссылок и оглавления готового EPUB VITTORA.",
+    "application_example": "Копия главы книги с иллюстрацией и оглавлением.",
+    "first_pilot": "На копии одной главы VITTORA исправить одну ссылку в оглавлении и описание одной иллюстрации. Сравнить с той же правкой в Calibre на другой копии.",
+    "success_metric": "Цель: 10 из 10 контрольных пунктов открываются в ожидаемых местах, 2 из 2 правок видны в отдельной читалке, EPUBCheck не показывает новых ошибок, хеш исходника совпадает. Записать время обеих правок. Пилот не проведён.",
+    "requirements_and_costs": "Локальный компьютер с подходящей ОС. Релиз 2.8.1 предлагает Windows x64, macOS arm64/x64 и Linux AppImage x86_64 с glibc ≥ 2.35. Сборка требует Qt6/QtWebEngine и CMake ≥ 3.18. Лицензионный платёж, модели, обязательные платные API и хостинг для ручной правки отсутствуют. Время редактора, компьютер, диск, память, скачивание и поддержка входят в стоимость. Сумма и потребление неизвестны.",
+    "limitations": "Пилот только на копии EPUB2/3. PDF требует отдельной подготовки. Проверить ссылки, оформление и совместимость читалок после сохранения. Сборку и плагины не проверяли. Открытые отчёты #897 и #829 прочитаны, не воспроизведены.",
+    "license_review": "GPLv3 по COPYING.txt. При распространении программы соблюдать условия GPL. Условия сторонних компонентов, плагинов и материалов книги проверяются отдельно.",
+    "comparison": "Sigil специализируется на прямой правке EPUB. Calibre тоже редактирует EPUB и охватывает конвертацию, каталог и просмотр. EPUBCheck проверяет соответствие формату без редактора. Базовый процесс VITTORA — подготовка EPUB и отдельная проверка структуры в Calibre/читалке по имеющейся карточке. Преимущество Sigil по времени ещё не измерено.",
+    "readme_source": "https://github.com/Sigil-Ebook/Sigil/blob/master/README.md",
+    "license_source": "https://github.com/Sigil-Ebook/Sigil/blob/master/COPYING.txt",
+    "requirements_source": "https://github.com/Sigil-Ebook/Sigil/blob/master/CMakeLists.txt",
+    "release_source": "https://github.com/Sigil-Ebook/Sigil/releases/tag/2.8.1",
+    "issues_source": "https://github.com/Sigil-Ebook/Sigil/issues/897",
+    "archived": false,
+    "card_path": "cards/sigil-ebook--sigil.md",
+    "post_path": "posts/2026-11-03_sigil-ebook--sigil.md",
+    "publication": {
+      "status": "blocked",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "blocker": "03.11.2026 в приватной папке VITTORA/open-arsenal Яндекс Диск показывает «Продолжаем восстанавливать Диск», загрузка Disabled, занято 27,6 МБ из 5 ГБ. Google Drive ранее вернул storageQuotaExceeded, признаков восстановления нет. Подготовка нового PNG отложена до доступного архива. Публикация заблокирована."
+    },
+    "illustration": {
+      "status": "pending_generation",
+      "intended_archive_provider": "yandex_disk",
+      "visually_reviewed": false
+    }
   }
 ]
