@@ -316,8 +316,108 @@
         }
       },
       "research_note": "Сравнены Pydub/MoviePy/ffmpeg-python, кандидат оставлен reviewing для отдельного WAV-пилота; ни установки, ни внедрения."
+    },
+    {
+      "id": "2026-11-03-am",
+      "date": "2026-11-03",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "book_audio",
+      "topic": "Редактура EPUB",
+      "repository": "Sigil-Ebook/Sigil",
+      "url": "https://github.com/Sigil-Ebook/Sigil",
+      "vittora_benefit": "Проверить навигацию и структуру электронной книги",
+      "post_angle": "Простыми словами: проверить навигацию и структуру электронной книги. Объяснить преимущества, требования и когда инструмент не подходит.",
+      "pilot": "На копии одной главы VITTORA исправить одну ссылку в оглавлении и описание одной иллюстрации. Сравнить с той же правкой в Calibre на другой копии.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Редактура EPUB. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-10-25",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "Sigil-Ebook/Sigil",
+        "renamed_from": null,
+        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "03.11.2026 в приватной папке VITTORA/open-arsenal Яндекс Диск показывает «Продолжаем восстанавливать Диск», загрузка Disabled, занято 27,6 МБ из 5 ГБ. Google Drive ранее вернул storageQuotaExceeded, признаков восстановления нет. Подготовка нового PNG отложена до доступного архива. Публикация заблокирована."
+      },
+      "card_path": "cards/sigil-ebook--sigil.md",
+      "post_path": "posts/2026-11-03_sigil-ebook--sigil.md",
+      "illustration": {
+        "status": "pending_generation",
+        "intended_archive_provider": "yandex_disk",
+        "visually_reviewed": false
+      },
+      "verification_level": "documentation",
+      "verification_date": "2026-11-03"
+    },
+    {
+      "id": "2026-11-03-pm",
+      "date": "2026-11-03",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "book_audio",
+      "topic": "Документы из HTML",
+      "repository": "Kozea/WeasyPrint",
+      "url": "https://github.com/Kozea/WeasyPrint",
+      "vittora_benefit": "Рассмотреть воспроизводимую подготовку PDF из шаблонов",
+      "post_angle": "Простыми словами: рассмотреть воспроизводимую подготовку PDF из шаблонов. Объяснить преимущества, требования и когда инструмент не подходит.",
+      "pilot": "Взять разрешённую копию одной главы с заголовками, иллюстрацией и ссылками. Собрать PDF из локального HTML и печатных стилей, сверить с текущим PDF.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Документы из HTML. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-10-25",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "Kozea/WeasyPrint",
+        "renamed_from": null,
+        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "03.11.2026 после обновления папки VITTORA/open-arsenal Яндекс Диск показывает восстановление сервиса. Доступная загрузка не подтверждена, занято 27,6 МБ из 5 ГБ. Для Google Drive сохраняется известный storageQuotaExceeded без подтверждения восстановления. PNG пока не подготовлен и не архивирован."
+      },
+      "illustration": {
+        "status": "pending_generation",
+        "intended_archive_provider": "yandex_disk",
+        "visually_reviewed": false
+      },
+      "card_path": "cards/kozea--weasyprint.md",
+      "post_path": "posts/2026-11-03_kozea--weasyprint.md",
+      "verification_level": "documentation",
+      "verification_date": "2026-11-03"
     }
   ],
-  "updated_at": "2026-11-03",
+  "updated_at": "2026-11-04",
   "note": "Слоты перенесены без изменения фактов; blocked не означает опубликовано."
 }
