@@ -1281,5 +1281,40 @@
       "intended_archive_provider": "yandex_disk",
       "visually_reviewed": false
     }
+  },
+  {
+    "url": "https://github.com/run-llama/llama_index",
+    "status": "reviewing",
+    "direction": "agents_rag",
+    "verification_level": "documentation",
+    "verification_date": "2026-11-04",
+    "concrete_problem": "Находить проверяемые фрагменты книги и журнала по редакционному запросу.",
+    "application_example": "Пять цитируемых отрывков с URL и версией источника перед подготовкой материала VITTORA.",
+    "first_pilot": "На 30 разрешённых фрагментах книги и журнала добавить URL и версию источника. Подготовить 10 русских вопросов с эталонными фрагментами и 3 вопроса вне корпуса. Сравнить первые пять результатов BM25 с обычным поиском по словам на том же наборе.",
+    "success_metric": "Цель: верный фрагмент в первых пяти для ≥8 из 10 вопросов, корректный URL у всех показанных результатов и пустая выдача для 3 контрольных запросов после отсечения нулевых оценок. Записать время ручной проверки, индексирования, медиану задержки, пиковую RAM и диск. Пилот не выполнен.",
+    "requirements_and_costs": "Планируется локальный Linux и Python 3.12. Core и BM25 заявляют Python ≥3.10,<4.0. BM25 требует bm25s и PyStemmer, конкретные версии и совместимость проверить перед запуском. Лицензионного платежа за MIT-код нет. В выбранном сценарии без модели, внешнего API, GPU и облака остаются CPU, RAM, диск, установка, разметка и сопровождение. Денежная сумма и ресурсы неизвестны.",
+    "limitations": "BM25 ранжирует по совпадениям слов, поэтому перефразировки и русские словоформы требуют проверки. Исходник компонента указывает английские настройки по умолчанию. #23542 сообщает о нерелевантных результатах с нулевой оценкой, #22601 — о проблемах установки на Python 3.14 без сети. Оба отчёта не воспроизведены.",
+    "license_review": "MIT для Core и компонента BM25. При распространении сохранять уведомления. Условия зависимостей, корпуса и моделей при будущем подключении проверять отдельно.",
+    "comparison": "LlamaIndex Core с BM25 позволяет собрать поиск по фрагментам и хранить поля происхождения. Haystack тоже предлагает локальный BM25 в явной цепочке компонентов. LangChain удобен для более широкого сценария с агентами, но для этого пилота достаточно отдельного поиска. Базовая линия — ручной поиск по тем же файлам и сверка источника. Выигрыш по времени и точности не измерен.",
+    "readme_source": "https://github.com/run-llama/llama_index/blob/main/README.md",
+    "license_source": "https://github.com/run-llama/llama_index/blob/main/LICENSE",
+    "requirements_source": "https://github.com/run-llama/llama_index/blob/main/llama-index-integrations/retrievers/llama-index-retrievers-bm25/pyproject.toml",
+    "release_source": "https://github.com/run-llama/llama_index/releases/tag/v0.14.25",
+    "issues_source": "https://github.com/run-llama/llama_index/issues/23542",
+    "archived": false,
+    "card_path": "cards/run-llama--llama_index.md",
+    "post_path": "posts/2026-11-04_run-llama--llama_index.md",
+    "publication": {
+      "status": "blocked",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "blocker": "04.11.2026 Яндекс Диск в папке VITTORA/open-arsenal показывает восстановление, кнопка загрузки Disabled. Google Drive ранее вернул storageQuotaExceeded, восстановление не подтверждено. Новый PNG предстоит подготовить и проверить после восстановления маршрута архива. Отправки нет."
+    },
+    "illustration": {
+      "status": "pending_generation",
+      "intended_archive_provider": "yandex_disk",
+      "visually_reviewed": false
+    }
   }
 ]
