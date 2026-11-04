@@ -4,7 +4,7 @@
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-11-04 | **Индексация корпуса проекта** · agents_rag<br>[run-llama/llama_index](https://github.com/run-llama/llama_index) · blocked · [Разбор](../cards/run-llama--llama_index.md) · [Текст](../posts/2026-11-04_run-llama--llama_index.md) | **Проверяемая цепочка поиска** · agents_rag<br>[deepset-ai/haystack](https://github.com/deepset-ai/haystack) · planned_research |
+| 2026-11-04 | **Индексация корпуса проекта** · agents_rag<br>[run-llama/llama_index](https://github.com/run-llama/llama_index) · blocked · [Разбор](../cards/run-llama--llama_index.md) · [Текст](../posts/2026-11-04_run-llama--llama_index.md) | **Проверяемая цепочка поиска** · agents_rag<br>[deepset-ai/haystack](https://github.com/deepset-ai/haystack) · blocked · [Разбор](../cards/deepset-ai--haystack.md) · [Текст](../posts/2026-11-04_deepset-ai--haystack.md) |
 | 2026-11-05 | **Понятная аналитика сайта** · growth_revenue<br>[umami-software/umami](https://github.com/umami-software/umami) · planned_research | **Альтернатива веб-аналитики** · growth_revenue<br>[plausible/analytics](https://github.com/plausible/analytics) · planned_research |
 | 2026-11-06 | **Связка рабочих сервисов** · publishing<br>[activepieces/activepieces](https://github.com/activepieces/activepieces) · planned_research | **Автоматизация редакционного процесса** · publishing<br>[n8n-io/n8n](https://github.com/n8n-io/n8n) · planned_research |
 | 2026-11-07 | **Подготовка анимации персонажей** · kids<br>[opentoonz/opentoonz](https://github.com/opentoonz/opentoonz) · planned_research | **Простой анимационный пилот** · kids<br>[pencil2d/pencil](https://github.com/pencil2d/pencil) · planned_research |
