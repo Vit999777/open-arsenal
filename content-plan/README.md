@@ -1,11 +1,10 @@
-# Контент-план: 3 ноября – 2 декабря 2026
+# Контент-план: 4 ноября – 3 декабря 2026
 
 30 дней · 60 кандидатов · Europe/Moscow, 10:00 и 18:00. planned_research — очередь проверки, не рекомендации. История: [октябрь](history/2026-10.json), [ноябрь](history/2026-11.json). Пропуски пачкой не выпускаем.
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-11-03 | **Редактура EPUB** · book_audio<br>[Sigil-Ebook/Sigil](https://github.com/Sigil-Ebook/Sigil) · blocked · [Разбор](../cards/sigil-ebook--sigil.md) · [Текст](../posts/2026-11-03_sigil-ebook--sigil.md) | **Документы из HTML** · book_audio<br>[Kozea/WeasyPrint](https://github.com/Kozea/WeasyPrint) · blocked · [Разбор](../cards/kozea--weasyprint.md) · [Текст](../posts/2026-11-03_kozea--weasyprint.md) |
-| 2026-11-04 | **Индексация корпуса проекта** · agents_rag<br>[run-llama/llama_index](https://github.com/run-llama/llama_index) · planned_research | **Проверяемая цепочка поиска** · agents_rag<br>[deepset-ai/haystack](https://github.com/deepset-ai/haystack) · planned_research |
+| 2026-11-04 | **Индексация корпуса проекта** · agents_rag<br>[run-llama/llama_index](https://github.com/run-llama/llama_index) · blocked · [Разбор](../cards/run-llama--llama_index.md) · [Текст](../posts/2026-11-04_run-llama--llama_index.md) | **Проверяемая цепочка поиска** · agents_rag<br>[deepset-ai/haystack](https://github.com/deepset-ai/haystack) · planned_research |
 | 2026-11-05 | **Понятная аналитика сайта** · growth_revenue<br>[umami-software/umami](https://github.com/umami-software/umami) · planned_research | **Альтернатива веб-аналитики** · growth_revenue<br>[plausible/analytics](https://github.com/plausible/analytics) · planned_research |
 | 2026-11-06 | **Связка рабочих сервисов** · publishing<br>[activepieces/activepieces](https://github.com/activepieces/activepieces) · planned_research | **Автоматизация редакционного процесса** · publishing<br>[n8n-io/n8n](https://github.com/n8n-io/n8n) · planned_research |
 | 2026-11-07 | **Подготовка анимации персонажей** · kids<br>[opentoonz/opentoonz](https://github.com/opentoonz/opentoonz) · planned_research | **Простой анимационный пилот** · kids<br>[pencil2d/pencil](https://github.com/pencil2d/pencil) · planned_research |
@@ -34,6 +33,7 @@
 | 2026-11-30 | **Разделение реплик по говорящим** · book_audio<br>[pyannote/pyannote-audio](https://github.com/pyannote/pyannote-audio) · planned_research | **Повторяемая сборка медиакоманд** · video<br>[kkroening/ffmpeg-python](https://github.com/kkroening/ffmpeg-python) · planned_research |
 | 2026-12-01 | **Контроль громкости речевой вставки** · music<br>[jiixyj/libebur128](https://github.com/jiixyj/libebur128) · planned_research | **Преобразование частоты аудио** · music<br>[libsndfile/libsamplerate](https://github.com/libsndfile/libsamplerate) · planned_research |
 | 2026-12-02 | **Визуальная правка главы** · book_audio<br>[Sigil-Ebook/PageEdit](https://github.com/Sigil-Ebook/PageEdit) · planned_research | **Проверка соответствия EPUB** · book_audio<br>[w3c/epubcheck](https://github.com/w3c/epubcheck) · planned_research |
+| 2026-12-03 | **Локальное построение поисковых представлений** · agents_rag<br>[qdrant/fastembed](https://github.com/qdrant/fastembed) · planned_research | **Поиск по текстовому корпусу** · agents_rag<br>[neuml/txtai](https://github.com/neuml/txtai) · planned_research |
 
 ## Срез 02.11.2026
 
@@ -52,3 +52,5 @@ PNG создан встроенным image_gen и просмотрен (исх�
 02.11, вечер: Pydub — документация/reviewing, сравнены MoviePy и ffmpeg-python. PNG создан встроенным image_gen и обе версии просмотрены. Яндекс Диск продолжает восстановление, загрузка Disabled; архив не подтверждён, POST не выполнялся. План 02.11–01.12 сохранён: 2 blocked, 58 planned_research, 60 уникальных кандидатов. Пилота нет.
 
 03.11. Sigil проверен по документации. Публикация blocked. Слоты 02.11 перенесены в историю с их фактическими статусами.
+
+04.11. LlamaIndex проверен по документации. Слоты 03.11 перенесены в историю. Архив PNG недоступен.
