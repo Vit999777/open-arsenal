@@ -1316,5 +1316,40 @@
       "intended_archive_provider": "yandex_disk",
       "visually_reviewed": false
     }
+  },
+  {
+    "url": "https://github.com/deepset-ai/haystack",
+    "status": "reviewing",
+    "direction": "agents_rag",
+    "verification_level": "documentation",
+    "verification_date": "2026-11-04",
+    "concrete_problem": "Исключать устаревшие версии материалов VITTORA из поисковой выдачи.",
+    "application_example": "Редактор получает фрагменты только действующих глав и статей со ссылками на источник.",
+    "first_pilot": "Взять 30 разрешённых отрывков книги и журнала с URL, версией и статусом, из них 10 устаревших. На одних и тех же 10 русских запросах сравнить первые пять результатов до и после фильтра действующей версии. Добавить три запроса к разделу, где есть только устаревшая версия.",
+    "success_metric": "Цель: 0 устаревших отрывков после фильтра, верный актуальный источник в первых пяти минимум для 8 из 10 вопросов и пустая выдача для 3 запросов к разделу без действующей версии. Записать задержку, RAM и время сверки редактором. Результатов пока нет.",
+    "requirements_and_costs": "Локальный Python ≥3.11, haystack-ai, процессор и память для хранилища. Лицензионного платежа за Apache-2.0 нет. Модель, GPU, внешний API и хостинг для InMemoryBM25Retriever не требуются. Стоимость состоит из компьютера, диска, установки, проверки и ведения метаданных редактором, сопровождения. Сумма, время и потребление неизвестны. Проверить отключение телеметрии и ограничить сеть в среде пилота.",
+    "limitations": "Фильтрация зависит от точных меток редакции. Поиск по словам чувствителен к формам слов и перефразировкам. Хранилище в памяти подходит для малого набора, долговечность и масштабирование требуют отдельного решения. Фильтр версий не заменяет авторизацию. Динамические фильтры при политике REPLACE заменяют начальные, поэтому для пилота фиксировать условия на стороне приложения.",
+    "license_review": "Apache-2.0. При распространении соблюдать условия лицензии и сохранять положенные уведомления. Условия зависимостей и право индексации материалов сверяются отдельно.",
+    "comparison": "Haystack отделяет хранилище от поискового компонента и позволяет передать явный фильтр версий в локальный BM25. LlamaIndex Core с BM25 тоже допускает фильтры и служит сопоставимой альтернативой. Qdrant хранит векторы и фильтрует их по атрибутам, но для текущего пилота добавляет хранилище и подготовку векторов. Базовая линия — ручной поиск по тем же файлам с проверкой даты и версии. Текущая установка этих инструментов у VITTORA не подтверждена.",
+    "readme_source": "https://github.com/deepset-ai/haystack/blob/main/README.md",
+    "license_source": "https://github.com/deepset-ai/haystack/blob/main/LICENSE",
+    "requirements_source": "https://github.com/deepset-ai/haystack/blob/main/pyproject.toml",
+    "release_source": "https://github.com/deepset-ai/haystack/releases/tag/v2.31.1",
+    "issues_source": "https://github.com/deepset-ai/haystack/issues/13554",
+    "archived": false,
+    "card_path": "cards/deepset-ai--haystack.md",
+    "post_path": "posts/2026-11-04_deepset-ai--haystack.md",
+    "publication": {
+      "status": "blocked",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "blocker": "04.11.2026 папка VITTORA/open-arsenal показывает восстановление Яндекс Диска и отключённую загрузку. Google Drive ранее вернул storageQuotaExceeded, подтверждения восстановления нет. Подготовка, визуальная проверка и архивирование PNG отложены. Отправки в Telegram не было."
+    },
+    "illustration": {
+      "status": "pending_generation",
+      "intended_archive_provider": "yandex_disk",
+      "visually_reviewed": false
+    }
   }
 ]
