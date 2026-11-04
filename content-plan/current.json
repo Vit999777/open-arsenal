@@ -1,115 +1,15 @@
 {
-  "title": "Контент-план Открытого арсенала: 3 ноября — 2 декабря 2026",
+  "title": "Контент-план Открытого арсенала: 4 ноября — 3 декабря 2026",
   "created_at": "2026-10-25",
-  "start_date": "2026-11-03",
-  "end_date": "2026-12-02",
+  "start_date": "2026-11-04",
+  "end_date": "2026-12-03",
   "timezone": "Europe/Moscow",
   "slots_per_day": 2,
   "timing_mode": "flexible_schedule",
   "horizon_days": 30,
   "policy": "План исследований, а не список одобренных рекомендаций. Кандидата можно заменить с записью причины; не отправлять неподтверждённый материал ради календаря. Опубликованные URL не повторять.",
-  "known_blocker": "03.11.2026 после обновления папки VITTORA/open-arsenal Яндекс Диск показывает восстановление сервиса. Доступная загрузка не подтверждена, занято 27,6 МБ из 5 ГБ. Для Google Drive сохраняется известный storageQuotaExceeded без подтверждения восстановления. PNG пока не подготовлен и не архивирован.",
+  "known_blocker": "04.11.2026 Яндекс Диск в папке VITTORA/open-arsenal показывает восстановление, кнопка загрузки Disabled. Google Drive ранее вернул storageQuotaExceeded, восстановление не подтверждено. Новый PNG предстоит подготовить и проверить после восстановления маршрута архива. Отправки нет.",
   "slots": [
-    {
-      "id": "2026-11-03-am",
-      "date": "2026-11-03",
-      "time": "10:00",
-      "timezone": "Europe/Moscow",
-      "direction": "book_audio",
-      "topic": "Редактура EPUB",
-      "repository": "Sigil-Ebook/Sigil",
-      "url": "https://github.com/Sigil-Ebook/Sigil",
-      "vittora_benefit": "Проверить навигацию и структуру электронной книги",
-      "post_angle": "Простыми словами: проверить навигацию и структуру электронной книги. Объяснить преимущества, требования и когда инструмент не подходит.",
-      "pilot": "На копии одной главы VITTORA исправить одну ссылку в оглавлении и описание одной иллюстрации. Сравнить с той же правкой в Calibre на другой копии.",
-      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Редактура EPUB. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "blocked",
-      "metadata_check": {
-        "date": "2026-10-25",
-        "exists": true,
-        "archived": false,
-        "canonical_repository": "Sigil-Ebook/Sigil",
-        "renamed_from": null,
-        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
-      },
-      "required_before_publication": [
-        "README",
-        "LICENSE и условия моделей/зависимостей",
-        "требования и расходы",
-        "сравнение с альтернативой",
-        "индивидуальный разбор",
-        "изображение из встроенного генератора чата",
-        "архивирование изображения в Google Drive или Яндекс Диске",
-        "визуальная проверка",
-        "дедупликация каталога и Telegram"
-      ],
-      "publication": {
-        "status": "blocked",
-        "message_id": null,
-        "url": null,
-        "published_at": null,
-        "blocker": "03.11.2026 в приватной папке VITTORA/open-arsenal Яндекс Диск показывает «Продолжаем восстанавливать Диск», загрузка Disabled, занято 27,6 МБ из 5 ГБ. Google Drive ранее вернул storageQuotaExceeded, признаков восстановления нет. Подготовка нового PNG отложена до доступного архива. Публикация заблокирована."
-      },
-      "card_path": "cards/sigil-ebook--sigil.md",
-      "post_path": "posts/2026-11-03_sigil-ebook--sigil.md",
-      "illustration": {
-        "status": "pending_generation",
-        "intended_archive_provider": "yandex_disk",
-        "visually_reviewed": false
-      },
-      "verification_level": "documentation",
-      "verification_date": "2026-11-03"
-    },
-    {
-      "id": "2026-11-03-pm",
-      "date": "2026-11-03",
-      "time": "18:00",
-      "timezone": "Europe/Moscow",
-      "direction": "book_audio",
-      "topic": "Документы из HTML",
-      "repository": "Kozea/WeasyPrint",
-      "url": "https://github.com/Kozea/WeasyPrint",
-      "vittora_benefit": "Рассмотреть воспроизводимую подготовку PDF из шаблонов",
-      "post_angle": "Простыми словами: рассмотреть воспроизводимую подготовку PDF из шаблонов. Объяснить преимущества, требования и когда инструмент не подходит.",
-      "pilot": "Взять разрешённую копию одной главы с заголовками, иллюстрацией и ссылками. Собрать PDF из локального HTML и печатных стилей, сверить с текущим PDF.",
-      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Документы из HTML. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "blocked",
-      "metadata_check": {
-        "date": "2026-10-25",
-        "exists": true,
-        "archived": false,
-        "canonical_repository": "Kozea/WeasyPrint",
-        "renamed_from": null,
-        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
-      },
-      "required_before_publication": [
-        "README",
-        "LICENSE и условия моделей/зависимостей",
-        "требования и расходы",
-        "сравнение с альтернативой",
-        "индивидуальный разбор",
-        "изображение из встроенного генератора чата",
-        "архивирование изображения в Google Drive или Яндекс Диске",
-        "визуальная проверка",
-        "дедупликация каталога и Telegram"
-      ],
-      "publication": {
-        "status": "blocked",
-        "message_id": null,
-        "url": null,
-        "published_at": null,
-        "blocker": "03.11.2026 после обновления папки VITTORA/open-arsenal Яндекс Диск показывает восстановление сервиса. Доступная загрузка не подтверждена, занято 27,6 МБ из 5 ГБ. Для Google Drive сохраняется известный storageQuotaExceeded без подтверждения восстановления. PNG пока не подготовлен и не архивирован."
-      },
-      "illustration": {
-        "status": "pending_generation",
-        "intended_archive_provider": "yandex_disk",
-        "visually_reviewed": false
-      },
-      "card_path": "cards/kozea--weasyprint.md",
-      "post_path": "posts/2026-11-03_kozea--weasyprint.md",
-      "verification_level": "documentation",
-      "verification_date": "2026-11-03"
-    },
     {
       "id": "2026-11-04-am",
       "date": "2026-11-04",
@@ -121,9 +21,9 @@
       "url": "https://github.com/run-llama/llama_index",
       "vittora_benefit": "Сравнить способы подключения материалов к поиску",
       "post_angle": "Простыми словами: сравнить способы подключения материалов к поиску. Объяснить преимущества, требования и когда инструмент не подходит.",
-      "pilot": "На 10 вопросах/материалах проверить правильность и источники; зафиксировать время и ресурсы.",
+      "pilot": "На 30 разрешённых фрагментах книги и журнала добавить URL и версию источника. Подготовить 10 русских вопросов с эталонными фрагментами и 3 вопроса вне корпуса. Сравнить первые пять результатов BM25 с обычным поиском по словам на том же наборе.",
       "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Индексация корпуса проекта. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "planned_research",
+      "status": "blocked",
       "metadata_check": {
         "date": "2026-10-25",
         "exists": true,
@@ -144,9 +44,21 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
+        "status": "blocked",
         "message_id": null,
-        "url": null
-      }
+        "url": null,
+        "published_at": null,
+        "blocker": "04.11.2026 Яндекс Диск в папке VITTORA/open-arsenal показывает восстановление, кнопка загрузки Disabled. Google Drive ранее вернул storageQuotaExceeded, восстановление не подтверждено. Новый PNG предстоит подготовить и проверить после восстановления маршрута архива. Отправки нет."
+      },
+      "illustration": {
+        "status": "pending_generation",
+        "intended_archive_provider": "yandex_disk",
+        "visually_reviewed": false
+      },
+      "card_path": "cards/run-llama--llama_index.md",
+      "post_path": "posts/2026-11-04_run-llama--llama_index.md",
+      "verification_level": "documentation",
+      "verification_date": "2026-11-04"
     },
     {
       "id": "2026-11-04-pm",
@@ -2188,7 +2100,59 @@
         "message_id": null,
         "url": null
       }
+    },
+    {
+      "id": "2026-12-03-am",
+      "date": "2026-12-03",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "agents_rag",
+      "topic": "Локальное построение поисковых представлений",
+      "repository": "qdrant/fastembed",
+      "url": "https://github.com/qdrant/fastembed",
+      "vittora_benefit": "Проверить поиск по разрешённым фрагментам VITTORA",
+      "post_angle": "Локальное построение поисковых представлений",
+      "pilot": "30 фрагментов, 10 запросов, сверка первых пяти результатов",
+      "illustration_brief": "Отдельный постер после редакционной проверки и подтверждения доступности архива",
+      "status": "planned_research",
+      "metadata_check": {
+        "date": "2026-11-04",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "qdrant/fastembed",
+        "scope": "Имя и доступность GitHub"
+      },
+      "publication": {
+        "message_id": null,
+        "url": null
+      }
+    },
+    {
+      "id": "2026-12-03-pm",
+      "date": "2026-12-03",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "agents_rag",
+      "topic": "Поиск по текстовому корпусу",
+      "repository": "neuml/txtai",
+      "url": "https://github.com/neuml/txtai",
+      "vittora_benefit": "Проверить поиск по разрешённым фрагментам VITTORA",
+      "post_angle": "Поиск по текстовому корпусу",
+      "pilot": "30 фрагментов, 10 запросов, сверка первых пяти результатов",
+      "illustration_brief": "Отдельный постер после редакционной проверки и подтверждения доступности архива",
+      "status": "planned_research",
+      "metadata_check": {
+        "date": "2026-11-04",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "neuml/txtai",
+        "scope": "Имя и доступность GitHub"
+      },
+      "publication": {
+        "message_id": null,
+        "url": null
+      }
     }
   ],
-  "updated_at": "2026-11-03"
+  "updated_at": "2026-11-04"
 }
