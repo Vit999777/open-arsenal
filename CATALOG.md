@@ -24,10 +24,11 @@
 | [Sigil](https://github.com/Sigil-Ebook/Sigil) | Редактура оглавления и ссылок EPUB VITTORA | Документация 03.11, сравнение Calibre и EPUBCheck, reviewing | [Разбор](cards/sigil-ebook--sigil.md) · [Черновик](posts/2026-11-03_sigil-ebook--sigil.md) · blocked: подготовка и архив PNG |
 | [WeasyPrint](https://github.com/Kozea/WeasyPrint) | PDF главы из HTML и печатных стилей | Документация 03.11, сравнение Pandoc и wkhtmltopdf, reviewing | [Разбор](cards/kozea--weasyprint.md) · [Черновик](posts/2026-11-03_kozea--weasyprint.md) · blocked: подготовка и архив PNG |
 | [LlamaIndex](https://github.com/run-llama/llama_index) | Поиск фрагментов книги и журнала с источниками | Документация 04.11, сравнение Haystack и LangChain, reviewing | [Разбор](cards/run-llama--llama_index.md) · [Черновик](posts/2026-11-04_run-llama--llama_index.md) · blocked: подготовка и архив PNG |
+| [Haystack](https://github.com/deepset-ai/haystack) | Поиск только по действующим версиям материалов | Документация 04.11, сравнение LlamaIndex и Qdrant, reviewing | [Разбор](cards/deepset-ai--haystack.md) · [Черновик](posts/2026-11-04_deepset-ai--haystack.md) · blocked: подготовка и архив PNG |
 
 
 
-Дата редакционного среза: 04.11.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. 59 ещё не исследованных активных слотов находятся в [плане исследований](content-plan/README.md).
+Дата редакционного среза: 04.11.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. 58 ещё не исследованных активных слотов находятся в [плане исследований](content-plan/README.md).
 
 ## Как читать статусы
 
