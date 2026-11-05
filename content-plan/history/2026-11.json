@@ -416,8 +416,108 @@
       "post_path": "posts/2026-11-03_kozea--weasyprint.md",
       "verification_level": "documentation",
       "verification_date": "2026-11-03"
+    },
+    {
+      "id": "2026-11-04-am",
+      "date": "2026-11-04",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "agents_rag",
+      "topic": "Индексация корпуса проекта",
+      "repository": "run-llama/llama_index",
+      "url": "https://github.com/run-llama/llama_index",
+      "vittora_benefit": "Сравнить способы подключения материалов к поиску",
+      "post_angle": "Простыми словами: сравнить способы подключения материалов к поиску. Объяснить преимущества, требования и когда инструмент не подходит.",
+      "pilot": "На 30 разрешённых фрагментах книги и журнала добавить URL и версию источника. Подготовить 10 русских вопросов с эталонными фрагментами и 3 вопроса вне корпуса. Сравнить первые пять результатов BM25 с обычным поиском по словам на том же наборе.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Индексация корпуса проекта. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-10-25",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "run-llama/llama_index",
+        "renamed_from": null,
+        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "04.11.2026 Яндекс Диск в папке VITTORA/open-arsenal показывает восстановление, кнопка загрузки Disabled. Google Drive ранее вернул storageQuotaExceeded, восстановление не подтверждено. Новый PNG предстоит подготовить и проверить после восстановления маршрута архива. Отправки нет."
+      },
+      "illustration": {
+        "status": "pending_generation",
+        "intended_archive_provider": "yandex_disk",
+        "visually_reviewed": false
+      },
+      "card_path": "cards/run-llama--llama_index.md",
+      "post_path": "posts/2026-11-04_run-llama--llama_index.md",
+      "verification_level": "documentation",
+      "verification_date": "2026-11-04"
+    },
+    {
+      "id": "2026-11-04-pm",
+      "date": "2026-11-04",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "agents_rag",
+      "topic": "Проверяемая цепочка поиска",
+      "repository": "deepset-ai/haystack",
+      "url": "https://github.com/deepset-ai/haystack",
+      "vittora_benefit": "Исключать устаревшие версии материалов VITTORA из поисковой выдачи.",
+      "post_angle": "Простыми словами: разобрать ответы с опорой на источники. Объяснить преимущества, требования и когда инструмент не подходит.",
+      "pilot": "Взять 30 разрешённых отрывков книги и журнала с URL, версией и статусом, из них 10 устаревших. На одних и тех же 10 русских запросах сравнить первые пять результатов до и после фильтра действующей версии. Добавить три запроса к разделу, где есть только устаревшая версия.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Проверяемая цепочка поиска. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-10-25",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "deepset-ai/haystack",
+        "renamed_from": null,
+        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "04.11.2026 папка VITTORA/open-arsenal показывает восстановление Яндекс Диска и отключённую загрузку. Google Drive ранее вернул storageQuotaExceeded, подтверждения восстановления нет. Подготовка, визуальная проверка и архивирование PNG отложены. Отправки в Telegram не было."
+      },
+      "illustration": {
+        "status": "pending_generation",
+        "intended_archive_provider": "yandex_disk",
+        "visually_reviewed": false
+      },
+      "card_path": "cards/deepset-ai--haystack.md",
+      "post_path": "posts/2026-11-04_deepset-ai--haystack.md",
+      "verification_level": "documentation",
+      "verification_date": "2026-11-04"
     }
   ],
-  "updated_at": "2026-11-04",
+  "updated_at": "2026-11-05",
   "note": "Слоты перенесены без изменения фактов; blocked не означает опубликовано."
 }
