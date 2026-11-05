@@ -4,7 +4,7 @@
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-11-05 | **Понятная аналитика сайта** · growth_revenue<br>[umami-software/umami](https://github.com/umami-software/umami) · blocked · [Разбор](../cards/umami-software--umami.md) · [Текст](../posts/2026-11-05_umami-software--umami.md) | **Альтернатива веб-аналитики** · growth_revenue<br>[plausible/analytics](https://github.com/plausible/analytics) · planned_research |
+| 2026-11-05 | **Понятная аналитика сайта** · growth_revenue<br>[umami-software/umami](https://github.com/umami-software/umami) · blocked · [Разбор](../cards/umami-software--umami.md) · [Текст](../posts/2026-11-05_umami-software--umami.md) | **Альтернатива веб-аналитики** · growth_revenue<br>[plausible/analytics](https://github.com/plausible/analytics) · blocked · [Разбор](../cards/plausible--analytics.md) · [Текст](../posts/2026-11-05_plausible--analytics.md) |
 | 2026-11-06 | **Связка рабочих сервисов** · publishing<br>[activepieces/activepieces](https://github.com/activepieces/activepieces) · planned_research | **Автоматизация редакционного процесса** · publishing<br>[n8n-io/n8n](https://github.com/n8n-io/n8n) · planned_research |
 | 2026-11-07 | **Подготовка анимации персонажей** · kids<br>[opentoonz/opentoonz](https://github.com/opentoonz/opentoonz) · planned_research | **Простой анимационный пилот** · kids<br>[pencil2d/pencil](https://github.com/pencil2d/pencil) · planned_research |
 | 2026-11-08 | **Проверка пути читателя** · website_journal<br>[microsoft/playwright](https://github.com/microsoft/playwright) · planned_research | **Рабочие ссылки журнала** · website_journal<br>[lycheeverse/lychee](https://github.com/lycheeverse/lychee) · planned_research |
@@ -56,3 +56,5 @@ PNG создан встроенным image_gen и просмотрен (исх�
 04.11. LlamaIndex проверен по документации. Слоты 03.11 перенесены в историю. Архив PNG недоступен.
 
 05.11. Umami — документация/reviewing, сравнение Plausible/GoatCounter. Установка/измерения отсутствуют. PNG pending_generation, архив заблокирован восстановлением Диска. Слоты 04.11 перенесены в историю с их статусами. Горизонт 05.11–04.12, 60 кандидатов.
+
+05.11, вечер: Plausible CE — documentation/reviewing, сравнение Umami и GoatCounter; UTM сверены в коде v3.2.1. Пилота нет. PNG pending_generation, архив заблокирован восстановлением Яндекс Диска и отключённой загрузкой. POST не выполнялся. План 05.11–04.12: 2 blocked, 58 planned_research, 60 уникальных слотов; пропуски не отправлялись.
