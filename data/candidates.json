@@ -1390,5 +1390,54 @@
       "archive_url": null,
       "verified_at": null
     }
+  },
+  {
+    "url": "https://github.com/plausible/analytics",
+    "status": "reviewing",
+    "direction": "growth_revenue",
+    "verification_level": "documentation",
+    "verification_date": "2026-11-05",
+    "concrete_problem": "Проверить разнесение посещений главы VITTORA по источникам публикаций.",
+    "application_example": "Три тестовые ссылки на одну разрешённую страницу главы с utm_source=arsenal_test_a/b/c. Посещение не означает прочтение, покупку или доход.",
+    "first_pilot": "На отдельной разрешённой тестовой странице главы провести 30 контролируемых посещений, по 10 на три utm_source; сверить pageviews и источники с ручным журналом. Правила сеанса сверить с v3.2.1, повторные переходы не считать новыми людьми. Отдельно 3 перехода с блокировщиком и 3 без метки. Установки пока не было.",
+    "success_metric": "Цель: 30/30 pageviews, 10/10 на каждый источник, совпадение даты Europe/Moscow и 0 запрещённых полей в проверенных запросах; расхождения атрибуции фиксировать. Измерить RAM/CPU, рост двух БД и время настройки/сверки. Это критерии будущего пилота, результатов нет.",
+    "requirements_and_costs": "CE: Docker/Compose, CPU SSE4.2 или NEON, рекомендация авторов ≥2 ГБ RAM; приложение v3.2.1 + PostgreSQL16 + ClickHouse24.12 по compose. GPU/модели/платный API для сценария не требуются. Код без платы за self-hosted; облако платное, тариф не выбран/не исследован. Полная стоимость включает машину/CPU/RAM, диски двух БД, сеть/домен/HTTPS, резервы и восстановление, обновления, мониторинг, настройку событий/меток, проверку данных и время специалиста. Рубли, нагрузка и имеющаяся машина неизвестны. Редакционный лимит будущей ручной сверки — 60 минут после подготовки стенда, без покупок. Лимит подготовки/ресурсы машины не определены.",
+    "limitations": "В CE нет маркетинговых воронок, ecommerce revenue goals, SSO и sites API; фильтрация ботов базовая. Блокировщики, потерянные метки и повторные переходы в сеансе могут менять счёт/атрибуцию; pageviews не равны unique visitors. URL/UTM/события нельзя заполнять персональными данными и секретами. Старые версии, перечисленные в v3.2.1 release notes, затронуты CVE-2026-8467; v3.2.1 удаляет /storybook. Общая безопасность не аудирована. Пилот не проводился.",
+    "license_review": "CE AGPLv3-or-later (README+LICENSE.md), включая условия исходников при распространении/сетевом использовании изменённой версии. Tracker отдельно MIT, сохранить copyright/условия. Зависимости и товарные знаки отдельно; полного правового аудита нет.",
+    "comparison": "С ручным журналом: общая панель и разметка источников могут организовать измерение, но точность/экономия ещё не доказаны. Umami использует PostgreSQL с Node/Docker, MIT; документационный черновик есть, внедрения нет. GoatCounter поддерживает бинарник+SQLite/PostgreSQL и импорт логов, модифицированная EUPL1.2/count.js ISC. Уникального преимущества Plausible не установлено; две БД могут быть избыточны. Текущая аналитика VITTORA не обследована, базовая линия будущего пилота — ручной журнал.",
+    "readme_source": "https://github.com/plausible/analytics/blob/master/README.md",
+    "license_source": "https://github.com/plausible/analytics/blob/master/LICENSE.md",
+    "requirements_source": "https://github.com/plausible/community-edition/blob/v3.2.1/README.md",
+    "release_source": "https://github.com/plausible/analytics/releases/tag/v3.2.1",
+    "issues_source": "https://github.com/plausible/analytics/issues/6803",
+    "archived": false,
+    "card_path": "cards/plausible--analytics.md",
+    "post_path": "posts/2026-11-05_plausible--analytics.md",
+    "assessment": {
+      "vittora_impact": "Задача измерения источников сформулирована; фактический охват/доход не измерены.",
+      "feasibility": "Подтверждены Docker/две БД/≥2ГБ рекомендация; машина и исполнитель неизвестны.",
+      "total_cost": "TCO перечислена, суммы и время неизвестны.",
+      "maintenance": "Изучены release v3.2.1 и выборка issues; поддержки CE без гарантий.",
+      "integration": "Требуется отдельная тестовая страница и обследование текущего счётчика.",
+      "score": null,
+      "reason_not_ready": "Не определены полная стоимость, инфраструктура и назначенный исполнитель; пилот и PNG отсутствуют."
+    },
+    "publication": {
+      "status": "blocked",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "blocker": "05.11.2026 вечером Яндекс Диск показывает «Продолжаем восстанавливать Диск» и Disabled у загрузки в VITTORA/open-arsenal; папка доступна, 27,6 МБ из 5 ГБ, дубля Plausible среди 14 файлов нет. Новый PNG ещё не подготовлен; генерация, визуальная проверка и архивирование отложены до доступного маршрута загрузки. Google Drive ранее storageQuotaExceeded, подтверждения восстановления нет. Блокер — подготовка/архивирование PNG; POST не выполнялся.",
+      "delivery_history_checked_at": "2026-11-05",
+      "delivery_history_note": "Свежий get_site: owner-private. Оба GET прочитаны, can_publish=true @open_arsenal, Plausible отсутствует в журнале. 0 успешных публикаций за 05.11 по Москве; последний журналируемый пост Lighthouse /12 от 30.10. POST не выполнялся."
+    },
+    "illustration": {
+      "status": "pending_generation",
+      "intended_archive_provider": "yandex_disk",
+      "visually_reviewed": false,
+      "archive_url": null,
+      "verified_at": null,
+      "blocker": "05.11.2026 вечером Яндекс Диск показывает «Продолжаем восстанавливать Диск» и Disabled у загрузки в VITTORA/open-arsenal; папка доступна, 27,6 МБ из 5 ГБ, дубля Plausible среди 14 файлов нет. Новый PNG ещё не подготовлен; генерация, визуальная проверка и архивирование отложены до доступного маршрута загрузки. Google Drive ранее storageQuotaExceeded, подтверждения восстановления нет. Блокер — подготовка/архивирование PNG; POST не выполнялся."
+    }
   }
 ]
