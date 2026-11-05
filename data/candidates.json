@@ -1351,5 +1351,44 @@
       "intended_archive_provider": "yandex_disk",
       "visually_reviewed": false
     }
+  },
+  {
+    "url": "https://github.com/umami-software/umami",
+    "status": "reviewing",
+    "direction": "growth_revenue",
+    "verification_level": "documentation",
+    "verification_date": "2026-11-05",
+    "concrete_problem": "Проверить учёт переходов со страницы музыки VITTORA к прослушиванию.",
+    "application_example": "Событие music_listen_click с song_slug/button_location на отдельной тестовой странице.",
+    "first_pilot": "Технический специалист готовит отдельную тестовую страницу музыки и отдельный счётчик. Записать вручную 20 контролируемых нажатий «Слушать» (поровну desktop/mobile) и 5 посещений без нажатия. Параметры событий только song_slug и button_location, без имени, контактов и текста пользователя.",
+    "success_metric": "Цель пилота: 20/20 нажатий учтены один раз, 0 событий от пяти посещений без нажатия, одинаковая дата Europe/Moscow в журнале и отчёте, ноль запрещённых полей в просмотренных запросах. Затем отдельно проверить блокировщик и повторную навигацию. Измерить RAM, CPU, прирост БД и время поддержки. Результатов нет.",
+    "requirements_and_costs": "Самостоятельный запуск требует сервера Node.js и PostgreSQL либо Docker с приложением и БД. README указывает Node≥18.18 и PostgreSQL≥12.14, Dockerfile main использует Node22.23.4-alpine, compose Postgres15, package.json pnpm12.3.4. Это сведения main, совместимость выбранного релиза/машины предстоит сверить. MIT-код без лицензионной платы; GPU/модели и платный API для self-hosted сценария не обязательны. Полная стоимость включает сервер, БД/диск, HTTPS/сеть, резервирование и восстановление, обновления, мониторинг, настройку событий, проверку данных и время специалиста. RAM/CPU/рубли и доступная инфраструктура неизвестны. Облачный тариф не исследован и не выбран.",
+    "limitations": "Нажатие кнопки не доказывает прослушивание или доход. Блокировщики, повторные обработчики и различия часовых поясов могут менять счёт. Политика данных зависит от фактических полей, URL и настройки. Перед доступом посетителей нужно заменить учебные пароли compose и настроить закрытый доступ к панели, HTTPS и резерв. Установка не выполнялась.",
+    "license_review": "Umami MIT. При распространении сохранять copyright/текст условий, без гарантий. Зависимости и обработка данных проверяются отдельно, правовой аудит не проводился.",
+    "comparison": "Umami выбран для пилота двух свойств события и сверки контролируемых нажатий. Plausible CE тоже даёт аналитику, но требует PostgreSQL и ClickHouse, а часть возможностей облака отсутствует в CE. GoatCounter может работать с SQLite и поддерживает импорт логов, его модифицированная EUPL требует отдельной проверки перед распространением. Текущая аналитика VITTORA в этом запуске не прочитана, поэтому наличие/отсутствие действующего счётчика неизвестно. Базовая линия пилота — ручной журнал тех же действий, production-счётчик не заменять без инвентаризации.",
+    "readme_source": "https://github.com/umami-software/umami/blob/master/README.md",
+    "license_source": "https://github.com/umami-software/umami/blob/master/LICENSE",
+    "requirements_source": "https://github.com/umami-software/umami/blob/master/package.json",
+    "release_source": "https://github.com/umami-software/umami/releases/tag/v3.4.1",
+    "issues_source": "https://github.com/umami-software/umami/pull/4737",
+    "archived": false,
+    "card_path": "cards/umami-software--umami.md",
+    "post_path": "posts/2026-11-05_umami-software--umami.md",
+    "publication": {
+      "status": "blocked",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "blocker": "05.11.2026 Яндекс Диск показывает восстановление сервиса и отключённую загрузку в VITTORA/open-arsenal. Занято 27,6 МБ из 5 ГБ. Google Drive ранее вернул storageQuotaExceeded, подтверждения восстановления нет. Новый PNG пока не подготовлен, визуальная проверка и архивирование предстоят. POST не выполнялся.",
+      "delivery_history_checked_at": "2026-11-05",
+      "delivery_history_note": "Свежий get_site подтвердил owner-private, оба GET прочитаны. can_publish=true, Umami в журнале отсутствует, 0 успешных сообщений за московский день. POST не выполнялся."
+    },
+    "illustration": {
+      "status": "pending_generation",
+      "intended_archive_provider": "yandex_disk",
+      "visually_reviewed": false,
+      "archive_url": null,
+      "verified_at": null
+    }
   }
 ]
