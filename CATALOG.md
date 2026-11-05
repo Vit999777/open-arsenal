@@ -27,9 +27,11 @@
 | [Haystack](https://github.com/deepset-ai/haystack) | Поиск только по действующим версиям материалов | Документация 04.11, сравнение LlamaIndex и Qdrant, reviewing | [Разбор](cards/deepset-ai--haystack.md) · [Черновик](posts/2026-11-04_deepset-ai--haystack.md) · blocked: подготовка и архив PNG |
 | [Umami](https://github.com/umami-software/umami) | Проверяемый учёт переходов к прослушиванию музыки | Документация 05.11, MIT/requirements/releases/issues, сравнение Plausible/GoatCounter, reviewing | [Разбор](cards/umami-software--umami.md) · [Черновик](posts/2026-11-05_umami-software--umami.md) · blocked: подготовка и архив PNG |
 
+| [Plausible CE](https://github.com/plausible/analytics) | Источники переходов к главе VITTORA | Документация 05.11, AGPLv3+/MIT tracker, CE v3.2.1/две БД/releases/issues; сравнение Umami/GoatCounter; reviewing, пилота нет | [Разбор](cards/plausible--analytics.md) · [Черновик](posts/2026-11-05_plausible--analytics.md) · blocked: подготовка и архив PNG; POST не выполнялся |
 
 
-Дата редакционного среза: 05.11.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. 59 ещё не исследованных активных слотов находятся в [плане исследований](content-plan/README.md).
+
+Дата редакционного среза: 05.11.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. 58 ещё не исследованных активных слотов находятся в [плане исследований](content-plan/README.md).
 
 ## Как читать статусы
 
