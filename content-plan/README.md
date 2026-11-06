@@ -1,11 +1,10 @@
-# Контент-план: 5 ноября – 4 декабря 2026
+# Контент-план: 6 ноября – 5 декабря 2026
 
 30 дней · 60 кандидатов · Europe/Moscow, 10:00 и 18:00. planned_research — очередь проверки, не рекомендации. История: [октябрь](history/2026-10.json), [ноябрь](history/2026-11.json). Пропуски пачкой не выпускаем.
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-11-05 | **Понятная аналитика сайта** · growth_revenue<br>[umami-software/umami](https://github.com/umami-software/umami) · blocked · [Разбор](../cards/umami-software--umami.md) · [Текст](../posts/2026-11-05_umami-software--umami.md) | **Альтернатива веб-аналитики** · growth_revenue<br>[plausible/analytics](https://github.com/plausible/analytics) · blocked · [Разбор](../cards/plausible--analytics.md) · [Текст](../posts/2026-11-05_plausible--analytics.md) |
-| 2026-11-06 | **Связка рабочих сервисов** · publishing<br>[activepieces/activepieces](https://github.com/activepieces/activepieces) · planned_research | **Автоматизация редакционного процесса** · publishing<br>[n8n-io/n8n](https://github.com/n8n-io/n8n) · planned_research |
+| 2026-11-06 | **Связка рабочих сервисов** · publishing<br>[activepieces/activepieces](https://github.com/activepieces/activepieces) · blocked · [Разбор](../cards/activepieces--activepieces.md) · [Текст](../posts/2026-11-06_activepieces--activepieces.md) | **Автоматизация редакционного процесса** · publishing<br>[n8n-io/n8n](https://github.com/n8n-io/n8n) · planned_research |
 | 2026-11-07 | **Подготовка анимации персонажей** · kids<br>[opentoonz/opentoonz](https://github.com/opentoonz/opentoonz) · planned_research | **Простой анимационный пилот** · kids<br>[pencil2d/pencil](https://github.com/pencil2d/pencil) · planned_research |
 | 2026-11-08 | **Проверка пути читателя** · website_journal<br>[microsoft/playwright](https://github.com/microsoft/playwright) · planned_research | **Рабочие ссылки журнала** · website_journal<br>[lycheeverse/lychee](https://github.com/lycheeverse/lychee) · planned_research |
 | 2026-11-09 | **Оценка качества RAG** · agents_rag<br>[vibrantlabsai/ragas](https://github.com/vibrantlabsai/ragas) · planned_research | **Проверка инструкций агентов** · agents_rag<br>[promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) · planned_research |
@@ -34,6 +33,7 @@
 | 2026-12-02 | **Визуальная правка главы** · book_audio<br>[Sigil-Ebook/PageEdit](https://github.com/Sigil-Ebook/PageEdit) · planned_research | **Проверка соответствия EPUB** · book_audio<br>[w3c/epubcheck](https://github.com/w3c/epubcheck) · planned_research |
 | 2026-12-03 | **Локальное построение поисковых представлений** · agents_rag<br>[qdrant/fastembed](https://github.com/qdrant/fastembed) · planned_research | **Поиск по текстовому корпусу** · agents_rag<br>[neuml/txtai](https://github.com/neuml/txtai) · planned_research |
 | 2026-12-04 | **Аналитика переходов на своём сервере** · growth_revenue<br>[electerious/Ackee](https://github.com/electerious/Ackee) · planned_research | **Прозрачная аналитика для посетителя** · growth_revenue<br>[offen/offen](https://github.com/offen/offen) · planned_research |
+| 2026-12-05 | **Расписание служебных проверок** · reliability<br>[robfig/cron](https://github.com/robfig/cron) · planned_research | **Управление повторяющимися заданиями** · reliability<br>[go-co-op/gocron](https://github.com/go-co-op/gocron) · planned_research |
 
 ## Срез 02.11.2026
 
@@ -58,3 +58,5 @@ PNG создан встроенным image_gen и просмотрен (исх�
 05.11. Umami — документация/reviewing, сравнение Plausible/GoatCounter. Установка/измерения отсутствуют. PNG pending_generation, архив заблокирован восстановлением Диска. Слоты 04.11 перенесены в историю с их статусами. Горизонт 05.11–04.12, 60 кандидатов.
 
 05.11, вечер: Plausible CE — documentation/reviewing, сравнение Umami и GoatCounter; UTM сверены в коде v3.2.1. Пилота нет. PNG pending_generation, архив заблокирован восстановлением Яндекс Диска и отключённой загрузкой. POST не выполнялся. План 05.11–04.12: 2 blocked, 58 planned_research, 60 уникальных слотов; пропуски не отправлялись.
+
+06.11: Activepieces — documentation/reviewing; сравнены n8n/Huginn, найдены старый compose и CE/EE-пробел. Публикация blocked: PNG pending_generation, архив недоступен из-за восстановления Яндекс Диска. POST не выполнялся. Слоты05.11 перенесены в историю без потери фактов. Горизонт06.11–05.12, 60 уникальных кандидатов; дальние2 проверены только по metadata.
