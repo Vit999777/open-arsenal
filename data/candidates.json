@@ -1486,5 +1486,52 @@
       "integration": "Нужен тестовый приёмник и защита повторов.",
       "score": null
     }
+  },
+  {
+    "url": "https://github.com/n8n-io/n8n",
+    "status": "reviewing",
+    "direction": "publishing",
+    "verification_level": "documentation",
+    "verification_date": "2026-11-06",
+    "concrete_problem": "Разбор сбоев подготовки редакционной карточки VITTORA: найти шаг и причину остановки.",
+    "application_example": "Связанный Error Trigger получает сведения об ошибке тестовой цепочки и пишет разрешённые поля в отдельный тестовый журнал, без внешних сообщений.",
+    "first_pilot": "Три синтетические карточки: отсутствующее поле, HTTP500, таймаут локального приёмника; плюс один успешный случай. Изолированный экземпляр и связанный обработчик, запуск входящим тестовым HTTP-запросом, не ручной кнопкой. Специалист+редактор не назначены. До60мин сверки после подготовки без покупок, машина и лимит подготовки неизвестны.",
+    "success_metric": "Цели: 3/3 ошибок в обработчике, правильный шаг/причина3/3, 0 записей ошибки для успешной карточки, 0 внешних сообщений. Сверить фактические id/URL с журналом исходного процесса. Измерить задержку, время ручного поиска, RAM/CPU/данные. Результатов нет.",
+    "requirements_and_costs": "README: Docker-образ и постоянный volume /home/node/.n8n. Для пилота сверить закреплённый релиз2.46.6 и конкретную ОС/архитектуру/БД. package.json master Node≥24/pnpm≥12.4.2 — не доказательство требований тега. RAM/CPU нашей нагрузки неизвестны. TCO: машина/БД/диск/сеть/домен/HTTPS, журналы/резервы/восстановление/обновления/мониторинг/настройка/права/ключи/разбор ошибок. Рубли, машина и труд неизвестны. Для пилота не нужны GPU/модели/платныйAIAPI. Сторонние интеграции могут быть платными, облачный тариф не исследован.",
+    "limitations": "Error Trigger требует связи с исходным процессом и реального автоматического сбоя. Ручной пустой запуск может вернуть демонстрационные данные(id231), это не успешный тест. Набор id/URL зависит от места сбоя; полное падение n8n/сервера этим не обнаружить. Ограничить поля/срок журналирования. Не выполнять автоматический повтор публикации при таймауте, не обходить needs_reconciliation. Не подключать production и внешние сообщения этим обзором.",
+    "license_review": "Source-available/fair-code Sustainable Use License, не MIT/open-source без ограничений. Разрешены собственные внутренние бизнес-задачи либо личное/некоммерческое использование; предоставление другим ограничено бесплатным некоммерческим распространением. .ee. исключены, Enterprise production требует лицензии. Условия ветвей/зависимостей отдельно. Не обещать право на перепродажу/клиентский хостинг; правового аудита не было.",
+    "comparison": "Базовая линия — ручной просмотр тестового журнала и существующий подтверждённый процесс GitHub/валидаторы/Sites. Фактическая n8n-конфигурация VITTORA не прочитана, сначала инвентаризация. Activepieces — ветви/HTTP/версии и auto retries, MIT вне EE, Compose+PostgreSQL/Redis≥2vCPU/4ГБ по docs, старый пример0.92.2 противhotfix. Huginn — MIT, агенты событий/Docker/web+worker/MySQL илиPostgreSQL/Ruby≥3.4master. Уникальное превосходство n8n не доказано, второй движок может быть избыточен. Три кандидата проверены README/LICENSE/requirements/releases/issues.",
+    "readme_source": "https://github.com/n8n-io/n8n/blob/master/README.md",
+    "license_source": "https://github.com/n8n-io/n8n/blob/master/LICENSE.md",
+    "requirements_source": "https://github.com/n8n-io/n8n/blob/master/package.json",
+    "release_source": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.46.6",
+    "issues_source": "https://github.com/n8n-io/n8n/pull/43102",
+    "archived": false,
+    "card_path": "cards/n8n-io--n8n.md",
+    "post_path": "posts/2026-11-06_n8n-io--n8n.md",
+    "publication": {
+      "status": "blocked",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "blocker": "06.11.2026 вечером папка VITTORA/open-arsenal на Яндекс Диске доступна, 14 старых PNG, дубля n8n нет; занято27,6МБ из5ГБ. Интерфейс показывает «Продолжаем восстанавливать Диск» и Disabled у загрузки. Новый PNG не подготовлен; генерация, просмотр и архивирование отложены до доступной загрузки. Google Drive ранее storageQuotaExceeded, признаков восстановления нет. POST не выполнялся.",
+      "delivery_history_checked_at": "2026-11-06",
+      "delivery_history_note": "Свежий get_site owner-private, обаGET прочитаны; can_publish=true open_arsenal, 0 подтверждений сегодня, n8n отсутствует; POST не выполнялся."
+    },
+    "illustration": {
+      "status": "pending_generation",
+      "visually_reviewed": false,
+      "intended_archive_provider": "yandex_disk",
+      "archive_url": null,
+      "verified_at": null
+    },
+    "assessment": {
+      "vittora_impact": "Польза конкретна, эффект не измерен.",
+      "feasibility": "Требуется инвентаризация экземпляра/режима и ресурсов.",
+      "total_cost": "TCO перечислена, сумма неизвестна.",
+      "maintenance": "Прочитаны релиз/issues, общего аудита нет.",
+      "integration": "Нужна тестовая связь Error Trigger и приёмник; production не подключён.",
+      "score": null
+    }
   }
 ]
