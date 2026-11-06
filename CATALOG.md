@@ -26,12 +26,10 @@
 | [LlamaIndex](https://github.com/run-llama/llama_index) | Поиск фрагментов книги и журнала с источниками | Документация 04.11, сравнение Haystack и LangChain, reviewing | [Разбор](cards/run-llama--llama_index.md) · [Черновик](posts/2026-11-04_run-llama--llama_index.md) · blocked: подготовка и архив PNG |
 | [Haystack](https://github.com/deepset-ai/haystack) | Поиск только по действующим версиям материалов | Документация 04.11, сравнение LlamaIndex и Qdrant, reviewing | [Разбор](cards/deepset-ai--haystack.md) · [Черновик](posts/2026-11-04_deepset-ai--haystack.md) · blocked: подготовка и архив PNG |
 | [Umami](https://github.com/umami-software/umami) | Проверяемый учёт переходов к прослушиванию музыки | Документация 05.11, MIT/requirements/releases/issues, сравнение Plausible/GoatCounter, reviewing | [Разбор](cards/umami-software--umami.md) · [Черновик](posts/2026-11-05_umami-software--umami.md) · blocked: подготовка и архив PNG |
-
 | [Plausible CE](https://github.com/plausible/analytics) | Источники переходов к главе VITTORA | Документация 05.11, AGPLv3+/MIT tracker, CE v3.2.1/две БД/releases/issues; сравнение Umami/GoatCounter; reviewing, пилота нет | [Разбор](cards/plausible--analytics.md) · [Черновик](posts/2026-11-05_plausible--analytics.md) · blocked: подготовка и архив PNG; POST не выполнялся |
+| [Activepieces](https://github.com/activepieces/activepieces) | Проверка полей карточки перед передачей в черновик | Документация06.11, MIT/Enterprise, требования/releases/issues, сравнение n8n/Huginn; reviewing, пилота нет | [Разбор](cards/activepieces--activepieces.md) · [Черновик](posts/2026-11-06_activepieces--activepieces.md) · blocked: подготовка и архив PNG |
 
-
-
-Дата редакционного среза: 05.11.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. 58 ещё не исследованных активных слотов находятся в [плане исследований](content-plan/README.md).
+Дата редакционного среза: 06.11.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. 59 ещё не исследованных активных слотов находятся в [плане исследований](content-plan/README.md).
 
 ## Как читать статусы
 
