@@ -1439,5 +1439,52 @@
       "verified_at": null,
       "blocker": "05.11.2026 вечером Яндекс Диск показывает «Продолжаем восстанавливать Диск» и Disabled у загрузки в VITTORA/open-arsenal; папка доступна, 27,6 МБ из 5 ГБ, дубля Plausible среди 14 файлов нет. Новый PNG ещё не подготовлен; генерация, визуальная проверка и архивирование отложены до доступного маршрута загрузки. Google Drive ранее storageQuotaExceeded, подтверждения восстановления нет. Блокер — подготовка/архивирование PNG; POST не выполнялся."
     }
+  },
+  {
+    "url": "https://github.com/activepieces/activepieces",
+    "status": "reviewing",
+    "direction": "publishing",
+    "verification_level": "documentation",
+    "verification_date": "2026-11-06",
+    "concrete_problem": "Проверка полей карточки статьи VITTORA перед передачей в черновик.",
+    "application_example": "Карточка с material_id, заголовком, источником и статусом иллюстрации → ветка проверки → тестовый черновик либо объяснение отказа.",
+    "first_pilot": "5 синтетических карточек (3 полные, 2 неполные) и 3 повтора одной полной; изолированный CE-стенд, тестовый приёмник с защитой повторов по material_id, без внешних отправок. Специалист+редактор пока не назначены; до60мин сверки после подготовки, без покупок; машина/лимит подготовки неизвестны.",
+    "success_metric": "3 уникальных черновика, 2 объяснённых отказа, 0 новых черновиков от3 повторов, 100% совпадение полей, 0 внешних отправок. Измерить время/RAM/CPU/диск; сравнить ручную сверку. Результатов нет.",
+    "requirements_and_costs": "Docker Compose v2, по docs минимум2vCPU/4ГБ; Windows WSL2; app/worker/PostgreSQL/Redis. main compose0.92.2 и5worker, latest0.92.3-hotfix.2 исправляет crash. CE-режим исправленного образа ещё сверить, manual docs предлагают ee. TCO: машина/диск/сеть/домен/HTTPS, резервы и восстановление, обновления/мониторинг/схемы/ключи/дедупликация/работа специалиста. Сумма и инфраструктура неизвестны. MIT CE вне исключений, Enterprise коммерческий; облачный тариф не исследован. Для пилота GPU/модели/платныйAIAPI не требуются, интеграции могут иметь отдельные расходы.",
+    "limitations": "Автоповторы не гарантируют дедупликацию, защита на приёмнике не проверена. Webhook main default authType=none, реальным данным нужна авторизация. CE-конфигурация/релиз требуют сверки. Hobby PGLite/MEMORY ограничен одной машиной, переход требует начала заново. Не заменять GitHub/Sites и не подключать production этим обзором.",
+    "license_review": "Корневой LICENSE MIT Expat кроме packages/ee/ и packages/server/api/src/app/ee; зависимости отдельно. Сохранять MIT copyright/условия. Enterprise LICENSE требует лицензии для production. Весь репозиторий нельзя назвать MIT; правового аудита нет.",
+    "comparison": "Текущий подтверждённый процесс GitHub/валидаторы/Sites остаётся базовой линией; конфигурация n8n не прочитана. Activepieces: ветви/HTTP/версии flow по README. n8n: Docker/Node, Sustainable Use License для внутренних задач/личного/некоммерческого использования и EE отдельно. Huginn: MIT, web+worker/MySQL илиPostgreSQL, Ruby≥3.4main. Уникальное преимущество не доказано, второй движок может быть избыточен. Три кандидата проверены по README/LICENSE/требованиям/releases/issues.",
+    "readme_source": "https://github.com/activepieces/activepieces/blob/main/README.md",
+    "license_source": "https://github.com/activepieces/activepieces/blob/main/LICENSE",
+    "requirements_source": "https://github.com/activepieces/activepieces/blob/main/docs/install/options/docker-compose.mdx",
+    "release_source": "https://github.com/activepieces/activepieces/releases/tag/0.92.3-hotfix.2",
+    "issues_source": "https://github.com/activepieces/activepieces/issues/17247",
+    "archived": false,
+    "card_path": "cards/activepieces--activepieces.md",
+    "post_path": "posts/2026-11-06_activepieces--activepieces.md",
+    "publication": {
+      "status": "blocked",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "blocker": "06.11.2026 Яндекс Диск: папка VITTORA/open-arsenal доступна, 14 старых PNG, дубля Activepieces нет, 27,6 МБ из 5 ГБ. Видны «Продолжаем восстанавливать Диск» и Disabled у загрузки. Новый PNG не подготовлен; генерация/просмотр/архивирование отложены до доступной загрузки. Google Drive ранее storageQuotaExceeded, восстановления не подтверждено. POST не выполнялся.",
+      "delivery_history_checked_at": "2026-11-06",
+      "delivery_history_note": "get_site owner-private, оба GET прочитаны; can_publish=true open_arsenal; 0 успешных отправок сегодня, Activepieces отсутствует. POST не выполнялся."
+    },
+    "illustration": {
+      "status": "pending_generation",
+      "visually_reviewed": false,
+      "intended_archive_provider": "yandex_disk",
+      "archive_url": null,
+      "verified_at": null
+    },
+    "assessment": {
+      "vittora_impact": "Задача конкретна, эффект неизвестен.",
+      "feasibility": "CE/машина/исполнитель не подтверждены.",
+      "total_cost": "TCO перечислена, суммы неизвестны.",
+      "maintenance": "Изучен hotfix и issues, не аудит.",
+      "integration": "Нужен тестовый приёмник и защита повторов.",
+      "score": null
+    }
   }
 ]
