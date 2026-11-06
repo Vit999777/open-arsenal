@@ -516,8 +516,115 @@
       "post_path": "posts/2026-11-04_deepset-ai--haystack.md",
       "verification_level": "documentation",
       "verification_date": "2026-11-04"
+    },
+    {
+      "id": "2026-11-05-am",
+      "date": "2026-11-05",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "growth_revenue",
+      "topic": "Понятная аналитика сайта",
+      "repository": "umami-software/umami",
+      "url": "https://github.com/umami-software/umami",
+      "vittora_benefit": "Оценить измерение переходов и востребованных разделов",
+      "post_angle": "Простыми словами: оценить измерение переходов и востребованных разделов. Объяснить преимущества, требования и когда инструмент не подходит.",
+      "pilot": "Технический специалист готовит отдельную тестовую страницу музыки и отдельный счётчик. Записать вручную 20 контролируемых нажатий «Слушать» (поровну desktop/mobile) и 5 посещений без нажатия. Параметры событий только song_slug и button_location, без имени, контактов и текста пользователя.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Понятная аналитика сайта. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-11-05",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "umami-software/umami",
+        "scope": "GitHub API и документация, запуск не проверен"
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "05.11.2026 Яндекс Диск показывает восстановление сервиса и отключённую загрузку в VITTORA/open-arsenal. Занято 27,6 МБ из 5 ГБ. Google Drive ранее вернул storageQuotaExceeded, подтверждения восстановления нет. Новый PNG пока не подготовлен, визуальная проверка и архивирование предстоят. POST не выполнялся.",
+        "delivery_history_checked_at": "2026-11-05",
+        "delivery_history_note": "Свежий get_site подтвердил owner-private, оба GET прочитаны. can_publish=true, Umami в журнале отсутствует, 0 успешных сообщений за московский день. POST не выполнялся."
+      },
+      "illustration": {
+        "status": "pending_generation",
+        "intended_archive_provider": "yandex_disk",
+        "visually_reviewed": false,
+        "archive_url": null,
+        "verified_at": null
+      },
+      "card_path": "cards/umami-software--umami.md",
+      "post_path": "posts/2026-11-05_umami-software--umami.md",
+      "verification_level": "documentation",
+      "verification_date": "2026-11-05"
+    },
+    {
+      "id": "2026-11-05-pm",
+      "date": "2026-11-05",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "growth_revenue",
+      "topic": "Альтернатива веб-аналитики",
+      "repository": "plausible/analytics",
+      "url": "https://github.com/plausible/analytics",
+      "vittora_benefit": "Проверить разнесение посещений главы VITTORA по источникам публикаций.",
+      "post_angle": "Источники переходов к главе: возможности CE, полная стоимость двух БД и будущая ручная сверка; без обещаний дохода.",
+      "pilot": "На отдельной разрешённой тестовой странице главы провести 30 контролируемых посещений, по 10 на три utm_source; сверить pageviews и источники с ручным журналом. Правила сеанса сверить с v3.2.1, повторные переходы не считать новыми людьми. Отдельно 3 перехода с блокировщиком и 3 без метки. Установки пока не было.",
+      "illustration_brief": "Новый встроенный image_gen после восстановления архива: три различимые ссылки ведут к одной главе; крупное Plausible CE; графит, бронза, слоновая кость, без диаграмм роста и выдуманных результатов.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-11-05",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "plausible/analytics",
+        "scope": "GitHub API, README/LICENSE/требования/releases/issues и часть кода v3.2.1; запуск не проверен"
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "05.11.2026 вечером Яндекс Диск показывает «Продолжаем восстанавливать Диск» и Disabled у загрузки в VITTORA/open-arsenal; папка доступна, 27,6 МБ из 5 ГБ, дубля Plausible среди 14 файлов нет. Новый PNG ещё не подготовлен; генерация, визуальная проверка и архивирование отложены до доступного маршрута загрузки. Google Drive ранее storageQuotaExceeded, подтверждения восстановления нет. Блокер — подготовка/архивирование PNG; POST не выполнялся.",
+        "delivery_history_checked_at": "2026-11-05",
+        "delivery_history_note": "Свежий get_site: owner-private. Оба GET прочитаны, can_publish=true @open_arsenal, Plausible отсутствует в журнале. 0 успешных публикаций за 05.11 по Москве; последний журналируемый пост Lighthouse /12 от 30.10. POST не выполнялся."
+      },
+      "illustration": {
+        "status": "pending_generation",
+        "intended_archive_provider": "yandex_disk",
+        "visually_reviewed": false,
+        "archive_url": null,
+        "verified_at": null,
+        "blocker": "05.11.2026 вечером Яндекс Диск показывает «Продолжаем восстанавливать Диск» и Disabled у загрузки в VITTORA/open-arsenal; папка доступна, 27,6 МБ из 5 ГБ, дубля Plausible среди 14 файлов нет. Новый PNG ещё не подготовлен; генерация, визуальная проверка и архивирование отложены до доступного маршрута загрузки. Google Drive ранее storageQuotaExceeded, подтверждения восстановления нет. Блокер — подготовка/архивирование PNG; POST не выполнялся."
+      },
+      "card_path": "cards/plausible--analytics.md",
+      "post_path": "posts/2026-11-05_plausible--analytics.md",
+      "verification_level": "documentation",
+      "verification_date": "2026-11-05"
     }
   ],
-  "updated_at": "2026-11-05",
+  "updated_at": "2026-11-06",
   "note": "Слоты перенесены без изменения фактов; blocked не означает опубликовано."
 }
