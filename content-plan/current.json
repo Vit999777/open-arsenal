@@ -1,122 +1,15 @@
 {
-  "title": "Контент-план Открытого арсенала: 5 ноября — 4 декабря 2026",
+  "title": "Контент-план Открытого арсенала: 6 ноября — 5 декабря 2026",
   "created_at": "2026-10-25",
-  "start_date": "2026-11-05",
-  "end_date": "2026-12-04",
+  "start_date": "2026-11-06",
+  "end_date": "2026-12-05",
   "timezone": "Europe/Moscow",
   "slots_per_day": 2,
   "timing_mode": "flexible_schedule",
   "horizon_days": 30,
   "policy": "План исследований, а не список одобренных рекомендаций. Кандидата можно заменить с записью причины; не отправлять неподтверждённый материал ради календаря. Опубликованные URL не повторять.",
-  "known_blocker": "05.11.2026 вечером Яндекс Диск показывает «Продолжаем восстанавливать Диск» и Disabled у загрузки в VITTORA/open-arsenal; папка доступна, 27,6 МБ из 5 ГБ, дубля Plausible среди 14 файлов нет. Новый PNG ещё не подготовлен; генерация, визуальная проверка и архивирование отложены до доступного маршрута загрузки. Google Drive ранее storageQuotaExceeded, подтверждения восстановления нет. Блокер — подготовка/архивирование PNG; POST не выполнялся.",
+  "known_blocker": "06.11.2026 Яндекс Диск: папка VITTORA/open-arsenal доступна, 14 старых PNG, дубля Activepieces нет, 27,6 МБ из 5 ГБ. Видны «Продолжаем восстанавливать Диск» и Disabled у загрузки. Новый PNG не подготовлен; генерация/просмотр/архивирование отложены до доступной загрузки. Google Drive ранее storageQuotaExceeded, восстановления не подтверждено. POST не выполнялся.",
   "slots": [
-    {
-      "id": "2026-11-05-am",
-      "date": "2026-11-05",
-      "time": "10:00",
-      "timezone": "Europe/Moscow",
-      "direction": "growth_revenue",
-      "topic": "Понятная аналитика сайта",
-      "repository": "umami-software/umami",
-      "url": "https://github.com/umami-software/umami",
-      "vittora_benefit": "Оценить измерение переходов и востребованных разделов",
-      "post_angle": "Простыми словами: оценить измерение переходов и востребованных разделов. Объяснить преимущества, требования и когда инструмент не подходит.",
-      "pilot": "Технический специалист готовит отдельную тестовую страницу музыки и отдельный счётчик. Записать вручную 20 контролируемых нажатий «Слушать» (поровну desktop/mobile) и 5 посещений без нажатия. Параметры событий только song_slug и button_location, без имени, контактов и текста пользователя.",
-      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Понятная аналитика сайта. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "blocked",
-      "metadata_check": {
-        "date": "2026-11-05",
-        "exists": true,
-        "archived": false,
-        "canonical_repository": "umami-software/umami",
-        "scope": "GitHub API и документация, запуск не проверен"
-      },
-      "required_before_publication": [
-        "README",
-        "LICENSE и условия моделей/зависимостей",
-        "требования и расходы",
-        "сравнение с альтернативой",
-        "индивидуальный разбор",
-        "изображение из встроенного генератора чата",
-        "архивирование изображения в Google Drive или Яндекс Диске",
-        "визуальная проверка",
-        "дедупликация каталога и Telegram"
-      ],
-      "publication": {
-        "status": "blocked",
-        "message_id": null,
-        "url": null,
-        "published_at": null,
-        "blocker": "05.11.2026 Яндекс Диск показывает восстановление сервиса и отключённую загрузку в VITTORA/open-arsenal. Занято 27,6 МБ из 5 ГБ. Google Drive ранее вернул storageQuotaExceeded, подтверждения восстановления нет. Новый PNG пока не подготовлен, визуальная проверка и архивирование предстоят. POST не выполнялся.",
-        "delivery_history_checked_at": "2026-11-05",
-        "delivery_history_note": "Свежий get_site подтвердил owner-private, оба GET прочитаны. can_publish=true, Umami в журнале отсутствует, 0 успешных сообщений за московский день. POST не выполнялся."
-      },
-      "illustration": {
-        "status": "pending_generation",
-        "intended_archive_provider": "yandex_disk",
-        "visually_reviewed": false,
-        "archive_url": null,
-        "verified_at": null
-      },
-      "card_path": "cards/umami-software--umami.md",
-      "post_path": "posts/2026-11-05_umami-software--umami.md",
-      "verification_level": "documentation",
-      "verification_date": "2026-11-05"
-    },
-    {
-      "id": "2026-11-05-pm",
-      "date": "2026-11-05",
-      "time": "18:00",
-      "timezone": "Europe/Moscow",
-      "direction": "growth_revenue",
-      "topic": "Альтернатива веб-аналитики",
-      "repository": "plausible/analytics",
-      "url": "https://github.com/plausible/analytics",
-      "vittora_benefit": "Проверить разнесение посещений главы VITTORA по источникам публикаций.",
-      "post_angle": "Источники переходов к главе: возможности CE, полная стоимость двух БД и будущая ручная сверка; без обещаний дохода.",
-      "pilot": "На отдельной разрешённой тестовой странице главы провести 30 контролируемых посещений, по 10 на три utm_source; сверить pageviews и источники с ручным журналом. Правила сеанса сверить с v3.2.1, повторные переходы не считать новыми людьми. Отдельно 3 перехода с блокировщиком и 3 без метки. Установки пока не было.",
-      "illustration_brief": "Новый встроенный image_gen после восстановления архива: три различимые ссылки ведут к одной главе; крупное Plausible CE; графит, бронза, слоновая кость, без диаграмм роста и выдуманных результатов.",
-      "status": "blocked",
-      "metadata_check": {
-        "date": "2026-11-05",
-        "exists": true,
-        "archived": false,
-        "canonical_repository": "plausible/analytics",
-        "scope": "GitHub API, README/LICENSE/требования/releases/issues и часть кода v3.2.1; запуск не проверен"
-      },
-      "required_before_publication": [
-        "README",
-        "LICENSE и условия моделей/зависимостей",
-        "требования и расходы",
-        "сравнение с альтернативой",
-        "индивидуальный разбор",
-        "изображение из встроенного генератора чата",
-        "архивирование изображения в Google Drive или Яндекс Диске",
-        "визуальная проверка",
-        "дедупликация каталога и Telegram"
-      ],
-      "publication": {
-        "status": "blocked",
-        "message_id": null,
-        "url": null,
-        "published_at": null,
-        "blocker": "05.11.2026 вечером Яндекс Диск показывает «Продолжаем восстанавливать Диск» и Disabled у загрузки в VITTORA/open-arsenal; папка доступна, 27,6 МБ из 5 ГБ, дубля Plausible среди 14 файлов нет. Новый PNG ещё не подготовлен; генерация, визуальная проверка и архивирование отложены до доступного маршрута загрузки. Google Drive ранее storageQuotaExceeded, подтверждения восстановления нет. Блокер — подготовка/архивирование PNG; POST не выполнялся.",
-        "delivery_history_checked_at": "2026-11-05",
-        "delivery_history_note": "Свежий get_site: owner-private. Оба GET прочитаны, can_publish=true @open_arsenal, Plausible отсутствует в журнале. 0 успешных публикаций за 05.11 по Москве; последний журналируемый пост Lighthouse /12 от 30.10. POST не выполнялся."
-      },
-      "illustration": {
-        "status": "pending_generation",
-        "intended_archive_provider": "yandex_disk",
-        "visually_reviewed": false,
-        "archive_url": null,
-        "verified_at": null,
-        "blocker": "05.11.2026 вечером Яндекс Диск показывает «Продолжаем восстанавливать Диск» и Disabled у загрузки в VITTORA/open-arsenal; папка доступна, 27,6 МБ из 5 ГБ, дубля Plausible среди 14 файлов нет. Новый PNG ещё не подготовлен; генерация, визуальная проверка и архивирование отложены до доступного маршрута загрузки. Google Drive ранее storageQuotaExceeded, подтверждения восстановления нет. Блокер — подготовка/архивирование PNG; POST не выполнялся."
-      },
-      "card_path": "cards/plausible--analytics.md",
-      "post_path": "posts/2026-11-05_plausible--analytics.md",
-      "verification_level": "documentation",
-      "verification_date": "2026-11-05"
-    },
     {
       "id": "2026-11-06-am",
       "date": "2026-11-06",
@@ -126,18 +19,17 @@
       "topic": "Связка рабочих сервисов",
       "repository": "activepieces/activepieces",
       "url": "https://github.com/activepieces/activepieces",
-      "vittora_benefit": "Оценить автоматизацию передачи карточек и файлов",
+      "vittora_benefit": "Проверка полей карточки статьи VITTORA перед передачей в черновик.",
       "post_angle": "Простыми словами: оценить автоматизацию передачи карточек и файлов. Объяснить преимущества, требования и когда инструмент не подходит.",
-      "pilot": "На тестовой карточке проверить перенос полей, журнал и реакцию на повтор, без отправки внешних сообщений.",
+      "pilot": "5 синтетических карточек (3 полные, 2 неполные) и 3 повтора одной полной; изолированный CE-стенд, тестовый приёмник с защитой повторов по material_id, без внешних отправок. Специалист+редактор пока не назначены; до60мин сверки после подготовки, без покупок; машина/лимит подготовки неизвестны.",
       "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Связка рабочих сервисов. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "planned_research",
+      "status": "blocked",
       "metadata_check": {
-        "date": "2026-10-25",
+        "date": "2026-11-06",
         "exists": true,
         "archived": false,
         "canonical_repository": "activepieces/activepieces",
-        "renamed_from": null,
-        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+        "scope": "README/LICENSE/requirements/releases/issues и часть webhook-кода, без запуска."
       },
       "required_before_publication": [
         "README",
@@ -151,8 +43,24 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
+        "status": "blocked",
         "message_id": null,
-        "url": null
+        "url": null,
+        "published_at": null,
+        "blocker": "06.11.2026 Яндекс Диск: папка VITTORA/open-arsenal доступна, 14 старых PNG, дубля Activepieces нет, 27,6 МБ из 5 ГБ. Видны «Продолжаем восстанавливать Диск» и Disabled у загрузки. Новый PNG не подготовлен; генерация/просмотр/архивирование отложены до доступной загрузки. Google Drive ранее storageQuotaExceeded, восстановления не подтверждено. POST не выполнялся.",
+        "delivery_history_checked_at": "2026-11-06",
+        "delivery_history_note": "get_site owner-private, оба GET прочитаны; can_publish=true open_arsenal; 0 успешных отправок сегодня, Activepieces отсутствует. POST не выполнялся."
+      },
+      "verification_level": "documentation",
+      "verification_date": "2026-11-06",
+      "card_path": "cards/activepieces--activepieces.md",
+      "post_path": "posts/2026-11-06_activepieces--activepieces.md",
+      "illustration": {
+        "status": "pending_generation",
+        "visually_reviewed": false,
+        "intended_archive_provider": "yandex_disk",
+        "archive_url": null,
+        "verified_at": null
       }
     },
     {
@@ -2147,7 +2055,81 @@
         "message_id": null,
         "url": null
       }
+    },
+    {
+      "id": "2026-12-05-am",
+      "date": "2026-12-05",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "reliability",
+      "topic": "Расписание служебных проверок",
+      "repository": "robfig/cron",
+      "url": "https://github.com/robfig/cron",
+      "vittora_benefit": "Оценить таймеры внутри сервисов и обработку ошибок заданий",
+      "post_angle": "Оценить таймеры внутри сервисов и обработку ошибок заданий; план проверки, не внедрение.",
+      "pilot": "На тестовом времени сверить3 запуска и ошибку без внешних действий.",
+      "illustration_brief": "Отдельный PNG после проверки: Расписание служебных проверок. Без выдуманных показателей.",
+      "status": "planned_research",
+      "metadata_check": {
+        "date": "2026-11-06",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "robfig/cron",
+        "scope": "Только metadata GitHub; содержание/лицензия/запуск не проверены."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "message_id": null,
+        "url": null
+      }
+    },
+    {
+      "id": "2026-12-05-pm",
+      "date": "2026-12-05",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "reliability",
+      "topic": "Управление повторяющимися заданиями",
+      "repository": "go-co-op/gocron",
+      "url": "https://github.com/go-co-op/gocron",
+      "vittora_benefit": "Сравнить управление заданиями и ограничение параллельности",
+      "post_angle": "Сравнить управление заданиями и ограничение параллельности; план проверки, не внедрение.",
+      "pilot": "На тестовом времени проверить перекрытие2 заданий без внешних действий.",
+      "illustration_brief": "Отдельный PNG после проверки: Управление повторяющимися заданиями. Без выдуманных показателей.",
+      "status": "planned_research",
+      "metadata_check": {
+        "date": "2026-11-06",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "go-co-op/gocron",
+        "scope": "Только metadata GitHub; содержание/лицензия/запуск не проверены."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "message_id": null,
+        "url": null
+      }
     }
   ],
-  "updated_at": "2026-11-05"
+  "updated_at": "2026-11-06"
 }
