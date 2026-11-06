@@ -4,7 +4,7 @@
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-11-06 | **Связка рабочих сервисов** · publishing<br>[activepieces/activepieces](https://github.com/activepieces/activepieces) · blocked · [Разбор](../cards/activepieces--activepieces.md) · [Текст](../posts/2026-11-06_activepieces--activepieces.md) | **Автоматизация редакционного процесса** · publishing<br>[n8n-io/n8n](https://github.com/n8n-io/n8n) · planned_research |
+| 2026-11-06 | **Связка рабочих сервисов** · publishing<br>[activepieces/activepieces](https://github.com/activepieces/activepieces) · blocked · [Разбор](../cards/activepieces--activepieces.md) · [Текст](../posts/2026-11-06_activepieces--activepieces.md) | **Автоматизация редакционного процесса** · publishing<br>[n8n-io/n8n](https://github.com/n8n-io/n8n) · blocked · [Разбор](../cards/n8n-io--n8n.md) · [Текст](../posts/2026-11-06_n8n-io--n8n.md) |
 | 2026-11-07 | **Подготовка анимации персонажей** · kids<br>[opentoonz/opentoonz](https://github.com/opentoonz/opentoonz) · planned_research | **Простой анимационный пилот** · kids<br>[pencil2d/pencil](https://github.com/pencil2d/pencil) · planned_research |
 | 2026-11-08 | **Проверка пути читателя** · website_journal<br>[microsoft/playwright](https://github.com/microsoft/playwright) · planned_research | **Рабочие ссылки журнала** · website_journal<br>[lycheeverse/lychee](https://github.com/lycheeverse/lychee) · planned_research |
 | 2026-11-09 | **Оценка качества RAG** · agents_rag<br>[vibrantlabsai/ragas](https://github.com/vibrantlabsai/ragas) · planned_research | **Проверка инструкций агентов** · agents_rag<br>[promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) · planned_research |
@@ -60,3 +60,5 @@ PNG создан встроенным image_gen и просмотрен (исх�
 05.11, вечер: Plausible CE — documentation/reviewing, сравнение Umami и GoatCounter; UTM сверены в коде v3.2.1. Пилота нет. PNG pending_generation, архив заблокирован восстановлением Яндекс Диска и отключённой загрузкой. POST не выполнялся. План 05.11–04.12: 2 blocked, 58 planned_research, 60 уникальных слотов; пропуски не отправлялись.
 
 06.11: Activepieces — documentation/reviewing; сравнены n8n/Huginn, найдены старый compose и CE/EE-пробел. Публикация blocked: PNG pending_generation, архив недоступен из-за восстановления Яндекс Диска. POST не выполнялся. Слоты05.11 перенесены в историю без потери фактов. Горизонт06.11–05.12, 60 уникальных кандидатов; дальние2 проверены только по metadata.
+
+06.11, вечер: n8n — documentation/reviewing; сравнение Activepieces/Huginn, Error Trigger сверён в2.46.6. Ручной пример не считается тестом, пилота нет. PNG pending_generation; загрузка Яндекс Диска Disabled при восстановлении сервиса. POST не выполнялся. Горизонт06.11–05.12: 2blocked, 58planned_research, 60 уникальных кандидатов.
