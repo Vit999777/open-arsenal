@@ -623,8 +623,114 @@
       "post_path": "posts/2026-11-05_plausible--analytics.md",
       "verification_level": "documentation",
       "verification_date": "2026-11-05"
+    },
+    {
+      "id": "2026-11-06-am",
+      "date": "2026-11-06",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "publishing",
+      "topic": "Связка рабочих сервисов",
+      "repository": "activepieces/activepieces",
+      "url": "https://github.com/activepieces/activepieces",
+      "vittora_benefit": "Проверка полей карточки статьи VITTORA перед передачей в черновик.",
+      "post_angle": "Простыми словами: оценить автоматизацию передачи карточек и файлов. Объяснить преимущества, требования и когда инструмент не подходит.",
+      "pilot": "5 синтетических карточек (3 полные, 2 неполные) и 3 повтора одной полной; изолированный CE-стенд, тестовый приёмник с защитой повторов по material_id, без внешних отправок. Специалист+редактор пока не назначены; до60мин сверки после подготовки, без покупок; машина/лимит подготовки неизвестны.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Связка рабочих сервисов. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-11-06",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "activepieces/activepieces",
+        "scope": "README/LICENSE/requirements/releases/issues и часть webhook-кода, без запуска."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "06.11.2026 Яндекс Диск: папка VITTORA/open-arsenal доступна, 14 старых PNG, дубля Activepieces нет, 27,6 МБ из 5 ГБ. Видны «Продолжаем восстанавливать Диск» и Disabled у загрузки. Новый PNG не подготовлен; генерация/просмотр/архивирование отложены до доступной загрузки. Google Drive ранее storageQuotaExceeded, восстановления не подтверждено. POST не выполнялся.",
+        "delivery_history_checked_at": "2026-11-06",
+        "delivery_history_note": "get_site owner-private, оба GET прочитаны; can_publish=true open_arsenal; 0 успешных отправок сегодня, Activepieces отсутствует. POST не выполнялся."
+      },
+      "verification_level": "documentation",
+      "verification_date": "2026-11-06",
+      "card_path": "cards/activepieces--activepieces.md",
+      "post_path": "posts/2026-11-06_activepieces--activepieces.md",
+      "illustration": {
+        "status": "pending_generation",
+        "visually_reviewed": false,
+        "intended_archive_provider": "yandex_disk",
+        "archive_url": null,
+        "verified_at": null
+      }
+    },
+    {
+      "id": "2026-11-06-pm",
+      "date": "2026-11-06",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "publishing",
+      "topic": "Автоматизация редакционного процесса",
+      "repository": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "vittora_benefit": "Разбор сбоев подготовки редакционной карточки VITTORA: найти шаг и причину остановки.",
+      "post_angle": "Отдельная обработка сбоев подготовки карточки; ручной пример не равен реальному запуску. Внутренний сценарий и ограничения SUL.",
+      "pilot": "Три синтетические карточки: отсутствующее поле, HTTP500, таймаут локального приёмника; плюс один успешный случай. Изолированный экземпляр и связанный обработчик, запуск входящим тестовым HTTP-запросом, не ручной кнопкой. Специалист+редактор не назначены. До60мин сверки после подготовки без покупок, машина и лимит подготовки неизвестны.",
+      "illustration_brief": "После восстановления архива новый PNG встроенным image_gen: графит/бронза/слоновая кость, карточка материала и выделенный проблемный шаг, крупное n8n, без обещаний роста.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-11-06",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "n8n-io/n8n",
+        "scope": "README/LICENSE/требования/releases/issues, документация и код Error Trigger2.46.6; без запуска."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "06.11.2026 вечером папка VITTORA/open-arsenal на Яндекс Диске доступна, 14 старых PNG, дубля n8n нет; занято27,6МБ из5ГБ. Интерфейс показывает «Продолжаем восстанавливать Диск» и Disabled у загрузки. Новый PNG не подготовлен; генерация, просмотр и архивирование отложены до доступной загрузки. Google Drive ранее storageQuotaExceeded, признаков восстановления нет. POST не выполнялся.",
+        "delivery_history_checked_at": "2026-11-06",
+        "delivery_history_note": "Свежий get_site owner-private, обаGET прочитаны; can_publish=true open_arsenal, 0 подтверждений сегодня, n8n отсутствует; POST не выполнялся."
+      },
+      "verification_level": "documentation",
+      "verification_date": "2026-11-06",
+      "card_path": "cards/n8n-io--n8n.md",
+      "post_path": "posts/2026-11-06_n8n-io--n8n.md",
+      "illustration": {
+        "status": "pending_generation",
+        "visually_reviewed": false,
+        "intended_archive_provider": "yandex_disk",
+        "archive_url": null,
+        "verified_at": null
+      }
     }
   ],
-  "updated_at": "2026-11-06",
+  "updated_at": "2026-11-07",
   "note": "Слоты перенесены без изменения фактов; blocked не означает опубликовано."
 }
