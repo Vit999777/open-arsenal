@@ -29,8 +29,9 @@
 | [Plausible CE](https://github.com/plausible/analytics) | Источники переходов к главе VITTORA | Документация 05.11, AGPLv3+/MIT tracker, CE v3.2.1/две БД/releases/issues; сравнение Umami/GoatCounter; reviewing, пилота нет | [Разбор](cards/plausible--analytics.md) · [Черновик](posts/2026-11-05_plausible--analytics.md) · blocked: подготовка и архив PNG; POST не выполнялся |
 | [Activepieces](https://github.com/activepieces/activepieces) | Проверка полей карточки перед передачей в черновик | Документация06.11, MIT/Enterprise, требования/releases/issues, сравнение n8n/Huginn; reviewing, пилота нет | [Разбор](cards/activepieces--activepieces.md) · [Черновик](posts/2026-11-06_activepieces--activepieces.md) · blocked: подготовка и архив PNG |
 | [n8n](https://github.com/n8n-io/n8n) | Разбор сбоев редакционной цепочки | Документация06.11, SUL/EE, Error Trigger2.46.6/requirements/releases/issues; сравнение Activepieces/Huginn; reviewing, пилота нет | [Разбор](cards/n8n-io--n8n.md) · [Черновик](posts/2026-11-06_n8n-io--n8n.md) · blocked: подготовка и архив PNG |
+| [OpenToonz](https://github.com/opentoonz/opentoonz) | Повторить жест одного героя Kids в двух сценах | Документация 07.11, Plastic/Sub-Xsheet, BSD-3-Clause, сравнение Pencil2D/Synfig. Reviewing, пилот предстоит | [Разбор](cards/opentoonz--opentoonz.md) · [Черновик](posts/2026-11-07_opentoonz--opentoonz.md) · blocked: подготовка и архив PNG |
 
-Дата редакционного среза: 06.11.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. 58 ещё не исследованных активных слотов находятся в [плане исследований](content-plan/README.md).
+Дата редакционного среза: 07.11.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. 59 ещё не исследованных активных слотов находятся в [плане исследований](content-plan/README.md).
 
 ## Как читать статусы
 
