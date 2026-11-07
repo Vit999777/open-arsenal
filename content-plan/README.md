@@ -4,7 +4,7 @@
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-11-07 | **Подготовка анимации персонажей** · kids<br>[opentoonz/opentoonz](https://github.com/opentoonz/opentoonz) · blocked · [Разбор](../cards/opentoonz--opentoonz.md) · [Текст](../posts/2026-11-07_opentoonz--opentoonz.md) | **Простой анимационный пилот** · kids<br>[pencil2d/pencil](https://github.com/pencil2d/pencil) · planned_research |
+| 2026-11-07 | **Подготовка анимации персонажей** · kids<br>[opentoonz/opentoonz](https://github.com/opentoonz/opentoonz) · blocked · [Разбор](../cards/opentoonz--opentoonz.md) · [Текст](../posts/2026-11-07_opentoonz--opentoonz.md) | **Простой анимационный пилот** · kids<br>[pencil2d/pencil](https://github.com/pencil2d/pencil) · blocked · [Разбор](../cards/pencil2d--pencil.md) · [Текст](../posts/2026-11-07_pencil2d--pencil.md) |
 | 2026-11-08 | **Проверка пути читателя** · website_journal<br>[microsoft/playwright](https://github.com/microsoft/playwright) · planned_research | **Рабочие ссылки журнала** · website_journal<br>[lycheeverse/lychee](https://github.com/lycheeverse/lychee) · planned_research |
 | 2026-11-09 | **Оценка качества RAG** · agents_rag<br>[vibrantlabsai/ragas](https://github.com/vibrantlabsai/ragas) · planned_research | **Проверка инструкций агентов** · agents_rag<br>[promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) · planned_research |
 | 2026-11-10 | **Монтаж коротких историй** · video<br>[OpenShot/openshot-qt](https://github.com/OpenShot/openshot-qt) · planned_research | **Экспорт и финальная сборка** · video<br>[mltframework/shotcut](https://github.com/mltframework/shotcut) · planned_research |
