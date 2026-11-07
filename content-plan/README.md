@@ -1,11 +1,10 @@
-# Контент-план: 6 ноября – 5 декабря 2026
+# Контент-план: 7 ноября – 6 декабря 2026
 
 30 дней · 60 кандидатов · Europe/Moscow, 10:00 и 18:00. planned_research — очередь проверки, не рекомендации. История: [октябрь](history/2026-10.json), [ноябрь](history/2026-11.json). Пропуски пачкой не выпускаем.
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-11-06 | **Связка рабочих сервисов** · publishing<br>[activepieces/activepieces](https://github.com/activepieces/activepieces) · blocked · [Разбор](../cards/activepieces--activepieces.md) · [Текст](../posts/2026-11-06_activepieces--activepieces.md) | **Автоматизация редакционного процесса** · publishing<br>[n8n-io/n8n](https://github.com/n8n-io/n8n) · blocked · [Разбор](../cards/n8n-io--n8n.md) · [Текст](../posts/2026-11-06_n8n-io--n8n.md) |
-| 2026-11-07 | **Подготовка анимации персонажей** · kids<br>[opentoonz/opentoonz](https://github.com/opentoonz/opentoonz) · planned_research | **Простой анимационный пилот** · kids<br>[pencil2d/pencil](https://github.com/pencil2d/pencil) · planned_research |
+| 2026-11-07 | **Подготовка анимации персонажей** · kids<br>[opentoonz/opentoonz](https://github.com/opentoonz/opentoonz) · blocked · [Разбор](../cards/opentoonz--opentoonz.md) · [Текст](../posts/2026-11-07_opentoonz--opentoonz.md) | **Простой анимационный пилот** · kids<br>[pencil2d/pencil](https://github.com/pencil2d/pencil) · planned_research |
 | 2026-11-08 | **Проверка пути читателя** · website_journal<br>[microsoft/playwright](https://github.com/microsoft/playwright) · planned_research | **Рабочие ссылки журнала** · website_journal<br>[lycheeverse/lychee](https://github.com/lycheeverse/lychee) · planned_research |
 | 2026-11-09 | **Оценка качества RAG** · agents_rag<br>[vibrantlabsai/ragas](https://github.com/vibrantlabsai/ragas) · planned_research | **Проверка инструкций агентов** · agents_rag<br>[promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) · planned_research |
 | 2026-11-10 | **Монтаж коротких историй** · video<br>[OpenShot/openshot-qt](https://github.com/OpenShot/openshot-qt) · planned_research | **Экспорт и финальная сборка** · video<br>[mltframework/shotcut](https://github.com/mltframework/shotcut) · planned_research |
@@ -34,6 +33,7 @@
 | 2026-12-03 | **Локальное построение поисковых представлений** · agents_rag<br>[qdrant/fastembed](https://github.com/qdrant/fastembed) · planned_research | **Поиск по текстовому корпусу** · agents_rag<br>[neuml/txtai](https://github.com/neuml/txtai) · planned_research |
 | 2026-12-04 | **Аналитика переходов на своём сервере** · growth_revenue<br>[electerious/Ackee](https://github.com/electerious/Ackee) · planned_research | **Прозрачная аналитика для посетителя** · growth_revenue<br>[offen/offen](https://github.com/offen/offen) · planned_research |
 | 2026-12-05 | **Расписание служебных проверок** · reliability<br>[robfig/cron](https://github.com/robfig/cron) · planned_research | **Управление повторяющимися заданиями** · reliability<br>[go-co-op/gocron](https://github.com/go-co-op/gocron) · planned_research |
+| 2026-12-06 | **Проверка кириллицы в шрифте** · book_audio<br>[fontforge/fontforge](https://github.com/fontforge/fontforge) · planned_research | **Извлечение текста из документов** · agents_rag<br>[apache/tika](https://github.com/apache/tika) · planned_research |
 
 ## Срез 02.11.2026
 
@@ -62,3 +62,5 @@ PNG создан встроенным image_gen и просмотрен (исх�
 06.11: Activepieces — documentation/reviewing; сравнены n8n/Huginn, найдены старый compose и CE/EE-пробел. Публикация blocked: PNG pending_generation, архив недоступен из-за восстановления Яндекс Диска. POST не выполнялся. Слоты05.11 перенесены в историю без потери фактов. Горизонт06.11–05.12, 60 уникальных кандидатов; дальние2 проверены только по metadata.
 
 06.11, вечер: n8n — documentation/reviewing; сравнение Activepieces/Huginn, Error Trigger сверён в2.46.6. Ручной пример не считается тестом, пилота нет. PNG pending_generation; загрузка Яндекс Диска Disabled при восстановлении сервиса. POST не выполнялся. Горизонт06.11–05.12: 2blocked, 58planned_research, 60 уникальных кандидатов.
+
+07.11. OpenToonz проверен по документации и сравнён с Pencil2D и Synfig. Выпуск заблокирован на подготовке и архивировании PNG. Две записи 06.11 перенесены в историю. Дальние два кандидата проверены только по metadata.
