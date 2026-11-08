@@ -70,18 +70,17 @@
       "topic": "Рабочие ссылки журнала",
       "repository": "lycheeverse/lychee",
       "url": "https://github.com/lycheeverse/lychee",
-      "vittora_benefit": "Найти битые ссылки и подтвердить исправления",
-      "post_angle": "Простыми словами: найти битые ссылки и подтвердить исправления. Объяснить преимущества, требования и когда инструмент не подходит.",
-      "pilot": "На одной странице тестовой копии измерить ошибки до/после; не менять production без проверки.",
+      "vittora_benefit": "Находить битые ссылки на главы и источники в статьях журнала VITTORA до выпуска.",
+      "post_angle": "Проверить копии трёх статей в Markdown с ограниченным списком ссылок, затем передать редактору отчёт с исходным файлом и адресом для правки.",
+      "pilot": "На трёх копиях статей собрать 12 ссылок с заранее записанными ожидаемыми результатами. Включить три контролируемых HTTP 404 на локальном тестовом сервере и девять рабочих ссылок. Один прогон Lychee с JSON и ручная сверка того же списка. Лимит 60 минут после подготовки среды, без покупок. Роль — редакционный QA, исполнитель не назначен. Откат — оставить проверку ручной и не подключать автоматический барьер выпуска.",
       "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Рабочие ссылки журнала. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "planned_research",
+      "status": "blocked",
       "metadata_check": {
-        "date": "2026-10-25",
+        "date": "2026-11-08",
         "exists": true,
         "archived": false,
         "canonical_repository": "lycheeverse/lychee",
-        "renamed_from": null,
-        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+        "scope": "Проверены первоисточники. Пилот предстоит."
       },
       "required_before_publication": [
         "README",
@@ -95,9 +94,23 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
+        "status": "blocked",
         "message_id": null,
-        "url": null
-      }
+        "url": null,
+        "published_at": null,
+        "blocker": "08.11.2026 в папке VITTORA/open-arsenal Яндекс Диск показывает восстановление сервиса и отключённую загрузку. Подготовку PNG отложили до доступной загрузки. Повтор Google Drive без признаков устранения storageQuotaExceeded не выполнялся. POST не выполнялся."
+      },
+      "illustration": {
+        "status": "pending_generation",
+        "visually_reviewed": false,
+        "intended_archive_provider": "yandex_disk",
+        "archive_url": null,
+        "verified_at": null
+      },
+      "verification_date": "2026-11-08",
+      "verification_level": "documentation",
+      "card_path": "cards/lycheeverse--lychee.md",
+      "post_path": "posts/2026-11-08_lycheeverse--lychee.md"
     },
     {
       "id": "2026-11-09-am",
