@@ -1,11 +1,10 @@
-# Контент-план: 7 ноября – 6 декабря 2026
+# Контент-план: 8 ноября – 7 декабря 2026
 
 30 дней · 60 кандидатов · Europe/Moscow, 10:00 и 18:00. planned_research — очередь проверки, не рекомендации. История: [октябрь](history/2026-10.json), [ноябрь](history/2026-11.json). Пропуски пачкой не выпускаем.
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-11-07 | **Подготовка анимации персонажей** · kids<br>[opentoonz/opentoonz](https://github.com/opentoonz/opentoonz) · blocked · [Разбор](../cards/opentoonz--opentoonz.md) · [Текст](../posts/2026-11-07_opentoonz--opentoonz.md) | **Простой анимационный пилот** · kids<br>[pencil2d/pencil](https://github.com/pencil2d/pencil) · blocked · [Разбор](../cards/pencil2d--pencil.md) · [Текст](../posts/2026-11-07_pencil2d--pencil.md) |
-| 2026-11-08 | **Проверка пути читателя** · website_journal<br>[microsoft/playwright](https://github.com/microsoft/playwright) · planned_research | **Рабочие ссылки журнала** · website_journal<br>[lycheeverse/lychee](https://github.com/lycheeverse/lychee) · planned_research |
+| 2026-11-08 | **Проверка пути читателя** · website_journal<br>[microsoft/playwright](https://github.com/microsoft/playwright) · blocked · [Разбор](../cards/microsoft--playwright.md) · [Текст](../posts/2026-11-08_microsoft--playwright.md) | **Рабочие ссылки журнала** · website_journal<br>[lycheeverse/lychee](https://github.com/lycheeverse/lychee) · planned_research |
 | 2026-11-09 | **Оценка качества RAG** · agents_rag<br>[vibrantlabsai/ragas](https://github.com/vibrantlabsai/ragas) · planned_research | **Проверка инструкций агентов** · agents_rag<br>[promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) · planned_research |
 | 2026-11-10 | **Монтаж коротких историй** · video<br>[OpenShot/openshot-qt](https://github.com/OpenShot/openshot-qt) · planned_research | **Экспорт и финальная сборка** · video<br>[mltframework/shotcut](https://github.com/mltframework/shotcut) · planned_research |
 | 2026-11-11 | **Контроль и сборка PDF** · book_audio<br>[py-pdf/pypdf](https://github.com/py-pdf/pypdf) · planned_research | **Поиск по отсканированным материалам** · book_audio<br>[ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) · planned_research |
@@ -34,6 +33,7 @@
 | 2026-12-04 | **Аналитика переходов на своём сервере** · growth_revenue<br>[electerious/Ackee](https://github.com/electerious/Ackee) · planned_research | **Прозрачная аналитика для посетителя** · growth_revenue<br>[offen/offen](https://github.com/offen/offen) · planned_research |
 | 2026-12-05 | **Расписание служебных проверок** · reliability<br>[robfig/cron](https://github.com/robfig/cron) · planned_research | **Управление повторяющимися заданиями** · reliability<br>[go-co-op/gocron](https://github.com/go-co-op/gocron) · planned_research |
 | 2026-12-06 | **Проверка кириллицы в шрифте** · book_audio<br>[fontforge/fontforge](https://github.com/fontforge/fontforge) · planned_research | **Извлечение текста из документов** · agents_rag<br>[apache/tika](https://github.com/apache/tika) · planned_research |
+| 2026-12-07 | **Проверка доступности статьи** · website_journal<br>[pa11y/pa11y](https://github.com/pa11y/pa11y) · planned_research | **Контроль веса веб-сборки** · website_journal<br>[ai/size-limit](https://github.com/ai/size-limit) · planned_research |
 
 ## Срез 02.11.2026
 
