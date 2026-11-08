@@ -4,7 +4,7 @@
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-11-08 | **Проверка пути читателя** · website_journal<br>[microsoft/playwright](https://github.com/microsoft/playwright) · blocked · [Разбор](../cards/microsoft--playwright.md) · [Текст](../posts/2026-11-08_microsoft--playwright.md) | **Рабочие ссылки журнала** · website_journal<br>[lycheeverse/lychee](https://github.com/lycheeverse/lychee) · planned_research |
+| 2026-11-08 | **Проверка пути читателя** · website_journal<br>[microsoft/playwright](https://github.com/microsoft/playwright) · blocked · [Разбор](../cards/microsoft--playwright.md) · [Текст](../posts/2026-11-08_microsoft--playwright.md) | **Рабочие ссылки журнала** · website_journal<br>[lycheeverse/lychee](https://github.com/lycheeverse/lychee) · blocked · [Разбор](../cards/lycheeverse--lychee.md) · [Текст](../posts/2026-11-08_lycheeverse--lychee.md) |
 | 2026-11-09 | **Оценка качества RAG** · agents_rag<br>[vibrantlabsai/ragas](https://github.com/vibrantlabsai/ragas) · planned_research | **Проверка инструкций агентов** · agents_rag<br>[promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) · planned_research |
 | 2026-11-10 | **Монтаж коротких историй** · video<br>[OpenShot/openshot-qt](https://github.com/OpenShot/openshot-qt) · planned_research | **Экспорт и финальная сборка** · video<br>[mltframework/shotcut](https://github.com/mltframework/shotcut) · planned_research |
 | 2026-11-11 | **Контроль и сборка PDF** · book_audio<br>[py-pdf/pypdf](https://github.com/py-pdf/pypdf) · planned_research | **Поиск по отсканированным материалам** · book_audio<br>[ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) · planned_research |
