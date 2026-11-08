@@ -729,8 +729,112 @@
         "archive_url": null,
         "verified_at": null
       }
+    },
+    {
+      "id": "2026-11-07-am",
+      "date": "2026-11-07",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "kids",
+      "topic": "Подготовка анимации персонажей",
+      "repository": "opentoonz/opentoonz",
+      "url": "https://github.com/opentoonz/opentoonz",
+      "vittora_benefit": "Повторять короткий жест одного героя Kids с тем же рисунком в двух сценах.",
+      "post_angle": "Один рисунок и повторяемый жест в двух сценах Kids.",
+      "pilot": "Взять разрешённую копию рисунка одного героя Kids. Настроить сетку Plastic для руки и три ключевые позы двухсекундного приветствия. Сохранить вложенную сцену и вставить в две тестовые сцены на разных фонах. Повторить перенос после закрытия проекта. Аниматор и редактор пока не назначены. Лимит 90 минут работы после подготовки рабочего места, без закупок. Исходник сохранить отдельно.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Подготовка анимации персонажей. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-11-07",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "opentoonz/opentoonz",
+        "scope": "Документация, лицензия, требования, релиз и обсуждения. Пилот предстоит."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "07.11.2026 папка VITTORA/open-arsenal открывается. Яндекс Диск показывает восстановление и Disabled у загрузки, занято 27,6 МБ из 5 ГБ. Генерация, просмотр и архивирование PNG отложены до доступной загрузки. Известный storageQuotaExceeded Google Drive без признака восстановления не повторялся.",
+        "delivery_history_checked_at": "2026-11-07",
+        "delivery_history_note": "Owner-private подтверждён. Оба GET прочитаны. can_publish=true, канал open_arsenal. OpenToonz в журнале отсутствует, подтверждений за 07.11 по Москве 0. POST не выполнялся."
+      },
+      "verification_date": "2026-11-07",
+      "verification_level": "documentation",
+      "card_path": "cards/opentoonz--opentoonz.md",
+      "post_path": "posts/2026-11-07_opentoonz--opentoonz.md",
+      "illustration": {
+        "status": "pending_generation",
+        "visually_reviewed": false,
+        "intended_archive_provider": "yandex_disk",
+        "archive_url": null,
+        "verified_at": null
+      }
+    },
+    {
+      "id": "2026-11-07-pm",
+      "date": "2026-11-07",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "kids",
+      "topic": "Простой анимационный пилот",
+      "repository": "pencil2d/pencil",
+      "url": "https://github.com/pencil2d/pencil",
+      "vittora_benefit": "Проверить читаемость короткой мимики героя Kids до производства сцены.",
+      "post_angle": "Взять утверждённый рисунок героя, вручную набросать моргание и удивление, согласовать ритм и силуэт с редактором.",
+      "pilot": "На копии утверждённого рисунка сделать двухсекундный немой эскиз из 6 поз при 12 кадрах/с. Вновь открыть сохранённый проект и показать экспорт трём проверяющим. Сравнить с теми же позами, собранными отдельными PNG в текущем монтажном процессе. Лимит 60 минут на вариант после подготовки среды, без покупок. Ответственные пока не назначены. Исходник хранить отдельно, откат — существующая сборка PNG.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Простой анимационный пилот. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-11-07",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "pencil2d/pencil",
+        "scope": "Документация, лицензия, требования, релиз и issues. Пилот предстоит."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "07.11.2026 приватная папка Яндекс Диска VITTORA/open-arsenal открылась. На странице «Продолжаем восстанавливать Диск», загрузка Disabled. PNG не создавался до доступной загрузки. Известный отказ Google Drive без признаков восстановления не повторялся. POST не выполнялся."
+      },
+      "illustration": {
+        "status": "pending_generation",
+        "visually_reviewed": false,
+        "intended_archive_provider": "yandex_disk",
+        "archive_url": null,
+        "verified_at": null
+      },
+      "verification_date": "2026-11-07",
+      "verification_level": "documentation",
+      "card_path": "cards/pencil2d--pencil.md",
+      "post_path": "posts/2026-11-07_pencil2d--pencil.md"
     }
   ],
-  "updated_at": "2026-11-07",
+  "updated_at": "2026-11-08",
   "note": "Слоты перенесены без изменения фактов; blocked не означает опубликовано."
 }
