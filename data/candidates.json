@@ -1646,5 +1646,42 @@
       "archive_url": null,
       "verified_at": null
     }
+  },
+  {
+    "url": "https://github.com/lycheeverse/lychee",
+    "status": "reviewing",
+    "direction": "website_journal",
+    "verification_level": "documentation",
+    "verification_date": "2026-11-08",
+    "concrete_problem": "Находить битые ссылки на главы и источники в статьях журнала VITTORA до выпуска.",
+    "application_example": "Проверить копии трёх статей в Markdown с ограниченным списком ссылок, затем передать редактору отчёт с исходным файлом и адресом для правки.",
+    "first_pilot": "На трёх копиях статей собрать 12 ссылок с заранее записанными ожидаемыми результатами. Включить три контролируемых HTTP 404 на локальном тестовом сервере и девять рабочих ссылок. Один прогон Lychee с JSON и ручная сверка того же списка. Лимит 60 минут после подготовки среды, без покупок. Роль — редакционный QA, исполнитель не назначен. Откат — оставить проверку ручной и не подключать автоматический барьер выпуска.",
+    "success_metric": "3/3 ожидаемых 404 обнаружены, 0/9 рабочих ссылок ошибочно отмечены на контрольном наборе. Замерить длительность прогона и ручной сверки, пик RAM и размер отчёта. Таймауты и ответы ограничений считать отдельно. Пилот предстоит.",
+    "requirements_and_costs": "Готовый бинарник 0.24.2 для поддерживаемой архитектуры Linux, macOS или Windows, контроль SHA-256 по релизу. При сборке этого тега Rust от 1.88. Для сетевых ссылок нужен доступ к целевым адресам. Код без лицензионной платы, API, модели, GPU и внешний хостинг в локальном пилоте не нужны. Полные затраты включают время настройки и разбора исключений, компьютер, трафик, хранение отчётов, а при переносе в CI — время исполнителя и хранение по тарифу площадки. Фактические объёмы и цена неизвестны.",
+    "limitations": "Таймаут, 403 или 429 не доказывают, что страница сломана. HTTP 200 не гарантирует нужное содержание. Не заменяет проверку действий в браузере, входа и ссылок, появляющихся только после JavaScript. Статусы и правила обхода целевых сайтов проверять отдельно.",
+    "license_review": "Основной код под MIT или Apache-2.0 на выбор. При распространении соблюдать условия выбранной лицензии и уведомления зависимостей. Аудит комплекта сторонних лицензий не проводился.",
+    "comparison": "В отличие от htmltest, ориентированного на готовую HTML-сборку, Lychee принимает исходные Markdown и HTML в одном инструменте. LinkChecker тоже работает с локальными документами, но его README ориентирует на обход сайта и требует Python для выбранного способа установки. Для проверки ссылок в отдельных статьях достаточно передать Lychee нужные файлы. Ручная сверка выбранных ссылок — контрольный вариант, действующий процесс редакции отдельно не обследован.",
+    "readme_source": "https://github.com/lycheeverse/lychee/blob/master/README.md",
+    "license_source": "https://github.com/lycheeverse/lychee/blob/master/LICENSE-MIT",
+    "requirements_source": "https://github.com/lycheeverse/lychee/blob/lychee-v0.24.2/lychee-bin/Cargo.toml",
+    "release_source": "https://github.com/lycheeverse/lychee/releases/tag/lychee-v0.24.2",
+    "issues_source": "https://github.com/lycheeverse/lychee/issues/2321",
+    "archived": false,
+    "card_path": "cards/lycheeverse--lychee.md",
+    "post_path": "posts/2026-11-08_lycheeverse--lychee.md",
+    "publication": {
+      "status": "blocked",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "blocker": "08.11.2026 в папке VITTORA/open-arsenal Яндекс Диск показывает восстановление сервиса и отключённую загрузку. Подготовку PNG отложили до доступной загрузки. Повтор Google Drive без признаков устранения storageQuotaExceeded не выполнялся. POST не выполнялся."
+    },
+    "illustration": {
+      "status": "pending_generation",
+      "visually_reviewed": false,
+      "intended_archive_provider": "yandex_disk",
+      "archive_url": null,
+      "verified_at": null
+    }
   }
 ]
