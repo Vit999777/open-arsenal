@@ -833,8 +833,110 @@
       "verification_level": "documentation",
       "card_path": "cards/pencil2d--pencil.md",
       "post_path": "posts/2026-11-07_pencil2d--pencil.md"
+    },
+    {
+      "id": "2026-11-08-am",
+      "date": "2026-11-08",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "website_journal",
+      "topic": "Проверка пути читателя",
+      "repository": "microsoft/playwright",
+      "url": "https://github.com/microsoft/playwright",
+      "vittora_benefit": "Перед обновлением журнала повторяемо проверять, ведёт ли кнопка из статьи к нужной главе книги.",
+      "post_angle": "На тестовой копии открыть статью, нажать «Читать главу» и проверить адрес и видимый заголовок главы.",
+      "pilot": "На тестовой копии выбрать одну статью и одну главу. Подготовить две версии страницы: исправную и с намеренно неверной ссылкой. Проверить обе в Chromium и WebKit на мобильной ширине. Сравнить с ручным проходом по тем же версиям. Лимит настройки 90 минут после подготовки среды, без покупок. Исполнитель — редакционный QA, конкретный ответственный не назначен. Откат — удалить тестовую ветку после пилота или оставить ручную проверку.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Проверка пути читателя. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-11-08",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "microsoft/playwright",
+        "scope": "Документация, лицензия, требования, релиз и обсуждения. Пилот предстоит."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "08.11.2026 Яндекс Диск показывает «Продолжаем восстанавливать Диск», загрузка отключена в VITTORA/open-arsenal. Подготовка PNG отложена до доступной загрузки. Повтор загрузки на Google Drive не выполнялся без признака устранения storageQuotaExceeded. POST не выполнялся."
+      },
+      "illustration": {
+        "status": "pending_generation",
+        "visually_reviewed": false,
+        "intended_archive_provider": "yandex_disk",
+        "archive_url": null,
+        "verified_at": null
+      },
+      "verification_date": "2026-11-08",
+      "verification_level": "documentation",
+      "card_path": "cards/microsoft--playwright.md",
+      "post_path": "posts/2026-11-08_microsoft--playwright.md"
+    },
+    {
+      "id": "2026-11-08-pm",
+      "date": "2026-11-08",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "website_journal",
+      "topic": "Рабочие ссылки журнала",
+      "repository": "lycheeverse/lychee",
+      "url": "https://github.com/lycheeverse/lychee",
+      "vittora_benefit": "Находить битые ссылки на главы и источники в статьях журнала VITTORA до выпуска.",
+      "post_angle": "Проверить копии трёх статей в Markdown с ограниченным списком ссылок, затем передать редактору отчёт с исходным файлом и адресом для правки.",
+      "pilot": "На трёх копиях статей собрать 12 ссылок с заранее записанными ожидаемыми результатами. Включить три контролируемых HTTP 404 на локальном тестовом сервере и девять рабочих ссылок. Один прогон Lychee с JSON и ручная сверка того же списка. Лимит 60 минут после подготовки среды, без покупок. Роль — редакционный QA, исполнитель не назначен. Откат — оставить проверку ручной и не подключать автоматический барьер выпуска.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Рабочие ссылки журнала. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-11-08",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "lycheeverse/lychee",
+        "scope": "Проверены первоисточники. Пилот предстоит."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "08.11.2026 в папке VITTORA/open-arsenal Яндекс Диск показывает восстановление сервиса и отключённую загрузку. Подготовку PNG отложили до доступной загрузки. Повтор Google Drive без признаков устранения storageQuotaExceeded не выполнялся. POST не выполнялся."
+      },
+      "illustration": {
+        "status": "pending_generation",
+        "visually_reviewed": false,
+        "intended_archive_provider": "yandex_disk",
+        "archive_url": null,
+        "verified_at": null
+      },
+      "verification_date": "2026-11-08",
+      "verification_level": "documentation",
+      "card_path": "cards/lycheeverse--lychee.md",
+      "post_path": "posts/2026-11-08_lycheeverse--lychee.md"
     }
   ],
-  "updated_at": "2026-11-08",
+  "updated_at": "2026-11-09",
   "note": "Слоты перенесены без изменения фактов; blocked не означает опубликовано."
 }
