@@ -1,7 +1,7 @@
 [
   {
     "url": "https://github.com/m-bain/whisperX",
-    "status": "ready",
+    "status": "reviewing",
     "direction": "book_audio",
     "verification_level": "documentation",
     "verification_date": "2026-10-25",
@@ -1675,6 +1675,43 @@
       "url": null,
       "published_at": null,
       "blocker": "08.11.2026 в папке VITTORA/open-arsenal Яндекс Диск показывает восстановление сервиса и отключённую загрузку. Подготовку PNG отложили до доступной загрузки. Повтор Google Drive без признаков устранения storageQuotaExceeded не выполнялся. POST не выполнялся."
+    },
+    "illustration": {
+      "status": "pending_generation",
+      "visually_reviewed": false,
+      "intended_archive_provider": "yandex_disk",
+      "archive_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "url": "https://github.com/vibrantlabsai/ragas",
+    "direction": "agents_rag",
+    "status": "reviewing",
+    "verification_level": "documentation",
+    "verification_date": "2026-11-09",
+    "concrete_problem": "Проверять, попадают ли нужные отрывки книги и журнала в первые пять результатов поиска помощника VITTORA.",
+    "application_example": "Сохранить стабильные ID отрывков и сравнивать выдачу двух настроек поиска с эталоном редактора.",
+    "comparison": "Ручной подсчёт редактора или несколько строк Python достаточны для разовой проверки. Ragas даёт именованную метрику для повторных прогонов и возможность отдельно добавить другие оценки. Haystack DocumentRecallEvaluator удобен, если выдача уже представлена объектами Haystack. DeepEval подходит, когда нужны тесты ответов, его Contextual Recall использует модель-оценщик. Текущий рабочий процесс оценки VITTORA не подтверждён, ручная сверка — контроль пилота.",
+    "requirements_and_costs": "Python ≥3.9 по манифесту v0.4.3, изолированная среда и совместимые зависимости. Для IDBasedContextRecall модель, GPU, платный API, аккаунт и хостинг не требуются. Код Apache-2.0 без лицензионной платы. Полная стоимость — время редактора на эталон и разработчика на стабильные ID и адаптер, локальные вычисления, хранение набора и поддержка. Денежная сумма и расход RAM неизвестны. При подключении оценки ответов через модель дополнительно учитывать её лицензию, токены или локальное оборудование.",
+    "limitations": "Нужны сопоставимые ID и непустой эталон. При пустом эталоне код возвращает NaN. Метрика не проверяет верность ответа, цитат и порядок внутри переданного списка. При изменении нарезки отрывков нужно обновить эталон либо сопоставление ID.",
+    "license_review": "Apache-2.0 основного кода. При распространении соблюдать LICENSE и применимые уведомления. Условия зависимостей и отдельно выбранных моделей не проверены.",
+    "first_pilot": "Взять 30 разрешённых отрывков и 10 вопросов с отмеченными редактором ID. Зафиксировать первые пять результатов поиска по словам и поиска с фильтром актуальной версии. Сравнить расчёт Ragas и ручной контроль. Лимит 90 минут после подготовки среды и эталона, без покупок. Ответственные: редактор и разработчик поиска, имена не назначены. Откат — оставить ручную сверку и не менять поиск.",
+    "success_metric": "Совпадение автоматического и ручного recall@5 в 20/20 измерениях, по 10 вопросов на настройку. Замерить длительность и RAM; отдельно посчитать случаи пустого эталона. Пилот не проводился.",
+    "readme_source": "https://github.com/vibrantlabsai/ragas/blob/main/README.md",
+    "license_source": "https://github.com/vibrantlabsai/ragas/blob/main/LICENSE",
+    "requirements_source": "https://github.com/vibrantlabsai/ragas/blob/v0.4.3/pyproject.toml",
+    "release_source": "https://github.com/vibrantlabsai/ragas/releases/tag/v0.4.3",
+    "issues_source": "https://github.com/vibrantlabsai/ragas/issues/3099",
+    "archived": false,
+    "card_path": "cards/vibrantlabsai--ragas.md",
+    "post_path": "posts/2026-11-09_vibrantlabsai--ragas.md",
+    "publication": {
+      "status": "blocked",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "blocker": "09.11.2026 Яндекс Диск в VITTORA/open-arsenal показывает восстановление и отключённую загрузку. Подготовка PNG отложена до доступной загрузки. Google Drive не повторяли без признаков снятия storageQuotaExceeded. POST не выполнялся."
     },
     "illustration": {
       "status": "pending_generation",
