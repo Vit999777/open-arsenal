@@ -1720,5 +1720,62 @@
       "archive_url": null,
       "verified_at": null
     }
+  },
+  {
+    "url": "https://github.com/promptfoo/promptfoo",
+    "status": "reviewing",
+    "direction": "agents_rag",
+    "verification_level": "documentation",
+    "verification_date": "2026-11-09",
+    "concrete_problem": "Находить регрессии правил помощника VITTORA перед заменой инструкции.",
+    "application_example": "Сравнить сохранённые ответы двух версий по обязательной ссылке, формату и явному признанию отсутствия источника.",
+    "comparison": "Ручная проверка редактором остаётся контрольным способом, точный текущий процесс не обследован. Promptfoo Echo пропускает сохранённый ответ в формальные проверки без вызова модели и даёт таблицу результатов. DeepEval также поддерживает тестирование в Python, включая оценки ответов. Ragas лучше соответствует измерению поиска фрагментов, например по ID, а не этому набору требований к формату ответа.",
+    "requirements_and_costs": "Promptfoo 0.125.1, Node.js ≥22.22.0 и npm, локальная среда с доступом к пакету. Платы за MIT-код нет. Для сохранённых ответов Echo и проверок contains/regex внешние модели, API, GPU и хостинг не нужны. Учесть CPU, RAM, диск для отчётов, время на разметку, конфигурацию и сопровождение. Сумма и ресурсы не измерены. Генерация свежих ответов и модельная оценка оплачиваются или обеспечиваются локально отдельно.",
+    "limitations": "Проверка наличия ссылки не доказывает, что она подтверждает ответ. Echo проверяет сохранённый вывод. Для проверки самой инструкции нужно отдельно получить ответы обеих версий на одинаковом наборе. Не использовать закрытые данные, облачную синхронизацию или модельные проверки в первом пилоте. Телеметрию отключить по документации.",
+    "license_review": "MIT для основного CLI, сохранять уведомления при распространении. Условия зависимостей, моделей и коммерческих функций отдельно не проверены.",
+    "first_pilot": "Взять 10 обезличенных вопросов и по два заранее сохранённых ответа на каждый. Добавить пять контрольных нарушений формата или отсутствия ссылки. Прогнать через Echo и contains/regex, затем сравнить с ручной разметкой. Лимит 60 минут после подготовки ответов, без покупок. Ответственные роли — редактор и разработчик, исполнители не назначены. Откат — ручная сверка.",
+    "success_metric": "Критерий успеха — обнаружить все пять контрольных нарушений и совпасть с ручной разметкой на 15 остальных ответах. Смысл и обоснованность ссылок проверяет редактор отдельно. Замерить время повторного прогона и ресурсы. Пилот предстоит.",
+    "readme_source": "https://github.com/promptfoo/promptfoo/blob/main/README.md",
+    "license_source": "https://github.com/promptfoo/promptfoo/blob/main/LICENSE",
+    "requirements_source": "https://github.com/promptfoo/promptfoo/blob/0.125.1/package.json",
+    "release_source": "https://github.com/promptfoo/promptfoo/releases/tag/0.125.1",
+    "issues_source": "https://github.com/promptfoo/promptfoo/issues/12173",
+    "archived": false,
+    "card_path": "cards/promptfoo--promptfoo.md",
+    "post_path": "posts/2026-11-09_promptfoo--promptfoo.md",
+    "publication": {
+      "status": "blocked",
+      "message_id": null,
+      "url": null,
+      "published_at": null,
+      "blocker": "09.11.2026 в VITTORA/open-arsenal Яндекс Диск показывал кнопку загрузки, но окно выбора файла не открылось даже после обновления страницы. Архив исходника и копии не подтверждён. Google Drive вернул storageQuotaExceeded 25.10.2026; признаков восстановления нет. POST не выполнялся."
+    },
+    "illustration": {
+      "status": "generated_reviewed_unarchived",
+      "source": "chat_image_gen",
+      "visually_reviewed": true,
+      "visual_review_date": "2026-11-09",
+      "intended_archive_provider": "yandex_disk",
+      "intended_archive_path": "VITTORA/open-arsenal",
+      "archive_provider": null,
+      "archive_url": null,
+      "verified_at": null,
+      "files": [
+        {
+          "name": "2026-11-09_promptfoo--promptfoo_poster-v1.png",
+          "size_bytes": 2139983,
+          "width": 1536,
+          "height": 1024,
+          "sha256": "2b2499f1798d4db95a48dc907f288b5d87acabe638be7a65c8829999944b4219"
+        },
+        {
+          "name": "2026-11-09_promptfoo--promptfoo_poster-v1-delivery.png",
+          "size_bytes": 605388,
+          "width": 900,
+          "height": 600,
+          "sha256": "5eb8046e3c47b0ba09c7fe6c5209015e7589e105ed4c06d096af3e008c511c68"
+        }
+      ]
+    }
   }
 ]
