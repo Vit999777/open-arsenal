@@ -1,8 +1,8 @@
 {
   "title": "Контент-план Открытого арсенала: 7 ноября — 6 декабря 2026",
   "created_at": "2026-10-25",
-  "start_date": "2026-11-08",
-  "end_date": "2026-12-07",
+  "start_date": "2026-11-09",
+  "end_date": "2026-12-08",
   "timezone": "Europe/Moscow",
   "slots_per_day": 2,
   "timing_mode": "flexible_schedule",
@@ -10,108 +10,6 @@
   "policy": "План исследований, а не список одобренных рекомендаций. Кандидата можно заменить с записью причины; не отправлять неподтверждённый материал ради календаря. Опубликованные URL не повторять.",
   "known_blocker": "07.11.2026 папка VITTORA/open-arsenal открывается. Яндекс Диск показывает восстановление и Disabled у загрузки, занято 27,6 МБ из 5 ГБ. Генерация, просмотр и архивирование PNG отложены до доступной загрузки. Известный storageQuotaExceeded Google Drive без признака восстановления не повторялся.",
   "slots": [
-    {
-      "id": "2026-11-08-am",
-      "date": "2026-11-08",
-      "time": "10:00",
-      "timezone": "Europe/Moscow",
-      "direction": "website_journal",
-      "topic": "Проверка пути читателя",
-      "repository": "microsoft/playwright",
-      "url": "https://github.com/microsoft/playwright",
-      "vittora_benefit": "Перед обновлением журнала повторяемо проверять, ведёт ли кнопка из статьи к нужной главе книги.",
-      "post_angle": "На тестовой копии открыть статью, нажать «Читать главу» и проверить адрес и видимый заголовок главы.",
-      "pilot": "На тестовой копии выбрать одну статью и одну главу. Подготовить две версии страницы: исправную и с намеренно неверной ссылкой. Проверить обе в Chromium и WebKit на мобильной ширине. Сравнить с ручным проходом по тем же версиям. Лимит настройки 90 минут после подготовки среды, без покупок. Исполнитель — редакционный QA, конкретный ответственный не назначен. Откат — удалить тестовую ветку после пилота или оставить ручную проверку.",
-      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Проверка пути читателя. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "blocked",
-      "metadata_check": {
-        "date": "2026-11-08",
-        "exists": true,
-        "archived": false,
-        "canonical_repository": "microsoft/playwright",
-        "scope": "Документация, лицензия, требования, релиз и обсуждения. Пилот предстоит."
-      },
-      "required_before_publication": [
-        "README",
-        "LICENSE и условия моделей/зависимостей",
-        "требования и расходы",
-        "сравнение с альтернативой",
-        "индивидуальный разбор",
-        "изображение из встроенного генератора чата",
-        "архивирование изображения в Google Drive или Яндекс Диске",
-        "визуальная проверка",
-        "дедупликация каталога и Telegram"
-      ],
-      "publication": {
-        "status": "blocked",
-        "message_id": null,
-        "url": null,
-        "published_at": null,
-        "blocker": "08.11.2026 Яндекс Диск показывает «Продолжаем восстанавливать Диск», загрузка отключена в VITTORA/open-arsenal. Подготовка PNG отложена до доступной загрузки. Повтор загрузки на Google Drive не выполнялся без признака устранения storageQuotaExceeded. POST не выполнялся."
-      },
-      "illustration": {
-        "status": "pending_generation",
-        "visually_reviewed": false,
-        "intended_archive_provider": "yandex_disk",
-        "archive_url": null,
-        "verified_at": null
-      },
-      "verification_date": "2026-11-08",
-      "verification_level": "documentation",
-      "card_path": "cards/microsoft--playwright.md",
-      "post_path": "posts/2026-11-08_microsoft--playwright.md"
-    },
-    {
-      "id": "2026-11-08-pm",
-      "date": "2026-11-08",
-      "time": "18:00",
-      "timezone": "Europe/Moscow",
-      "direction": "website_journal",
-      "topic": "Рабочие ссылки журнала",
-      "repository": "lycheeverse/lychee",
-      "url": "https://github.com/lycheeverse/lychee",
-      "vittora_benefit": "Находить битые ссылки на главы и источники в статьях журнала VITTORA до выпуска.",
-      "post_angle": "Проверить копии трёх статей в Markdown с ограниченным списком ссылок, затем передать редактору отчёт с исходным файлом и адресом для правки.",
-      "pilot": "На трёх копиях статей собрать 12 ссылок с заранее записанными ожидаемыми результатами. Включить три контролируемых HTTP 404 на локальном тестовом сервере и девять рабочих ссылок. Один прогон Lychee с JSON и ручная сверка того же списка. Лимит 60 минут после подготовки среды, без покупок. Роль — редакционный QA, исполнитель не назначен. Откат — оставить проверку ручной и не подключать автоматический барьер выпуска.",
-      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Рабочие ссылки журнала. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "blocked",
-      "metadata_check": {
-        "date": "2026-11-08",
-        "exists": true,
-        "archived": false,
-        "canonical_repository": "lycheeverse/lychee",
-        "scope": "Проверены первоисточники. Пилот предстоит."
-      },
-      "required_before_publication": [
-        "README",
-        "LICENSE и условия моделей/зависимостей",
-        "требования и расходы",
-        "сравнение с альтернативой",
-        "индивидуальный разбор",
-        "изображение из встроенного генератора чата",
-        "архивирование изображения в Google Drive или Яндекс Диске",
-        "визуальная проверка",
-        "дедупликация каталога и Telegram"
-      ],
-      "publication": {
-        "status": "blocked",
-        "message_id": null,
-        "url": null,
-        "published_at": null,
-        "blocker": "08.11.2026 в папке VITTORA/open-arsenal Яндекс Диск показывает восстановление сервиса и отключённую загрузку. Подготовку PNG отложили до доступной загрузки. Повтор Google Drive без признаков устранения storageQuotaExceeded не выполнялся. POST не выполнялся."
-      },
-      "illustration": {
-        "status": "pending_generation",
-        "visually_reviewed": false,
-        "intended_archive_provider": "yandex_disk",
-        "archive_url": null,
-        "verified_at": null
-      },
-      "verification_date": "2026-11-08",
-      "verification_level": "documentation",
-      "card_path": "cards/lycheeverse--lychee.md",
-      "post_path": "posts/2026-11-08_lycheeverse--lychee.md"
-    },
     {
       "id": "2026-11-09-am",
       "date": "2026-11-09",
@@ -121,18 +19,18 @@
       "topic": "Оценка качества RAG",
       "repository": "vibrantlabsai/ragas",
       "url": "https://github.com/vibrantlabsai/ragas",
-      "vittora_benefit": "Определить ошибки поиска и обоснованности ответов",
-      "post_angle": "Простыми словами: определить ошибки поиска и обоснованности ответов. Объяснить преимущества, требования и когда инструмент не подходит.",
-      "pilot": "На 10 вопросах/материалах проверить правильность и источники; зафиксировать время и ресурсы.",
+      "vittora_benefit": "Проверять, попадают ли нужные отрывки книги и журнала в первые пять результатов поиска помощника VITTORA.",
+      "post_angle": "Сохранить стабильные ID отрывков и сравнивать выдачу двух настроек поиска с эталоном редактора.",
+      "pilot": "Взять 30 разрешённых отрывков и 10 вопросов с отмеченными редактором ID. Зафиксировать первые пять результатов поиска по словам и поиска с фильтром актуальной версии. Сравнить расчёт Ragas и ручной контроль. Лимит 90 минут после подготовки среды и эталона, без покупок. Ответственные: редактор и разработчик поиска, имена не назначены. Откат — оставить ручную сверку и не менять поиск.",
       "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Оценка качества RAG. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "planned_research",
+      "status": "blocked",
       "metadata_check": {
-        "date": "2026-10-25",
+        "date": "2026-11-09",
         "exists": true,
         "archived": false,
         "canonical_repository": "vibrantlabsai/ragas",
         "renamed_from": "explodinggradients/ragas",
-        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+        "scope": "Документация, лицензия, требования, релиз, код метрики и issues."
       },
       "required_before_publication": [
         "README",
@@ -146,9 +44,23 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
+        "status": "blocked",
         "message_id": null,
-        "url": null
-      }
+        "url": null,
+        "published_at": null,
+        "blocker": "09.11.2026 Яндекс Диск в VITTORA/open-arsenal показывает восстановление и отключённую загрузку. Подготовка PNG отложена до доступной загрузки. Google Drive не повторяли без признаков снятия storageQuotaExceeded. POST не выполнялся."
+      },
+      "illustration": {
+        "status": "pending_generation",
+        "visually_reviewed": false,
+        "intended_archive_provider": "yandex_disk",
+        "archive_url": null,
+        "verified_at": null
+      },
+      "verification_level": "documentation",
+      "verification_date": "2026-11-09",
+      "card_path": "cards/vibrantlabsai--ragas.md",
+      "post_path": "posts/2026-11-09_vibrantlabsai--ragas.md"
     },
     {
       "id": "2026-11-09-pm",
@@ -2136,7 +2048,81 @@
         "message_id": null,
         "url": null
       }
+    },
+    {
+      "id": "2026-12-08-am",
+      "date": "2026-12-08",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "agents_rag",
+      "topic": "Отчёт об изменении качества",
+      "repository": "evidentlyai/evidently",
+      "url": "https://github.com/evidentlyai/evidently",
+      "vittora_benefit": "Сравнить результаты двух прогонов помощника",
+      "post_angle": "Сравнить результаты двух прогонов помощника на тестовом наборе.",
+      "pilot": "Проверить один корректный и один намеренно ошибочный пример на копии материалов.",
+      "illustration_brief": "Графит и бронза, название проекта и образ темы «Отчёт об изменении качества».",
+      "status": "planned_research",
+      "metadata_check": {
+        "date": "2026-11-09",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "evidentlyai/evidently",
+        "scope": "Проверены только метаданные GitHub."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "message_id": null,
+        "url": null
+      }
+    },
+    {
+      "id": "2026-12-08-pm",
+      "date": "2026-12-08",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "reliability",
+      "topic": "Проверка типов скриптов",
+      "repository": "microsoft/pyright",
+      "url": "https://github.com/microsoft/pyright",
+      "vittora_benefit": "Находить несовместимые данные в скриптах редакции",
+      "post_angle": "Находить несовместимые данные в скриптах редакции на тестовом наборе.",
+      "pilot": "Проверить один корректный и один намеренно ошибочный пример на копии материалов.",
+      "illustration_brief": "Графит и бронза, название проекта и образ темы «Проверка типов скриптов».",
+      "status": "planned_research",
+      "metadata_check": {
+        "date": "2026-11-09",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "microsoft/pyright",
+        "scope": "Проверены только метаданные GitHub."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "message_id": null,
+        "url": null
+      }
     }
   ],
-  "updated_at": "2026-11-08"
+  "updated_at": "2026-11-09"
 }
