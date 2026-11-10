@@ -31,8 +31,9 @@
 | [n8n](https://github.com/n8n-io/n8n) | Разбор сбоев редакционной цепочки | Документация06.11, SUL/EE, Error Trigger2.46.6/requirements/releases/issues; сравнение Activepieces/Huginn; reviewing, пилота нет | [Разбор](cards/n8n-io--n8n.md) · [Черновик](posts/2026-11-06_n8n-io--n8n.md) · blocked: подготовка и архив PNG |
 | [OpenToonz](https://github.com/opentoonz/opentoonz) | Повторить жест одного героя Kids в двух сценах | Документация 07.11, Plastic/Sub-Xsheet, BSD-3-Clause, сравнение Pencil2D/Synfig. Reviewing, пилот предстоит | [Разбор](cards/opentoonz--opentoonz.md) · [Черновик](posts/2026-11-07_opentoonz--opentoonz.md) · blocked: подготовка и архив PNG |
 | [Promptfoo](https://github.com/promptfoo/promptfoo) | Проверка формата и наличия ссылок в сохранённых ответах помощника | Документация 09.11, MIT, сравнение DeepEval и Ragas, reviewing | [Разбор](cards/promptfoo--promptfoo.md) · [Черновик](posts/2026-11-09_promptfoo--promptfoo.md) · blocked, архив PNG не подтверждён |
+| [OpenShot](https://github.com/OpenShot/openshot-qt) | Черновой монтаж короткой аудиоистории из трёх иллюстраций | Документация 10.11, GPL-3.0-or-later, сравнение Shotcut и Kdenlive, reviewing | [Разбор](cards/openshot--openshot-qt.md) · [Черновик](posts/2026-11-10_openshot--openshot-qt.md) · blocked, подготовка и архив PNG |
 
-Дата редакционного среза — 09.11.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. Ещё 58 слотов ждут исследования по [плану](content-plan/README.md).
+Дата редакционного среза — 10.11.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и фактические подтверждения доставки. Ещё 59 слотов ждут исследования по [плану](content-plan/README.md).
 
 ## Как читать статусы
 
