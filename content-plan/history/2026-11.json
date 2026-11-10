@@ -935,8 +935,132 @@
       "verification_level": "documentation",
       "card_path": "cards/lycheeverse--lychee.md",
       "post_path": "posts/2026-11-08_lycheeverse--lychee.md"
+    },
+    {
+      "id": "2026-11-09-am",
+      "date": "2026-11-09",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "agents_rag",
+      "topic": "Оценка качества RAG",
+      "repository": "vibrantlabsai/ragas",
+      "url": "https://github.com/vibrantlabsai/ragas",
+      "vittora_benefit": "Проверять, попадают ли нужные отрывки книги и журнала в первые пять результатов поиска помощника VITTORA.",
+      "post_angle": "Сохранить стабильные ID отрывков и сравнивать выдачу двух настроек поиска с эталоном редактора.",
+      "pilot": "Взять 30 разрешённых отрывков и 10 вопросов с отмеченными редактором ID. Зафиксировать первые пять результатов поиска по словам и поиска с фильтром актуальной версии. Сравнить расчёт Ragas и ручной контроль. Лимит 90 минут после подготовки среды и эталона, без покупок. Ответственные: редактор и разработчик поиска, имена не назначены. Откат — оставить ручную сверку и не менять поиск.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Оценка качества RAG. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-11-09",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "vibrantlabsai/ragas",
+        "renamed_from": "explodinggradients/ragas",
+        "scope": "Документация, лицензия, требования, релиз, код метрики и issues."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "09.11.2026 Яндекс Диск в VITTORA/open-arsenal показывает восстановление и отключённую загрузку. Подготовка PNG отложена до доступной загрузки. Google Drive не повторяли без признаков снятия storageQuotaExceeded. POST не выполнялся."
+      },
+      "illustration": {
+        "status": "pending_generation",
+        "visually_reviewed": false,
+        "intended_archive_provider": "yandex_disk",
+        "archive_url": null,
+        "verified_at": null
+      },
+      "verification_level": "documentation",
+      "verification_date": "2026-11-09",
+      "card_path": "cards/vibrantlabsai--ragas.md",
+      "post_path": "posts/2026-11-09_vibrantlabsai--ragas.md"
+    },
+    {
+      "id": "2026-11-09-pm",
+      "date": "2026-11-09",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "agents_rag",
+      "topic": "Проверка инструкций агентов",
+      "repository": "promptfoo/promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "vittora_benefit": "Обнаруживать нарушения формата и требований к ссылкам в ответах двух версий помощника VITTORA.",
+      "post_angle": "Проверять сохранённые ответы по одним и тем же правилам без вызова модели.",
+      "pilot": "Взять 10 обезличенных вопросов и по два заранее сохранённых ответа на каждый. Добавить пять контрольных нарушений формата или отсутствия ссылки. Прогнать через Echo и contains/regex, затем сравнить с ручной разметкой. Лимит 60 минут после подготовки ответов, без покупок. Ответственные роли — редактор и разработчик, исполнители не назначены. Откат — ручная сверка.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Проверка инструкций агентов. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-11-09",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "promptfoo/promptfoo",
+        "renamed_from": null,
+        "scope": "README, лицензия, манифест версии, релиз, выборка issues и документация формальных проверок."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "09.11.2026 в VITTORA/open-arsenal Яндекс Диск показывал кнопку загрузки, но окно выбора файла не открылось даже после обновления страницы. Архив исходника и копии не подтверждён. Google Drive вернул storageQuotaExceeded 25.10.2026; признаков восстановления нет. POST не выполнялся."
+      },
+      "verification_level": "documentation",
+      "verification_date": "2026-11-09",
+      "card_path": "cards/promptfoo--promptfoo.md",
+      "post_path": "posts/2026-11-09_promptfoo--promptfoo.md",
+      "illustration": {
+        "status": "generated_reviewed_unarchived",
+        "source": "chat_image_gen",
+        "visually_reviewed": true,
+        "visual_review_date": "2026-11-09",
+        "intended_archive_provider": "yandex_disk",
+        "intended_archive_path": "VITTORA/open-arsenal",
+        "archive_provider": null,
+        "archive_url": null,
+        "verified_at": null,
+        "files": [
+          {
+            "name": "2026-11-09_promptfoo--promptfoo_poster-v1.png",
+            "size_bytes": 2139983,
+            "width": 1536,
+            "height": 1024,
+            "sha256": "2b2499f1798d4db95a48dc907f288b5d87acabe638be7a65c8829999944b4219"
+          },
+          {
+            "name": "2026-11-09_promptfoo--promptfoo_poster-v1-delivery.png",
+            "size_bytes": 605388,
+            "width": 900,
+            "height": 600,
+            "sha256": "5eb8046e3c47b0ba09c7fe6c5209015e7589e105ed4c06d096af3e008c511c68"
+          }
+        ]
+      }
     }
   ],
-  "updated_at": "2026-11-09",
+  "updated_at": "2026-11-10",
   "note": "Слоты перенесены без изменения фактов; blocked не означает опубликовано."
 }
