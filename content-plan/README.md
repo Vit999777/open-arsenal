@@ -4,7 +4,7 @@
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-11-10 | **Монтаж коротких историй** · video<br>[OpenShot/openshot-qt](https://github.com/OpenShot/openshot-qt) · blocked · [Разбор](../cards/openshot--openshot-qt.md) · [Текст](../posts/2026-11-10_openshot--openshot-qt.md) | **Экспорт и финальная сборка** · video<br>[mltframework/shotcut](https://github.com/mltframework/shotcut) · planned_research |
+| 2026-11-10 | **Монтаж коротких историй** · video<br>[OpenShot/openshot-qt](https://github.com/OpenShot/openshot-qt) · blocked · [Разбор](../cards/openshot--openshot-qt.md) · [Текст](../posts/2026-11-10_openshot--openshot-qt.md) | **Экспорт и финальная сборка** · video<br>[mltframework/shotcut](https://github.com/mltframework/shotcut) · blocked · [Разбор](../cards/mltframework--shotcut.md) · [Текст](../posts/2026-11-10_mltframework--shotcut.md) |
 | 2026-11-11 | **Контроль и сборка PDF** · book_audio<br>[py-pdf/pypdf](https://github.com/py-pdf/pypdf) · planned_research | **Поиск по отсканированным материалам** · book_audio<br>[ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) · planned_research |
 | 2026-11-12 | **Подробная аналитика пути** · growth_revenue<br>[matomo-org/matomo](https://github.com/matomo-org/matomo) · planned_research | **Показатели в одном отчёте** · growth_revenue<br>[metabase/metabase](https://github.com/metabase/metabase) · planned_research |
 | 2026-11-13 | **Управляемые задания и сценарии** · publishing<br>[windmill-labs/windmill](https://github.com/windmill-labs/windmill) · planned_research | **Надёжные цепочки обработки** · publishing<br>[kestra-io/kestra](https://github.com/kestra-io/kestra) · planned_research |
