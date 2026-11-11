@@ -1,11 +1,10 @@
-# Контент-план: 10 ноября – 9 декабря 2026
+# Контент-план: 11 ноября – 10 декабря 2026
 
 30 дней · 60 кандидатов · Europe/Moscow, 10:00 и 18:00. planned_research — очередь проверки, не рекомендации. История: [октябрь](history/2026-10.json), [ноябрь](history/2026-11.json). Пропуски пачкой не выпускаем.
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-11-10 | **Монтаж коротких историй** · video<br>[OpenShot/openshot-qt](https://github.com/OpenShot/openshot-qt) · blocked · [Разбор](../cards/openshot--openshot-qt.md) · [Текст](../posts/2026-11-10_openshot--openshot-qt.md) | **Экспорт и финальная сборка** · video<br>[mltframework/shotcut](https://github.com/mltframework/shotcut) · blocked · [Разбор](../cards/mltframework--shotcut.md) · [Текст](../posts/2026-11-10_mltframework--shotcut.md) |
-| 2026-11-11 | **Контроль и сборка PDF** · book_audio<br>[py-pdf/pypdf](https://github.com/py-pdf/pypdf) · planned_research | **Поиск по отсканированным материалам** · book_audio<br>[ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) · planned_research |
+| 2026-11-11 | **Контроль и сборка PDF** · book_audio<br>[py-pdf/pypdf](https://github.com/py-pdf/pypdf) · blocked · [Разбор](../cards/py-pdf--pypdf.md) · [Текст](../posts/2026-11-11_py-pdf--pypdf.md) | **Поиск по отсканированным материалам** · book_audio<br>[ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) · planned_research |
 | 2026-11-12 | **Подробная аналитика пути** · growth_revenue<br>[matomo-org/matomo](https://github.com/matomo-org/matomo) · planned_research | **Показатели в одном отчёте** · growth_revenue<br>[metabase/metabase](https://github.com/metabase/metabase) · planned_research |
 | 2026-11-13 | **Управляемые задания и сценарии** · publishing<br>[windmill-labs/windmill](https://github.com/windmill-labs/windmill) · planned_research | **Надёжные цепочки обработки** · publishing<br>[kestra-io/kestra](https://github.com/kestra-io/kestra) · planned_research |
 | 2026-11-14 | **Повторяемое движение героя** · kids<br>[synfig/synfig](https://github.com/synfig/synfig) · planned_research | **Сцены и камера для историй** · kids<br>[blender/blender](https://github.com/blender/blender) · planned_research |
@@ -34,6 +33,7 @@
 | 2026-12-07 | **Проверка доступности статьи** · website_journal<br>[pa11y/pa11y](https://github.com/pa11y/pa11y) · planned_research | **Контроль веса веб-сборки** · website_journal<br>[ai/size-limit](https://github.com/ai/size-limit) · planned_research |
 | 2026-12-08 | **Отчёт об изменении качества** · agents_rag<br>[evidentlyai/evidently](https://github.com/evidentlyai/evidently) · planned_research | **Проверка типов скриптов** · reliability<br>[microsoft/pyright](https://github.com/microsoft/pyright) · planned_research |
 | 2026-12-09 | **Монтаж эпизода и тизера** · video<br>[KDE/kdenlive](https://github.com/KDE/kdenlive) · planned_research | **Порядок дорожек и стыки** · video<br>[jliljebl/flowblade](https://github.com/jliljebl/flowblade) · planned_research |
+| 2026-12-10 | **Проверка структуры PDF** · book_audio<br>[qpdf/qpdf](https://github.com/qpdf/qpdf) · planned_research | **Работа с закладками PDF** · book_audio<br>[pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) · planned_research |
 
 ## Срез 02.11.2026
 
