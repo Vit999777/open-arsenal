@@ -1059,8 +1059,114 @@
           }
         ]
       }
+    },
+    {
+      "id": "2026-11-10-am",
+      "date": "2026-11-10",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "video",
+      "topic": "Монтаж коротких историй",
+      "repository": "OpenShot/openshot-qt",
+      "url": "https://github.com/OpenShot/openshot-qt",
+      "vittora_benefit": "Собрать вертикальную пробную версию аудиоистории VITTORA из готовой озвучки и иллюстраций и поправить моменты смены кадра.",
+      "post_angle": "Готовые картинки и озвучка на разных дорожках, вертикальный экспорт и проверка повторного открытия.",
+      "pilot": "Взять разрешённый 25–30-секундный фрагмент озвучки «Неписаного кодекса» и три готовые PNG. Собрать копию в OpenShot и текущим способом, поставить две смены изображения на заранее отмеченные паузы. Сохранить, закрыть и снова открыть проект. Экспортировать 1080×1920, 30 кадр/с, MP4 H.264/AAC. Лимит — 45 минут после подготовки среды и исходников, без покупок. Ответственный — монтажёр VITTORA, исполнитель не назначен. Откат — сохранить мастер и продолжить текущим способом.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Монтаж коротких историй. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-11-10",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "OpenShot/openshot-qt",
+        "renamed_from": null,
+        "scope": "README, COPYING, руководство, требования, релиз 4.1.0 и issues."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "10.11.2026 приватная папка VITTORA/open-arsenal открылась, но Яндекс Диск всё ещё показывал восстановление. После тайм-аута окна выбора файла 09.11 новых признаков доступной загрузки нет. Повторной попытки загрузки не было. Google Drive ранее вернул storageQuotaExceeded. Новый PNG для этого выпуска не создан, архив не подтверждён. POST не выполнялся."
+      },
+      "illustration": {
+        "status": "pending_generation",
+        "visually_reviewed": false,
+        "intended_archive_provider": "yandex_disk",
+        "archive_provider": null,
+        "archive_url": null,
+        "verified_at": null
+      },
+      "verification_date": "2026-11-10",
+      "verification_level": "documentation",
+      "card_path": "cards/openshot--openshot-qt.md",
+      "post_path": "posts/2026-11-10_openshot--openshot-qt.md"
+    },
+    {
+      "id": "2026-11-10-pm",
+      "date": "2026-11-10",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "video",
+      "topic": "Экспорт и финальная сборка",
+      "repository": "mltframework/shotcut",
+      "url": "https://github.com/mltframework/shotcut",
+      "vittora_benefit": "Подготовить повторяемый вертикальный экспорт из уже собранного широкого фрагмента VITTORA и проверить, что в готовый ролик не попали чужие кадры на стыках.",
+      "post_angle": "Ручная рамка 9:16, сохранённые настройки экспорта и покадровая проверка стыков.",
+      "pilot": "Скопировать один разрешённый фрагмент «Неписаного кодекса» до 30 секунд с двумя монтажными стыками, голосом и титром. Зафиксировать текущий вертикальный экспорт. В Shotcut выбрать Reframe 9:16, проверить рамку, сохранить профиль и дважды экспортировать MP4 H.264/AAC 1080×1920 с той же частотой кадров. В готовом файле проверить по 3 кадра до и после каждого стыка и два ориентира синхронизации речи. Лимит — 45 минут после подготовки среды и исходника, без покупок. Ответственный — монтажёр, имя не назначено. Откат — оставить текущий мастер и экспорт.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Экспорт и финальная сборка. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-11-10",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "mltframework/shotcut",
+        "renamed_from": null,
+        "scope": "README, COPYING, требования, стабильный релиз, профили экспорта и выборка issues."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "10.11.2026 папка VITTORA/open-arsenal открылась, но по нажатию «Загрузить» окно выбора файла не появилось за 6,5 секунды. Яндекс Диск показывал восстановление. Загрузка файла не начиналась. Исходник PNG для этого выпуска не создан, архив не подтверждён. Google Drive ранее вернул storageQuotaExceeded. POST не выполнялся."
+      },
+      "verification_date": "2026-11-10",
+      "verification_level": "documentation",
+      "illustration": {
+        "status": "pending_generation",
+        "visually_reviewed": false,
+        "intended_archive_provider": "yandex_disk",
+        "archive_provider": null,
+        "archive_url": null,
+        "verified_at": null
+      },
+      "card_path": "cards/mltframework--shotcut.md",
+      "post_path": "posts/2026-11-10_mltframework--shotcut.md"
     }
   ],
-  "updated_at": "2026-11-10",
+  "updated_at": "2026-11-11",
   "note": "Слоты перенесены без изменения фактов; blocked не означает опубликовано."
 }
