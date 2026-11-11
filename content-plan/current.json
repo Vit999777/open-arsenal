@@ -1,8 +1,8 @@
 {
   "title": "Контент-план Открытого арсенала: 7 ноября — 6 декабря 2026",
   "created_at": "2026-10-25",
-  "start_date": "2026-11-10",
-  "end_date": "2026-12-09",
+  "start_date": "2026-11-11",
+  "end_date": "2026-12-10",
   "timezone": "Europe/Moscow",
   "slots_per_day": 2,
   "timing_mode": "flexible_schedule",
@@ -10,112 +10,6 @@
   "policy": "План исследований, а не список одобренных рекомендаций. Кандидата можно заменить с записью причины; не отправлять неподтверждённый материал ради календаря. Опубликованные URL не повторять.",
   "known_blocker": "07.11.2026 папка VITTORA/open-arsenal открывается. Яндекс Диск показывает восстановление и Disabled у загрузки, занято 27,6 МБ из 5 ГБ. Генерация, просмотр и архивирование PNG отложены до доступной загрузки. Известный storageQuotaExceeded Google Drive без признака восстановления не повторялся.",
   "slots": [
-    {
-      "id": "2026-11-10-am",
-      "date": "2026-11-10",
-      "time": "10:00",
-      "timezone": "Europe/Moscow",
-      "direction": "video",
-      "topic": "Монтаж коротких историй",
-      "repository": "OpenShot/openshot-qt",
-      "url": "https://github.com/OpenShot/openshot-qt",
-      "vittora_benefit": "Собрать вертикальную пробную версию аудиоистории VITTORA из готовой озвучки и иллюстраций и поправить моменты смены кадра.",
-      "post_angle": "Готовые картинки и озвучка на разных дорожках, вертикальный экспорт и проверка повторного открытия.",
-      "pilot": "Взять разрешённый 25–30-секундный фрагмент озвучки «Неписаного кодекса» и три готовые PNG. Собрать копию в OpenShot и текущим способом, поставить две смены изображения на заранее отмеченные паузы. Сохранить, закрыть и снова открыть проект. Экспортировать 1080×1920, 30 кадр/с, MP4 H.264/AAC. Лимит — 45 минут после подготовки среды и исходников, без покупок. Ответственный — монтажёр VITTORA, исполнитель не назначен. Откат — сохранить мастер и продолжить текущим способом.",
-      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Монтаж коротких историй. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "blocked",
-      "metadata_check": {
-        "date": "2026-11-10",
-        "exists": true,
-        "archived": false,
-        "canonical_repository": "OpenShot/openshot-qt",
-        "renamed_from": null,
-        "scope": "README, COPYING, руководство, требования, релиз 4.1.0 и issues."
-      },
-      "required_before_publication": [
-        "README",
-        "LICENSE и условия моделей/зависимостей",
-        "требования и расходы",
-        "сравнение с альтернативой",
-        "индивидуальный разбор",
-        "изображение из встроенного генератора чата",
-        "архивирование изображения в Google Drive или Яндекс Диске",
-        "визуальная проверка",
-        "дедупликация каталога и Telegram"
-      ],
-      "publication": {
-        "status": "blocked",
-        "message_id": null,
-        "url": null,
-        "published_at": null,
-        "blocker": "10.11.2026 приватная папка VITTORA/open-arsenal открылась, но Яндекс Диск всё ещё показывал восстановление. После тайм-аута окна выбора файла 09.11 новых признаков доступной загрузки нет. Повторной попытки загрузки не было. Google Drive ранее вернул storageQuotaExceeded. Новый PNG для этого выпуска не создан, архив не подтверждён. POST не выполнялся."
-      },
-      "illustration": {
-        "status": "pending_generation",
-        "visually_reviewed": false,
-        "intended_archive_provider": "yandex_disk",
-        "archive_provider": null,
-        "archive_url": null,
-        "verified_at": null
-      },
-      "verification_date": "2026-11-10",
-      "verification_level": "documentation",
-      "card_path": "cards/openshot--openshot-qt.md",
-      "post_path": "posts/2026-11-10_openshot--openshot-qt.md"
-    },
-    {
-      "id": "2026-11-10-pm",
-      "date": "2026-11-10",
-      "time": "18:00",
-      "timezone": "Europe/Moscow",
-      "direction": "video",
-      "topic": "Экспорт и финальная сборка",
-      "repository": "mltframework/shotcut",
-      "url": "https://github.com/mltframework/shotcut",
-      "vittora_benefit": "Подготовить повторяемый вертикальный экспорт из уже собранного широкого фрагмента VITTORA и проверить, что в готовый ролик не попали чужие кадры на стыках.",
-      "post_angle": "Ручная рамка 9:16, сохранённые настройки экспорта и покадровая проверка стыков.",
-      "pilot": "Скопировать один разрешённый фрагмент «Неписаного кодекса» до 30 секунд с двумя монтажными стыками, голосом и титром. Зафиксировать текущий вертикальный экспорт. В Shotcut выбрать Reframe 9:16, проверить рамку, сохранить профиль и дважды экспортировать MP4 H.264/AAC 1080×1920 с той же частотой кадров. В готовом файле проверить по 3 кадра до и после каждого стыка и два ориентира синхронизации речи. Лимит — 45 минут после подготовки среды и исходника, без покупок. Ответственный — монтажёр, имя не назначено. Откат — оставить текущий мастер и экспорт.",
-      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Экспорт и финальная сборка. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "blocked",
-      "metadata_check": {
-        "date": "2026-11-10",
-        "exists": true,
-        "archived": false,
-        "canonical_repository": "mltframework/shotcut",
-        "renamed_from": null,
-        "scope": "README, COPYING, требования, стабильный релиз, профили экспорта и выборка issues."
-      },
-      "required_before_publication": [
-        "README",
-        "LICENSE и условия моделей/зависимостей",
-        "требования и расходы",
-        "сравнение с альтернативой",
-        "индивидуальный разбор",
-        "изображение из встроенного генератора чата",
-        "архивирование изображения в Google Drive или Яндекс Диске",
-        "визуальная проверка",
-        "дедупликация каталога и Telegram"
-      ],
-      "publication": {
-        "status": "blocked",
-        "message_id": null,
-        "url": null,
-        "published_at": null,
-        "blocker": "10.11.2026 папка VITTORA/open-arsenal открылась, но по нажатию «Загрузить» окно выбора файла не появилось за 6,5 секунды. Яндекс Диск показывал восстановление. Загрузка файла не начиналась. Исходник PNG для этого выпуска не создан, архив не подтверждён. Google Drive ранее вернул storageQuotaExceeded. POST не выполнялся."
-      },
-      "verification_date": "2026-11-10",
-      "verification_level": "documentation",
-      "illustration": {
-        "status": "pending_generation",
-        "visually_reviewed": false,
-        "intended_archive_provider": "yandex_disk",
-        "archive_provider": null,
-        "archive_url": null,
-        "verified_at": null
-      },
-      "card_path": "cards/mltframework--shotcut.md",
-      "post_path": "posts/2026-11-10_mltframework--shotcut.md"
-    },
     {
       "id": "2026-11-11-am",
       "date": "2026-11-11",
@@ -125,18 +19,18 @@
       "topic": "Контроль и сборка PDF",
       "repository": "py-pdf/pypdf",
       "url": "https://github.com/py-pdf/pypdf",
-      "vittora_benefit": "Проверить страницы, метаданные и объединение документов",
-      "post_angle": "Простыми словами: проверить страницы, метаданные и объединение документов. Объяснить преимущества, требования и когда инструмент не подходит.",
-      "pilot": "На одном фрагменте или тестовой копии издания проверить читаемость, структуру и время ручных исправлений.",
+      "vittora_benefit": "Собрать ознакомительный PDF книги VITTORA из актуальной обложки и готовой главы с закладками и внутренними ссылками.",
+      "post_angle": "Обложка и глава в одном PDF с проверяемыми закладками.",
+      "pilot": "На копиях взять одну обложку и пятистраничный фрагмент главы с двумя закладками и одной внутренней ссылкой. Собрать файл на pypdf 7.0.1, сверить с ручной контрольной сборкой и открыть результат в двух PDF-просмотрщиках. Лимит — 30 минут после подготовки среды, без покупок. Ответственные роли — редактор и разработчик, исполнители не назначены. Откат — оставить исходники и ручной контрольный файл.",
       "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Контроль и сборка PDF. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "planned_research",
+      "status": "blocked",
       "metadata_check": {
-        "date": "2026-10-25",
+        "date": "2026-11-11",
         "exists": true,
         "archived": false,
         "canonical_repository": "py-pdf/pypdf",
         "renamed_from": "pypdf/pypdf",
-        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+        "scope": "README, LICENSE, требования, релиз и issue 7.0.1. Синтетическая проверка 6.21.4."
       },
       "required_before_publication": [
         "README",
@@ -150,9 +44,24 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
+        "status": "blocked",
         "message_id": null,
-        "url": null
-      }
+        "url": null,
+        "published_at": null,
+        "blocker": "11.11.2026 папка VITTORA/open-arsenal открылась, Яндекс Диск всё ещё показывал восстановление. После тайм-аута окна выбора файла 10.11 признаков изменения не обнаружено. Подготовка и архивирование PNG отложены. Google Drive ранее вернул storageQuotaExceeded. Отправка в Telegram не выполнялась."
+      },
+      "verification_level": "documentation",
+      "verification_date": "2026-11-11",
+      "illustration": {
+        "status": "pending_generation",
+        "visually_reviewed": false,
+        "intended_archive_provider": "yandex_disk",
+        "archive_provider": null,
+        "archive_url": null,
+        "verified_at": null
+      },
+      "card_path": "cards/py-pdf--pypdf.md",
+      "post_path": "posts/2026-11-11_py-pdf--pypdf.md"
     },
     {
       "id": "2026-11-11-pm",
@@ -2136,7 +2045,81 @@
         "message_id": null,
         "url": null
       }
+    },
+    {
+      "id": "2026-12-10-am",
+      "date": "2026-12-10",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "book_audio",
+      "topic": "Проверка структуры PDF",
+      "repository": "qpdf/qpdf",
+      "url": "https://github.com/qpdf/qpdf",
+      "vittora_benefit": "Проверить целостность и состав страниц читательской версии PDF.",
+      "post_angle": "Проверить целостность и состав страниц читательской версии PDF.",
+      "pilot": "Сравнить один разрешённый PDF с ручным контролем страниц и навигации.",
+      "illustration_brief": "Графит и бронза. Показать задачу с читаемым названием проекта.",
+      "status": "planned_research",
+      "metadata_check": {
+        "date": "2026-11-11",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "qpdf/qpdf",
+        "scope": "Только метаданные GitHub для дальнего слота."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "message_id": null,
+        "url": null
+      }
+    },
+    {
+      "id": "2026-12-10-pm",
+      "date": "2026-12-10",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "book_audio",
+      "topic": "Работа с закладками PDF",
+      "repository": "pikepdf/pikepdf",
+      "url": "https://github.com/pikepdf/pikepdf",
+      "vittora_benefit": "Проверить адреса закладок при переносе страниц между PDF.",
+      "post_angle": "Проверить адреса закладок при переносе страниц между PDF.",
+      "pilot": "Сравнить один разрешённый PDF с ручным контролем страниц и навигации.",
+      "illustration_brief": "Графит и бронза. Показать задачу с читаемым названием проекта.",
+      "status": "planned_research",
+      "metadata_check": {
+        "date": "2026-11-11",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "pikepdf/pikepdf",
+        "scope": "Только метаданные GitHub для дальнего слота."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "message_id": null,
+        "url": null
+      }
     }
   ],
-  "updated_at": "2026-11-10"
+  "updated_at": "2026-11-11"
 }
