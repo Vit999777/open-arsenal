@@ -4,7 +4,7 @@
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-11-11 | **Контроль и сборка PDF** · book_audio<br>[py-pdf/pypdf](https://github.com/py-pdf/pypdf) · blocked · [Разбор](../cards/py-pdf--pypdf.md) · [Текст](../posts/2026-11-11_py-pdf--pypdf.md) | **Поиск по отсканированным материалам** · book_audio<br>[ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) · planned_research |
+| 2026-11-11 | **Контроль и сборка PDF** · book_audio<br>[py-pdf/pypdf](https://github.com/py-pdf/pypdf) · blocked · [Разбор](../cards/py-pdf--pypdf.md) · [Текст](../posts/2026-11-11_py-pdf--pypdf.md) | **Поиск по отсканированным материалам** · book_audio<br>[ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) · blocked · [Разбор](../cards/ocrmypdf--ocrmypdf.md) · [Текст](../posts/2026-11-11_ocrmypdf--ocrmypdf.md) |
 | 2026-11-12 | **Подробная аналитика пути** · growth_revenue<br>[matomo-org/matomo](https://github.com/matomo-org/matomo) · planned_research | **Показатели в одном отчёте** · growth_revenue<br>[metabase/metabase](https://github.com/metabase/metabase) · planned_research |
 | 2026-11-13 | **Управляемые задания и сценарии** · publishing<br>[windmill-labs/windmill](https://github.com/windmill-labs/windmill) · planned_research | **Надёжные цепочки обработки** · publishing<br>[kestra-io/kestra](https://github.com/kestra-io/kestra) · planned_research |
 | 2026-11-14 | **Повторяемое движение героя** · kids<br>[synfig/synfig](https://github.com/synfig/synfig) · planned_research | **Сцены и камера для историй** · kids<br>[blender/blender](https://github.com/blender/blender) · planned_research |
