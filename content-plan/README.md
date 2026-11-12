@@ -4,7 +4,7 @@
 
 | Дата | 10:00 | 18:00 |
 |---|---|---|
-| 2026-11-12 | **Подробная аналитика пути** · growth_revenue<br>[matomo-org/matomo](https://github.com/matomo-org/matomo) · blocked · [Разбор](../cards/matomo-org--matomo.md) · [Текст](../posts/2026-11-12_matomo-org--matomo.md) | **Показатели в одном отчёте** · growth_revenue<br>[metabase/metabase](https://github.com/metabase/metabase) · planned_research |
+| 2026-11-12 | **Подробная аналитика пути** · growth_revenue<br>[matomo-org/matomo](https://github.com/matomo-org/matomo) · blocked · [Разбор](../cards/matomo-org--matomo.md) · [Текст](../posts/2026-11-12_matomo-org--matomo.md) | **Показатели в одном отчёте** · growth_revenue<br>[metabase/metabase](https://github.com/metabase/metabase) · blocked · [Разбор](../cards/metabase--metabase.md) · [Текст](../posts/2026-11-12_metabase--metabase.md) |
 | 2026-11-13 | **Управляемые задания и сценарии** · publishing<br>[windmill-labs/windmill](https://github.com/windmill-labs/windmill) · planned_research | **Надёжные цепочки обработки** · publishing<br>[kestra-io/kestra](https://github.com/kestra-io/kestra) · planned_research |
 | 2026-11-14 | **Повторяемое движение героя** · kids<br>[synfig/synfig](https://github.com/synfig/synfig) · planned_research | **Сцены и камера для историй** · kids<br>[blender/blender](https://github.com/blender/blender) · planned_research |
 | 2026-11-15 | **Проверка запуска расписаний** · reliability<br>[healthchecks/healthchecks](https://github.com/healthchecks/healthchecks) · planned_research | **Удобный резервный контур** · reliability<br>[duplicati/duplicati](https://github.com/duplicati/duplicati) · planned_research |
