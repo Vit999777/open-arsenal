@@ -91,18 +91,18 @@
       "topic": "Показатели в одном отчёте",
       "repository": "metabase/metabase",
       "url": "https://github.com/metabase/metabase",
-      "vittora_benefit": "Рассмотреть простой отчёт по подтверждённым данным проекта",
-      "post_angle": "Простыми словами: рассмотреть простой отчёт по подтверждённым данным проекта. Объяснить преимущества, требования и когда инструмент не подходит.",
-      "pilot": "На разрешённых тестовых данных проверить один показатель и сопоставить его с исходником; не выдумывать рост.",
-      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Показатели в одном отчёте. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "planned_research",
+      "vittora_benefit": "Сверять статистику трёх выпусков VITTORA в YouTube Shorts и VK за один период и видеть, по каким площадкам или датам ещё нет данных.",
+      "post_angle": "Один закрытый отчёт по трём выпускам Shorts и VK с фильтрами и отметкой неполноты данных.",
+      "pilot": "Редактор и администратор (исполнители не назначены) готовят 12 синтетических строк для трёх выпусков × двух площадок × двух московских дат: 11 чисел и один явный пропуск. На уже доступном изолированном стенде администратор создаёт read-only подключение к тестовой таблице, редактор собирает один отчёт с тремя фильтрами и сравнивает его с ручной сводкой. Лимит 45 минут после подготовки стенда и выгрузки, без покупок. Откат — отключить тестовый источник и продолжить работу в таблице.",
+      "illustration_brief": "Metabase. Две площадки · один отчёт. Два бумажных листа и одна панель, без чисел и логотипов.",
+      "status": "blocked",
       "metadata_check": {
-        "date": "2026-10-25",
+        "date": "2026-11-12",
         "exists": true,
         "archived": false,
         "canonical_repository": "metabase/metabase",
         "renamed_from": null,
-        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+        "scope": "README, лицензия AGPL-3.0, запуск Docker/JAR, релиз v0.65.3, документы по фильтрам и правам, issue #86946. Проверка документации."
       },
       "required_before_publication": [
         "README",
@@ -116,9 +116,43 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
+        "status": "blocked",
         "message_id": null,
-        "url": null
-      }
+        "url": null,
+        "published_at": null,
+        "blocker": "12.11.2026 папка VITTORA/open-arsenal открылась, занято 621 МБ из 5 ГБ, имён Metabase в списке не было. Окно выбора файлов открылось. Вызов передачи двух PNG прервался, повторная проверка недоступна из-за ошибки запуска браузерной среды. Наличие файлов и завершение загрузки не подтверждены. Google Drive ранее вернул storageQuotaExceeded. Telegram POST не выполнялся."
+      },
+      "verification_level": "documentation",
+      "verification_date": "2026-11-12",
+      "illustration": {
+        "status": "generated_reviewed_archive_unconfirmed",
+        "source": "chat_image_gen",
+        "visually_reviewed": true,
+        "visual_review_date": "2026-11-12",
+        "intended_archive_provider": "yandex_disk",
+        "intended_archive_path": "VITTORA/open-arsenal",
+        "archive_provider": null,
+        "archive_url": null,
+        "verified_at": null,
+        "files": [
+          {
+            "name": "2026-11-12_metabase--metabase_poster-v1.png",
+            "width": 1536,
+            "height": 1024,
+            "size_bytes": 2596417,
+            "sha256": "5da8c46340c8c9fa6f6a98ca83c2ebbfc34dd2ae984beb3d6443a6054f20ce4f"
+          },
+          {
+            "name": "2026-11-12_metabase--metabase_poster-v1-delivery.png",
+            "width": 900,
+            "height": 600,
+            "size_bytes": 778979,
+            "sha256": "f35c8cb3fe7df8b800edf95c788fd6257010b81cd4d326702627cdb819819213"
+          }
+        ]
+      },
+      "card_path": "cards/metabase--metabase.md",
+      "post_path": "posts/2026-11-12_metabase--metabase.md"
     },
     {
       "id": "2026-11-13-am",
