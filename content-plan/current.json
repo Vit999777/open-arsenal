@@ -1,8 +1,8 @@
 {
   "title": "Контент-план Открытого арсенала: 7 ноября — 6 декабря 2026",
   "created_at": "2026-10-25",
-  "start_date": "2026-11-11",
-  "end_date": "2026-12-10",
+  "start_date": "2026-11-12",
+  "end_date": "2026-12-11",
   "timezone": "Europe/Moscow",
   "slots_per_day": 2,
   "timing_mode": "flexible_schedule",
@@ -10,112 +10,6 @@
   "policy": "План исследований, а не список одобренных рекомендаций. Кандидата можно заменить с записью причины; не отправлять неподтверждённый материал ради календаря. Опубликованные URL не повторять.",
   "known_blocker": "07.11.2026 папка VITTORA/open-arsenal открывается. Яндекс Диск показывает восстановление и Disabled у загрузки, занято 27,6 МБ из 5 ГБ. Генерация, просмотр и архивирование PNG отложены до доступной загрузки. Известный storageQuotaExceeded Google Drive без признака восстановления не повторялся.",
   "slots": [
-    {
-      "id": "2026-11-11-am",
-      "date": "2026-11-11",
-      "time": "10:00",
-      "timezone": "Europe/Moscow",
-      "direction": "book_audio",
-      "topic": "Контроль и сборка PDF",
-      "repository": "py-pdf/pypdf",
-      "url": "https://github.com/py-pdf/pypdf",
-      "vittora_benefit": "Собрать ознакомительный PDF книги VITTORA из актуальной обложки и готовой главы с закладками и внутренними ссылками.",
-      "post_angle": "Обложка и глава в одном PDF с проверяемыми закладками.",
-      "pilot": "На копиях взять одну обложку и пятистраничный фрагмент главы с двумя закладками и одной внутренней ссылкой. Собрать файл на pypdf 7.0.1, сверить с ручной контрольной сборкой и открыть результат в двух PDF-просмотрщиках. Лимит — 30 минут после подготовки среды, без покупок. Ответственные роли — редактор и разработчик, исполнители не назначены. Откат — оставить исходники и ручной контрольный файл.",
-      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Контроль и сборка PDF. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "blocked",
-      "metadata_check": {
-        "date": "2026-11-11",
-        "exists": true,
-        "archived": false,
-        "canonical_repository": "py-pdf/pypdf",
-        "renamed_from": "pypdf/pypdf",
-        "scope": "README, LICENSE, требования, релиз и issue 7.0.1. Синтетическая проверка 6.21.4."
-      },
-      "required_before_publication": [
-        "README",
-        "LICENSE и условия моделей/зависимостей",
-        "требования и расходы",
-        "сравнение с альтернативой",
-        "индивидуальный разбор",
-        "изображение из встроенного генератора чата",
-        "архивирование изображения в Google Drive или Яндекс Диске",
-        "визуальная проверка",
-        "дедупликация каталога и Telegram"
-      ],
-      "publication": {
-        "status": "blocked",
-        "message_id": null,
-        "url": null,
-        "published_at": null,
-        "blocker": "11.11.2026 папка VITTORA/open-arsenal открылась, Яндекс Диск всё ещё показывал восстановление. После тайм-аута окна выбора файла 10.11 признаков изменения не обнаружено. Подготовка и архивирование PNG отложены. Google Drive ранее вернул storageQuotaExceeded. Отправка в Telegram не выполнялась."
-      },
-      "verification_level": "documentation",
-      "verification_date": "2026-11-11",
-      "illustration": {
-        "status": "pending_generation",
-        "visually_reviewed": false,
-        "intended_archive_provider": "yandex_disk",
-        "archive_provider": null,
-        "archive_url": null,
-        "verified_at": null
-      },
-      "card_path": "cards/py-pdf--pypdf.md",
-      "post_path": "posts/2026-11-11_py-pdf--pypdf.md"
-    },
-    {
-      "id": "2026-11-11-pm",
-      "date": "2026-11-11",
-      "time": "18:00",
-      "timezone": "Europe/Moscow",
-      "direction": "book_audio",
-      "topic": "Поиск по отсканированным материалам",
-      "repository": "ocrmypdf/OCRmyPDF",
-      "url": "https://github.com/ocrmypdf/OCRmyPDF",
-      "vittora_benefit": "Находить цитаты и термины в разрешённых русскоязычных сканах к книге VITTORA, сохраняя готовые текстовые страницы смешанного PDF.",
-      "post_angle": "Локально добавить поиск по русскоязычному скану в смешанном PDF.",
-      "pilot": "Взять копию 5 разрешённых страниц с печатной кириллицей и одну цифровую контрольную страницу. Отметить 10 фраз и страницы вручную. Выпустить обычный PDF с параметрами --mode skip -l rus --output-type pdf --optimize 0, затем проверить поиск и вид страниц. Контроль — исходный скан и ручная разметка. Лимит — 45 минут после подготовки зависимостей, без покупок. Ответственный — редактор, имя не назначено. Откат — пользоваться исходным PDF и ручным указателем.",
-      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Поиск по отсканированным материалам. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "blocked",
-      "metadata_check": {
-        "date": "2026-11-11",
-        "exists": true,
-        "archived": false,
-        "canonical_repository": "ocrmypdf/OCRmyPDF",
-        "renamed_from": null,
-        "scope": "README, LICENSE, требования, релиз 17.14.1 и issues. Синтетическая проверка 16.7.0 с eng."
-      },
-      "required_before_publication": [
-        "README",
-        "LICENSE и условия моделей/зависимостей",
-        "требования и расходы",
-        "сравнение с альтернативой",
-        "индивидуальный разбор",
-        "изображение из встроенного генератора чата",
-        "архивирование изображения в Google Drive или Яндекс Диске",
-        "визуальная проверка",
-        "дедупликация каталога и Telegram"
-      ],
-      "publication": {
-        "status": "blocked",
-        "message_id": null,
-        "url": null,
-        "published_at": null,
-        "blocker": "11.11.2026 вечером после сообщения о восстановлении мобильной автозагрузки открылась папка VITTORA/open-arsenal, доступное место было видно. После нажатия «Загрузить» веб-браузер не открыл окно выбора файла за 7 секунд. Передача файла не начиналась. Подготовка PNG отложена, архивирование не подтверждено. Google Drive ранее вернул storageQuotaExceeded. Отправка в Telegram не выполнялась."
-      },
-      "verification_level": "documentation",
-      "verification_date": "2026-11-11",
-      "illustration": {
-        "status": "pending_generation",
-        "visually_reviewed": false,
-        "intended_archive_provider": "yandex_disk",
-        "archive_provider": null,
-        "archive_url": null,
-        "verified_at": null
-      },
-      "card_path": "cards/ocrmypdf--ocrmypdf.md",
-      "post_path": "posts/2026-11-11_ocrmypdf--ocrmypdf.md"
-    },
     {
       "id": "2026-11-12-am",
       "date": "2026-11-12",
@@ -125,18 +19,18 @@
       "topic": "Подробная аналитика пути",
       "repository": "matomo-org/matomo",
       "url": "https://github.com/matomo-org/matomo",
-      "vittora_benefit": "Проверить возможность анализа целевых действий на своём сайте",
-      "post_angle": "Простыми словами: проверить возможность анализа целевых действий на своём сайте. Объяснить преимущества, требования и когда инструмент не подходит.",
-      "pilot": "На разрешённых тестовых данных проверить один показатель и сопоставить его с исходником; не выдумывать рост.",
+      "vittora_benefit": "Понять, сколько согласившихся на тестовую аналитику читателей нажимают «Скачать главу» после перехода по одной из двух размеченных ссылок.",
+      "post_angle": "Две размеченные ссылки на главу, одна цель и проверка согласия на тестовом стенде.",
+      "pilot": "На копии страницы главы завести одну цель по событию book/download_click. Отключить параллельный учёт этой кнопки как второй цели. В 12 независимых тестовых визитах по двум меткам выполнить 8 согласованных кликов (по 4 на метку), 2 визита с согласием без клика и 2 клика без согласия. После агрегации сравнить отчёт с ручным журналом и сетевыми запросами браузера. Лимит — 45 минут после подготовки имеющегося стенда. Откат — снять тестовый тег и оставить ручной журнал. Ответственные роли — редактор и администратор, исполнители не назначены.",
       "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Подробная аналитика пути. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
-      "status": "planned_research",
+      "status": "blocked",
       "metadata_check": {
-        "date": "2026-10-25",
+        "date": "2026-11-12",
         "exists": true,
         "archived": false,
         "canonical_repository": "matomo-org/matomo",
         "renamed_from": null,
-        "scope": "Только доступность, каноническое имя и признак архива. Не проверка возможностей, лицензии или запуска."
+        "scope": "README, GPL, требования, релиз 5.14.2, источники по событиям и цели, issue #25709."
       },
       "required_before_publication": [
         "README",
@@ -150,9 +44,43 @@
         "дедупликация каталога и Telegram"
       ],
       "publication": {
+        "status": "blocked",
         "message_id": null,
-        "url": null
-      }
+        "url": null,
+        "published_at": null,
+        "blocker": "12.11.2026 папка VITTORA/open-arsenal открылась, показано 621 МБ из 5 ГБ. После нажатия «Загрузить» окно выбора файла не появилось за 8 секунд. Передача файла не началась. Исходник и копия для Telegram подготовлены и просмотрены, подтверждения архива нет. Google Drive ранее вернул storageQuotaExceeded. Отправка в Telegram не выполнялась."
+      },
+      "verification_level": "documentation",
+      "verification_date": "2026-11-12",
+      "illustration": {
+        "status": "generated_reviewed_unarchived",
+        "source": "chat_image_gen",
+        "visually_reviewed": true,
+        "visual_review_date": "2026-11-12",
+        "intended_archive_provider": "yandex_disk",
+        "intended_archive_path": "VITTORA/open-arsenal",
+        "archive_provider": null,
+        "archive_url": null,
+        "verified_at": null,
+        "files": [
+          {
+            "name": "2026-11-12_matomo-org--matomo_poster-v1.png",
+            "width": 1536,
+            "height": 1024,
+            "size_bytes": 2359469,
+            "sha256": "b1841c3ecebe5224eb14926e8c59e9e5a1ee9043601cd5c6255a6d2f920320ef"
+          },
+          {
+            "name": "2026-11-12_matomo-org--matomo_poster-v1-delivery.png",
+            "width": 900,
+            "height": 600,
+            "size_bytes": 672403,
+            "sha256": "d78cbcb3f38631cd72a25c13e5b89087de1ba9d6692118fe8b507d38ad975e5a"
+          }
+        ]
+      },
+      "card_path": "cards/matomo-org--matomo.md",
+      "post_path": "posts/2026-11-12_matomo-org--matomo.md"
     },
     {
       "id": "2026-11-12-pm",
@@ -2134,7 +2062,81 @@
         "message_id": null,
         "url": null
       }
+    },
+    {
+      "id": "2026-12-11-am",
+      "date": "2026-12-11",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "growth_revenue",
+      "topic": "Отчёт по кликам из журнала",
+      "repository": "sqlpage/SQLPage",
+      "url": "https://github.com/sqlpage/SQLPage",
+      "vittora_benefit": "Собрать внутренний отчёт из разрешённых агрегатов по кнопкам на страницах журнала.",
+      "post_angle": "Собрать внутренний отчёт из разрешённых агрегатов по кнопкам на страницах журнала.",
+      "pilot": "Сверить один разрешённый тестовый набор с ручным расчётом.",
+      "illustration_brief": "Графит, бронза и читаемое название проекта. Иллюстрация задачи без имитации цифр.",
+      "status": "planned_research",
+      "metadata_check": {
+        "date": "2026-11-12",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "sqlpage/SQLPage",
+        "scope": "Только метаданные GitHub для дальнего слота."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "message_id": null,
+        "url": null
+      }
+    },
+    {
+      "id": "2026-12-11-pm",
+      "date": "2026-12-11",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "growth_revenue",
+      "topic": "Единое определение метрики",
+      "repository": "cube-js/cube",
+      "url": "https://github.com/cube-js/cube",
+      "vittora_benefit": "Сверить агрегаты по кампаниям между двумя редакционными отчётами.",
+      "post_angle": "Сверить агрегаты по кампаниям между двумя редакционными отчётами.",
+      "pilot": "Сверить один разрешённый тестовый набор с ручным расчётом.",
+      "illustration_brief": "Графит, бронза и читаемое название проекта. Иллюстрация задачи без имитации цифр.",
+      "status": "planned_research",
+      "metadata_check": {
+        "date": "2026-11-12",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "cube-js/cube",
+        "scope": "Только метаданные GitHub для дальнего слота."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "message_id": null,
+        "url": null
+      }
     }
   ],
-  "updated_at": "2026-11-11"
+  "updated_at": "2026-11-12"
 }
