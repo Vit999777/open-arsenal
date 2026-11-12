@@ -35,8 +35,9 @@
 | [Shotcut](https://github.com/mltframework/shotcut) | Вертикальный экспорт готовой сцены и проверка стыков | Документация 10.11, GPLv3, сравнение OpenShot и Kdenlive, reviewing | [Разбор](cards/mltframework--shotcut.md) · [Черновик](posts/2026-11-10_mltframework--shotcut.md) · blocked, подготовка и архив PNG |
 | [pypdf](https://github.com/py-pdf/pypdf) | Сборка главы с обложкой, проверка закладок и ссылки | Документация 7.0.1 и синтетическая проверка 6.21.4, BSD-3-Clause, reviewing | [Разбор](cards/py-pdf--pypdf.md) · [Черновик](posts/2026-11-11_py-pdf--pypdf.md) · blocked, подготовка и архив PNG |
 | [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) | Поиск цитат в отсканированных страницах | Документация 17.14.1 и синтетический пример 16.7.0, MPL-2.0, reviewing | [Разбор](cards/ocrmypdf--ocrmypdf.md) · [Черновик](posts/2026-11-11_ocrmypdf--ocrmypdf.md) · blocked, подготовка и архив PNG |
+| [Matomo](https://github.com/matomo-org/matomo) | Клики «Скачать главу» по источникам перехода | Документация 5.14.2, GPLv3+, сравнение Umami и Plausible CE, reviewing | [Разбор](cards/matomo-org--matomo.md) · [Черновик](posts/2026-11-12_matomo-org--matomo.md) · blocked, архив PNG не подтверждён |
 
-Дата редакционного среза — 11.11.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и подтверждения доставки. Ещё 58 слотов ждут исследования по [плану](content-plan/README.md).
+Дата редакционного среза — 12.11.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и подтверждения доставки. Ещё 59 слотов ждут исследования по [плану](content-plan/README.md).
 
 ## Как читать статусы
 
