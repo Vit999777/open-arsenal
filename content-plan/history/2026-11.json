@@ -1165,8 +1165,114 @@
       },
       "card_path": "cards/mltframework--shotcut.md",
       "post_path": "posts/2026-11-10_mltframework--shotcut.md"
+    },
+    {
+      "id": "2026-11-11-am",
+      "date": "2026-11-11",
+      "time": "10:00",
+      "timezone": "Europe/Moscow",
+      "direction": "book_audio",
+      "topic": "Контроль и сборка PDF",
+      "repository": "py-pdf/pypdf",
+      "url": "https://github.com/py-pdf/pypdf",
+      "vittora_benefit": "Собрать ознакомительный PDF книги VITTORA из актуальной обложки и готовой главы с закладками и внутренними ссылками.",
+      "post_angle": "Обложка и глава в одном PDF с проверяемыми закладками.",
+      "pilot": "На копиях взять одну обложку и пятистраничный фрагмент главы с двумя закладками и одной внутренней ссылкой. Собрать файл на pypdf 7.0.1, сверить с ручной контрольной сборкой и открыть результат в двух PDF-просмотрщиках. Лимит — 30 минут после подготовки среды, без покупок. Ответственные роли — редактор и разработчик, исполнители не назначены. Откат — оставить исходники и ручной контрольный файл.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Контроль и сборка PDF. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-11-11",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "py-pdf/pypdf",
+        "renamed_from": "pypdf/pypdf",
+        "scope": "README, LICENSE, требования, релиз и issue 7.0.1. Синтетическая проверка 6.21.4."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "11.11.2026 папка VITTORA/open-arsenal открылась, Яндекс Диск всё ещё показывал восстановление. После тайм-аута окна выбора файла 10.11 признаков изменения не обнаружено. Подготовка и архивирование PNG отложены. Google Drive ранее вернул storageQuotaExceeded. Отправка в Telegram не выполнялась."
+      },
+      "verification_level": "documentation",
+      "verification_date": "2026-11-11",
+      "illustration": {
+        "status": "pending_generation",
+        "visually_reviewed": false,
+        "intended_archive_provider": "yandex_disk",
+        "archive_provider": null,
+        "archive_url": null,
+        "verified_at": null
+      },
+      "card_path": "cards/py-pdf--pypdf.md",
+      "post_path": "posts/2026-11-11_py-pdf--pypdf.md"
+    },
+    {
+      "id": "2026-11-11-pm",
+      "date": "2026-11-11",
+      "time": "18:00",
+      "timezone": "Europe/Moscow",
+      "direction": "book_audio",
+      "topic": "Поиск по отсканированным материалам",
+      "repository": "ocrmypdf/OCRmyPDF",
+      "url": "https://github.com/ocrmypdf/OCRmyPDF",
+      "vittora_benefit": "Находить цитаты и термины в разрешённых русскоязычных сканах к книге VITTORA, сохраняя готовые текстовые страницы смешанного PDF.",
+      "post_angle": "Локально добавить поиск по русскоязычному скану в смешанном PDF.",
+      "pilot": "Взять копию 5 разрешённых страниц с печатной кириллицей и одну цифровую контрольную страницу. Отметить 10 фраз и страницы вручную. Выпустить обычный PDF с параметрами --mode skip -l rus --output-type pdf --optimize 0, затем проверить поиск и вид страниц. Контроль — исходный скан и ручная разметка. Лимит — 45 минут после подготовки зависимостей, без покупок. Ответственный — редактор, имя не назначено. Откат — пользоваться исходным PDF и ручным указателем.",
+      "illustration_brief": "Отдельная иллюстрация в графите, бронзе и слоновой кости: Поиск по отсканированным материалам. Один понятный визуальный образ, связанный с задачей VITTORA; название инструмента читаемо на телефоне. Не имитировать проверенные результаты.",
+      "status": "blocked",
+      "metadata_check": {
+        "date": "2026-11-11",
+        "exists": true,
+        "archived": false,
+        "canonical_repository": "ocrmypdf/OCRmyPDF",
+        "renamed_from": null,
+        "scope": "README, LICENSE, требования, релиз 17.14.1 и issues. Синтетическая проверка 16.7.0 с eng."
+      },
+      "required_before_publication": [
+        "README",
+        "LICENSE и условия моделей/зависимостей",
+        "требования и расходы",
+        "сравнение с альтернативой",
+        "индивидуальный разбор",
+        "изображение из встроенного генератора чата",
+        "архивирование изображения в Google Drive или Яндекс Диске",
+        "визуальная проверка",
+        "дедупликация каталога и Telegram"
+      ],
+      "publication": {
+        "status": "blocked",
+        "message_id": null,
+        "url": null,
+        "published_at": null,
+        "blocker": "11.11.2026 вечером после сообщения о восстановлении мобильной автозагрузки открылась папка VITTORA/open-arsenal, доступное место было видно. После нажатия «Загрузить» веб-браузер не открыл окно выбора файла за 7 секунд. Передача файла не начиналась. Подготовка PNG отложена, архивирование не подтверждено. Google Drive ранее вернул storageQuotaExceeded. Отправка в Telegram не выполнялась."
+      },
+      "verification_level": "documentation",
+      "verification_date": "2026-11-11",
+      "illustration": {
+        "status": "pending_generation",
+        "visually_reviewed": false,
+        "intended_archive_provider": "yandex_disk",
+        "archive_provider": null,
+        "archive_url": null,
+        "verified_at": null
+      },
+      "card_path": "cards/ocrmypdf--ocrmypdf.md",
+      "post_path": "posts/2026-11-11_ocrmypdf--ocrmypdf.md"
     }
   ],
-  "updated_at": "2026-11-11",
+  "updated_at": "2026-11-12",
   "note": "Слоты перенесены без изменения фактов; blocked не означает опубликовано."
 }
