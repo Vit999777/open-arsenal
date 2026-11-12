@@ -36,6 +36,7 @@
 | [pypdf](https://github.com/py-pdf/pypdf) | Сборка главы с обложкой, проверка закладок и ссылки | Документация 7.0.1 и синтетическая проверка 6.21.4, BSD-3-Clause, reviewing | [Разбор](cards/py-pdf--pypdf.md) · [Черновик](posts/2026-11-11_py-pdf--pypdf.md) · blocked, подготовка и архив PNG |
 | [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) | Поиск цитат в отсканированных страницах | Документация 17.14.1 и синтетический пример 16.7.0, MPL-2.0, reviewing | [Разбор](cards/ocrmypdf--ocrmypdf.md) · [Черновик](posts/2026-11-11_ocrmypdf--ocrmypdf.md) · blocked, подготовка и архив PNG |
 | [Matomo](https://github.com/matomo-org/matomo) | Клики «Скачать главу» по источникам перехода | Документация 5.14.2, GPLv3+, сравнение Umami и Plausible CE, reviewing | [Разбор](cards/matomo-org--matomo.md) · [Черновик](posts/2026-11-12_matomo-org--matomo.md) · blocked, архив PNG не подтверждён |
+| [Metabase](https://github.com/metabase/metabase) | Один отчёт по выпускам Shorts и VK с фильтрами и отметкой пропусков | Документация 12.11, AGPL-3.0, v0.65.3, сравнение с Superset и Redash, reviewing, пилот впереди | [Разбор и пилот](cards/metabase--metabase.md) · [Черновик](posts/2026-11-12_metabase--metabase.md) · blocked: архив PNG не подтверждён |
 
 Дата редакционного среза — 12.11.2026. [Машиночитаемый реестр](data/candidates.json) содержит источники, пробелы и подтверждения доставки. Ещё 59 слотов ждут исследования по [плану](content-plan/README.md).
 
